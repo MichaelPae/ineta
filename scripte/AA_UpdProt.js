@@ -1,4 +1,4 @@
-Ôªø// AA_UpdProt.js 
+// AA_UpdProt.js
 // Arbeits-Aufgaben und Update-Protokoll der InetaSite
 
 // Copyright (c) Michael Paetzold. Alle Rechte vorbehalten. http://www.michael-paetzold.de
@@ -7,12 +7,12 @@
 Update Schritte zur Inetasite-Aktualisierung
 --------------------------------------------
 1. Editieren
-    - √Ñnderungen durchf√ºhren
-    - index.htm touchen (Dummy-√Ñnderung speichern wg. Aktualisierung)
-    - devgnext.htm touchen (Dummy-√Ñnderung speichern wg. Aktualisierung)
+    - ƒnderungen durchf¸hren
+    - index.htm touchen (Dummy-ƒnderung speichern wg. Aktualisierung)
+    - devgnext.htm touchen (Dummy-ƒnderung speichern wg. Aktualisierung)
 2. Test der Site "local"
-3. Site -> Ver√∂ffentlichen
-    - Die Verzeichnisse: Data, Images, Scripte, Root aktualisieren (Merkmale: Status="Ge√§ndert", Remote->Ge√§ndert<=Local->Ge√§ndert)
+3. Site -> Verˆffentlichen
+    - Die Verzeichnisse: Data, Images, Scripte, Root aktualisieren (Merkmale: Status="Ge‰ndert", Remote->Ge‰ndert<=Local->Ge‰ndert)
     - Insbesondere aktualisieren:
         - t_meeting.json
         - t_session.json
@@ -25,10 +25,10 @@ Hauptziele der Inetasite-Entwicklung (Stand 24.01.2015)
 1. Einfache Aktualisierung zu den Ineta-Meetings (V 2.0)
    a. Aktualisierung Meeting-Daten
    b. Aktualisierung Steuerdaten
-   c. s√§mtliche Treffen-Contents, die noch in HTML codiert sind nach .JSON uebertragen
+   c. s‰mtliche Treffen-Contents, die noch in HTML codiert sind nach .JSON uebertragen
 2. Dynamische dem Zeitpunkt angepasste Darstellung der Daten (V 2.x)
    a. MEZ-Datum ermitteln und fuer Darstellung verwenden
-   b. Anzeige devgnext.htm in Abh√§ngigkeit von MEZ-Datum
+   b. Anzeige devgnext.htm in Abh‰ngigkeit von MEZ-Datum
    c. Teilnahme- und Jahres-Statistik auf Daten einrichten
 3. Daten in SQL halten (V 3.0)
 4. Ineta-App (V 4.0)
@@ -44,8 +44,8 @@ Update-Schritte 22.08.2015 Sa
 - Chart.js auf www.befo.com testen
 - Statistik mit Chart umsetzen (Brainstorming: Devgroup-Logo in Caption-Zeile, Statistik rechts neben die Themenliste)
 - Chart-Statistik auf "letzte Treffen" einrichten
-- devgimpr.htm Abschnitts-Abst√§nde vergr√∂√üern
-- Page-Men√º wie bei "Impressum", "Links" auch auf "Bisherige Treffen", "N√§chstes Treffen"
+- devgimpr.htm Abschnitts-Abst‰nde vergrˆﬂern
+- Page-Men¸ wie bei "Impressum", "Links" auch auf "Bisherige Treffen", "N‰chstes Treffen"
 - Treffen Nr. 1-50 in JSON-Data erfassen
 - alle einzelnen Treffenberichte stilllegen
 
@@ -116,17 +116,17 @@ erl. Treffen Nr. 140-148 in JSON-Data erfasst
 
 Update-Schritte 27.01.2015 Di
 erl. Treffen Nr. 148-149 in JSON-Data erfasst
-erl. devglink.htm, devgnext layoutm√§√üig angeglichen
+erl. devglink.htm, devgnext layoutm‰ﬂig angeglichen
 
 Update-Schritte 26.01.2015 Mo
-erl. devglast.htm, devgnext layoutm√§√üig angeglichen
+erl. devglast.htm, devgnext layoutm‰ﬂig angeglichen
 
 Update-Schritte 25.01.2015 So
-erl. devgimpr.htm Abschnitts-Abst√§nde vergr√∂√üern
+erl. devgimpr.htm Abschnitts-Abst‰nde vergrˆﬂern
 
 Update-Schritte 24.01.2015 Sa
 erl. AA_UpdProt.js aus mywebbot.js erstellt
-erl. oInetasite.cDatenstand, oInetasite.cVersion (Versionsstand Javascript mywebbot) eingef√ºhrt
+erl. oInetasite.cDatenstand, oInetasite.cVersion (Versionsstand Javascript mywebbot) eingef¸hrt
 
 Update-Schritte 23.01.2015
 erl. ut_devgchart.htm eingerichtet
@@ -151,14 +151,14 @@ erl. t_meeting.json  OrtId auf "default" falls "unbekannt", da "default" die Key
 
 Update-Schritte 19.01.2015
 erl. Treffen Nr. 156 in JSON-Data erfasst
-erl. checkVar() bzgl. "number" isNaN() ge√§ndert
+erl. checkVar() bzgl. "number" isNaN() ge‰ndert
 erl. ut_devgmeeting.htm eingerichtet
 erl. Aufruf fuer oMeeting (entsprechend "Location")
 
 Update-Schritte 18.01.2015
 erl. Test-HTML Pages in UT_<Testname>.htm umbenannt
 erl. data-Verzeichnis mit *.json und *.vcf komplettiert
-erl. images-Verzeichnis aufger√§umt und Images nach Funktion umbenannt
+erl. images-Verzeichnis aufger‰umt und Images nach Funktion umbenannt
      (as_* Anfahrtskizzen, banner_, logo_*, stat_*, Tnnn_ Treffen zugeordnet, totale_ Gruppenbilder der Usergroup)
 erl. alle Files, die nicht benutzt werden entfernt
 erl. Publish: mywebbot.js V1.8 (Komplettes Update aller Files incl. neu: t_location.json, devglocation.htm?OrtId=cccccccc)
@@ -167,14 +167,14 @@ erl. Sicherungskopie Sik_2015_01_18
 Update-Schritte 17.01.2015
 erl. loadLocation() stillgelegt
 erl. devglocation.htm?OrtId=cccccccc statt der einzelnen devgtref_xxx.htm implementieren
-erl. f√ºr alle <Treffpunkt>.htm einen JSON-Abschnitt anlegen
+erl. f¸r alle <Treffpunkt>.htm einen JSON-Abschnitt anlegen
 erl. t_location.json komplettiert
 erl. ut_devglocation.htm einrichten
 erl. <Treffpunkt>.htm stilllegen
 
 Update-Schritte 16.01.2015
-erl. Back-End-Parameter f√ºr Zugriffe auf T_Meeting, T_Seesion, T_Location, ... identisch verwenden
-erl. BackEnd-Klasse einf√ºhren.
+erl. Back-End-Parameter f¸r Zugriffe auf T_Meeting, T_Seesion, T_Location, ... identisch verwenden
+erl. BackEnd-Klasse einf¸hren.
 
 Update-Schritte 15.01.2015
 erl. Die verschiedenen Daten-Zugriffe von function location() und function loadLocation() harmonisieren
@@ -191,7 +191,7 @@ erl. JSON im Echtbetrieb testen
 erl. .JSON als MIMI-Typ "application/json" aktivieren
 
 Update-Schritte 12.01.2015
-erl. loaddata.js komplett Parameter getrieben, ohne Update-abh√§ngige √Ñnderungen
+erl. loaddata.js komplett Parameter getrieben, ohne Update-abh‰ngige ƒnderungen
 erl. Parameter im Startbereich der Access-Class
 erl. mywebbot("DataPath")
 erl. neue fct. getRootPath()
@@ -208,10 +208,10 @@ erl. Datenpflege der Treffen bis 158-169
 erl. Aufruf devtreffen.htm?TreffenNr=xxx in devglast.htm
 erl. devgtreffen.htm -Template: <TITLE> dynamisieren
 erl. devgtreffen.htm -Template statt einzelner Files
-erl. Parameter-√úbergabe an HTML-File 
+erl. Parameter-‹bergabe an HTML-File
 
 Update-Schritte 29.12.2014
-erl. Bugfix: devgt180.htm nicht mehrsessionf√§hig
+erl. Bugfix: devgt180.htm nicht mehrsessionf‰hig
 erl. weiterer Access-Parameter nSNr
 erl. Bugfix: index.htm Singular klappt nicht bei "Themen"
 erl. dev_tref_jagdhausheede.htm Anfahrtskizze Jagdhaus Heede fehlt
@@ -221,12 +221,12 @@ erl. Publish: mywebbot.js V1.5 (entwickelt als inetabot.js, Inetasite-Content-Da
 
 Update-Schritte 07.06.2014
 erl. Test: Implementierung .JSON-Files in Inetasite (VS-Testumgebung)
-erl. Test: Auslagern der Javascript DatenObject-Strukturen in .JSON-Files 
+erl. Test: Auslagern der Javascript DatenObject-Strukturen in .JSON-Files
 erl. Test: Verlagerung der Inetasite-Content-Daten in Javascript DatenObject-Strukturen (inetabot.js)
-erl. Test .JSON-Parser json2.js, function JSON.parse(cContent) 
+erl. Test .JSON-Parser json2.js, function JSON.parse(cContent)
 erl. Test readfile()
 erl. Sondieren der Problemetik: Verlagerung der Daten aus dem Code in reine Daten-Files
-erl. √úbungen zum Javascript Debuggen
+erl. ‹bungen zum Javascript Debuggen
 erl. Einrichten einer Javascript Testumgebung in Visual Studio 12 (VS-Testumgebung)
 
 Update-Schritte 2010
@@ -238,8 +238,8 @@ Update-Schritte 03.07.2008
 erl. Implementierung INETA Werbe-Banner
 
 Update-Schritte 17.02.2006
-erl. Layout-Wechsel der Homepage zu .NET "DevGroup G√∂ttingen/Kassel" als INETA-Mitglied
+erl. Layout-Wechsel der Homepage zu .NET "DevGroup Gˆttingen/Kassel" als INETA-Mitglied
 
 Update-Schritte 05.12.1997
-erl. Einrichten einer einfachen statischen "VOCA-Usergroup G√∂Ks" Homepage mit Microsoft Frontpage
+erl. Einrichten einer einfachen statischen "VOCA-Usergroup GˆKs" Homepage mit Microsoft Frontpage
 */
