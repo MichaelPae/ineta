@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+CATEGORIES:VIP
+X-VIPCategory:Misc
+ADR;ENCODING=QUOTED-PRINTABLE:;;Laubacher Stra=DFe 39;Hann. M=FCnden;NDS;34346;Deutschland
+TEL;WORK;VOICE:+49 (055541) 32904
+URL;WORK:www.zum-braunen-hirsch.com
+EMAIL;PREF;INTERNET:zum.braunen.hirsch@t-online.de
+X-NAVADDR:;;;;;;;;;
+GEO:51.39872;9.710649
+X-Flag:
+REV:20121030T130652z
+FN;ENCODING=QUOTED-PRINTABLE:Laubach, Zum Braunen Hirsch
+UID:AddresBookPersistentProvider3
+END:VCARD

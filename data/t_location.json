@@ -1,0 +1,196 @@
+{ "T_Location":
+	{
+	  "BEFO":
+		{
+			"OrtId": "BEFO",
+			"Kurzname": "BEFO",
+            "Praeposition": "bei der",			
+			"Name": "<b>\"BEFO GmbH\"</b>",
+			"Ort": "Staufenberg-Lutterberg",
+			"PLZ": "34355",
+			"Strasse": "Triftstraße 5",
+			"Fon": "05543 308310",
+			"URL": "http://www.befo.com",
+			"VcfTag": "(no VCF-file)</a>",
+			"ImageTag": "<img border=\"0\" src=\"images/as_befo.jpg\" alt=\"Anfahrt &quot;Freizeit Auefeld&quot;\" width=\"1050\" height=\"410\">",
+			"AnfahrtLink": "devglocation.htm?OrtId=BEFO",
+			"AnfahrtText": "Die BEFO GmbH ist sehr gut von der <strong>A7 (Abfahrt Hann. Münden - Staufenberg-Lutterberg)</strong> aus zu erreichen. Von der Abfahrt auf die B 496 Richtung <strong>Hann. Münden</strong> fahren, nach ca. 400 m an der Ampel nach links in den Ort &quot;Lutterberg&quot; einbiegen. Der Straße folgen. Das erste Gebäude links ist das Firmengebäude für  die Firmen Presse-Grosso Mitte, BEFO GmbH u. a."
+		},
+	  "FreizeitAuefeld":
+		{
+			"OrtId": "FreizeitAuefeld",
+			"Kurzname": "Freizeit Auefeld",
+            "Praeposition": "im",			
+			"Name": "AVALON Hotel <b>\"Freizeit Auefeld\"</b>",
+			"Ort": "Hann. M&uuml;nden",
+			"PLZ": "34346",
+			"Strasse": "Hallenbadstraße 33",
+			"Fon": "05541 7050",
+			"URL": "http://www.freizeit-auefeld.de",
+			"VcfTag": "(no VCF-file)</a>",
+			"ImageTag": "<img border=\"0\" src=\"images/as_freizeitauefeld.jpg\" alt=\"Anfahrt &quot;Freizeit Auefeld&quot;\" width=\"580\" height=\"441\">",
+			"AnfahrtLink": "devglocation.htm?OrtId=FreizeitAuefeld",
+			"AnfahrtText": "(kein Anfahrttext)"
+		},
+	  "GBS":
+		{
+			"OrtId": "GBS",
+			"Kurzname": "GBS",
+            "Praeposition": "beim",				
+			"Name": "<b>\"GBS Softwaredienst\"</b>",
+			"Ort": "G&ouml;ttingen",
+			"PLZ": "37083",
+			"Strasse": "Lotzestraße 22 c",
+			"Fon": "0551 507580",
+			"URL": "",
+			"VcfTag": "(no VCF-file)</a>",
+			"ImageTag": "<img border=\"0\" src=\"images/as_gbs.jpg\" alt=\"Anfahrt &quot;Freizeit Auefeld&quot;\" width=\"651\" height=\"824\">",
+			"AnfahrtLink": "devglocation.htm?OrtId=FreizeitAuefeld",
+			"AnfahrtText": "(kein Anfahrttext)"
+		},
+	  "JagdhausHeede":
+		{
+		    "OrtId": "JagdhausHeede",
+			"Kurzname": "Jagdhaus Heede",
+            "Praeposition": "im",				
+			"Name": "Hotel - Restaurant <b>\"Jagdhaus Heede\"</b>",
+			"Ort": "Hann. M&uuml;nden",
+			"PLZ": "34346",
+			"Strasse": "Hermannsh&auml;ger Str. 81",
+			"Fon": "05541 2395",
+			"URL": "http://www.jagdhausheede.de",
+			"VcfTag": "<a href=\"data/HannMuenden, JagdhausHeede.vcf\">HannMuenden, JagdhausHeede.vcf</a>",
+			"ImageTag": "<img border=\"0\" src=\"images/as_jagdhausheede.png\" alt=\"Anfahrt &quot;Jagdhaus Heede&quot;\" width=\"1878\" height=\"762\">",
+			"AnfahrtLink": "devglocation.htm?OrtId=JagdhausHeede",
+			"AnfahrtText": "Das Lokal ist gut von der <em>A7</em> (Abfahrt 75, Hann. Münden - Hedemünden) zu erreichen. <strong>Aus Richtung Nord von der Abfahrt links abbiegen und dann die erste Ausfahrt des Kreisels nehmen; aus Richtung Süd die zweite Ausfahrt des Kreisels nehmen</strong>.<br> Nach rund 200 m nach rechts auf die <em>B80</em> Richtung Hann. Münden abbiegen. Der B80 bis Hann. Münden folgen. In Hann. Münden ca. 400 m nach dem Ortseingang beim EDEKA Markt NEUKAUF rechts in den Wiershäuser Weg abbiegen. Nach rund 200 m nach links in die Hermannshäger Straße. abbiegen. Der Hermannshäger Straße zunächst nach 50 m nach rechts folgen, danach ca. 1,2 km weiter folgen. Das &quot;Jagdhaus Heede&quot; liegt am Waldrand."
+		},
+	  "LetzterHeller":
+		{
+		    "OrtId": "LetzterHeller",
+			"Kurzname": "Letzter Heller",
+            "Praeposition": "im",				
+			"Name": "Gasthaus <b>\"Letzter Heller\"</b>",
+			"Ort": "Hann. M&uuml;nden",
+			"PLZ": "34346",
+			"Strasse": "Letzter Heller 7",
+			"Fon": "05541 6446",
+			"URL": "http://www.letzter-heller.de",
+			"VcfTag": "<a href=\"data/HannMuenden, LetzterHeller.vcf\">HannMuenden, LetzterHeller.vcf</a>",
+			"ImageTag": "<img border=\"0\" src=\"images/as_letzterheller.png\" alt=\"Anfahrt &quot;Letzter Heller&quot;\" width=\"1548\" height=\"791\">",
+			"AnfahrtLink": "devglocation.htm?OrtId=LetzterHeller",
+			"AnfahrtText": "Das Lokal ist gut von der <em>A7</em> (Abfahrt 75, Hann. Münden - Hedemünden) zu erreichen. <strong>Aus Richtung Nord von der Abfahrt links abbiegen und dann die erste Ausfahrt des Kreisels nehmen; aus Richtung Süd die zweite Ausfahrt des Kreisels nehmen</strong>.<br> Nach rund 200 m nach rechts auf die <em>B80</em> Richtung Hann. Münden abbiegen. Der B80 Richtung Hann. Münden folgen. Nach rund 5 km unmitterbar nach dem Flusskraftwerk Letzter Heller und der Einmündung der Straße von Lippoldshausen liegt direkt an der B80 rechts das Gasthaus &quot;Letzter Heller&quot; und gegenüber auf der linken Straßenseite der Parkplatz."
+		},
+	  "OsteriaToscana":
+		{
+		    "OrtId": "OsteriaToscana",
+			"Kurzname": "Osteria Toscana",
+            "Praeposition": "im",				
+			"Name": "Restaurant <b>\"Osteria Toscana\"</b>",
+			"Ort": "Hann. M&uuml;nden-Hedem&uuml;nden",
+			"PLZ": "34346",
+			"Strasse": "M&uuml;ndener Str. 2",
+			"Fon": "0176 84157363",
+			"URL": "http://www.osteria-toscana.de",
+			"VcfTag": "<a href=\"data/Hedemuenden, Osteria Toscana.vcf\">Hedemuenden, Osteria Toscana.vcf</a>",
+			"ImageTag": "<img border=\"0\" src=\"images/as_osteriatoscana.jpg\" alt=\"Anfahrt &quot;Osteria Toscana&quot;\" width=\"1274\" height=\"758\">",
+			"AnfahrtLink": "devglocation.htm?OrtId=OsteriaToscana",
+			"AnfahrtText": "Das Lokal ist gut von der <em>A7</em> (Abfahrt 75, Hann. Münden - Hedemünden) zu erreichen. <strong>Aus Richtung Nord von der Abfahrt links abbiegen und dann die zweite Ausfahrt des Kreisels nehmen; aus Richtung Süd die dritte Ausfahrt des Kreisels nehmen</strong>. <br>Nach rund 750 m auf der <em>K211</em> liegt rechts die &quot;Osteria Toscana&quot; (ehem. Landgasthaus Schmale)."
+		},
+	  "Schmale":
+		{
+		    "OrtId": "Schmale",
+			"Kurzname": "Schmale",
+            "Praeposition": "im",				
+			"Name": "Landgasthaus <b>\"Schmale\"</b>",
+			"Ort": "Hann. M&uuml;nden-Hedem&uuml;nden",
+			"PLZ": "34346",
+			"Strasse": "M&uuml;ndener Str. 2",
+			"Fon": "05545 6480",
+			"URL": "",
+			"VcfTag": "(no VCF-file)",
+			"ImageTag": "<img border=\"0\" src=\"images/as_schmale.jpg\" alt=\"Anfahrt &quot;Schmale&quot;\" width=\"540\" height=\"410\">",
+			"AnfahrtLink": "devglocation.htm?OrtId=Schmale",
+			"AnfahrtText": "Das Lokal ist gut von der <em>A7</em> (Abfahrt 75, Hann. Münden - Hedemünden) zu erreichen. <strong>Aus Richtung Nord von der Abfahrt links abbiegen und dann die zweite Ausfahrt des Kreisels nehmen; aus Richtung Süd die dritte Ausfahrt des Kreisels nehmen</strong>. <br>Nach rund 750 m auf der <em>K211</em> liegt rechts die &quot;Osteria Toscana&quot; (ehem. Landgasthaus Schmale)."
+		},
+	  "Werratal":
+		{
+		    "OrtId": "Werratal",
+			"Kurzname": "Werratal",
+            "Praeposition": "im",				
+			"Name": "Biohotel <b>\"Werratal\"</b>",
+			"Ort": "Hann. M&uuml;nden-Laubach",
+			"PLZ": "34346",
+			"Strasse": "Buschweg 40",
+			"Fon": "05541 9980",
+			"URL": "http://http://www.biohotel-werratal.de",
+			"VcfTag": "(no VCF-file)",
+			"ImageTag": "<img border=\"0\" src=\"images/as_werratal.jpg\" alt=\"Anfahrt &quot;Werratal&quot;\" width=\"540\" height=\"410\">",
+			"AnfahrtLink": "devglocation.htm?OrtId=Werratal",
+			"AnfahrtText": "Das Lokal ist sehr gut von der A7 aus (Abfahrt Hann. Münden - Hedemünden) zu erreichen. B 80 Richtung Hann. Münden, nach ca. 4 km links ab über eine Brücke (Schild: Nebenstrecke Hann. Münden). Das Lokal ist unmittelbar an der Brücke gelegen."
+		},
+	  "ZumBraunenHirsch":
+		{
+		    "OrtId": "ZumBraunenHirsch",
+			"Kurzname": "Zum Braunen Hirsch",
+            "Praeposition": "im",				
+			"Name": "Gasthaus <b>\"Zum Braunen Hirsch\"</b>",
+			"Ort": "Hann. M&uuml;nden-Laubach",
+			"PLZ": "34346",
+			"Strasse": "Laubacher Str. 39",
+			"Fon": "05541 32904",
+			"URL": "http://www.zum-braunen-hirsch.com",
+			"VcfTag": "<a href=\"data/Laubach, Zum Braunen Hirsch.vcf\">Laubach, Zum Braunen Hirsch.vcf</a>",
+			"ImageTag": "<img border=\"0\" src=\"images/as_braunerhirsch.jpg\" alt=\"Anfahrt &quot;Zum Braunen Hirsch&quot;\" width=\"1490\" height=\"617\">",
+			"AnfahrtLink": "devglocation.htm?OrtId=ZumBraunenHirsch",
+			"AnfahrtText": "Das Lokal ist gut von der <em>A7</em> (Abfahrt 75, Hann. Münden - Hedemünden) zu erreichen. <strong>Aus Richtung Nord von der Abfahrt links abbiegen und dann die erste Ausfahrt des Kreisels nehmen; aus Richtung Süd die zweite Ausfahrt des Kreisels nehmen</strong>. <br>Nach rund 200 m rechts auf die <em>B 80</em> Richtung Hann. Münden abbiegen. Danach nach rund 4 km nach links auf die <em>K226</em> (Hann. Münden Nebenstrecke) abbiegen und der Straße folgen. Unmittelbar nach Unterquerung der Bahnstrecke nach links in den <em>Talweg</em> abbiegen. Dem Talweg folgen; am oberen Ende des Talwegs Ecke <em>Laubacher Str.</em> liegt links das Landgasthaus &quot;Zum braunen Hirsch&quot;."
+		},
+      "ZumNiestetal":
+		{
+		    "OrtId": "ZumNiestetal",
+			"Kurzname": "Zum Niestetal",
+            "Praeposition": "im",				
+			"Name": "Restaurant & Landhotel <b>\"Zum Niestetal\"</b>",
+			"Ort": "Niestetal",
+			"PLZ": "34266",
+			"Strasse": "Niestetalstraße 16",
+			"Fon": "0561 95226-0",
+			"URL": "http://www.landhotel-niestetal.de",
+			"VcfTag": "<a href=\"data/Niestetal, Zum Niestetal.vcf\">Niestetal, Zum Niestetal.vcf</a>",
+			"ImageTag": "<img border=\"0\" src=\"images/as_niestetal.jpg\" alt=\"Anfahrt &quot;Zum Niestetal&quot;\" width=\"1056\" height=\"598\">",
+			"AnfahrtLink": "devglocation.htm?OrtId=ZumNiestetal",
+			"AnfahrtText": "Das Lokal ist sehr gut von der A7 (Abfahrt 77, <strong>Kassel-Nord</strong>) zu erreichen. <strong>Aus Richtung Nord von der Abfahrt links abbiegen</strong> auf die <em>Dresdener Str./Kasseler Str</em>. <strong>Aus Richtung Süd nach rechts abbiegen</strong> auf die <em>Kasseler Str</em>. <br>Nach rund 300 m bzw. 100 m folgt ein Kreisel, der an der 2. Ausfahrt in die <em>Kasseler Str.</em> zu verlassen ist. Nach rund 400 m folgt erneut ein Kreisel der ebenfalls an der 2. Ausfahrt in die <em>Niestetalstraße</em> zu verlassen ist. Nach weiteren 400 m erreicht man an der Kreuzung <em>Niestetalstraße</em>, <em>Zum Sportplatz</em> das rechts liegende Landhotel &quot;Zum Niestetal&quot;."
+		},
+	  "ZumWeissenRoss":
+		{
+			"OrtId": "ZumWeissenRoss",
+			"Kurzname": "Zum Weißen Roß",
+            "Praeposition": "im",				
+			"Name": "Gasthaus <b>\"Zum Weißen Roß\"</b>",
+			"Ort": "Staufenberg-Lutterberg",
+			"PLZ": "34355",
+			"Strasse": "Lange Straße 6",
+			"Fon": "05543 2252",
+			"URL": "",
+			"VcfTag": "(no VCF-file)",
+			"ImageTag": "<img border=\"0\" src=\"images/as_w_ross.jpg\" alt=\"Anfahrt &quot;Zum Weißen Roß&quot;\" width=\"1050\" height=\"410\">",
+			"AnfahrtLink": "devglocation.htm?OrtId=ZumWeissenRoss",
+			"AnfahrtText": "Das Lokal ist sehr gut von der <strong>A7 (Abfahrt Hann. Münden - Lutterberg)</strong> zu erreichen. Einfach von der Abfahrt auf die B 496 Richtung <strong>Hann. Münden</strong>  einbiegen. Nach rund 400 m an der Ampel links in die Triftstraße abbiegen. Der Triftstraße ca. 1.000 m folgen und dann nach links in die Lange Straße abbiegen. Nach 250 m erreicht man das links liegende Gasthaus <b>Zum Weißen Roß</b>."
+		},
+	  "default":
+		{
+			"OrtId": "default",
+			"Kurzname": "NN",
+            "Praeposition": "im",				
+			"Name": "Gasthaus <b>\"NN\"</b>",
+			"Ort": "Xyz",
+			"PLZ": "00000",
+			"Strasse": "Straße",
+			"Fon": "00000 000000",
+			"URL": "",
+			"VcfTag": "(no VCF-file)</a>",
+			"ImageTag": "<img border=\"0\" src=\"images/as_default.png\" alt=\"Anfahrt &quot;default&quot;\" width=\"880\" height=\"495\">",
+			"AnfahrtLink": "devglocation.htm?OrtId=default",
+			"AnfahrtText": "(kein Anfahrttext)"
+		}
+	}
+}

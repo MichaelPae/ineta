@@ -1,0 +1,2744 @@
+{ "T_Session":
+[
+   { "TreffenNr": 191,
+     "Session":
+     [	{ "SessionId": "19101",
+	  "Caption": "... werden noch gesucht",
+	  "Summary": "(Vorschläge werden ständig gesucht ...)",
+	  "Items": [ "Item 1", "Item 2", "Item 3", "Item 4" ],
+	  "Link": "",
+	  "Speaker": "NN",
+	  "Leute": 0,
+	  "Firmen": 0 }
+     ]
+   },
+   { "TreffenNr": 190,
+     "Session":
+     [	{ "SessionId": "19001",
+	  "Caption": "Merkmalserfassungen mit SQL-Tabellen",
+	  "Summary": "Praxis-Beispiel einer SQL-Tabellenstruktur für Merkmalserfassungen und -Auswertungen.",
+	  "Items": [ "Item 1", "Item 2", "Item 3", "Item 4" ],
+	  "Link": "",
+	  "Speaker": "Joachim",
+	  "Leute": 0,
+	  "Firmen": 0 }
+     ]
+   },
+   { "TreffenNr": 189,
+     "Session":
+     [	{ "SessionId": "18901",
+	  "Caption": "Powershell statt CMD (Teil 2 PowerShell Scripting)",
+	  "Summary": "Fortsetzung unserer Powershell-Exploration: Durch die weiten Script-Felder, auf die Remote-Fernsicht und zur .NET-Verwandtschaft.",
+	  "Items": [ "Zusammenfassung Teil 1", "Interactive Scripting Engine", "Demonstration einer Powershell Remote Session", "Direkte .NET Nutzung in PowerShell", "https://github.com/MichaelPae/PS-Pieces" ],
+	  "Link": "https://github.com/MichaelPae/PS-Pieces",
+	  "Speaker": "Michael",
+	  "Leute": 10,
+	  "Firmen": 8 }
+     ]
+   },
+   { "TreffenNr": 188,
+     "Session":
+     [	{ "SessionId": "18801",
+	  "Caption": "Powershell statt CMD (Teil 1 PowerShell Konzepte)",
+	  "Summary": "Die Powershell-Exploration eines NICHT-Admins in die Konsolen-Niederung und an die weiten Script-Feldern.",
+	  "Items": [ "PowerShell Schlagworte", "PowerShell Hilfe", "PowerShell für Umsteiger", "PowerShell: \"Alles ist ein Objekt\"", "PowerShell: \"Alles ist ein Laufwerk\"" ],
+	  "Link": "https://github.com/MichaelPae/PS-Pieces",
+	  "Speaker": "Michael",
+	  "Leute": 7,
+	  "Firmen": 5 }
+     ]
+   },
+  { "TreffenNr": 187,
+     "Session":
+     [	{ "SessionId": "18701",
+	  "Caption": "pSake, alles Reiswein oder was??",
+	  "Summary": "Nein, pSake ist ein Tool/Framework, das auf Powershell  basiert und zur einfachen Erzeugung von Build-Scripten dient; ohne große XML-Files wie für MS-Build. Damit werden alle Nebenarbeiten, die sonst vor- und nachher erledigt werden müssen, deutlich erleichtert und volle Flexibilität und die Power von .NET steht zur Verfügung.",
+	  "Items": [ "psake ein Automatisierungs-Tool in Powershell", "psake ist in Tasks strukturiert", "psake-Einsatzgebiete: Build-Prozess, Software Installation, Hintergrundprozess, ...", "https://github.com/psake/psake.git" ],
+	  "Link": "https://github.com/psake/psake.git",
+	  "Speaker": "Hermann",
+	  "Leute": 6,
+	  "Firmen": 4 }
+     ]
+   },
+  { "TreffenNr": 186,
+     "Session":
+     [	{ "SessionId": "18601",
+	  "Caption": "Dashboard-Tools von DevExpress mit ASP.Net",
+	  "Summary": "...",
+	  "Items": [ "Überblick über die Optionen", "DevExpress vs. infragistics" ],
+	  "Link": "",
+	  "Speaker": "Johannes",
+	  "Leute": 6,
+	  "Firmen": 5 }
+     ]
+   },
+   { "TreffenNr": 185,
+     "Session":
+     [	{ "SessionId": "18501",
+	  "Caption": "Git - Das etwas andere Versionierungs-System (Teil 2 Praxis)",
+	  "Summary": "Git ist in der Zwischenzeit auch in der Microsoft-Welt angekommen, der TFS bietet es als alternatives Versionssystem an und auch Visual Studio  unterstützt Git (im TFS) native.<br><br>Trotzdem sollten die Besonderheiten und die Philosophie, die hinter Git steckt bekannt sein um dessen Stärken und Eigenheiten optimal nutzen zu können. Neben ausführlichen Grundlagen kommt auch das Thema Git in der Praxis und dessen Nutzung per Kommandozeile und Visual Studio zur Sprache.",
+	  "Items": [ "Zusammenfassung u. Wiederholung von Teil 1", "Übersicht über GIT Front-Ends", "Demo: GIT Command Line", "Demo: GIT in Visual Studio", "Demo: gitweb - Git web interface (web frontend to Git repositories)" ],
+	  "Link": "https://git-scm.com/book/de/v1",
+	  "Speaker": "Bernd",
+	  "Leute": 9,
+	  "Firmen": 7 }
+     ]
+   },
+   { "TreffenNr": 184,
+     "Session":
+     [	{ "SessionId": "18401",
+	  "Caption": "Git - Das etwas andere Versionierungs-System (Teil 1 Grundlagen)",
+	  "Summary": "Git ist in der Zwischenzeit auch in der Microsoft-Welt angekommen, der TFS bietet es als alternatives Versionssystem an und auch Visual Studio  unterstützt Git (im TFS) native.<br><br>Trotzdem sollten die Besonderheiten und die Philosophie, die hinter Git steckt bekannt sein um dessen Stärken und Eigenheiten optimal nutzen zu können. Neben ausführlichen Grundlagen kommt auch das Thema Git in der Praxis und dessen Nutzung per Kommandozeile und Visual Studio zur Sprache.",
+	  "Items": [ "Git Besonderheiten im Vergleich zu anderen Versions-Systemen", "Diff- vs. Snapshot-Struktur", "Git Clients", "Branching im \"echten\" Leben" ],
+	  "Link": "https://git-scm.com/book/de/v1",
+	  "Speaker": "Bernd",
+	  "Leute": 8,
+	  "Firmen": 5 }
+     ]
+   },
+   { "TreffenNr": 183,
+     "Session":
+     [	{ "SessionId": "18301",
+	  "Caption": "Bericht von der BASTA 23. bis 27. Februar 2015",
+	  "Summary": "Aktuelle Themen über die gesamte Technologieplattform der Microsoft-Welt – und weit darüber hinaus.",
+	  "Items": [ "Plattformübergreifend arbeiten mit HTML5, JavaScript u. Co.", "Raus aus der Legacy-Falle mit Micro-Services", "Microsoft goes Open Source", ".NET Compiler Platform (\"Roslyn\")" ],
+	  "Link": "",
+	  "Speaker": "Jürgen G. und Rudi",
+	  "Leute": 8,
+	  "Firmen": 5 }
+     ]
+   },
+   { "TreffenNr": 182,
+     "Session":
+     [	{ "SessionId": "18201",
+	  "Caption": "Automatisierte Erstellung von personalisierten Artikeln",
+	  "Summary": "Workflow eines konkreten Auftrags von der Bestellung bis zum fertigen Produkt",
+	  "Items": [ "Parameter-Beschaffung für Grafik-Produktionsdateien", "Template-Design und Template-Umformung zur Produktionsdatei", "APIs zur .Net-Remotesteuerung gängiger Bildbearbeitungssoftware", "Code-Beispiele zur automatischen Formatierung individueller Objekte in Grafikfiles" ],
+	  "Link": "",
+	  "Speaker": "Johannes",
+	  "Leute": 7,
+	  "Firmen": 6 }
+     ]
+   },
+   { "TreffenNr": 181,
+     "Session":
+     [	{ "SessionId": "18101",
+          "Caption": "Vom Prozess zum Werkzeug - Software-Entwicklungsprozesse (Part&nbsp;2)",
+          "Summary": "Wie bekomme ich meinen angepassten Entwicklungsprozess auf ein ALM-Werkzeug wie den TFS? Es geht nicht um die vollständige Umsetzung sondern um das Umreißen der Möglichkeiten mit kleinen Demos.",
+          "Items": [ "Kandidaten für ALM im Vergleich (Polarion, TFS)", "Fertige Testumgebungen für TFS-Konfiguration (Brian Harry’s blog)",  "Individuelle TFS-Anpassungen an den Projekt Workflow", "Blick in ein aktiv genutztes TFS System mit über 16000 Change Requests" ],
+          "Link": "",
+          "Speaker": "Martin R.",
+          "Leute": 9,
+          "Firmen": 7 },
+          
+        { "SessionId": "18102",
+          "Caption": "Ausblick auf Microsoft HoloLens",
+          "Summary": "\"The era of holographic computing is here.\"",
+          "Items": [ "Video: Microsoft HoloLens presentation", "Video: Microsoft HoloLens - Das ist mit der Brille möglich" ],
+	      "Link": "",
+          "Speaker": "Martin R.",
+          "Leute": 8,
+          "Firmen": 6 }
+     ]
+   },
+   { "TreffenNr": 180,
+     "Session":
+     [	{ "SessionId": "18001",
+    	  "Caption": "Veröffentlichungsprozess einer Universal App",
+          "Summary": "Zunächst wird kurz die kleine Taschenrechner-Anwendung vorgestellt (für die, die im August nicht da waren), danach wird gezeigt, wie der Submit Prozess für Windows-Phone und Windows-Store abläuft.",
+          "Items": [ "HP 41CV App", "Entwicklerkonto", "Zertifizierungskit für Windows-Apps", "Upload" ],
+     	  "Link": "",
+          "Speaker": "Jürgen S.",
+          "Leute": 8,
+          "Firmen": 5 },
+          
+        { "SessionId": "18002",
+          "Caption": "Vorstellung des 'All in One-PC' DELL XPS 18",
+          "Summary": "Intel® Core™ Prozessor der 3. Generation, hohe Datenverarbeitungsleistung, Windows 8.1, großer Full-HD-Touch-Bildschirm.",
+          "Items": [ "Motivation", "Produktvarianten", "Zubehör", "Praxiserfahrungen" ],
+          "Link": "",
+          "Speaker": "Andreas",
+          "Leute": 8,
+          "Firmen": 5 }
+     ]
+   },
+   { "TreffenNr": 179,
+     "Session":
+     [	{ "SessionId": "17901",
+          "Caption": "Software-Entwicklungsprozesse (Part&nbsp;1)",
+          "Summary": "Merkmale verschiedener Software-Entwicklungsprozesse im Vergleich",
+          "Items": [ "V-Modell", "Agile Softwareentwicklung", "Synthese, jeweils das beste aus den Prozessen", "Praxis Beispiel und Demo" ],
+          "Link": "",
+          "Speaker": "Martin R.",
+          "Leute": 9,
+          "Firmen": 6 }
+     ]
+   },
+   { "TreffenNr": 178,
+     "Session":
+     [  { "SessionId": "17801",
+          "Caption": "Ein Excel-nach-CSV-Exporttool - Wozu denn das???",
+          "Summary": "Excel bietet ja von Haus aus die Möglichkeit, eine Excel-Tabelle im CSV-Format zu speichern. Und wenn das nicht reicht, lassen sich ja auch noch Makros schreiben ... <br>Als eingefleischter C#-Programmierer nimmt man sich aber doch lieber ein paar passende Toolboxen zur Hand und schreibt eine Konsolen-App, die den Export übernimmt.<br>Die Vorteile liegen auf der Hand: Ich arbeite in meiner bekannten Sprache, kann auch 'Spezialitäten' bis ins Detail berücksichtigen und überhaupt: Eine 100%-ige Testabdeckung des Tools ist natürlich auch gewährleistet!",
+          "Items": [ "Anforderung: 'ähnliche' Excel-Sheets in genormte CSV-Importfiles umsetzen", "CSV Anforderungen (UTF-8, BOM, String-Delimiter, normierter Kopfdatensatz)", ".NET ExcelDataReader", "Sourcecode Elemente" ],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 8,
+          "Firmen": 6 }
+     ]
+   },
+   { "TreffenNr": 177,
+     "Session":
+     [  { "SessionId": "17701",
+          "Caption": "Kurzvorstellung von Soft- u. Hardware-Goodies",
+          "Summary": "Die Teilnehmer bringen kleine technische Goodies aus ihrem Alltag mit und stellen sie kurz vor. Solch ein Goody könnte z.B. eine Software / App sein oder Hardware aus dem IT-Umfeld. Irgendwas, was das Leben erleichtert oder einfach nur Freude macht.",
+          "Items": [ "Mobiler WLAN-Hotspot (WLAN-Router mit Gateway zum Mobilfunknetz)", "Greenshot (Screen Saver tool)", "Snagit (Screen Saver tool)", "Inkscape, Bitmaps in Scalable Vector Graphics (SVG) konvertieren", "Raspberry Pi (Einplatinencomputer)" ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 7,
+          "Firmen": 6 }
+     ]
+   },
+   { "TreffenNr": 176,
+     "Session":
+     [  { "SessionId": "17601",
+          "Caption": "Universal Apps, gemeinsame Entwicklung für Windows-Store und Windows-Phone",
+          "Summary": "Anhand einer Taschenrechner-Anwendung wird die Entwicklung einer gemeinsamen App für Windows-Phone und Windows-Store vorgestellt. Zum Vergleich wird ‚traditionale‘ Ansatz mit gemeinsamen Source-Code und bedingter Kompilierung gezeigt.",
+          "Items": [ "Kleine Entwicklungsgeschichte der App", "Visual Studio 2013 update2 'Universal App'", "Windows-Phone-, Windows-Metro- und Shared-Code", "Zertifizierungskit" ],
+          "Link": "",
+          "Speaker": "Jürgen S.",
+          "Leute": 6,
+          "Firmen": 4 }
+     ]
+   },
+   { "TreffenNr": 175,
+     "Session":
+     [  { "SessionId": "17501",
+          "Caption": "Präsentation eines Web-basierten Auskunftssystems (Fortsetzung: Einblick in den Sourcecode)",
+          "Summary": "Nach einer kurzen Wiederholung des ersten Teils werden die verwendeten Open-Source-Tools und interessante Sourcecode Elemente vorgestellt.",
+          "Items": [ "Wiederholung vom letzten Treffen", "JAVA Open-Source-Tools", "Sourcecode Elemente" ],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 7,
+          "Firmen": 5 }
+     ]
+   },
+   { "TreffenNr": 174,
+     "Session":
+     [  { "SessionId": "17401",
+          "Caption": "Präsentation eines Web-basierten Auskunftssystems",
+          "Summary": "Vorgestellt wird ein System, welches über ein Web-Frontend auf Web-Services zugreift um Informationen anzuzeigen. Auch die Verwaltung des gesamten Systems läuft über das Web. Weiterhin werden wir uns einige interessante Stellen der Implementierung ansehen.",
+          "Items": [ "Anforderungskatalog", "Vorstellung User-Front-End", "Vorstellung Admin-Front-End" ],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 4,
+          "Firmen": 3 }
+     ]
+   },
+   { "TreffenNr": 173,
+     "Session":
+     [  { "SessionId": "17301",
+          "Caption": "Erfahrungsbericht einer Windows 8 App-Entwicklung (Fortsetzung Microsoft Sync Framework)",
+          "Summary": "Einsatz des Microsoft Sync Frameworks bei der Datenversorgung der App.",
+          "Items": [ "Architektur: Sync Orchestrator, Sync Provider, Database", "Synchronisation von Verzeichnissen", "Synchronisation von Datenbanken", "Konkrete Quellcode-Beispiele" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 8,
+          "Firmen": 5 }
+     ]
+   },
+   { "TreffenNr": 172,
+     "Session":
+     [  { "SessionId": "17201",
+          "Caption": "Erfahrungsbericht aus dem Bereich der Windows 8 App-Entwicklung",
+          "Summary": "Bei der konkreten Umsetzung einer Windows 8 App für Kundendienst-Mitarbeiter waren einige Hürden zu nehmen. Davon wird berichtet.",
+          "Items": [ "Anforderungsspezifikationen der App", "Skizzierung der Datenbereitstellung und -Synchronisation", "Detailvorführung einzelner App-Features", "App-Bereitstellung per Sideloading" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 8,
+          "Firmen": 5 }
+     ]
+   },
+   { "TreffenNr": 171,
+     "Session":
+     [  { "SessionId": "17101",
+          "Caption": "TDD Unit Tests Extended",
+          "Summary": "Nachdem wir uns schon ausführlich mit den (in allen VS-Versionen) verfügbaren MSTest für Unit-Tests beschäftigt haben, werden wir dies nochmals kurz wiederholen bzw. vertiefen und uns dann nützliche Libraries für die Themen Testdaten-Erzeugung, Testergebnis-Prüfung und (Test)-Mocking ansehen.<br />Diese Helferlein erleichtern das Erstellen von Tests sehr wesentlich.",
+          "Items": [ "MSTest", "NCrunch for Visual Studio", "Mock-Objekt" ],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 7,
+          "Firmen": 5 }
+     ]
+   },
+   { "TreffenNr": 170,
+     "Session":
+     [  { "SessionId": "17001",
+          "Caption": "Einsatz von TDD an einer Aufgabenstellung aus der Praxis",
+          "Summary": "...",
+          "Items": [ "Funktion: Prüfen einer 'DE' IBAN", "Sinnvolle Benamung der Test-Klassen und -Methoden", "Ansprechen zu prüfender PRIVATE-Methoden" ],
+          "Link": "",
+          "Speaker": "Hermann",
+          "Leute": 8,
+          "Firmen": 6 }
+     ]
+   },
+   { "TreffenNr": 169,
+     "Session":
+     [  { "SessionId": "16901",
+          "Caption": "Test Driven Development - Theorie und Praxis (Part 2)",
+          "Summary": "...",
+          "Items": [ "Kurze Wiederholung von Part 1", "TDD: Was ist Refactoring?", "TDD: Right B.I.C.E.P.(s)", "TDD: CORRECT" ],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 10,
+          "Firmen": 7 }
+     ]
+   },
+   { "TreffenNr": 168,
+     "Session":
+     [  { "SessionId": "16801",
+          "Caption": "Test Driven Development - Theorie und Praxis (Part 1)",
+          "Summary": "...",
+          "Items": [ "Eine Einführung in die Gedanken hinter Test Driven Development", "TDD Feedback Loop: Red,Yellow, Green, Refactor", "Workshop mit der 'String Calculator'-Kata von Roy Osherove" ],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 8,
+          "Firmen": 6 }
+     ]
+   },
+   { "TreffenNr": 167,
+     "Session":
+     [  { "SessionId": "16701",
+          "Caption": "Meine erste WinRT APP 2. Teil",
+          "Summary": "...",
+          "Items": [ "Die verschiedenen 'Visual States' (App-Screen-Formate)", "Nutzung von Geo-Informationen und Einbinden von bing-Maps", "Semantic Zoom" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 5,
+          "Firmen": 3 }
+     ]
+   },
+   { "TreffenNr": 166,
+     "Session":
+     [  { "SessionId": "16601",
+          "Caption": "Meine erste WinRT APP 1. Teil",
+          "Summary": "...",
+          "Items": [ "Die Basics für den Einstieg ins WinRT Developing", "Einführung in eine Business WinRT App" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 7,
+          "Firmen": 4 }
+     ]
+   },
+   { "TreffenNr": 165,
+     "Session":
+     [  { "SessionId": "16501",
+          "Caption": "JavaScript zur plattformübergreifenden Entwicklung?!",
+          "Summary": "...",
+          "Items": [ "Wird JavaScript verkannt und ist es für einen NET-Entwickler überhaupt interessant sich damit zu beschäftigen?", "Welche Optionen bietet Microsoft zu diesem Thema?", "Mircosoft TypeScript für JavaScript in Visual Studio" ],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 7,
+          "Firmen": 5 }
+     ]
+   },
+   { "TreffenNr": 164,
+     "Session":
+     [  { "SessionId": "16401",
+          "Caption": "Smartphone-Sensortest im Biergarten",
+          "Summary": "Das eigentliche Thema des Treffens wurde spontan zu Gunsten von Smartphone-Sensor-Tests im Biergarten vertagt.",
+          "Items": [ "Barometer", "Beschleunigungssensor", "GPS", "Gyroskop", "Helligkeitssensor", "Luftfeuchtigkeit", "Magnetometer", "Mikrofon", "Näherungssensor", "Thermometer", "Touchscreen" ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 4,
+          "Firmen": 2 }
+     ]
+   },
+   { "TreffenNr": 163,
+     "Session":
+     [  { "SessionId": "16301",
+          "Caption": "Von der Projektplanung bis zur Quellcodeverwaltung - Vorstellung einer integrierten Lösung auf Basis von Open Source Komponenten.",
+          "Summary": "...",
+          "Items": [ "Redmine - Das Projektmanagement Tool", "Subversion - Zur Quellcodeverwaltung", "AnkhSVN - Subversion Client für VS", "Die fertigen Applikationsstacks und Virtuellen Maschinen von BitNami" ],
+          "Link": "",
+          "Speaker": "Ralph",
+          "Leute": 8,
+          "Firmen": 5 }
+     ]
+   },
+   { "TreffenNr": 162,
+     "Session":
+     [  { "SessionId": "16201",
+          "Caption": "Warum git blöd ist - Erste Schritte mit einer verteilten Versions-Verwaltung",
+          "Summary": "Die Versionsverwaltung git existiert seit 2005 und hat sich insbesondere in der Open Source Entwicklung etabliert. Mittlerweile unterstützt sogar Microsoft Azure und der Team Founddation Server die Anbindung per git. Was macht git also so besonders und anders als andere Versionsverwaltungen?",
+          "Items": [ "Speicherstrategien (zentral, verteilt) von Versionsverwaltungen", "Wichtige Befehlszeilen-Kommandos", "Branching in git", "Oberflächen und Interfaces" ],
+          "Link": "",
+          "Speaker": "Kai",
+          "Leute": 8,
+          "Firmen": 5 }
+     ]
+   },
+   { "TreffenNr": 161,
+     "Session":
+     [  { "SessionId": "16101",
+          "Caption": "Nicht immer nur Relational - Strukturierter Datenspeicher in .NET",
+          "Summary": "...",
+          "Items": [ "NoSQL-Beispiele für nicht relationale Datenbanken (not only SQL)", "Vorstellung und Grundidee von RavenDB", "Workshop: RavenDB in C#-App", "RavenDB vs. SQL" ],
+          "Link": "",
+          "Speaker": "Kai",
+          "Leute": 8,
+          "Firmen": 5 },
+        { "SessionId": "16102",
+          "Caption": "Software-Verlosung",
+          "Summary": "(teilnahmeberechtigt sind alle Mitglieder der Usergroup mit mindestens einer Teilnahme vor diesem Termin)",
+          "Items": [ "Expression Studio 4 Ultimate" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 8,
+          "Firmen": 5 }
+     ]
+   },
+   { "TreffenNr": 160,
+     "Session":
+     [  { "SessionId": "16001",
+          "Caption": "Vorstellung Win 8 Tablet mit C# Demo-App",
+          "Summary": "...",
+          "Items": [ "Toshiba Satellite", "Win 8 Gesten", "Win 8 App", "App Designprinzipien" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 6,
+          "Firmen": 4 },
+        { "SessionId": "16002",
+          "Caption": "Konferenz Ticket Verlosung",
+          "Summary": "(teilnahmeberechtigt sind alle Mitglieder der Usergroup mit mindestens einer Teilnahme vor diesem Termin)",
+          "Items": [ "BASTA Spring 2013" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 6,
+          "Firmen": 4 }
+     ]
+   },
+   { "TreffenNr": 159,
+     "Session":
+     [  { "SessionId": "15901",
+          "Caption": "Offene Themenrunde",
+          "Summary": "...",
+          "Items": [ "Win 8 und Win 8 Tablets", "MS Software Asset Management", "Smartphone-App-Ideen" ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 5,
+          "Firmen": 4 }
+     ]
+   },
+   { "TreffenNr": 158,
+     "Session":
+     [  { "SessionId": "15801",
+          "Caption": "Funktionale Programmierung in C#",
+          "Summary": "...",
+          "Items": [ "Geschichtliche Einführung (Lambda Kalkül)", "Wichtige C#-Konstrukte zum Verständnis (generic, delegate, Lambda-Ausdruck, closures)", "Elemente der Funktionalen Programmierung (MapReduce, Currying, Funktion höherer Ordnung)", "F#, Funktionale Programmiersprache in Visual Studio/.NET" ],
+          "Link": "",
+          "Speaker": "Kai",
+          "Leute": 11,
+          "Firmen": 6 }
+     ]
+   },
+   { "TreffenNr": 157,
+     "Session":
+     [  { "SessionId": "15701",
+          "Caption": "Vorstellung von Soft- und Hardware Tools-Favoriten",
+          "Summary": "...",
+          "Items": [ "Password-Depot", "KeePass", "Eye-Fi" ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 7,
+          "Firmen": 4 }
+     ]
+   },
+   { "TreffenNr": 156,
+     "Session":
+     [  { "SessionId": "15601",
+          "Caption": "InnoSetup - Ein Freeware-Installationsersteller für komplexe Installationen",
+          "Summary": "...",
+          "Items": [ "InnoScript-Sections", "InnoScript Debugging", "Ablauf des Setups" ],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 8,
+          "Firmen": 5 }
+     ]
+   },
+   { "TreffenNr": 155,
+     "Session":
+     [  { "SessionId": "15501",
+          "Caption": "NET-Applikationsstruktur und Unit-Tests mit Hilfe eines Mocking Frameworks",
+          "Summary": "...",
+          "Items": [ "App-Struktur: Hauptprogramm, Model, Datenzugriff", "Unit-Tests für das Model", "Ersetzen des realen Datenzugriffs über ein Mocking-Framework" ],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 10,
+          "Firmen": 5 }
+     ]
+   },
+   { "TreffenNr": 154,
+     "Session":
+     [  { "SessionId": "15401",
+          "Caption": "Asynchrones Programmieren",
+          "Summary": "...",
+          "Items": [],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 7,
+          "Firmen": 4 },
+		{ "SessionId": "15402",
+          "Caption": "Bericht von Infotag: Was bringt .NET 4.5, Visual Studio 2012 u. Windows 8?",
+          "Summary": "...",
+          "Items": [],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 7,
+          "Firmen": 4 }          
+     ]
+   },
+   { "TreffenNr": 153,
+     "Session":
+     [  { "SessionId": "15301",
+          "Caption": "Visual Studio LightSwitch Teil II: Codieren",
+          "Summary": "...",
+          "Items": [ "Projekt-Strukturen, Code-Standorte", "Projekt-Elemente, die mit eigenem Code erweitert werden können", "Standardmäßig vorgehaltene Methoden-Typen für eigene Code-Erweiterungen" ],
+          "Link": "",
+          "Speaker": "Hermann",
+          "Leute": 5,
+          "Firmen": 4 }
+     ]
+   },
+   { "TreffenNr": 152,
+     "Session":
+     [  { "SessionId": "15201",
+          "Caption": "BASTA! Spring 2012",
+          "Summary": "...",
+          "Items": [ "Windows 8 Strukturen", "Überblick über ausgewählte Sessions" ],
+          "Link": "",
+          "Speaker": "Hermann",
+          "Leute": 7,
+          "Firmen": 4 }
+     ]
+   },
+   { "TreffenNr": 151,
+     "Session":
+     [  { "SessionId": "15101",
+          "Caption": "Visual Studio LightSwitch",
+          "Summary": "DummySummary",
+          "Items": [ "Überblick über LightSwitch-Struktur und -Funktionalitäten", "Das \"Zusammenklicken\" einer ersten Applikation" ],
+          "Link": "",
+         "Speaker": "Hermann",
+          "Leute": 8,
+          "Firmen": 4 }
+     ]
+   },
+   { "TreffenNr": 150,
+     "Session":
+     [  { "SessionId": "15001",
+          "Caption": "Industrie-Terminal-Programmierung IND560 mit C# im Visual Studio",
+          "Summary": "...",
+          "Items": [ "Einkomponentendosierung", "Steuerung über digitale Ausgänge oder Profibus" ],
+          "Link": "",
+          "Speaker": "Andreas",
+          "Leute": 8,
+          "Firmen": 6 },
+        { "SessionId": "15002",
+          "Caption": "Konferenz Ticket Verlosung",
+          "Summary": "(teilnahmeberechtigt sind alle Mitglieder der Usergroup mit mindestens einer Teilnahme vor diesem Termin)",
+          "Items": [ "BASTA Spring 2012" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 8,
+          "Firmen": 6 }
+     ]
+   },
+
+   { "TreffenNr": 149,
+     "Session":
+     [  { "SessionId": "14901",
+          "Caption": "Weihnachtsessen",
+          "Summary": "...",
+          "Items": [ "Brühe", "Gänsebraten mit Knödel und Rotkraut", "Eis" ],
+          "Link": "",
+          "Speaker": "Frau B.",
+          "Leute": 9,
+          "Firmen": 5 },
+        { "SessionId": "14902",
+          "Caption": "Kegeln",
+          "Summary": "...",
+          "Items": [ "In die Vollen", "Tannenbaum", "Hausnrn." ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 9,
+          "Firmen": 5 }
+     ]
+   },
+
+   { "TreffenNr": 148,
+     "Session":
+     [  { "SessionId": "14801",
+          "Caption": "Was bringen .NET und WPF dem Kunden? User Experience am Beispiel von SPC@Enterprise.",
+          "Summary": "...",
+          "Items": [ "Rückblick auf die Projekt-Anforderungen und Design-Entwürfe", "WPF lässt eine 1:1 Umsetzung der Design-Entwürfe zu", "Gute Übertragbarkeit und Weiterentwicklung des \"Basis\"-Designs", "XAML-Code Beispiele" ],
+          "Link": "",
+          "Speaker": "Martin R.",
+          "Leute": 8,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 147,
+     "Session":
+     [  { "SessionId": "14701",
+          "Caption": "Bericht von der BASTA 2011 Mainz ",
+          "Summary": "...",
+          "Items": [ "Keynote zur Build 2011", "WinRT und Metro-Style", "Themen-Überblick der besuchten Sessions" ],
+          "Link": "",
+          "Speaker": "Michael",
+          "Leute": 6,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 146,
+     "Session":
+     [  { "SessionId": "14601",
+          "Caption": "Überblick zu PRISM 4.0",
+          "Summary": "Prism bietet Unterstützung umfangreiche, flexible und einfach zu bedienende WPF- (Windows Presentation Foundation), Silverlight-, RIA- (Rich Internet Applications) und Windows-Mobile-7-Anwendungen zu planen und zu erstellen.",
+          "Items": [ "Vorstellung der Prism-Grundidee und -Struktur", "Basis-Klassen (Shell-Framework) für die Application Shell", "Basis-Klassen (Modul-Framework) für Application-Service-Module", "Modulweises Application-Development am praktischen Beispiel", "Beipiel einer mit Prism erzeugten komplexen Applikation" ],
+          "Link": "",
+          "Speaker": "Jürgen G.",
+          "Leute": 6,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 145,
+     "Session":
+     [  { "SessionId": "14501",
+          "Caption": "CSLA - Component-based Scalable Logical Architecture",
+          "Summary": "...",
+          "Items": [ "Vorstellung der CSLA-Dokumentation", "Layer-Struktur und CSLA Grund-Prinzipien (EIN Business-Object)", "Konkretes Code-Beispiel einer App auf CSLA Basis", "Buch: Rockford Lhotka, Expert C# 2008 Business Objects, ISBN: 978-1430210191" ],
+          "Link": "",
+          "Speaker": "Jürgen G.",
+          "Leute": 5,
+          "Firmen": 5 }
+     ]
+   },
+
+   { "TreffenNr": 144,
+     "Session":
+     [  { "SessionId": "14401",
+          "Caption": "Workshop zu Model View ViewModel",
+          "Summary": "...",
+          "Items": [ "Kommunikation zwischen VIEW und ModelView", "Implementierung der View Logic", "Testen des Views durch ModelView-Unit-Tests" ],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 7,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 143,
+     "Session":
+     [  { "SessionId": "14301",
+          "Caption": "Begriffe zu Prism 4",
+          "Summary": "...",
+          "Items": [ "Windows Presentation Foundation", "Model View ViewModel", "DataBinding" ],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 6,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 142,
+     "Session":
+     [  { "SessionId": "14201",
+          "Caption": "Unity - ein Dependency Injection Container",
+          "Summary": "...",
+          "Items": [ "Grundidee Unabhängigkeit", "Abhänigkeiten zenralisiert", "Konkreter Nutzen bei Unit-Tests" ],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 6,
+          "Firmen": 3 },
+        { "SessionId": "14202",
+          "Caption": "Konferenz Ticket Verlosung",
+          "Summary": "(teilnahmeberechtigt sind alle Mitglieder der Usergroup mit mindestens einer Teilnahme vor diesem Termin)",
+          "Items": [ "BASTA Autum 2011" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 6,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 141,
+     "Session":
+     [  { "SessionId": "14101",
+          "Caption": "C#-WorkShop Session",
+          "Summary": "...",
+          "Items": [ "Win Forms Datenbank-Konnektierung an Tabellen ohne Primary Key" ],
+          "Link": "",
+          "Speaker": "Jürgen G.",
+          "Leute": 6,
+          "Firmen": 3 },
+        { "SessionId": "14102",
+          "Caption": "Apple iPad 2",
+          "Summary": "...",
+          "Items": [ "Erfahrungsbericht", "Gerätevorführung" ],
+          "Link": "",
+          "Speaker": "Andreas",
+          "Leute": 6,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 140,
+     "Session":
+     [  { "SessionId": "14001",
+          "Caption": "Veranstaltungsberichte",
+          "Summary": "...",
+          "Items": [ "Bericht BASTA Spring 2011", "Bericht CeBIT 2011" ],
+          "Link": "",
+          "Speaker": "Jürgen G.",
+          "Leute": 5,
+          "Firmen": 3 },
+        { "SessionId": "14002",
+          "Caption": "Diskussion",
+          "Summary": "...",
+          "Items": [ "MS Cloud, Azure, SQL Azure", "Tethering: Mobiler Hot Spot mit Android 2.2 Smartphone", "Selbstdefinierte Event in Win Forms" ],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 5,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 139,
+     "Session":
+     [  { "SessionId": "13901",
+          "Caption": "Klönen, Schnacken und Schnuddeln",
+          "Summary": "...",
+          "Items": [ ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 9,
+          "Firmen": 5 }
+     ]
+   },
+
+   { "TreffenNr": 138,
+     "Session":
+     [  { "SessionId": "13801",
+          "Caption": "ClickOnce und der integrierte VS-Install-Maker",
+          "Summary": "...",
+          "Items": [ ],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 6,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 137,
+     "Session":
+     [  { "SessionId": "13701",
+          "Caption": "Weihnachtsessen",
+          "Summary": "...",
+          "Items": [ "Brühe", "Gänsebraten mit Knödel und Rotkraut", "Eis" ],
+          "Link": "",
+          "Speaker": "Frau B.",
+          "Leute": 9,
+          "Firmen": 5 },
+        { "SessionId": "13702",
+          "Caption": "Kegeln",
+          "Summary": "...",
+          "Items": [ "In die Vollen", "Tannenbaum", "Hausnrn." ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 9,
+          "Firmen": 5 }
+     ]
+   },
+
+   { "TreffenNr": 136,
+     "Session":
+     [  { "SessionId": "13601",
+          "Caption": "MS Team Foundation Server",
+          "Summary": "...",
+          "Items": [ "Neue Strategien des TFS", "Build Engine" ],
+          "Link": "",
+          "Speaker": "Alexander",
+          "Leute": 10,
+          "Firmen": 5 }
+     ]
+   },
+
+   { "TreffenNr": 135,
+     "Session":
+     [  { "SessionId": "13501",
+          "Caption": "BASTA Herst 2010, Themenüberblick und Impressionen",
+          "Summary": "...",
+          "Items": [ ".NET 4.0", "Silverlight", "Cloud", "Windows Azure", "3. Party-Produkte", "Verteilung von Info-Material" ],
+          "Link": "",
+          "Speaker": "Rudi, Bernd, Alexander, Andreas",
+          "Leute": 7,
+          "Firmen": 4 },
+        { "SessionId": "13502",
+          "Caption": "ASP.NET (Active Server Pages)",
+          "Summary": "...",
+          "Items": [ ".NET 4.0", "Serverseitige Programmierung", "Webservices" ],
+          "Link": "",
+          "Speaker": "Rudi, Bernd, Alexander, Andreas",
+          "Leute": 7,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 134,
+     "Session":
+     [  { "SessionId": "13401",
+          "Caption": "Microsoft ASP.NET (Teil 1)",
+          "Summary": "Einführung, Grundlagen, Möglichkeiten",
+          "Items": [ "Client-Umgebung", "Server-Umgebung", "ASP.NET in Visual Studio", "ASP.NET Controls (Beispiel Forms)", "Datenbankanbindung" ],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 6,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 133,
+     "Session":
+     [  { "SessionId": "13301",
+          "Caption": "Unit-Tests",
+          "Summary": ".Net-Themen aus der MCPD-Enterprise-Applications-Ausbildung",
+          "Items": [ "Unit-Tests mit VS2008 und NUnit - Theorie und Praxis" ],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 7,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 132,
+     "Session":
+     [  { "SessionId": "13201",
+          "Caption": "Interfaces, Reflection, PlugIns",
+          "Summary": ".Net-Themen aus der MCPD-Enterprise-Applications-Ausbildung",
+          "Items": [ "Verwendung von Interfaces, Reflection und PlugIns in .NET am Beispiel eines erweiterbaren Taschenrechners", "Microsoft Message Queues (MSMQ) am Beispiel zweier Applikationen, die miteinander kommunizieren" ],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 5,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 131,
+     "Session":
+     [  { "SessionId": "13101",
+          "Caption": "Multitasking mit .NET",
+          "Summary": ".Net-Themen aus der MCPD-Enterprise-Applications-Ausbildung",
+          "Items": [ "Multitasking Library", "Asynchrone Programmierung" ],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 10,
+          "Firmen": 5 },
+        { "SessionId": "13102",
+          "Caption": "Konferenz Ticket Verlosung",
+          "Summary": "(teilnahmeberechtigt sind alle Mitglieder der Usergroup mit mindestens einer Teilnahme vor diesem Termin)",
+          "Items": [ "BASTA vom 20.-24. September 2010" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 10,
+          "Firmen": 5 }
+     ]
+   },
+
+   { "TreffenNr": 130,
+     "Session":
+     [  { "SessionId": "13001",
+          "Caption": "Microsoft Certified Professional Developer",
+          "Summary": "...",
+          "Items": [ "Struktur der Kurse", "Bildungsinhalte MCPD Enterprise Applications (MCPD = Microsoft Certified Professional Developer)", "Prüfungsablauf" ],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 5,
+          "Firmen": 2 }
+     ]
+   },
+
+   { "TreffenNr": 129,
+     "Session":
+     [  { "SessionId": "12901",
+          "Caption": "Bericht von der BASTA",
+          "Summary": "...",
+          "Items": [ "Themenüberblick über die Sessions", "Visual Studio 2010 (Lizenz- u. Upgrade-Politik)", "Team Foundation Server" ],
+          "Link": "",
+          "Speaker": "Jürgen G.",
+          "Leute": 8,
+          "Firmen": 4 },
+        { "SessionId": "12902",
+          "Caption": "Hardware Vorstellung",
+          "Summary": "...",
+          "Items": [ "ACER Netbook" ],
+          "Link": "",
+          "Speaker": "Andreas",
+          "Leute": 8,
+          "Firmen": 4 },
+        { "SessionId": "12903",
+          "Caption": "Software Verlosung",
+          "Summary": "(teilnahmeberechtigt sind alle Mitglieder der Usergroup mit mindestens einer Teilnahme vor diesem Termin)",
+          "Items": [ "Windows 7 Ultimate", "Fast-Report Demo", "CLIP-Schal" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 8,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 128,
+     "Session":
+     [  { "SessionId": "12801",
+          "Caption": "Vorstellung Asus Netbook ",
+          "Summary": "...",
+          "Items": [ "Intel Atom N450", "250 GB HD, 2 GB RAM", "WIN 7 Starter" ],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 5,
+          "Firmen": 2 },
+        { "SessionId": "12802",
+          "Caption": "Vorstellung Mini Switch",
+          "Summary": "...",
+          "Items": [ ],
+          "Link": "",
+          "Speaker": "Martin R.",
+          "Leute": 5,
+          "Firmen": 2 }
+     ]
+   },
+
+   { "TreffenNr": 127,
+     "Session":
+     [  { "SessionId": "12701",
+          "Caption": "Einführung in das Content-Management-System Joomla (Part&nbsp;3/3)",
+          "Summary": "...",
+          "Items": [ "Einbindung eines Fremdtexteditors", "Benutzerverwaltung", "Datensicherung" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 8,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 126,
+     "Session":
+     [  { "SessionId": "12601",
+          "Caption": "Weihnachtsessen",
+          "Summary": "...",
+          "Items": [ "Brühe", "Gänsebraten mit Knödel und Rotkraut", "Eis" ],
+          "Link": "",
+          "Speaker": "Frau B.",
+          "Leute": 8,
+          "Firmen": 4 },
+        { "SessionId": "12602",
+          "Caption": "Kegeln",
+          "Summary": "...",
+          "Items": [ "In die Vollen", "Tannenbaum", "Hausnrn." ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 8,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 125,
+     "Session":
+     [  { "SessionId": "12501",
+          "Caption": "Clean Code Development",
+          "Summary": "...",
+          "Items": [ "Warum Clean Code Development?", "Überblick über die CCD-Grade (clean-code-developer.de)", "Literaturhinweis: Martin, Robert C., Clean Code, ISBN 978-3826655487" ],
+          "Link": "",
+          "Speaker": "Jürgen G.",
+          "Leute": 7,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 124,
+     "Session":
+     [  { "SessionId": "12401",
+          "Caption": "Einführung in das Content-Management-System Joomla (Part&nbsp;2/3)",
+          "Summary": "...",
+          "Items": [ "Seiten-Struktur", "Event-Kalender", "Beitragsgestaltung, Texte und Bilder", "Beitragsstrukturierung mittels Bereichen und Kategorien", "Bildergalerie MorfeoShow" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 11,
+          "Firmen": 5 },
+        { "SessionId": "12402",
+          "Caption": "Bericht von der BASTA September 2009",
+          "Summary": "...",
+          "Items": [ "Veranstaltungsüberblick", "Entity Framework v2", "Verlosung von BASTA-Mitbringseln"],
+          "Link": "",
+          "Speaker": "Hermann",
+          "Leute": 11,
+          "Firmen": 5 }
+     ]
+   },
+
+   { "TreffenNr": 123,
+     "Session":
+     [  { "SessionId": "12301",
+          "Caption": "Einführung in das Content-Management-System Joomla (Part&nbsp;1/3)",
+          "Summary": "...",
+          "Items": [ "Backend", "User-Verwaltung", "Content" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 8,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 122,
+     "Session":
+     [  { "SessionId": "12201",
+          "Caption": "Vorschau auf die Basta im September 2009",
+          "Summary": "...",
+          "Items": [ ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 7,
+          "Firmen": 4 },
+        { "SessionId": "12202",
+          "Caption": "Konferenz Ticket Verlosung",
+          "Summary": "(teilnahmeberechtigt sind alle Mitglieder der Usergroup mit mindestens einer Teilnahme vor diesem Termin)",
+          "Items": [ "BASTA Herbst 2009" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 7,
+          "Firmen": 4 }          
+     ]
+   },
+
+   { "TreffenNr": 121,
+     "Session":
+     [  { "SessionId": "12101",
+          "Caption": "Wikipedia (Part&nbsp;2/2)",
+          "Summary": "...",
+          "Items": [ "Artikel-Quell-Code", "Wikipedia-Namensraum \"WP\"" ],
+          "Link": "",
+          "Speaker": "Michael",
+          "Leute": 7,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 120,
+     "Session":
+     [  { "SessionId": "12001",
+          "Caption": "Wikipedia (Part&nbsp;1/2)",
+          "Summary": "...",
+          "Items": [ "Namensräume", "Meta-Ebenen" ],
+          "Link": "",
+          "Speaker": "Michael",
+          "Leute": 7,
+          "Firmen": 3 },
+        { "SessionId": "12002",
+          "Caption": "Windows Presentation Foundation",
+          "Summary": "...",
+          "Items": [ "Mit XAML ein \"Design-Storyboard\" zur realen GUI umsetzen."],
+          "Link": "",
+          "Speaker": "Martin R.",
+          "Leute": 7,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 119,
+     "Session":
+     [  { "SessionId": "11901",
+          "Caption": "Nützliche Tools für den Entwickleralltag ",
+          "Summary": "...",
+          "Items": [ "WinHTTrack: Websites offline bereitstellen", "Notepad++" ],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 5,
+          "Firmen": 2 }
+     ]
+   },
+
+   { "TreffenNr": 118,
+     "Session":
+     [  { "SessionId": "11801",
+          "Caption": "Einführungen in Xcase, Database Design Software ",
+          "Summary": "...",
+          "Items": [ "Abbildung einer Datenbank mit ihren Tabellen, Tabellenstrukturen und Metadaten", "Anbindung von Xcase an SQL-Server, um einen Datenbank-Modell zur realen Datendank umzusetzen", "Pflege von Datenbanken mit automatisch erzeugten Änderungsscripten", "Praktische Änderungsexperimente" ],
+          "Link": "",
+          "Speaker": "Hermann",
+          "Leute": 7,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 117,
+     "Session":
+     [  { "SessionId": "11701",
+          "Caption": "Nützliche Tools für dem Entwickleralltag",
+          "Summary": "...",
+          "Items": [ "MS Robocoby, scriptfähiges Kopier-Tool", "TreeSizeFree, Festplattenverwaltung", "Snagit, Screenshots und Screenmovies für Dokumentationen", "ExamDiff, Dateivergleich" ],
+          "Link": "",
+          "Speaker": "Bernd, Joachim und Michael",
+          "Leute": 6,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 116,
+     "Session":
+     [  { "SessionId": "11601",
+          "Caption": "Weihnachtsessen",
+          "Summary": "...",
+          "Items": [ "Brühe", "Gänsebraten mit Knödel und Rotkraut", "Eis" ],
+          "Link": "",
+          "Speaker": "Frau B.",
+          "Leute": 11,
+          "Firmen": 5 },
+        { "SessionId": "11602",
+          "Caption": "Kegeln",
+          "Summary": "...",
+          "Items": [ "In die Vollen", "Tannenbaum", "Hausnrn." ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 11,
+          "Firmen": 5 }
+     ]
+   },
+
+   { "TreffenNr": 115,
+     "Session":
+     [  { "SessionId": "11501",
+          "Caption": "Vorstellung zwei extrem verschiedener All-In-One Rechner",
+          "Summary": "...",
+          "Items": [ "Apple iMac, 11,5 kg, 24 Zoll, 1900 Pixel, 1 TB, Intel Core 2 Duo 3 GHz, 4 GB Ram, komplette Technik hinter der \"Frontscheibe\"", "HTC Touch Pro, 165 g, 2,8 Zoll, 640 Pixel, 8 GB, Qualcomm 528 MHz, 800 MB Ram, mit Quad-Band, WLAN, Bluetooth, GPS auf Win Mobile 6.1" ],
+          "Link": "",
+          "Speaker": "Andreas und Joachim",
+          "Leute": 7,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 114,
+     "Session":
+     [  { "SessionId": "11401",
+          "Caption": "Bericht von der BASTA 2008",
+          "Summary": "...",
+          "Items": [ "Power-Workshops waren klasse,", "Qualität der Sessions sehr verschieden,", "Einsatzquote von WPF in der Praxis scheint noch gering zu sein." ],
+          "Link": "",
+          "Speaker": "Stephan",
+          "Leute": 5,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 113,
+     "Session":
+     [  { "SessionId": "11301",
+          "Caption": "Einstieg in LINQ - Language INtegrated Query",
+          "Summary": "...",
+          "Items": [ "Datenquellen unabhängige Datenzugriffssprache", "seit .NET 3.5 und Visual Studio 2008", "LINQ ist ein Mapping-Tool", "LINQ-Spezifika: Typ Inferenz, Delegates, anonyme Methoden, Lambda Ausdrücke, ..." ],
+          "Link": "",
+          "Speaker": "Stephan",
+          "Leute": 6,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 112,
+     "Session":
+     [  { "SessionId": "11201",
+          "Caption": "Test-Strategie und ihre Vorraussetzungen",
+          "Summary": "...",
+          "Items": [ "Erstellung von Requirement Spezification,", "Use Case Spezification,", "Risikoanalyse etc." ],
+          "Link": "",
+          "Speaker": "Jürgen G.",
+          "Leute": 9,
+          "Firmen": 4 },
+        { "SessionId": "11202",
+          "Caption": "Konferenz Ticket Verlosung",
+          "Summary": "(teilnahmeberechtigt sind alle Mitglieder der Usergroup mit mindestens einer Teilnahme vor diesem Termin)",
+          "Items": [ "BASTA Herbst 2008" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 9,
+          "Firmen": 4 }               
+     ]
+   },
+
+   { "TreffenNr": 111,
+     "Session":
+     [  { "SessionId": "11101",
+          "Caption": "Berichte und Gespräche",
+          "Summary": "...",
+          "Items": [ "Hausinterne .net-Schulung", "RFID-Chips lesen und schreiben" ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 5,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 110,
+     "Session":
+     [  { "SessionId": "11001",
+          "Caption": "Windows Presentation Foundation, \"WPF\" (Part&nbsp;2)",
+          "Summary": "...",
+          "Items": [ "3-D Darstellungen (3D-ViewPort)", "Oberflächen-Design mit Expression Blend" ],
+          "Link": "",
+          "Speaker": "Martin R.",
+          "Leute": 7,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 109,
+     "Session":
+     [  { "SessionId": "10901",
+          "Caption": "Windows Presentation Foundation \"WPF\" (Part&nbsp;1)",
+          "Summary": "...",
+          "Items": [ ],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 7,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 108,
+     "Session":
+     [  { "SessionId": "10801",
+          "Caption": "Microsoft Product Launch",
+          "Summary": "...",
+          "Items": [ "Windows Server 2008", "SQL Server 2008", "Visual Studio 2008" ],
+          "Link": "",
+          "Speaker": "Jürgen G.",
+          "Leute": 6,
+          "Firmen": 3 },
+         { "SessionId": "10802",
+          "Caption": "BASTA Konferenz",
+          "Summary": "...",
+          "Items": [ ],
+          "Link": "",
+          "Speaker": "Jürgen G.",
+          "Leute": 6,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 107,
+     "Session":
+     [  { "SessionId": "10701",
+          "Caption": "Array- und String-Manipulationen in .Net",
+          "Summary": "...",
+          "Items": [ ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 7,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 106,
+     "Session":
+     [  { "SessionId": "10601",
+          "Caption": "Weihnachtsessen",
+          "Summary": "...",
+          "Items": [ "Brühe", "Gänsebraten mit Knödel und Rotkraut", "Eis" ],
+          "Link": "",
+          "Speaker": "Frau B.",
+          "Leute": 9,
+          "Firmen": 5 },
+        { "SessionId": "10602",
+          "Caption": "Kegeln",
+          "Summary": "...",
+          "Items": [ "In die Vollen", "Tannenbaum", "Hausnrn." ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 9,
+          "Firmen": 5 }
+     ]
+   },
+
+   { "TreffenNr": 105,
+     "Session":
+     [  { "SessionId": "10501",
+          "Caption": "Session der Vulcan.NET & Visual Objects Developer-Konferenz in München",
+          "Summary": "...",
+          "Items": [ "bBrowser 3: Mein Weg nach Vulcan.NET", "Anhand der Portierung des in Visual Objects 2.8 geschriebenen bBrowser 3 nach Vulcan.NET wird aufgezeigt, welche Besonderheiten bei dem neu entstanden Vulcan-Code in Visual Studio 2005 zu beachten sind und wie Fallstricke bei der Portierung erfolgreich umgangen werden können." ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 10,
+          "Firmen": 4 },
+        { "SessionId": "10502",
+          "Caption": "Bericht von der Vulcan.NET & Visual Objects Konferenz in München vom 6.-9.11.2007",
+          "Summary": "...",
+          "Items": [ ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 10,
+          "Firmen": 4 },
+        { "SessionId": "10503",
+          "Caption": "Bericht von der Xbase++ Konferenz in Berlin vom 13.-16.11.2007",
+          "Summary": "...",
+          "Items": [ ],
+          "Link": "",
+          "Speaker": "Michael",
+          "Leute": 10,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 104,
+     "Session":
+     [  { "SessionId": "10401",
+          "Caption": "Bericht von der BASTA",
+          "Summary": "...",
+          "Items": [ "Zwei Konferenzen in einer \".NET\", \"SQL\"", "Session-Themen und Trends (z.B. Windows Forms sollen auslaufen)", "neue Schlagworte in der Szene: \"linq\", \"WPF\"" ],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 9,
+          "Firmen": 5 }
+     ]
+   },
+
+   { "TreffenNr": 103,
+     "Session":
+     [  { "SessionId": "10301",
+          "Caption": "Laden und Speichern von typisierten DataSets mit ForeignKey-Abhängigkeiten unter Einsatz der Enterprise Library",
+          "Summary": "...",
+          "Items": [ "Struktur der Enterprise Library 3.0", "Strategien beim Zurückschreiben geänderter DataSets in eine Datenbank", "Vorstellung der Klassen zur Unterstützung des Rückschreibens" ],
+          "Link": "",
+          "Speaker": "Jürgen G.",
+          "Leute": 6,
+          "Firmen": 5 }
+     ]
+   },
+
+   { "TreffenNr": 102,
+     "Session":
+     [  { "SessionId": "10201",
+          "Caption": "Stored Procedures Part I: Basics beim Einsatz von Stored Procedures im MS SQL-Server",
+          "Summary": "...",
+          "Items": [ "Grundlegende Anforderungen (Kapselung der Datenbank, Unabhängigkeit von allgemeinen User-Rechten, Implementierung beim Kunden, Verteilung von Updates) und daraus resultierende Strategien.", "Stored Procedures zur Schaffung der Tabellen einer Datenbank (Implementierung beim Kunden).", "Stored Procedures zur Steuerung der User-Zugriffe auf die Daten.", "Programm- und Code-Beispiele.", "DataSetDesigner." ],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 5,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 101,
+     "Session":
+     [  { "SessionId": "10101",
+          "Caption": "SQL-Zugriff auf DBF-Datenbanken mittels ODBC",
+          "Summary": "...",
+          "Items": [ "Standard ODBC und OLE DB Treiber von WINXP erlauben SQL-Zugriff auf DBF (wenn man sie denn findet ;-) ).", "Beispiel VO MDI mit den Standard-SQL Klassen von VO auf DBF-Files.", "Beispiel SQL-Abfragen im DBA mit Ergebnissen im Browser.", "Visual Studio .NET 2005 Applikation, die mit SQL-Statements und \"Infragistics\" auf via OLE DB geöffneten DBFs arbeitet (Wow!)." ],
+          "Link": "",
+          "Speaker": "Martin R.",
+          "Leute": 4,
+          "Firmen": 2 }
+     ]
+   },
+
+   { "TreffenNr": 100,
+     "Session":
+     [  { "SessionId": "10001",
+          "Caption": "Highlights aus der Microsoft-Entwickler-Welt",
+          "Summary": "Mathias Raacke, Senior Student Partner im Student Program von Microsoft Deutschland berichtet.",
+          "Items": [ ".NET 3.0", "Windows Vista für Entwickler" ],
+          "Link": "",
+          "Speaker": "Mathias Raacke",
+          "Leute": 27,
+          "Firmen": 7 }
+     ]
+   },
+
+   { "TreffenNr": 99,
+     "Session":
+     [  { "SessionId": "09901",
+          "Caption": "Software-Validierungsprozess aus Hersteller- und Kundensicht",
+          "Summary": "...",
+          "Items": [ "Warum Software-Validierung? Z. B.: Die Software ist Bestandteil eines komplexen Systems, das als Ganzes zertifiziert werden soll.", "Genaue Verteilung aller im Entwicklungsprozess anfallenden Aufgaben unter den Beteiligten (Produkt-Owner, Applikation-Owner, Projekt-Owner, Test-Owner, ...).", "Protokollierung aller Entwicklungsschritte." ],
+          "Speaker": "Jürgen G.",
+          "Leute": 5,
+          "Firmen": 2 }
+     ]
+   },
+
+   { "TreffenNr": 98,
+     "Session":
+     [  { "SessionId": "09801",
+          "Caption": "Einführung in Unit Testing mit Visual Studio 2005 Team Edition for Developer",
+          "Summary": "Der Kundenwunsch nach Software-Validierung erfordert Komponententest. Aufwendige und häufig notwendige Testläufe werden mit programmierten Komponententest reproduzierbar und effizienter.",
+          "Items": [ "Warum Unit Testing?", "Visual Studio Feature \"Create Test Project\"", "Automatisch generierter Code der Testprojekte", "Testlaufprotokolle",  "Testdaten-Sets"],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 9,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 97,
+     "Session":
+     [  { "SessionId": "09701",
+          "Caption": "Reportgenerator List&Label (L&L) in VO einbinden",
+          "Summary": "...",
+          "Items": [ "Komponenten des Reportgenerators", "Ausgabeformate von L&L", "Schnittstellen-Klassen für die Übergabe von VO-Applikations-Tabellen und -Variablen an den L&L-Designer", "Schnittstellen-Klassen für den Druck aus VO-Applikationen mit L&L" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 6,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 96,
+     "Session":
+     [  { "SessionId": "09601",
+          "Caption": "Weihnachtsessen",
+          "Summary": "...",
+          "Items": [ "Brühe", "Gänsebraten mit Knödel und Rotkraut", "Eis" ],
+          "Link": "",
+          "Speaker": "Frau B.",
+          "Leute": 10,
+          "Firmen": 5 },
+        { "SessionId": "09602",
+          "Caption": "Kegeln",
+          "Summary": "...",
+          "Items": [ "In die Vollen", "Tannenbaum", "Hausnrn." ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 10,
+          "Firmen": 5 }
+     ]
+   },
+
+   { "TreffenNr": 95,
+     "Session":
+     [  { "SessionId": "09501",
+          "Caption": "Visual Objects 2.8 Status-Bericht",
+          "Summary": "Es wird keine weiteren VO 2.7 Builds mehr geben, die nächste VO-Edition ist VO 2.8",
+          "Items": [ "neuer Editor", "neuer Debugger", "erweiterte Settings", "überarbeitete Klassen" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 8,
+          "Firmen": 3 },
+        { "SessionId": "09502",
+          "Caption": "Vulcan.NET - Workshop",
+          "Summary": "...",
+          "Items": [ "vollständige Integration in Visual Studio 2005 (z.B. Editor, Debugger, ...)", "exemplarische Source-Code-Konvertierung einer kleinen VO-Application in eine Visual Studio Solution", "Vorstellung des Leistungsumfangs des von GraphX geplanten Konvertierungstools \"Transporter\"" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 8,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 94,
+     "Session":
+     [  { "SessionId": "09401",
+          "Caption": "PDAs und Datensicherheit",
+          "Summary": "...",
+          "Items": [ "Leistungsfähigkeit aktueller PDA, sinnvolle Features, Speichermedien von PDAs", "Kennwörterverwaltung mit: Password-Depot", "Sicherung von User-PCs: Image Software" ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 3,
+          "Firmen": 1 }
+     ]
+   },
+
+   { "TreffenNr": 93,
+     "Session":
+     [  { "SessionId": "09301",
+          "Caption": "MDReport",
+          "Summary": "...",
+          "Items": [ "Druckvorschauen mit dem Tool MDReport", "Ausgangsproblem: Druckvorschau, wenn die HBPrinter-Klasse  fehlt.", "Vorschau mit MDReport", "PDF-Erzeugung mit MDReport", "Bilder (.JPG, .BMP) in Reports einbinden", "Beispiele" ],
+          "Link": "",
+          "Speaker": "Dirk",
+          "Leute": 8,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 92,
+     "Session":
+     [  { "SessionId": "09201",
+          "Caption": "MS SQL 2005 Express",
+          "Summary": "...",
+          "Items": [ "SQL-Script zum seitenweise Blättern in einem Browser.", "SQL-Script zum Ermitteln unterschiedlicher Schlüsselwerte." ],
+          "Link": "",
+          "Speaker": "Martin R.",
+          "Leute": 5,
+          "Firmen": 2 }
+     ]
+   },
+
+   { "TreffenNr": 91,
+     "Session":
+     [  { "SessionId": "09101",
+          "Caption": "Internationalisierung von dotNET-Anwendungen - The Microsoft way",
+          "Summary": "...",
+          "Items": [ ],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 6,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 90,
+     "Session":
+     [  { "SessionId": "09001",
+          "Caption": "Überblick über Vulcan.NET und VulcanIDE 0.46 beta",
+          "Summary": "...",
+          "Items": [ "Vorstellung der Vulcan IDE", "Portierungsbeispiel von VO 2.7 nach Vulcan.NET" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 6,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 89,
+     "Session":
+     [  { "SessionId": "08901",
+          "Caption": "Überblick über .NET und Visual Studio",
+          "Summary": "...",
+          "Items": [ "Vorstellung von Literatur und Web-Sites zum Thema (Bücher, Zeitschriften, Webadressen)", "Strukturen von Visual Studio \"Solutions\" und \"Projects\"", "Beispiel \"Form\" mit dynamischen Controls, Datasets und verschiedenen \"Grid\"-Varianten." ],
+          "Link": "",
+          "Speaker": "Jürgen G.",
+          "Leute": 10,
+          "Firmen": 4 },
+		{ "SessionId": "08902",
+          "Caption": "Kurzbericht aus Karlsruhe vom Visual Studio 2005 Launch - Germany",
+          "Summary": "...",
+          "Items": [ ],
+          "Link": "",
+          "Speaker": "Michael",
+          "Leute": 10,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 88,
+     "Session":
+     [  { "SessionId": "08801",
+          "Caption": "Vorstellung einer Memory-Array-Klasse im statischen Speicher (als Alternative zu den vorhandenen Arrays)",
+          "Summary": "...",
+          "Items": [ "Schneller bei großen Datenmengen", "Nicht so speicherintensiv", "Schnelle Elementsuche" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 5,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 87,
+     "Session":
+     [  { "SessionId": "08701",
+          "Caption": "Weihnachtsessen",
+          "Summary": "...",
+          "Items": [ "Brühe", "Gänsebraten mit Knödel und Rotkraut", "Eis" ],
+          "Link": "",
+          "Speaker": "Frau B.",
+          "Leute": 9,
+          "Firmen": 4 },
+        { "SessionId": "08702",
+          "Caption": "Kegeln",
+          "Summary": "...",
+          "Items": [ "In die Vollen", "Tannenbaum", "Hausnrn." ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 9,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 86,
+     "Session":
+     [  { "SessionId": "08601",
+          "Caption": "VO 2.7: Problemlösung für nicht zerstörte Menü-Objekte.",
+          "Summary": "...",
+          "Items": [  ],
+          "Link": "",
+          "Speaker": "Dirk",
+          "Leute": 4,
+          "Firmen": 2 }
+     ]
+   },
+
+   { "TreffenNr": 85,
+     "Session":
+     [   { "SessionId": "08501",
+          "Caption": "Beispiele und Tests zum VO-Verhalten",
+          "Summary": "...",
+          "Items": [ "Variablen-Übergabe verschiedener Variablen-Typen" ],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 9,
+          "Firmen": 4 },
+        { "SessionId": "08502",
+          "Caption": "Blick über den VO-Zaun - objekt-orientierte Programmierung unter Java",
+          "Summary": "...",
+          "Items": [ "Klassen", "Vererbung", "Fehlerhandling" ],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 9,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 84,
+     "Session":
+     [  { "SessionId": "08401",
+          "Caption": "bBrowser 2",
+          "Summary": "...",
+          "Items": [ "Überblick über die neuen Funktionen" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 8,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 83,
+     "Session":
+     [  { "SessionId": "08301",
+          "Caption": "Skalieren von VO Programm-Fenstern",
+          "Summary": "...",
+          "Items": [ "Implementierung einer abstrakten Zoom-Klasse", "Ableitung der klassischen Fenster-Klassen zu Zoom-Fenster-Klassen", "Wirkungsweise an einem Beispiel", "Integration in vorhandene \"Fix\"-Fenster-Applikationen" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 8,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 82,
+     "Session":
+     [  { "SessionId": "08201",
+          "Caption": "Microsoft .NET Präsentationen eines MS-Workshop",
+          "Summary": "...",
+          "Items": [ ".NET Kompomenten", ".NET Strategien", ".NET Datenbank-Applikationen" ],
+          "Link": "",
+          "Speaker": "Andreas",
+          "Leute": 4,
+          "Firmen": 2 }
+     ]
+   },
+
+   { "TreffenNr": 81,
+     "Session":
+     [  { "SessionId": "08101",
+          "Caption": "VO.NET pre-Alpha-release",
+          "Summary": "...",
+          "Items": [ "Was kann VO.NET bis jetzt (what works)?", "What Doesn't Work?", "What never works?", "Beispiel-Programme mit Zugriff auf das DotNet-Framework" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 9,
+          "Firmen": 3 },
+		{ "SessionId": "08102",
+          "Caption": "Wir orientieren uns in Richtung INETA",
+          "Summary": "...",
+          "Items": [ "Zwei Group-Mitglieder nehmen Kontakt zur INETA bzgl. Registrierung auf", "Namensidee: DevGroup Göttingen-Kassel" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 9,
+          "Firmen": 3 }
+          
+     ]
+   },
+
+   { "TreffenNr": 80,
+     "Session":
+     [  { "SessionId": "08001",
+          "Caption": "Von Basta und SOA",
+          "Summary": "...",
+          "Items": [ "Bericht von der Basta 14.-17.2.2005", "Test der VO-Funktion \"round( -1.5, 0)\"", "MSDN Magazine", "SOA, Service Oriented Architecture",  "Schnelle Einigung zu einer Grundsatzfrage:<br>Wir wollen uns in Zukunft für andere Software-Entwicklungstools und -Entwickler öffnen und das auch mit unserem Usergroup-Namen und Themen dokumentieren." ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 6,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 79,
+     "Session":
+     [  { "SessionId": "07901",
+          "Caption": "Microsoft .NET Einblicke aus VO-Sicht",
+          "Summary": "...",
+          "Items": [ ".NET Tools", "Tipps", "Entwickeln einer Mini-Applikation in Visual Studio Dot Net" ],
+          "Link": "",
+          "Speaker": "Jürgen G.",
+          "Leute": 12,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 78,
+     "Session":
+     [  { "SessionId": "07801",
+          "Caption": "Weihnachtsessen",
+          "Summary": "...",
+          "Items": [ "Brühe", "Gänsebraten mit Knödel und Rotkraut", "Eis" ],
+          "Link": "",
+          "Speaker": "Frau B.",
+          "Leute": 12,
+          "Firmen": 4 },
+        { "SessionId": "07802",
+          "Caption": "Kegeln",
+          "Summary": "...",
+          "Items": [ "In die Vollen", "Tannenbaum", "Hausnrn." ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 12,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 77,
+     "Session":
+     [  { "SessionId": "07701",
+          "Caption": "VO-Neuigkeiten",
+          "Summary": "...",
+          "Items": [ "Bericht von der DevCon aus Hersbrück", "Newsletter von GrafX mit der Vorstellung der VO Platinum-Subscription" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 8,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 76,
+     "Session":
+     [  { "SessionId": "07601",
+          "Caption": "Developers Philosophien",
+          "Summary": "...",
+          "Items": [ "Aktuelle Strategien bei der Software-Entwicklung" ],
+          "Link": "",
+          "Speaker": "Fru",
+          "Leute": 8,
+          "Firmen": 4 },
+        { "SessionId": "07602",
+          "Caption": "Vorstellung des Überraschungsgasts und VO-Profis Fru Ndenge",
+          "Summary": "...",
+          "Items": [ "Bis zur Überlassung von VO an GrafX war Fru bei CA für den VO-Compiler zuständig" ],
+          "Link": "",
+          "Speaker": "Jürgen G.",
+          "Leute": 8,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 75,
+     "Session":
+     [  { "SessionId": "07501",
+          "Caption": "Haken und Ösen bei TCP/IP",
+          "Summary": "...",
+          "Items": [ "Überblick zum Kommunikations Schichtenmodell", "Serverdienst, der per TCP/IP von Clients Messdaten empfängt (als VO-Klasse)" ],
+          "Link": "",
+          "Speaker": "Martin R.",
+          "Leute": 6,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 74,
+     "Session":
+     [  { "SessionId": "07401",
+          "Caption": "Der NEUE bBrowser 2",
+          "Summary": "...",
+          "Items": [ "Unterstützung von RTF-Werten", "Unterstützung eines Titelbereiches", "Synchronisation mehrerer Browser mit der Klasse bBrowserCollection", "..." ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 5,
+          "Firmen": 2 }
+     ]
+   },
+
+   { "TreffenNr": 73,
+     "Session":
+     [  { "SessionId": "07301",
+          "Caption": "bBrowser Praxis",
+          "Summary": "...",
+          "Items": [ "Auswirkung des Schalters bBrowser:RowMode auf die Geschwindigkeit", "Problematik: CreateIndex(), Reindex() unter exklusivem oder shared-Zugriff" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 5,
+          "Firmen": 2 }
+     ]
+   },
+
+   { "TreffenNr": 72,
+     "Session":
+     [  { "SessionId": "07201",
+          "Caption": "Vorstellung VO 2.7a",
+          "Summary": "...",
+          "Items": [ "Überblick über neue Features", "Überblick über die Bug-Fixes", "Überblick über die Compiler-Schalter", "repoSCRIPT für VO 2.7a" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 9,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 71,
+     "Session":
+     [  { "SessionId": "07101",
+          "Caption": "Erstellen von Windows-Hilfe-Dateien mit Help & Manual",
+          "Summary": "...",
+          "Items": [ "Help & Manual Software Preis 299,- US$ (inkl. 12 Monate kostenlose Updates)", "Aktuelle Version 3.4", "Import-Formate: .HPJ, .HLP, .CHM, .RTF (MS Variante)", "Ausgabe-Formate: Adobe PDF, Browser Based Help, HTML Help (.CHM), WinHelp (.HLP), eBook", "Vorstellung der Features und integrierten Tools" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 9,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 70,
+     "Session":
+     [  { "SessionId": "07001",
+          "Caption": "Vergleich der als Freeware zugänglichen Developer-Komponenten von Java und C#",
+          "Summary": "Wichtige Komponenten der Entwicklungsumgebung werden kurz vorgestellt und verglichen",
+          "Items": [ "IDE", "Compiler", "Dokumentation" ],
+          "Link": "",
+          "Speaker": "Bernd",
+          "Leute": 11,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 69,
+     "Session":
+     [  { "SessionId": "06901",
+          "Caption": "Vorstellung der VO 2.7 Final-BETA Version",
+          "Summary": "...",
+          "Items": [  ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 9,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 68,
+     "Session":
+     [  { "SessionId": "06801",
+          "Caption": "Weihnachtsessen",
+          "Summary": "...",
+          "Items": [ "Brühe", "Gänsebraten mit Knödel und Rotkraut", "Eis" ],
+          "Link": "",
+          "Speaker": "Frau B.",
+          "Leute": 10,
+          "Firmen": 4 },
+        { "SessionId": "06802",
+          "Caption": "Kegeln",
+          "Summary": "...",
+          "Items": [ "In die Vollen", "Tannenbaum", "Hausnrn." ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 10,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 67,
+     "Session":
+     [  { "SessionId": "06701",
+          "Caption": "Nachlese zur DevCon 2003",
+          "Summary": "...",
+          "Items": [ "Entwicklungsstand und Folge-Versionen von VO 2.7", "Struktur-Änderungen in der VOCA" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 10,
+          "Firmen": 4 },
+        { "SessionId": "06702",
+          "Caption": "Erste Hilfe am Arbeitsplatz (am kollabierenden Software-Entwickler) Lektion 1",
+          "Summary": "...",
+          "Items": [ "Wiederbelebung bei Atemstillstand in DEBUG-Sessions.", "Herzmassage beim Kunden-Installationseinsatz.",
+                     "<img border=\"0\" src=\"images/t067_debug-rescue-lesson01.jpg\" width=\"300\" height=\"400\"><p>Zur besseren Ansprache der Hilfeinstinkte wird am Modell einer kollabierenden Kollegin geübt!</p><p><img border=\"0\" src=\"images/t067_debug-rescue-lesson02.jpg\" width=\"400\" height=\"300\"></p><p>Dem häufigsten Krankheitsbild in der Software-Entwicklung - Atemstillstand in der Debug-Session - wird ab sofort aktiv begegnet. Wenn es die Kollegin / den Kollegen während der Debug-Session bewusstlos vom Stuhl wirft, muss sofort beatmet werden, um bleibende Hirnschäden zu vermeiden. So ist es richtig!</p><p><img border=\"0\" src=\"images/t067_debug-rescue-lesson03.jpg\" width=\"300\" height=\"400\"></p><p>Herzstillstand bei Problemen während der Installation beim Kunden gilt in Zukunft nicht mehr als Abbruchkriterium für den Kundenbesuch. Die Kollegen öffnen beherzt die Kleidung, suchen den Herzmassagedruckpunkt zwei Fingerbreit über dem Brustbeinende und setzen sofort mit der Herzmassage ein. So ist es richtig!</p>" ],
+          "Link": "",
+          "Speaker": "Dirk",
+          "Leute": 10,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 66,
+     "Session":
+     [  { "SessionId": "06601",
+          "Caption": "Programmierung von \"Wizards\" in VO-Programmen",
+          "Summary": "...",
+          "Items": [ "Vorstellung der Klassenbibliothek \"bWizard Classes\"", "bWizard", "bWizardPage", "bWizardPageInfo", "Beipiel: Anwendung der Klasse anhand eines Assistenten für den Datenexport." ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 9,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 65,
+     "Session":
+     [  { "SessionId": "06501",
+          "Caption": "Mehrsprachfähigkeit von VO-Programmen",
+          "Summary": "Bericht über eine neue Lösungsidee bei Fa. Sartorius",
+          "Items": [ "Externe Tabelle für Sprach-Versionsverwaltung", "VO Tool zum Bearbeiten dieser Tabellen" ],
+          "Link": "",
+          "Speaker": "Martin R.",
+          "Leute": 9,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 64,
+     "Session":
+     [  { "SessionId": "06401",
+          "Caption": "Statusbericht zur BETA-Version von VO 2.7",
+          "Summary": "...",
+          "Items": [  ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 7,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 63,
+     "Session":
+     [  { "SessionId": "06301",
+          "Caption": "Bericht von der DevCon 2003 USA und neueste Entwicklungen bei VOCAGER",
+          "Summary": "...",
+          "Items": [ "Themen und Referenten der DevCon", "Stand der VO 2.7 Entwicklung", "Bilder der Veranstaltung und aus der Region", "neuer Geschäftsführer bei VOCAGER" ],
+          "Link": "",
+          "Speaker": "Jürgen G.",
+          "Leute": 9,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 62,
+     "Session":
+     [  { "SessionId": "06201",
+          "Caption": "DataWareHouse Technologie in der Praxis",
+          "Summary": "...",
+          "Items": [ "Bereitsstellung relevanter Daten eines operativen Systems auf xBase-Basis", "VO-Tool um xBase-Daten in einen SQL-Server zu importieren", "SQL-Tabellen-Strukturen für ein DataWareHouse", "MS Analysis-Server als OLAP-Cube-Editor und OLAP-Cube-Generator", "Analyse-Tools für die Cube-Nutzung (z. B. MS Excel)" ],
+          "Link": "",
+          "Speaker": "Uwe G.",
+          "Leute": 10,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 61,
+     "Session":
+     [  { "SessionId": "06101",
+          "Caption": "Usergroup Application- and Tool-Show Part 4 (BEFO Data Dictionary)",
+          "Summary": "...",
+          "Items": [ "Verwaltung der Datenbanken", "Verwaltung der Feldzugriffe", "Verwaltung der Hilfen u. 'on-the-fly-Erfassung'", "Verwaltung von system-globalen Variablen" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 9,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 60,
+     "Session":
+     [  { "SessionId": "06001",
+          "Caption": "Usergroup Application- and Tool-Show Part 3 (GBS Versionskontrolle mit CVS unter VO)",
+          "Summary": "...",
+          "Items": [ "IGLOO das Add-On für den Einsatz von Concurrent Versions System (auch unter VO)", "CVS als Open-Source-Projekt", "Verbindung zum CVS-System auch über HTTP-Port möglich.", "Wichtige Features im Vergleich zu Visual Source Safe." ],
+          "Link": "",
+          "Speaker": "Jürgen G.",
+          "Leute": 8,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 59,
+     "Session":
+     [  { "SessionId": "05901",
+          "Caption": "Usergroup Application-Show Part 2 (Sartorius Process Control SPC)",
+          "Summary": "...",
+          "Items": [ "Präsentation der Software-Entwicklung seit den frühen 1980ern bei Sartorius durch den Produktmanager.", "Aktueller Stand der SPCfWin.", "Füllmengenüberwachung von Groß-Silo-Anlagen." ],
+          "Link": "",
+          "Speaker": "Martin R.",
+          "Leute": 10,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 58,
+     "Session":
+     [  { "SessionId": "05801",
+          "Caption": "Vorstellung der aktuellen Änderungen in der neuesten bBrowser-Version 1.5",
+          "Summary": "...",
+          "Items": [  ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 7,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 57,
+     "Session":
+     [  { "SessionId": "05701",
+          "Caption": "Erfahrungsaustausch über aktuelle Projekte in den einzelnen Firmen",
+          "Summary": "...",
+          "Items": [  ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 7,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 56,
+     "Session":
+     [  { "SessionId": "05601",
+          "Caption": "Weihnachtsessen",
+          "Summary": "...",
+          "Items": [ "Brühe", "Gänsebraten mit Knödel und Rotkraut", "Eis" ],
+          "Link": "",
+          "Speaker": "Frau B.",
+          "Leute": 12,
+          "Firmen": 4 },
+        { "SessionId": "05602",
+          "Caption": "Die Teilnehmer führten digitale Gimmiks vor",
+          "Summary": "...",
+          "Items": [  ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 12,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 55,
+     "Session":
+     [  { "SessionId": "05501",
+          "Caption": "Verschiedene Themen in lockerer Runde",
+          "Summary": "...",
+          "Items": [ "DevCon-Nachlese, graphXsoft und Brian Feldman.", "Wo wird VO 2.6 aufhören und wie weit geht CULE.NET.", "Screensaver mit VO 2.6.", "Geschwindigkeitsproblem auf MS-Server bei shared Zugriffen auf DBF-Dateien." ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 11,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 54,
+     "Session":
+     [  { "SessionId": "05401",
+          "Caption": "Usergroup Application-Show Part 1 (promed, Praxis-Verwaltung für neurologische Facharztpraxen)",
+          "Summary": "...",
+          "Items": [ "Patienten-Kartei", "Textsystem und -Verwaltung für Befunde", "Digitalisierung der kompletten Krankenunterlagen" ],
+          "Link": "",
+          "Speaker": "Rainer",
+          "Leute": 6,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 53,
+     "Session":
+     [  { "SessionId": "05301",
+          "Caption": "VO ADS-Sql-Klasse",
+          "Summary": "...",
+          "Items": [ "Vorzüge von SQL Abfragen.", "Auf DBF-Files mit SQL-Statements zugreifen.", "Lesetipp: Do IT Yourself, SQL, IT-Tutorial; Forrest Houlette; mitp-Verlag; ISBN 3-8266-0817-8" ],
+          "Link": "",
+          "Speaker": "Jürgen G.",
+          "Leute": 11,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 52,
+     "Session":
+     [  { "SessionId": "05201",
+          "Caption": "BETA-Version zu VO 2.6",
+          "Summary": "...",
+          "Items": [ "Welche neuen Software-Tools gibt es?", "Welche Fehler sind behoben?", "Sammlung selbsterkannter Bugs aus 2.5. Bugs, die in der 2.6 Beta noch nicht beseitigt wurden, haben noch eine gute Chance auf Bearbeitung, wenn sie Graphx mitgeteilt werden.", "Nebenbei ergaben sich in Abhängigkeit der Compiler-Application-Options zur \"Clipper Compatibility\" interessante Erkenntnisse zum Umgang von VO mit dem \"floaten\" von Ergebnissen aus Integer-Operationen." ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 10,
+          "Firmen": 4 }
+     ]
+   },
+
+   { "TreffenNr": 51,
+     "Session":
+     [  { "SessionId": "05101",
+          "Caption": "Kommunikation zwischen VO und einer Telefonanlage per TAPI-Schnittstelle",
+          "Summary": "...",
+          "Items": [ "Voraussetzungen für Telefonanlagen - PC-Kommunikation,", "TAPI-Befehle", "VO-Beispiel-Code zur Nutzung der TAPI-Schnittstelle,", "Demonstration des Programmablaufs im Debug-Modus." ],
+          "Link": "",
+          "Speaker": "Stefan",
+          "Leute": 8,
+          "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 50,
+     "Session":
+     [  { "SessionId": "05001",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 49,
+     "Session":
+     [  { "SessionId": "04901",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 48,
+     "Session":
+     [  { "SessionId": "04801",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 47,
+     "Session":
+     [  { "SessionId": "04701",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 46,
+     "Session":
+     [  { "SessionId": "04601",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 45,
+     "Session":
+     [  { "SessionId": "04501",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 44,
+     "Session":
+     [  { "SessionId": "04401",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 43,
+     "Session":
+     [  { "SessionId": "04301",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 42,
+     "Session":
+     [  { "SessionId": "04201",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 41,
+     "Session":
+     [  { "SessionId": "04101",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 40,
+     "Session":
+     [  { "SessionId": "04001",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 39,
+     "Session":
+     [  { "SessionId": "03901",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 38,
+     "Session":
+     [  { "SessionId": "03801",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 37,
+     "Session":
+     [  { "SessionId": "03701",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 36,
+     "Session":
+     [  { "SessionId": "03601",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 35,
+     "Session":
+     [  { "SessionId": "03501",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 34,
+     "Session":
+     [  { "SessionId": "03401",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 33,
+     "Session":
+     [  { "SessionId": "03301",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 32,
+     "Session":
+     [  { "SessionId": "03201",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 31,
+     "Session":
+     [  { "SessionId": "03101",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 30,
+     "Session":
+     [  { "SessionId": "03001",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 29,
+     "Session":
+     [  { "SessionId": "02901",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 28,
+     "Session":
+     [  { "SessionId": "02801",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 27,
+     "Session":
+     [  { "SessionId": "02701",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 26,
+     "Session":
+     [  { "SessionId": "02601",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 25,
+     "Session":
+     [  { "SessionId": "02501",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 24,
+     "Session":
+     [  { "SessionId": "02401",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 23,
+     "Session":
+     [  { "SessionId": "02301",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 22,
+     "Session":
+     [  { "SessionId": "02201",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 21,
+     "Session":
+     [  { "SessionId": "02101",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 20,
+     "Session":
+     [  { "SessionId": "02001",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 19,
+     "Session":
+     [  { "SessionId": "01901",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 18,
+     "Session":
+     [  { "SessionId": "01801",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 17,
+     "Session":
+     [  { "SessionId": "01701",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 16,
+     "Session":
+     [  { "SessionId": "01601",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 15,
+     "Session":
+     [  { "SessionId": "01501",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 14,
+     "Session":
+     [  { "SessionId": "01401",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 13,
+     "Session":
+     [  { "SessionId": "01301",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 12,
+     "Session":
+     [  { "SessionId": "01201",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 11,
+     "Session":
+     [  { "SessionId": "01101",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 10,
+     "Session":
+     [  { "SessionId": "01001",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 9,
+     "Session":
+     [  { "SessionId": "00901",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 8,
+     "Session":
+     [  { "SessionId": "00801",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 7,
+     "Session":
+     [  { "SessionId": "00701",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 6,
+     "Session":
+     [  { "SessionId": "00601",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 5,
+     "Session":
+     [  { "SessionId": "00501",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 4,
+     "Session":
+     [  { "SessionId": "00401",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 3,
+     "Session":
+     [  { "SessionId": "00301",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 2,
+     "Session":
+     [  { "SessionId": "00201",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
+
+   { "TreffenNr": 1,
+     "Session":
+     [  { "SessionId": "00101",
+          "Caption": "DummyCaption",
+          "Summary": "DummySummary",
+          "Items": [ "Item1", "Item2", "Item3" ],
+          "Link": "",
+          "Speaker": "NN",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   }
+]
+}

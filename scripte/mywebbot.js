@@ -134,6 +134,10 @@ Access.prototype.executeIneta = function executeIneta() {
         case "ThemenListe":   // Meeting, Session
             this.ThemenListe(this.nAnzThemenListe);
             break;
+        case "NextLink": // Meeting, Session
+            this.Increment();
+            this.Link();
+            break;
         case "NextSpeaker": // Meeting, Session
             this.Increment();
             this.Speaker();
@@ -144,6 +148,9 @@ Access.prototype.executeIneta = function executeIneta() {
             break;
         case "Items":   // Meeting, Session       
             this.Items(this.nSNr);
+            break;
+        case "Link": // Meeting, Session
+            this.Link(this.nSNr);
             break;
         case "Speaker": // Meeting, Session
             this.Speaker(this.nSNr);
@@ -360,7 +367,7 @@ Access.prototype.SessionReport = function SessionReport(oSession) {
     var cHtml = '';
 
     cHtml += '<div>';
-	cHtml += '<b>' + oSession.Caption + '</b>';
+	cHtml += '<b>' + oSession.Caption + '</b>' + assembleMaterialLink(oSession.Link);
 	//cHtml += '<br />' + oSession.Summary;
 	if (oSession.Items.length>0) {
         cHtml += '<ul>' + assembleHtmlListFromArray(oSession.Items) + '</ul>';
@@ -383,6 +390,13 @@ Access.prototype.Items = function Items(nSessionNr) {
     this.Wert = assembleHtmlListFromArray(aItems);
 }
 
+Access.prototype.Link = function Link(nSessionNr) {
+    nSessionNr = checkVar(nSessionNr, "number", 1);
+    var oMeeting = new Meeting(this);
+    var cLink = oMeeting.Sessions[nSessionNr].Link; // <ENGINE />
+    this.Wert = cLink;
+}
+
 Access.prototype.Speaker = function Speaker(nSessionNr) {
     nSessionNr = checkVar(nSessionNr, "number", 1);
     var oMeeting = new Meeting(this);
@@ -393,8 +407,8 @@ Access.prototype.Speaker = function Speaker(nSessionNr) {
 Access.prototype.Summary = function Summary(nSessionNr) {
     nSessionNr = checkVar(nSessionNr, "number", 1);
     var oMeeting = new Meeting(this);
-    var cSpeaker = oMeeting.Sessions[nSessionNr].Summary; // <ENGINE />
-    this.Wert = cSpeaker;
+    var cSummary = oMeeting.Sessions[nSessionNr].Summary; // <ENGINE />
+    this.Wert = cSummary;
 }
 
 Access.prototype.Thema = function Thema(nSessionNr) {
@@ -426,14 +440,18 @@ Access.prototype.assembleThemenListe = function assembleThemenListe(nAnzahl) {
     nAnzahl = checkVar(nAnzahl, "number", this.nAnzThemenListe);
     var cListe = "";
     var cCaptionList;
+    var cLink;
+    var cARef;
     var oAccessI = this;
     var oMeeting = new Meeting(this);
     var nStartNr = oMeeting.TreffenNr - 1;
     for (var i = nStartNr; i > nStartNr - nAnzahl; i--) {
         oAccessI.Decrement();
         oMeeting = new Meeting(oAccessI);       // Datenobject zum Key 
-        cCaptionList = oMeeting.Sessions[1].Caption // <ENGINE />
-        cListe = cListe + '<li>' + i + ". " + cCaptionList + '</li>';
+        cCaptionList = oMeeting.Sessions[1].Caption; // <ENGINE />
+        cLink = oMeeting.Sessions[1].Link; // <ENGINE />
+        cARef = assembleMaterialLink(cLink);
+        cListe = cListe + '<li>' + i + ". " + cCaptionList + cARef + '</li>';
     }
     return cListe;
 }
@@ -540,6 +558,15 @@ function assembleAddressTag(cUrl, cText) {
     // setzt einen <a>-Tag zusammen
     var cAhref = '<a href="' + cUrl + '">' + cText + '</a>';
     return cAhref;
+}
+
+function assembleMaterialLink(cUrl) {
+    // setzt einen <a>-Tag zusammen
+    var cAHref = "";
+    if (cUrl != "") {
+        cAHref = ' (<a href="'+ cUrl + '" target="_blank">Material zur Session</a>)';   // ' (<a href="'+cLink+'" target="_blank">Material zur Session</a>)'
+    }
+    return cAHref;
 }
 
 function assembleTreffenLinkItem(nTreffenNr, cMainSessionCaption, cTermin) {

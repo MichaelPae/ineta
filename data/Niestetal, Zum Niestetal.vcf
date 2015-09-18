@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+CATEGORIES:VIP
+X-VIPCategory:Misc
+ADR;ENCODING=QUOTED-PRINTABLE:;;Niestetalstra=DFe 16;Niestetal;HE;34266;Germany
+TEL;WORK;VOICE:+49 (0561) 95226 - 0
+URL;WORK:www.landhotel-niestetal.de
+EMAIL;PREF;INTERNET:info@landhotel-niestetal.de
+X-NAVADDR:;;;;;;;;;
+GEO:51.310258;9.574603
+X-Flag:
+REV:20120922T165124z
+FN;ENCODING=QUOTED-PRINTABLE:Niestetal, Zum Niestetal
+UID:AddresBookPersistentProvider3
+END:VCARD

@@ -35,9 +35,7 @@ Hauptziele der Inetasite-Entwicklung (Stand 24.01.2015)
 
 Update-Protokoll
 ----------------
-Update-Schritte 22.08.2015 Sa
-- Property Session.Link implementieren (Link-Array mit Links zu Quellen)
-  JSON: (<a href=\"https://github.com/MichaelPae/PS-Pieces\" target=\"_blank\">GitHub</a>)
+Update-Schritte 18.09.2015 Fr
 - GitHub beherrschen lernen
 - GitHub MichaelPae aktualisieren
 - Ineta Web-Page als Lokales Git Repository einrichten
@@ -49,9 +47,16 @@ Update-Schritte 22.08.2015 Sa
 - Treffen Nr. 1-50 in JSON-Data erfassen
 - alle einzelnen Treffenberichte stilllegen
 
+Update-Schritte 17.09.2015 Do
+erl. Nr 190. als Default-Treffennr. gesetzt, Nr. 189 erfasst, Nr. 191 initialisiert
+erl. GitHub MichaelPae/PS-Pieces aktualisieren
+erl. Property Session.Link implementieren (Link-String mit "Material zur Session")
+     erl. loaddata.js Class Session erweitert
+     erl. mywebbot.js neue function assembleMaterialLink()
 
 Update-Schritte 21.08.2015 Fr
 erl. Nr 189. als Default-Treffennr. gesetzt, Nr. 188 erfasst, Nr. 190 initialisiert
+erl. GitHub MichaelPae/PS-Pieces eingerichten, aktualisieren
 
 Update-Schritte 17.07.2015 Fr
 erl. Nr 188. als Default-Treffennr. gesetzt, Nr. 187 erfasst, Nr. 189 initialisiert

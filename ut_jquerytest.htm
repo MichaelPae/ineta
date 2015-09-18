@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+    <title>JQuery-Test - Reading data in JSON format</title>
+    <script type="text/javascript" src="scripte/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript">
+        function read_json() {
+            $.getJSON("data/dataJQueryTest.json", function(data) {
+                alert("My data: " + data["mydata"]);
+                $.each(data["prime"], function(idx,prime) {
+                    alert("Prime number: " + prime);
+                });
+            });
+        }
+    </script>
+
+</head>
+
+
+<body onload="read_json();">
+</body>
+
+<!-- Idee Variablen Inhalt zum Object machen 
+<body>
+
+<script type="text/javascript">
+function sample() {
+    this.objname = {};
+    var someObject = "objname";
+    this[someObject].value = "value";
+
+    console.log(this.objname);
+    return this.objname;
+}
+</script>
+
+      <p align="center"><font size="3" face="Arial">
+           <script type="text/javascript">var test =" new sample();</script>
+      </font> </p>
+</body>
+
+-->
+</html>

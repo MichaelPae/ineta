@@ -10,7 +10,7 @@ Meeting
 MtId, TreffenNr, TerminISO, OrtId, SessionCount
 
 Session
-MtId, SessionId, Caption, Summary, Items, Speaker, Leute, Firmen
+MtId, SessionId, Caption, Summary, Items, Link, Speaker, Leute, Firmen
 
 Ort
 OrtId, Ort, Lokal, AnfahrtLink
@@ -148,6 +148,7 @@ function Session(oMeeting, cSessionId) {
     this.Caption = oData.Caption;
     this.Summary = oData.Summary;
     this.Items = oData.Items;
+    this.Link = oData.Link;
     this.Speaker = oData.Speaker;
     this.Leute = oData.Leute;
     this.Firmen = oData.Firmen;
@@ -348,6 +349,7 @@ function loadSessionFromCode(nMtId, nSessionArrayIx) {
                    "Caption": "... wird noch gesucht",
                    "Summary": "...",
                    "Items": [ "Item 1", "Item 2", "Item 3", "Item 4" ],
+                   "Link": "",
                    "Speaker": "NN",
                    "Leute": 0,
                    "Firmen": 0 }
@@ -359,6 +361,7 @@ function loadSessionFromCode(nMtId, nSessionArrayIx) {
                    "Caption": "Projekte der Software-Entwicklung Johannes K.",
                    "Summary": "Der freiberufliche Software-Entwickler Johannes stellt seine Projekte vor.",
                    "Items": [ "Item 1", "Item 2", "Item 3", "Item 4" ],
+                   "Link": "",
                    "Speaker": "Johannes",
                    "Leute": 0,
                    "Firmen": 0 }
@@ -370,6 +373,7 @@ function loadSessionFromCode(nMtId, nSessionArrayIx) {
                    "Caption": "Vom Prozess zum Werkzeug - Software-Entwicklungsprozesse (Part&nbsp;2)",
                    "Summary": "Wie bekomme ich meinen angepassten Entwicklungsprozess auf ein ALM-Werkzeug wie den TFS? Es geht nicht um die vollständige Umsetzung sondern um das Umreißen der Möglichkeiten mit kleinen Demos.",
                    "Items": [ "Kandidaten für ALM im Vergleich (Polarion. TFS)", "Fertige Testumgebungen für TFS-Konfiguration (Brian Harry’s blog)",  "Individuelle TFS-Anpassungen an den Projekt Workflow", "Blick in ein aktiv genutztes TFS System mit über 16000 Change Requests" ],
+                   "Link": "",
                    "Speaker": "Martin R.",
                    "Leute": 9,
                    "Firmen": 7 },
@@ -378,6 +382,7 @@ function loadSessionFromCode(nMtId, nSessionArrayIx) {
                       "Caption": "Ausblick auf Microsoft HoloLens",
                       "Summary": "\"The era of holographic computing is here.\"",
                       "Items": [ "Video: Microsoft HoloLens presentation", "Video: Microsoft HoloLens - Das ist mit der Brille möglich" ],
+                      "Link": "",
                       "Speaker": "Martin R.",
                       "Leute": 8,
                       "Firmen": 6 }
@@ -389,6 +394,7 @@ function loadSessionFromCode(nMtId, nSessionArrayIx) {
                    "Caption": "Veröffentlichungsprozess einer Universal App",
                    "Summary": "Zunächst wird kurz die kleine Taschenrechner-Anwendung vorgestellt (für die, die im August nicht da waren), danach wird gezeigt, wie der Submit Prozess für Windows-Phone und Windows-Store abläuft.",
                    "Items": [ "HP 41CV App", "Entwicklerkonto", "Zertifizierungskit für Windows-Apps", "Upload" ],
+                   "Link": "",
                    "Speaker": "Jürgen S.",
                    "Leute": 8,
                    "Firmen": 5 },
@@ -397,6 +403,7 @@ function loadSessionFromCode(nMtId, nSessionArrayIx) {
                       "Caption": "Vorstellung des 'All in One-PC' DELL XPS 18",
                       "Summary": "Intel® Core™ Prozessor der 3. Generation, hohe Datenverarbeitungsleistung, Windows 8.1, großer Full-HD-Touch-Bildschirm.",
                       "Items": [ "Motivation", "Produktvarianten", "Zubehör", "Praxiserfahrungen" ],
+                      "Link": "",
                       "Speaker": "Andreas",
                       "Leute": 8,
                       "Firmen": 5 }
@@ -408,6 +415,7 @@ function loadSessionFromCode(nMtId, nSessionArrayIx) {
                    "Caption": "Software-Entwicklungsprozesse (Part&nbsp;1)",
                    "Summary": "Merkmale verschiedener Software-Entwicklungsprozesse im Vergleich",
                    "Items": [ "V-Modell", "Agile Softwareentwicklung", "Synthese, jeweils das beste aus den Prozessen", "Praxis Beispiel und Demo" ],
+                   "Link": "",
                    "Speaker": "Martin R.",
                    "Leute": 9,
                    "Firmen": 6 }

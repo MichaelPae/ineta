@@ -1,0 +1,958 @@
+{ "T_Meeting":
+[
+   { "TreffenNr": 191,
+     "SessionCount": 1,
+     "TerminISO": "2015-11-19",
+     "OrtId": "" },
+
+   { "TreffenNr": 190,
+     "SessionCount": 1,
+     "TerminISO": "2015-10-15",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 189,
+     "SessionCount": 1,
+     "TerminISO": "2015-09-17",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 188,
+     "SessionCount": 1,
+     "TerminISO": "2015-08-20",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 187,
+     "SessionCount": 1,
+     "TerminISO": "2015-07-16",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 186,
+     "SessionCount": 1,
+     "TerminISO": "2015-06-18",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 185,
+     "SessionCount": 1,
+     "TerminISO": "2015-05-21",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 184,
+     "SessionCount": 1,
+     "TerminISO": "2015-04-16",
+     "OrtId": "JagdhausHeede" },
+
+   { "TreffenNr": 183,
+     "SessionCount": 1,
+     "TerminISO": "2015-03-19",
+     "OrtId": "LetzterHeller" },
+
+   { "TreffenNr": 182,
+     "SessionCount": 1,
+     "TerminISO": "2015-02-19",
+     "OrtId": "LetzterHeller" },
+
+   { "TreffenNr": 181,
+     "SessionCount": 2,
+     "TerminISO": "2015-01-22",
+     "OrtId": "JagdhausHeede" },
+
+   { "TreffenNr": 180,
+     "SessionCount": 2,
+     "TerminISO": "2014-12-18",
+     "OrtId": "OsteriaToscana" },
+
+   { "TreffenNr": 179,
+     "SessionCount": 1,
+     "TerminISO": "2014-11-20",
+     "OrtId": "OsteriaToscana" },
+
+   { "TreffenNr": 178,
+     "SessionCount": 1,
+     "TerminISO": "2014-10-16",
+     "OrtId": "OsteriaToscana" },
+
+   { "TreffenNr": 177,
+     "SessionCount": 1,
+     "TerminISO": "2014-09-18",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 176,
+     "SessionCount": 1,
+     "TerminISO": "2014-08-28",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 175,
+     "SessionCount": 1,
+     "TerminISO": "2014-07-17",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 174,
+     "SessionCount": 1,
+     "TerminISO": "2014-06-19",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 173,
+     "SessionCount": 1,
+     "TerminISO": "2014-05-22",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 172,
+     "SessionCount": 1,
+     "TerminISO": "2014-04-24",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 171,
+     "SessionCount": 1,
+     "TerminISO": "2014-03-20",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 170,
+     "SessionCount": 1,
+     "TerminISO": "2014-01-16",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 169,
+     "SessionCount": 1,
+     "TerminISO": "2013-12-19",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 168,
+     "SessionCount": 1,
+     "TerminISO": "2013-11-21",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 167,
+     "SessionCount": 1,
+     "TerminISO": "2013-10-24",
+     "OrtId": "OsteriaToscana" },
+
+   { "TreffenNr": 166,
+     "SessionCount": 1,
+     "TerminISO": "2013-09-26",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 165,
+     "SessionCount": 1,
+     "TerminISO": "2013-08-15",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 164,
+     "SessionCount": 1,
+     "TerminISO": "2013-07-18",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 163,
+     "SessionCount": 1,
+     "TerminISO": "2013-05-16",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 162,
+     "SessionCount": 1,
+     "TerminISO": "2013-04-18",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 161,
+     "SessionCount": 2,
+     "TerminISO": "2013-03-21",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 160,
+     "SessionCount": 2,
+     "TerminISO": "2013-02-21",
+     "OrtId": "ZumNiestetal" },
+
+   { "TreffenNr": 159,
+     "SessionCount": 1,
+     "TerminISO": "2013-01-17",
+     "OrtId": "ZumNiestetal" },
+
+   { "TreffenNr": 158,
+     "SessionCount": 1,
+     "TerminISO": "2012-11-15",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 157,
+     "SessionCount": 1,
+     "TerminISO": "2012-10-18",
+     "OrtId": "ZumNiestetal" },
+
+   { "TreffenNr": 156,
+     "SessionCount": 1,
+     "TerminISO": "2012-09-20",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 155,
+     "SessionCount": 1,
+     "TerminISO": "2012-08-16",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 154,
+     "SessionCount": 2,
+     "TerminISO": "2012-06-21",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 153,
+     "SessionCount": 1,
+     "TerminISO": "2012-05-03",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 152,
+     "SessionCount": 1,
+     "TerminISO": "2012-03-15",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 151,
+     "SessionCount": 1,
+     "TerminISO": "2012-02-16",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 150,
+     "SessionCount": 2,
+     "TerminISO": "2012-01-19",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 149,
+     "SessionCount": 2,
+     "TerminISO": "2011-12-13",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 148,
+     "SessionCount": 1,
+     "TerminISO": "2011-11-17",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 147,
+     "SessionCount": 1,
+     "TerminISO": "2011-10-27",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 146,
+     "SessionCount": 1,
+     "TerminISO": "2011-09-15",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 145,
+     "SessionCount": 1,
+     "TerminISO": "2011-08-18",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 144,
+     "SessionCount": 1,
+     "TerminISO": "2011-07-21",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 143,
+     "SessionCount": 1,
+     "TerminISO": "2011-06-16",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 142,
+     "SessionCount": 2,
+     "TerminISO": "2011-05-19",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 141,
+     "SessionCount": 2,
+     "TerminISO": "2011-04-14",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 140,
+     "SessionCount": 2,
+     "TerminISO": "2011-03-10",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 139,
+     "SessionCount": 1,
+     "TerminISO": "2011-02-17",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 138,
+     "SessionCount": 1,
+     "TerminISO": "2011-01-20",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 137,
+     "SessionCount": 2,
+     "TerminISO": "2010-12-13",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 136,
+     "SessionCount": 1,
+     "TerminISO": "2010-11-18",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 135,
+     "SessionCount": 2,
+     "TerminISO": "2010-10-28",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 134,
+     "SessionCount": 1,
+     "TerminISO": "2010-09-16",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 133,
+     "SessionCount": 1,
+     "TerminISO": "2010-07-15",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 132,
+     "SessionCount": 1,
+     "TerminISO": "2010-06-18",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 131,
+     "SessionCount": 2,
+     "TerminISO": "2010-05-20",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 130,
+     "SessionCount": 1,
+     "TerminISO": "2010-04-15",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 129,
+     "SessionCount": 3,
+     "TerminISO": "2010-03-25",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 128,
+     "SessionCount": 2,
+     "TerminISO": "2010-02-18",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 127,
+     "SessionCount": 1,
+     "TerminISO": "2010-01-21",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 126,
+     "SessionCount": 2,
+     "TerminISO": "2009-12-15",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 125,
+     "SessionCount": 1,
+     "TerminISO": "2009-11-19",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 124,
+     "SessionCount": 2,
+     "TerminISO": "2009-10-29",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 123,
+     "SessionCount": 1,
+     "TerminISO": "2009-09-17",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 122,
+     "SessionCount": 2,
+     "TerminISO": "2009-07-23",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 121,
+     "SessionCount": 1,
+     "TerminISO": "2009-06-18",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 120,
+     "SessionCount": 2,
+     "TerminISO": "2009-05-07",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 119,
+     "SessionCount": 1,
+     "TerminISO": "2009-03-19",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 118,
+     "SessionCount": 1,
+     "TerminISO": "2009-02-19",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 117,
+     "SessionCount": 1,
+     "TerminISO": "2009-01-15",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 116,
+     "SessionCount": 2,
+     "TerminISO": "2008-12-18",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 115,
+     "SessionCount": 1,
+     "TerminISO": "2008-11-20",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 114,
+     "SessionCount": 1,
+     "TerminISO": "2008-10-23",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 113,
+     "SessionCount": 1,
+     "TerminISO": "2008-09-18",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 112,
+     "SessionCount": 2,
+     "TerminISO": "2008-08-21",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 111,
+     "SessionCount": 1,
+     "TerminISO": "2008-07-10",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 110,
+     "SessionCount": 1,
+     "TerminISO": "2008-05-15",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 109,
+     "SessionCount": 1,
+     "TerminISO": "2008-04-17",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 108,
+     "SessionCount": 2,
+     "TerminISO": "2008-03-13",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 107,
+     "SessionCount": 1,
+     "TerminISO": "2008-01-17",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 106,
+     "SessionCount": 2,
+     "TerminISO": "2007-12-11",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 105,
+     "SessionCount": 3,
+     "TerminISO": "2007-11-22",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 104,
+     "SessionCount": 1,
+     "TerminISO": "2007-10-25",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 103,
+     "SessionCount": 1,
+     "TerminISO": "2007-07-19",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 102,
+     "SessionCount": 1,
+     "TerminISO": "2007-06-21",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 101,
+     "SessionCount": 1,
+     "TerminISO": "2007-05-24",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 100,
+     "SessionCount": 1,
+     "TerminISO": "2007-04-18",
+     "OrtId": "Werratal" },
+
+   { "TreffenNr": 99,
+     "SessionCount": 1,
+     "TerminISO": "2007-03-29",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 98,
+     "SessionCount": 1,
+     "TerminISO": "2007-02-15",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 97,
+     "SessionCount": 1,
+     "TerminISO": "2007-01-18",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 96,
+     "SessionCount": 2,
+     "TerminISO": "2006-12-21",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 95,
+     "SessionCount": 2,
+     "TerminISO": "2006-11-16",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 94,
+     "SessionCount": 1,
+     "TerminISO": "2006-10-19",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 93,
+     "SessionCount": 1,
+     "TerminISO": "2006-09-21",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 92,
+     "SessionCount": 1,
+     "TerminISO": "2006-07-13",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 91,
+     "SessionCount": 1,
+     "TerminISO": "2006-05-18",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 90,
+     "SessionCount": 1,
+     "TerminISO": "2006-03-23",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 89,
+     "SessionCount": 2,
+     "TerminISO": "2006-02-16",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 88,
+     "SessionCount": 1,
+     "TerminISO": "2006-01-19",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 87,
+     "SessionCount": 2,
+     "TerminISO": "2005-11-17",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 86,
+     "SessionCount": 1,
+     "TerminISO": "2005-10-27",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 85,
+     "SessionCount": 2,
+     "TerminISO": "2005-09-15",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 84,
+     "SessionCount": 1,
+     "TerminISO": "2005-07-21",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 83,
+     "SessionCount": 1,
+     "TerminISO": "2005-06-16",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 82,
+     "SessionCount": 1,
+     "TerminISO": "2005-04-28",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 81,
+     "SessionCount": 2,
+     "TerminISO": "2005-03-17",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 80,
+     "SessionCount": 1,
+     "TerminISO": "2005-02-17",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 79,
+     "SessionCount": 1,
+     "TerminISO": "2005-01-20",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 78,
+     "SessionCount": 2,
+     "TerminISO": "2004-12-16",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 77,
+     "SessionCount": 1,
+     "TerminISO": "2004-11-18",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 76,
+     "SessionCount": 2,
+     "TerminISO": "2004-10-21",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 75,
+     "SessionCount": 1,
+     "TerminISO": "2004-09-16",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 74,
+     "SessionCount": 1,
+     "TerminISO": "2004-07-15",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 73,
+     "SessionCount": 1,
+     "TerminISO": "2004-06-17",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 72,
+     "SessionCount": 1,
+     "TerminISO": "2004-05-27",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 71,
+     "SessionCount": 1,
+     "TerminISO": "2004-03-18",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 70,
+     "SessionCount": 1,
+     "TerminISO": "2004-02-19",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 69,
+     "SessionCount": 1,
+     "TerminISO": "2004-01-15",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 68,
+     "SessionCount": 2,
+     "TerminISO": "2003-12-18",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 67,
+     "SessionCount": 2,
+     "TerminISO": "2003-11-20",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 66,
+     "SessionCount": 1,
+     "TerminISO": "2003-10-16",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 65,
+     "SessionCount": 1,
+     "TerminISO": "2003-09-18",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 64,
+     "SessionCount": 1,
+     "TerminISO": "2003-08-21",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 63,
+     "SessionCount": 1,
+     "TerminISO": "2003-07-24",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 62,
+     "SessionCount": 1,
+     "TerminISO": "2003-06-12",
+     "OrtId": "BEFO" },
+
+   { "TreffenNr": 61,
+     "SessionCount": 1,
+     "TerminISO": "2003-05-15",
+     "OrtId": "BEFO" },
+
+   { "TreffenNr": 60,
+     "SessionCount": 1,
+     "TerminISO": "2003-04-17",
+     "OrtId": "GBS" },
+
+   { "TreffenNr": 59,
+     "SessionCount": 1,
+     "TerminISO": "2003-03-13",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 58,
+     "SessionCount": 1,
+     "TerminISO": "2003-02-20",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 57,
+     "SessionCount": 1,
+     "TerminISO": "2003-01-16",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 56,
+     "SessionCount": 2,
+     "TerminISO": "2002-12-19",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 55,
+     "SessionCount": 1,
+     "TerminISO": "2002-11-21",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 54,
+     "SessionCount": 1,
+     "TerminISO": "2002-10-17",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 53,
+     "SessionCount": 1,
+     "TerminISO": "2002-09-19",
+     "OrtId": "Schmale" },
+
+   { "TreffenNr": 52,
+     "SessionCount": 1,
+     "TerminISO": "2002-08-15",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 51,
+     "SessionCount": 1,
+     "TerminISO": "2002-07-18",
+     "OrtId": "ZumWeissenRoss" },
+
+   { "TreffenNr": 50,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 49,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 48,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 47,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 46,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 45,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 44,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 43,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 42,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 41,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 40,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 39,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 38,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 37,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 36,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 35,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 34,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 33,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 32,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 31,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 30,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 29,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 28,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 27,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 26,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 25,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 24,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 23,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 22,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 21,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 20,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 19,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 18,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 17,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 16,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 15,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 14,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 13,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 12,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 11,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 10,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 9,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 8,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 7,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 6,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 5,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 4,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 3,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 2,
+     "SessionCount": 1,
+     "TerminISO": "1234567890",
+     "OrtId": "default" },
+
+   { "TreffenNr": 1,
+     "SessionCount": 1,
+     "TerminISO": "1997-12-04",
+     "OrtId": "FreizeitAuefeld" }
+]
+}

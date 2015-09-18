@@ -1,0 +1,35 @@
+<html>
+
+<head>
+
+<!-- <meta content="text/html; charset=utf-8" http-equiv="Content-Type"> -->
+<!-- <meta http-equiv="X-UA-Compatible" content="edge"> -->
+
+
+  <title>getContext example</title>
+  
+  <script src="scripte/Chart.js" type="text/javascript"></script>
+
+  
+  <script type="text/javascript">
+      function draw() {
+          var canvas = document.getElementById("MyCanvas");
+          if (canvas.getContext) {
+              var ctx = canvas.getContext("2d");
+              ctx.font = "italic 36px/2 Unknown Font, sans-serif";
+              ctx.fillStyle = "blue";
+              ctx.fillRect(0, 0, canvas.width, canvas.height);
+              ctx.fillStyle = "white";
+              ctx.fillText("Hello World", canvas.width / 2, canvas.height * .8);
+          }
+      }
+  </script>
+</head>
+
+<body onload="draw()">
+      <div>
+        <canvas id="MyCanvas" width="500" height="500" > </canvas>
+      </div>
+  </body>
+</html> 
+
