@@ -434,17 +434,6 @@ Access.prototype.assembleBisherigeTreffenListe = function assembleBisherigeTreff
         oMeetingI = new Meeting(oAccessI);       // Datenobject zum Key
 
         cCaptionList = assembleCaptionList(oMeetingI);
-        /*
-        cCaptionList = "";
-        nSessionCount = oMeetingI.SessionCount;
-        for (var j = 1; j <= nSessionCount; j++) {
-            cCaptionList = cCaptionList + oMeetingI.Sessions[j].Caption; // oMeetingI.Sessions[1].Caption
-            if (j<nSessionCount) {
-                cCaptionList = cCaptionList + '<br />' ;
-            }
-        }
-        //cListe = cListe + oMeetingI.assembleLinkItem();
-        */
         cListe = cListe + assembleTreffenLinkItem(oMeetingI.TreffenNr, cCaptionList, oMeetingI.Termin)
     }
     return cListe;
@@ -456,17 +445,24 @@ Access.prototype.assembleThemenListe = function assembleThemenListe(nAnzahl) {
     var cListe = "";
     var cCaptionList;
     var cLink;
-    var cARef;
+    var cAhrefTreffen;
+    var cARefMaterial;
     var oAccessI = this;
     var oMeeting = new Meeting(this);
     var nStartNr = oMeeting.TreffenNr - 1;
     for (var i = nStartNr; i > nStartNr - nAnzahl; i--) {
         oAccessI.Decrement();
-        oMeeting = new Meeting(oAccessI);       // Datenobject zum Key 
+        oMeeting = new Meeting(oAccessI);            // Datenobject zum Key 
+        
+        cTreffenNr = i.toString();
+        cAhrefTreffen = assembleAddressTag("devgtreffen.htm?treffennr=" + cTreffenNr, cTreffenNr + ".");
+
         cCaptionList = oMeeting.Sessions[1].Caption; // <ENGINE />
-        cLink = oMeeting.Sessions[1].Link; // <ENGINE />
-        cARef = assembleMaterialLink(cLink);
-        cListe = cListe + '<li>' + i + ". " + cCaptionList + cARef + '</li>';
+
+        cLink = oMeeting.Sessions[1].Link;           // <ENGINE />
+        cARefMaterial = assembleMaterialLink(cLink);
+      
+        cListe = cListe + '<li>' + cAhrefTreffen + " " + cCaptionList + cARefMaterial + '</li>';
     }
     return cListe;
 }
