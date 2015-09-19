@@ -4,7 +4,7 @@
      "Test": false,
      "DefaultTreffenNr": 190,
 	 "AnzThemenListe": 14,
-     "StartDataMigrationsTreffenNr": 51,
+     "StartDataMigrationsTreffenNr": 25,
      "AnzahlTreffenlisteTest": 3,
      "BackEnd": "JSON",
      "DataMode": "HOST",

@@ -43,7 +43,7 @@
 			"Strasse": "Lotzestraße 22 c",
 			"Fon": "0551 507580",
 			"URL": "",
-			"VcfTag": "(no VCF-file)</a>",
+			"VcfTag": "(no VCF-file)",
 			"ImageTag": "<img border=\"0\" src=\"images/as_gbs.jpg\" alt=\"Anfahrt &quot;Freizeit Auefeld&quot;\" width=\"651\" height=\"824\">",
 			"AnfahrtLink": "devglocation.htm?OrtId=FreizeitAuefeld",
 			"AnfahrtText": "(kein Anfahrttext)"
@@ -63,6 +63,22 @@
 			"ImageTag": "<img border=\"0\" src=\"images/as_jagdhausheede.png\" alt=\"Anfahrt &quot;Jagdhaus Heede&quot;\" width=\"1878\" height=\"762\">",
 			"AnfahrtLink": "devglocation.htm?OrtId=JagdhausHeede",
 			"AnfahrtText": "Das Lokal ist gut von der <em>A7</em> (Abfahrt 75, Hann. Münden - Hedemünden) zu erreichen. <strong>Aus Richtung Nord von der Abfahrt links abbiegen und dann die erste Ausfahrt des Kreisels nehmen; aus Richtung Süd die zweite Ausfahrt des Kreisels nehmen</strong>.<br> Nach rund 200 m nach rechts auf die <em>B80</em> Richtung Hann. Münden abbiegen. Der B80 bis Hann. Münden folgen. In Hann. Münden ca. 400 m nach dem Ortseingang beim EDEKA Markt NEUKAUF rechts in den Wiershäuser Weg abbiegen. Nach rund 200 m nach links in die Hermannshäger Straße. abbiegen. Der Hermannshäger Straße zunächst nach 50 m nach rechts folgen, danach ca. 1,2 km weiter folgen. Das &quot;Jagdhaus Heede&quot; liegt am Waldrand."
+		},
+	  "LaGrotta":
+		{
+		    "OrtId": "LaGrotta",
+			"Kurzname": "La Grotta",
+            "Praeposition": "in der",				
+			"Name": "Pizzeria <b>\"La Grotta\"</b>",
+			"Ort": "G&ouml;ttingen",
+			"PLZ": "37073",
+			"Strasse": "Bunsenstr. 17",
+			"Fon": "",
+			"URL": "",
+			"VcfTag": "(no VCF-file)",
+			"ImageTag": "<img border=\"0\" src=\"images/as_default.png\" alt=\"Anfahrt &quot;default&quot;\" width=\"880\" height=\"495\">",
+			"AnfahrtLink": "devglocation.htm?OrtId=LaGrotta",
+			"AnfahrtText": "(kein Anfahrttext)"
 		},
 	  "LetzterHeller":
 		{
@@ -95,6 +111,38 @@
 			"ImageTag": "<img border=\"0\" src=\"images/as_osteriatoscana.jpg\" alt=\"Anfahrt &quot;Osteria Toscana&quot;\" width=\"1274\" height=\"758\">",
 			"AnfahrtLink": "devglocation.htm?OrtId=OsteriaToscana",
 			"AnfahrtText": "Das Lokal ist gut von der <em>A7</em> (Abfahrt 75, Hann. Münden - Hedemünden) zu erreichen. <strong>Aus Richtung Nord von der Abfahrt links abbiegen und dann die zweite Ausfahrt des Kreisels nehmen; aus Richtung Süd die dritte Ausfahrt des Kreisels nehmen</strong>. <br>Nach rund 750 m auf der <em>K211</em> liegt rechts die &quot;Osteria Toscana&quot; (ehem. Landgasthaus Schmale)."
+		},
+	  "Sartorius":
+		{
+		    "OrtId": "Sartorius",
+			"Kurzname": "Sartorius AG",
+            "Praeposition": "bei",				
+			"Name": "<b>\"Sartorius\"</b>",
+			"Ort": "G&ouml;ttingen",
+			"PLZ": "37075",
+			"Strasse": "Weender Landstr. 94",
+			"Fon": "0551 3080",
+			"URL": "",
+			"VcfTag": "(no VCF-file)",
+			"ImageTag": "<img border=\"0\" src=\"images/as_default.png\" alt=\"Anfahrt &quot;default&quot;\" width=\"880\" height=\"495\">",
+			"AnfahrtLink": "devglocation.htm?OrtId=Sartorius",
+			"AnfahrtText": "(kein Anfahrttext)"
+		},
+	  "Sartorius2000":
+		{
+		    "OrtId": "Sartorius2000",
+			"Kurzname": "Sartorius Werk 2000G",
+            "Praeposition": "im",				
+			"Name": "Werk 2000 der <b>\"Sartorius AG\"</b>",
+			"Ort": "G&ouml;ttingen",
+			"PLZ": "37079",
+			"Strasse": "Otto-Brenner-Str. 20",
+			"Fon": "0551 3080",
+			"URL": "",
+			"VcfTag": "(no VCF-file)",
+			"ImageTag": "<img border=\"0\" src=\"images/as_default.png\" alt=\"Anfahrt &quot;default&quot;\" width=\"880\" height=\"495\">",
+			"AnfahrtLink": "devglocation.htm?OrtId=Sartorius2000",
+			"AnfahrtText": "Von S&uuml;den: A 7 Richtung Hannover, Ausfahrt G&ouml;ttingen-Nord, von Norden: A 7 Richtung Kassel, ebenfalls Ausfahrt G&ouml;ttingen-Nord – auf den Autobahnzubringer fahren.<br />Auf dem Zubringer direkt die erste Abfahrt (Holtensen, Industriegebiet) abfahren. Geradeaus &uuml;ber die erste Ampel, der Stra&szlig;e folgen und an der n&auml;chsten Ampel links in die Otto-Brenner-Stra&szlig;e (Richtung Grone) einbiegen. Nach ca. 150 m nach links auf den Sartorius-Parkplatz, Otto-Brenner-Stra&szlig;e 20, abbiegen."
 		},
 	  "Schmale":
 		{

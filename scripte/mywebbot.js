@@ -368,9 +368,11 @@ Access.prototype.SessionReport = function SessionReport(oSession) {
 
     cHtml += '<div>';
 	cHtml += '<b>' + oSession.Caption + '</b>' + assembleMaterialLink(oSession.Link);
-	//cHtml += '<br />' + oSession.Summary;
+	cHtml +=  assembleSummary(oSession.Summary); 
 	if (oSession.Items.length>0) {
         cHtml += '<ul>' + assembleHtmlListFromArray(oSession.Items) + '</ul>';
+    } else {
+        cHtml += '<br />'
     }
 	cHtml += '<br />Usergroup: <i>Herzlichen Dank ' + oSession.Speaker + '!</i>';
 	cHtml += '</div><br />';  
@@ -422,6 +424,7 @@ Access.prototype.assembleBisherigeTreffenListe = function assembleBisherigeTreff
     // setzt Liste der bisherigen Treffen zusammen
     var oAccessI;
     var oMeetingI;
+    var cCaptionList;
     nNrMax = checkVar(nNrMax, "number", this.nNrMax);
     nNrMin = checkVar(nNrMin, "number", this.nNrMin);
     var cListe = "";
@@ -429,8 +432,20 @@ Access.prototype.assembleBisherigeTreffenListe = function assembleBisherigeTreff
     for (var i = nNrMax; i > nNrMin - 1; i--) {
         oAccessI = new Access("BisherigesTreffen", i, null, this.cBE, this.cFE);
         oMeetingI = new Meeting(oAccessI);       // Datenobject zum Key
+
+        cCaptionList = assembleCaptionList(oMeetingI);
+        /*
+        cCaptionList = "";
+        nSessionCount = oMeetingI.SessionCount;
+        for (var j = 1; j <= nSessionCount; j++) {
+            cCaptionList = cCaptionList + oMeetingI.Sessions[j].Caption; // oMeetingI.Sessions[1].Caption
+            if (j<nSessionCount) {
+                cCaptionList = cCaptionList + '<br />' ;
+            }
+        }
         //cListe = cListe + oMeetingI.assembleLinkItem();
-        cListe = cListe + assembleTreffenLinkItem(oMeetingI.TreffenNr, oMeetingI.Sessions[1].Caption, oMeetingI.Termin)
+        */
+        cListe = cListe + assembleTreffenLinkItem(oMeetingI.TreffenNr, cCaptionList, oMeetingI.Termin)
     }
     return cListe;
 }
@@ -560,13 +575,40 @@ function assembleAddressTag(cUrl, cText) {
     return cAhref;
 }
 
+function assembleCaptionList(oMeeting, cSep) {
+    // setzt eine Liste der Session-Captions eines Meetings zusammen
+    var cCaptionList = "";
+    var nSessionCount = oMeeting.SessionCount;
+
+    if (isEmpty(cSep)) {
+        cSep = '<br />';
+    } 
+   
+    for (var j = 1; j <= nSessionCount; j++) {
+        cCaptionList = cCaptionList + oMeeting.Sessions[j].Caption; // urspr. nur : oMeeting.Sessions[1].Caption
+        if (j<nSessionCount) {
+            cCaptionList = cCaptionList + cSep ;
+        }
+    }
+    return cCaptionList
+}
+
 function assembleMaterialLink(cUrl) {
-    // setzt einen <a>-Tag zusammen
+    // setzt den <a>-Tag zum Material zusammen
     var cAHref = "";
     if (cUrl != "") {
         cAHref = ' (<a href="'+ cUrl + '" target="_blank">Material zur Session</a>)';   // ' (<a href="'+cLink+'" target="_blank">Material zur Session</a>)'
     }
     return cAHref;
+}
+
+function assembleSummary(cSummary) {
+    // setzt den Summary-String zusammen
+    var cString = "";
+    if (cSummary != "...") {
+        cString = '<br />' + cSummary; 
+    }
+    return cString;
 }
 
 function assembleTreffenLinkItem(nTreffenNr, cMainSessionCaption, cTermin) {

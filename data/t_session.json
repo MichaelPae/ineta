@@ -40,7 +40,7 @@
      "Session":
      [	{ "SessionId": "18801",
 	  "Caption": "Powershell statt CMD (Teil 1 PowerShell Konzepte)",
-	  "Summary": "Die Powershell-Exploration eines NICHT-Admins in die Konsolen-Niederung und an die weiten Script-Feldern.",
+	  "Summary": "Die Powershell-Exploration eines NICHT-Admins in die Konsolen-Niederung und an die weiten Script-Felder.",
 	  "Items": [ "PowerShell Schlagworte", "PowerShell Hilfe", "PowerShell für Umsteiger", "PowerShell: \"Alles ist ein Objekt\"", "PowerShell: \"Alles ist ein Laufwerk\"" ],
 	  "Link": "https://github.com/MichaelPae/PS-Pieces",
 	  "Speaker": "Michael",
@@ -357,8 +357,8 @@
    { "TreffenNr": 163,
      "Session":
      [  { "SessionId": "16301",
-          "Caption": "Von der Projektplanung bis zur Quellcodeverwaltung - Vorstellung einer integrierten Lösung auf Basis von Open Source Komponenten.",
-          "Summary": "...",
+          "Caption": "Von der Projektplanung bis zur Quellcodeverwaltung",
+          "Summary": "Vorstellung einer integrierten Lösung auf Basis von Open Source Komponenten",
           "Items": [ "Redmine - Das Projektmanagement Tool", "Subversion - Zur Quellcodeverwaltung", "AnkhSVN - Subversion Client für VS", "Die fertigen Applikationsstacks und Virtuellen Maschinen von BitNami" ],
           "Link": "",
           "Speaker": "Ralph",
@@ -381,8 +381,8 @@
    { "TreffenNr": 161,
      "Session":
      [  { "SessionId": "16101",
-          "Caption": "Nicht immer nur Relational - Strukturierter Datenspeicher in .NET",
-          "Summary": "...",
+          "Caption": "Nicht immer nur Relational",
+          "Summary": "Strukturierter Datenspeicher in .NET",
           "Items": [ "NoSQL-Beispiele für nicht relationale Datenbanken (not only SQL)", "Vorstellung und Grundidee von RavenDB", "Workshop: RavenDB in C#-App", "RavenDB vs. SQL" ],
           "Link": "",
           "Speaker": "Kai",
@@ -1274,9 +1274,9 @@
    { "TreffenNr": 105,
      "Session":
      [  { "SessionId": "10501",
-          "Caption": "Session der Vulcan.NET & Visual Objects Developer-Konferenz in München",
-          "Summary": "...",
-          "Items": [ "bBrowser 3: Mein Weg nach Vulcan.NET", "Anhand der Portierung des in Visual Objects 2.8 geschriebenen bBrowser 3 nach Vulcan.NET wird aufgezeigt, welche Besonderheiten bei dem neu entstanden Vulcan-Code in Visual Studio 2005 zu beachten sind und wie Fallstricke bei der Portierung erfolgreich umgangen werden können." ],
+          "Caption": "\"bBrowser 3: Mein Weg nach Vulcan.NET\", eine Session der Vulcan.NET & Visual Objects Developer-Konferenz in München",
+          "Summary": "Anhand der Portierung des in Visual Objects 2.8 geschriebenen bBrowser 3 nach Vulcan.NET wird aufgezeigt, welche Besonderheiten bei dem neu entstanden Vulcan-Code in Visual Studio 2005 zu beachten sind und wie Fallstricke bei der Portierung erfolgreich umgangen werden können.",
+          "Items": [ ],
           "Link": "",
           "Speaker": "Joachim",
           "Leute": 10,
@@ -1525,7 +1525,7 @@
           "Summary": "...",
           "Items": [ ],
           "Link": "",
-          "Speaker": "Michael",
+          "Speaker": "Michael S.",
           "Leute": 10,
           "Firmen": 4 }
      ]
@@ -2094,338 +2094,402 @@
    { "TreffenNr": 50,
      "Session":
      [  { "SessionId": "05001",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Java for beginners part 2",
+          "Summary": "Einführung in die Welt der Java-Programm-Entwicklung",
+          "Items": [ "Net-Beans - die kostenlose IDE für Java", "Java vs. C#" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Bernd",
+          "Leute": 11,
+          "Firmen": 4 }
      ]
    },
 
    { "TreffenNr": 49,
      "Session":
      [  { "SessionId": "04901",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "VO bScriptLanguage-Klassen",
+          "Summary": "HTML-Seiten mit VO-Scripten und VO-CGI-Verarbeitung im ASP-Stil dynamisch machen",
+          "Items": [ "Zugriff auf Xbase-Files", "Bereitstellung der klassischen VO-Klassen", "Script-Debugger u. Error-Handling" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Michael S.",
+          "Leute": 12,
+          "Firmen": 4 },
+        { "SessionId": "04902",
+          "Caption": "CA-World in Orlando",
+          "Summary": "Zukunft von VO nach dem Wechsel von Weiterentwicklung, Vertrieb und Support zu GrafXSoft",
+          "Items": [ "CA-World Sessions", "GrafXSoft" ],
+          "Link": "",
+          "Speaker": "Jürgen G.",
+          "Leute": 12,
+          "Firmen": 4 }                    
      ]
    },
 
    { "TreffenNr": 48,
      "Session":
      [  { "SessionId": "04801",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "VO bStream-Klasse",
+          "Summary": "Eine Nachbildung zu den Stream Classes im Component Object Model",
+          "Items": [ ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Joachim",
+          "Leute": 6,
+          "Firmen": 3 }
      ]
    },
 
    { "TreffenNr": 47,
      "Session":
      [  { "SessionId": "04701",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Interprozesskommunikation mit VO",
+          "Summary": "Die Weiterentwicklung des Tools von Joachim das im 22. Treffen vorgestellt wurde",
+          "Items": [  ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Joachim",
+          "Leute": 7,
+          "Firmen": 4 },
+        { "SessionId": "04702",
+          "Caption": "Visual Objects-Clipper Association Germany",
+          "Summary": "Ein Brief von Oskar Schneider an Mr. Kumar von CA.",
+          "Items": [  ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 7,
+          "Firmen": 4 }
      ]
    },
 
    { "TreffenNr": 46,
      "Session":
      [  { "SessionId": "04601",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Help-Systeme",
+          "Summary": "Vorstellung verschiedener Help-Systeme zur Erstellung und Wartung von Online-Hilfen auf HTML-Basis",
+          "Items": [ "Empfehlung für FAR helpware" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Stefan",
+          "Leute": 10,
+          "Firmen": 4 },
+        { "SessionId": "04602",
+          "Caption": "VOCA-GöKs-Datei-Forum",
+          "Summary": "Zum Datenaustausch in der Usergroup ist in der BEFO-Mailbox ab sofort ein VOCA-GöKs-Bereich eingerichtet.",
+          "Items": [  ],
+          "Link": "",
+          "Speaker": "Stefan",
+          "Leute": 10,
+          "Firmen": 4 },
+        { "SessionId": "04603",
+          "Caption": "25-Jahre Internet-Geschichte",
+          "Summary": "Ein kleiner Rückblick vom ARPA-Net bis zum HTTP",
+          "Items": [ "1969 Arpanet", "1977 TCP/IP", "1991 HTTP" ],
+          "Link": "",
+          "Speaker": "Michael",
+          "Leute": 10,
+          "Firmen": 4 }
      ]
    },
 
    { "TreffenNr": 45,
      "Session":
      [  { "SessionId": "04501",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Advantage Database Server",
+          "Summary": "Vorführung konkreter Einsatzgebiete des Advantage Database Servers",
+          "Items": [ "Installation u. Administration von ADS 6.1", "Einbindung des ADS in Applikationen", "ADS-Zugriffe über das Internet auf VPN-Basis", "SQL-Zugriffe auf DBF-Dateien und Motivation für dieses Vorgehen" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Jürgen G.",
+          "Leute": 9,
+          "Firmen": 4 }
      ]
    },
 
    { "TreffenNr": 44,
      "Session":
      [  { "SessionId": "04401",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Gemütliches weihnachtliches Beisammensein",
+          "Summary": "Ansonsten war es etwas kühl und nur wer bereits von Northeim aus bestellt hatte, hat zügig sein Essen bekommen.",
+          "Items": [  ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Jedermann",
+          "Leute": 11,
+          "Firmen": 4 }
      ]
    },
 
    { "TreffenNr": 43,
      "Session":
      [  { "SessionId": "04301",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Einführung in die Welt der Java-Programm-Entwicklung",
+          "Summary": "Java ist eine absolute Low/No-Cost-Entwicklungsumgebung",
+          "Items": [ "Java Development Kit", "Code schreiben und kompilieren", "Client-Server Anwendung mit Java" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Bernd",
+          "Leute": 11,
+          "Firmen": 4 }
      ]
    },
 
    { "TreffenNr": 42,
      "Session":
      [  { "SessionId": "04201",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Einbindung von TX TextControl in VO",
+          "Summary": "Von der Motivation bis zur realisierten \"Befund\"-Bearbeitung in einer Arztpraxis-Software",
+          "Items": [ "Integration eines Tools in VO statt Einsatz von WinWord", "ActiveX statt DLL", "Feature-Vielfalt von TX TextControl", "Integration von Datenbank-Informationen in vorgehaltene Brief-Templates", "Aufruf-Code in VO" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Dirk",
+          "Leute": 10,
+          "Firmen": 4 }
      ]
    },
 
    { "TreffenNr": 41,
      "Session":
      [  { "SessionId": "04101",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Crystal Reports",
+          "Summary": "Eine innovative und unterhaltsame Einführung",
+          "Items": [ "Stufe 1: Feature-Überblick zu Crystal Reports", "Stufe 2: Einbinden von Crystal Reports direkt in VO" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Jürgen G.",
+          "Leute": 11,
+          "Firmen": 4 }
      ]
    },
 
    { "TreffenNr": 40,
      "Session":
      [  { "SessionId": "04001",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Planung der weiteren Treffen 2001",
+          "Summary": "...",
+          "Items": [ "Brainstorming und Festlegung der Themen für die weiteren Treffen 2001", "VO-Programme auf Windows 2000 Server" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Jedermann",
+          "Leute": 9,
+          "Firmen": 4 }
      ]
    },
 
    { "TreffenNr": 39,
      "Session":
      [  { "SessionId": "03901",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Neues im bBrowser",
+          "Summary": "...",
+          "Items": [  ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Joachim",
+          "Leute": 8,
+          "Firmen": 4 }
      ]
    },
 
    { "TreffenNr": 38,
      "Session":
      [  { "SessionId": "03801",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Dynamischer Speicher unter VO",
+          "Summary": "VO-Werkstatt-Session zu DynInfoSize(), DynSize(), DynInfoUsed().",
+          "Items": [  ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Jedermann",
+          "Leute": 8,
+          "Firmen": 3 }
      ]
    },
 
    { "TreffenNr": 37,
      "Session":
      [  { "SessionId": "03701",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Werksbesichtigung bei der Sartorius AG",
+          "Summary": "Mit einer Werksführung wird Einblick in die Fertigung von hochgenauen Waagen (5 Stellen nach dem Komma in Gramm!) gegeben. Das Herzstück der Sartorius-Waagen besteht aus einem komplexen Aluminium-Monolith-Werkstück, das von CNC-Fräsautomaten aus Aluminium-Quadern herausgearbeitet wird.",
+          "Items": [ "Fertigung Aluminium-Monolith", "Qualitäts-Kontroll-Arbeitsplätze" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Martin R.",
+          "Leute": 12,
+          "Firmen": 4 }
      ]
    },
 
    { "TreffenNr": 36,
      "Session":
      [  { "SessionId": "03601",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "TCP/IP Kommunikation mit VO",
+          "Summary": "Kommunikation zwischen Rechnern direkt aus VO",
+          "Items": [ "TCP/IP Kommunikationstechnik", "Content im XML-Format" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Martin R.",
+          "Leute": 7,
+          "Firmen": 4 }
      ]
    },
 
    { "TreffenNr": 35,
      "Session":
      [  { "SessionId": "03501",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Dongle als Softwareschutz",
+          "Summary": "Eine Einführung in die Dongle-Programmierung",
+          "Items": [  ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Andreas",
+          "Leute": 8,
+          "Firmen": 4 },
+        { "SessionId": "03502",
+          "Caption": "Lokale Variablen in VO-Skripten",
+          "Summary": "...",
+          "Items": [  ],
+          "Link": "",
+          "Speaker": "Rainer",
+          "Leute": 8,
+          "Firmen": 4 }          
      ]
    },
 
    { "TreffenNr": 34,
      "Session":
      [  { "SessionId": "03401",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Dynamische Menüs",
+          "Summary": "...",
+          "Items": [  ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Dirk",
+          "Leute": 9,
+          "Firmen": 4 },
+        { "SessionId": "03402",
+          "Caption": "Lokale Variablen in VO-Skripten",
+          "Summary": "...",
+          "Items": [  ],
+          "Link": "",
+          "Speaker": "Rainer",
+          "Leute": 9,
+          "Firmen": 4 }          
      ]
    },
 
    { "TreffenNr": 33,
      "Session":
      [  { "SessionId": "03301",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Application-Server unter XBase++",
+          "Summary": "Vorstellung eines konkret realisierten Application-Servers",
+          "Items": [ "Dienste im Netzwerk", "Webservices", "Gleichzeitiger Datenbank-Zugriff über einen Internetbrowser u. und eine XBase++-Applikation" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Ralph",
+          "Leute": 12,
+          "Firmen": 5 }
      ]
    },
 
    { "TreffenNr": 32,
      "Session":
      [  { "SessionId": "03201",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "EDV-Lösungen mit Clipper und VO im Pressegrosso",
+          "Summary": "Betriebsrundgang und Vorstellung eines Internet Info- und Dialog-Systems für Handelspartner",
+          "Items": [ "Web-Info, dynamische Webseiten mit VO 2.5", "Kurzer Clipper-Applikations-Überblick (BEFO Grosso-System)" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Michael S.",
+          "Leute": 14,
+          "Firmen": 5 }
      ]
    },
 
    { "TreffenNr": 31,
      "Session":
      [  { "SessionId": "03101",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Waagen-Anbindung, Online-Banking",
+          "Summary": "Diskussion in offener Runde über PC Peripheriegeräte",
+          "Items": [ "Einbindung von Waagen zur Übernahme von Produktgewichten", "Kartenlesegeräte - Online-Banking", "allgemeine DV Probleme" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Jedermann",
+          "Leute": 8,
+          "Firmen": 3 }
      ]
    },
 
    { "TreffenNr": 30,
      "Session":
      [  { "SessionId": "03001",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Hacking, COM",
+          "Summary": "CA World Impressionen",
+          "Items": [ "Highlights eines CA World Vortrags zum Thema 'Hacking'", "COM-Schnittstelle in der Praxis" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Jürgen G.",
+          "Leute": 10,
+          "Firmen": 5 }
      ]
    },
 
    { "TreffenNr": 29,
      "Session":
      [  { "SessionId": "02901",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "gkDBTool und repoSRIPT",
+          "Summary": "...",
+          "Items": [ "Einführung in die Komponenten-Schnittstelle für gkDBTool", "Fehlerforschungen zu repoSCRIPT" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Joachim",
+          "Leute": 8,
+          "Firmen": 4 }
      ]
    },
 
    { "TreffenNr": 28,
      "Session":
      [  { "SessionId": "02801",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Klön-Snack über ein breites Themenspektrum",
+          "Summary": "...",
+          "Items": [  ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Jedermann",
+          "Leute": 3,
+          "Firmen": 2 }
      ]
    },
 
    { "TreffenNr": 27,
      "Session":
      [  { "SessionId": "02701",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Dynamisches Laden von DLL-Files",
+          "Summary": "Vorstellung der Fortschritte zum gkDBTool",
+          "Items": [ "\"Wizard\"-Klassen (J.)", "Aktualisierte Version gkLanguage (B.)", "Dynamisches Laden von DLL-Files (J. G.)" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Joachim, Bernd, Jürgen G.",
+          "Leute": 7,
+          "Firmen": 4 },
+        { "SessionId": "02702",
+          "Caption": "CA-World",
+          "Summary": "Ein Stimmungsbericht",
+          "Items": [ "Überblick", "Hacker-Tools", "Hacker-Schutz-Tools" ],
+          "Link": "",
+          "Speaker": "Jürgen G.",
+          "Leute": 7,
+          "Firmen": 4 }
      ]
    },
 
    { "TreffenNr": 26,
      "Session":
      [  { "SessionId": "02601",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Vorstellung der ersten Module zum gkDBTool",
+          "Summary": "...",
+          "Items": [ "Programmierkonventionen (J.)", "Mehrsprachfähigkeit (B.)", "Formel-Dialog (M. R.)", "Script-Steuerung (R.)", "Aufgabenverteilung: Serverklasse, Dynamisches Laden von DLL, Programmrahmen, Allgemeines Wizard-Tool" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Joachim, Bernd, Martin R., Rainer",
+          "Leute": 10,
+          "Firmen": 4 }
      ]
    },
 
    { "TreffenNr": 25,
      "Session":
      [  { "SessionId": "02501",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Aufgabenverteilung zum Projekt gkDBTool",
+          "Summary": "...",
+          "Items": [ "Funktionen-Wunschliste", "Aufgabenverteilung", "Projekt-Kommunikation" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Jedermann",
+          "Leute": 10,
+          "Firmen": 4 },
+        { "SessionId": "02502",
+          "Caption": "Sonstiges",
+          "Summary": "...",
+          "Items": [ "Demoshield und Installshield", "Clipper-Debugger in Link-Script einbinden statt mit CLD.EXE" ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 10,
+          "Firmen": 4 }
      ]
    },
 

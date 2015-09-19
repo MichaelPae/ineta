@@ -35,7 +35,7 @@ Hauptziele der Inetasite-Entwicklung (Stand 24.01.2015)
 
 Update-Protokoll
 ----------------
-Update-Schritte 18.09.2015 Fr
+Update-Schritte 19.09.2015 Sa
 - GitHub beherrschen lernen
 - GitHub MichaelPae aktualisieren
 - Ineta Web-Page als Lokales Git Repository einrichten
@@ -47,12 +47,21 @@ Update-Schritte 18.09.2015 Fr
 - Treffen Nr. 1-50 in JSON-Data erfassen
 - alle einzelnen Treffenberichte stilllegen
 
-Update-Schritte 17.09.2015 Do
-erl. Nr 190. als Default-Treffennr. gesetzt, Nr. 189 erfasst, Nr. 191 initialisiert
-erl. GitHub MichaelPae/PS-Pieces aktualisieren
+Update-Schritte 19.09.2015 Sa
+erl. Treffen Nr. 25-40 in JSON-Data erfasst
+erl. mywebbot.js neue function assembleCaptionList()
+
+Update-Schritte 18.09.2015 Fr
+erl. Treffen Nr. 41-50 in JSON-Data erfasst
+erl. Inetakopf.htm Zentrierung korrigiert
 erl. Property Session.Link implementieren (Link-String mit "Material zur Session")
      erl. loaddata.js Class Session erweitert
      erl. mywebbot.js neue function assembleMaterialLink()
+     erl. mywebbot.js neue function assembleSummary()
+
+Update-Schritte 17.09.2015 Do
+erl. Nr 190. als Default-Treffennr. gesetzt, Nr. 189 erfasst, Nr. 191 initialisiert
+erl. GitHub MichaelPae/PS-Pieces aktualisieren
 
 Update-Schritte 21.08.2015 Fr
 erl. Nr 189. als Default-Treffennr. gesetzt, Nr. 188 erfasst, Nr. 190 initialisiert
