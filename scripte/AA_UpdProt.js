@@ -50,6 +50,7 @@ Update-Schritte 19.09.2015 Sa
 Update-Schritte 19.09.2015 Sa
 erl. Treffen Nr. 25-40 in JSON-Data erfasst
 erl. mywebbot.js neue function assembleCaptionList()
+erl. Link auf Treffen in function assembleThemenListe()
 
 Update-Schritte 18.09.2015 Fr
 erl. Treffen Nr. 41-50 in JSON-Data erfasst
