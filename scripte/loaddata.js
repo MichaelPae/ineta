@@ -89,6 +89,7 @@ function Meeting(oAccess) {
     this.Date = convIsoDate2Date(this.TerminISO);
     this.Termin = this.Date.convAlpha();
     //this.TerminDuden = oSession.Datum.convDuden();
+    this.Zeit = convTerminISO2Time(this.TerminISO, "Uhr");
     this.Anmeldeschluss = this.Date.addDays(-1).convAlpha(); // "16. 07. 2014";
     // Location
     this.Location = new Location(oAccess.oBackEnd, this.OrtId);

@@ -93,6 +93,9 @@ Access.prototype.executeIneta = function executeIneta() {
         case "Termin":  // Meeting
             this.Termin();
             break;
+        case "TerminDoW":  // Meeting
+            this.TerminDoW();
+            break;
         case "TerminDuden": // Meeting
             this.TerminDuden();
             break;
@@ -253,6 +256,11 @@ Access.prototype.Treffpunkt = function Treffpunkt() {
 Access.prototype.Termin = function Termin() {
     var oMeeting = new Meeting(this);
     this.Wert = oMeeting.Date.convAlpha();
+}
+
+Access.prototype.TerminDoW = function TerminDoW() {
+    var oMeeting = new Meeting(this);
+    this.Wert = oMeeting.Date.convAlphaDoW();
 }
 
 Access.prototype.TerminDuden = function TerminDuden() {
@@ -446,6 +454,7 @@ Access.prototype.assembleThemenListe = function assembleThemenListe(nAnzahl) {
     var cCaptionList;
     var cLink;
     var cAhrefTreffen;
+    var cDatum;
     var cARefMaterial;
     var oAccessI = this;
     var oMeeting = new Meeting(this);
@@ -453,16 +462,18 @@ Access.prototype.assembleThemenListe = function assembleThemenListe(nAnzahl) {
     for (var i = nStartNr; i > nStartNr - nAnzahl; i--) {
         oAccessI.Decrement();
         oMeeting = new Meeting(oAccessI);            // Datenobject zum Key 
-        
+       
         cTreffenNr = i.toString();
-        cAhrefTreffen = assembleAddressTag("devgtreffen.htm?treffennr=" + cTreffenNr, cTreffenNr + ".");
-
+        //cAhrefTreffen = assembleAddressTag("devgtreffen.htm?treffennr=" + cTreffenNr, cTreffenNr + ".");
+        cDatum = oMeeting.TerminISO;
+        //cDatum = convDate2AlphaDate( convIsoDate2Date(oMeeting.TerminISO) );
+        cAhrefTreffen = assembleAddressTag("devgtreffen.htm?treffennr=" + cTreffenNr, cDatum);
         cCaptionList = oMeeting.Sessions[1].Caption; // <ENGINE />
 
         cLink = oMeeting.Sessions[1].Link;           // <ENGINE />
         cARefMaterial = assembleMaterialLink(cLink);
       
-        cListe = cListe + '<li>' + cAhrefTreffen + " " + cCaptionList + cARefMaterial + '</li>';
+        cListe = cListe +'<li>'+ cAhrefTreffen +" "+ cCaptionList + cARefMaterial +'</li>';
     }
     return cListe;
 }
@@ -470,6 +481,10 @@ Access.prototype.assembleThemenListe = function assembleThemenListe(nAnzahl) {
 // Extending Date Object
 Date.prototype.convAlpha = function convAlpha() {
     return convDate2AlphaDate(this);
+}
+
+Date.prototype.convAlphaDoW = function convAlphaDoW() {
+    return convDate2AlphaDateDoW(this);
 }
 
 Date.prototype.convIso = function convIso() {
@@ -522,6 +537,20 @@ function convDate2AlphaDate(Datum) {
     return cDate;
 }
 
+function convDate2AlphaDateDoW(Datum) {
+    // konvertiert ein Date-Object in alphanumerischen String (Bsp. "Sonntag, dem 3. Juni 1956")
+    var cTag = wochentag(Datum); // "Testtag"; //
+    var cDate = convDate2AlphaDate(Datum);
+    cDate = cTag+", dem "+cDate;
+    return cDate;
+}
+
+function wochentag(i){
+    var tage = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag', 'Sonntag'];
+    var tag = (typeof(i) == 'object') ? i.getDay() : i ;
+    return tage[tag];
+}
+
 function convDate2DudenDate(Datum) {
     // konvertiert ein Date-Object in einen alphanumerischen Datums-String entspr. Duden
     var iDay = Datum.getDate();
@@ -553,6 +582,21 @@ function convIsoDate2Date(cIsoDate) {
     var iYear = parseInt(cIsoDate.substr(0, 4), 10);
     var oDate = new Date(iYear, iMonth, iDay);
     return oDate;
+}
+
+function convTerminISO2Time(cIsoDate, cDim) {
+    // konvertiert ein Date-Object in einen Zeitstring (Bsp. "19:00 h")
+    var cZeit="19:00";
+
+    if (isEmpty(cDim)) {
+        cDim = 'h';
+    } 
+ 
+    if (cIsoDate.length>11) {
+        cZeit=cIsoDate.substr(11,5);
+    } 
+    cZeit += " "+cDim;
+    return cZeit;
 }
 
 // HTML-Code um Inhalte bauen
