@@ -1,128 +1,368 @@
 { "T_Session":
 [
+   { "TreffenNr": 207,
+     "Session":
+     [  { "SessionId": "20701",
+      "Caption": "GoeKs-App Projekt in VisualStudio anlegen",
+      "Summary": "...",
+      "Items": [ "Item 1", "Item 2", "Item 3", "Item 4" ],
+      "Link": "",
+      "Speaker": "NN",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
+   { "TreffenNr": 206,
+     "Session":
+     [  { "SessionId": "20601",
+      "Caption": "Implementieren eines Online TFS mit Verbindung zum GitHub",
+      "Summary": "...",
+      "Items": [ "Item 1", "Item 2", "Item 3", "Item 4" ],
+      "Link": "",
+      "Speaker": "Johannes",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
+   { "TreffenNr": 205,
+     "Session":
+     [  { "SessionId": "20501",
+      "Caption": "Einrichten eines öffentlichen GitHubs",
+      "Summary": "Gemeinsames Einrichten eines GitHubs für unseren GöKs-App-Workshop. Wer möchte kann sein Notebook mitbringen, um GitHub unter Anleitung selbst einzurichten.",
+      "Items": [ "Einrichten eines 'eigenen' öffentlichen GitHub Accounts", "Nutzen des 'eigenen' öffentlichen GitHubs", "Einrichten des lokalen GitHub Desktops", "Lokales Arbeiten mit online GitHub Daten" ],
+      "Link": "data/m2017-02-15_GitHubWorkshop.pdf",
+      "Speaker": "Michael",
+      "Leute": 8,
+      "Firmen": 6 }
+     ]
+   },
+   { "TreffenNr": 204,
+     "Session":
+     [  { "SessionId": "20401",
+      "Caption": "Strukturierung eines UWP-App-Workshops",
+      "Summary": "Gemeinsames Brainstorming wie wir eine Schritt-für-Schritt-Entwicklung einer DevGroup UWP-App (Universelle Windows-Plattform) unter Einbindung von PRISM 6 strukturieren könnten.",
+      "Items": [ "Aufgabe: Applikation mit einem Menü", "Werkzeuge: Scrum, GitHub, Xamarin-Forms, Prism", "Sammeln erster Userstorys zum Gesamt-Projekt" ],
+      "Link": "data/m2017-01-18_WorkshopZurEntwicklungEinerMultiPlatformApp.pdf",
+      "Speaker": "Jedermann",
+      "Leute": 5,
+      "Firmen": 3 }
+     ]
+   },
+   { "TreffenNr": 203,
+     "Session":
+     [  { "SessionId": "20301",
+      "Caption": "Scrum in Theorie und Praxis",
+      "Summary": "Scrum hat sich als Methodik etabliert und wird in einem Atemzug mit agiler Entwicklung genannt. In dem Vortrag werden wir uns zunächst mit den theoretischen Grundlagen und Absichten von Scrum beschäftigen. Dazu gehört auch ein kleiner Exkurs zu weiteren Schlagworten, die im agilen Umfeld des öfteren zu hören sind. Anschließend werden wir uns an drei Beispielen aus dem \"echten Leben\" die Einsatzmöglichkeiten in der Praxis ansehen und es wird sicher auch noch Platz für Fragen bleiben, so z.B. zum zentralen Thema \"Wie schätze ich User Stories ein?\".",
+      "Items": [ "Umfeld: von \"Agiler Entwicklung\" bis \"Extreme Programming\"", "Zum Vergleich: \"Klassische Entwicklung\"", "Scrum Entstehungsgeschichte und Hintergründe", "Scrum-Rollen, -User-Stories, -Backlog, -Meetings, -Sprint, -Produkt-Inkrement" ],
+      "Link": "data/m2016-12-21_Scrum(Theorie).pdf",
+      "Speaker": "Bernd",
+      "Leute": 9,
+      "Firmen": 6 }
+     ]
+   },
+   { "TreffenNr": 202,
+     "Session":
+     [  { "SessionId": "20201",
+          "Caption": "Keynote zur <a href=\"devgminidevcon.htm\" target=\"_blank\">Mini-DevCon</a>",
+          "Summary": "Eine kleine Geschichte zu 200 DevGroup-Treffen",
+          "Items": [ "Gründung 4. Dezember 1997", "VOCA Usergroup", "Seit März 2006 INETA-Usergroup", "Infos zum Treffen auf www.devgroupgöks.de" ],
+          "Link": "data/mdc2016_devgroupgoeks.pdf",
+          "Speaker": "Joachim B.",
+          "Leute": 16,
+          "Firmen": 10 },
+        { "SessionId": "20202",
+          "Caption": "Industrie 4.0 für zuhause – „IoT – Internet of Things“ für Otto Normalentwickler",
+          "Summary": "Eines der Buzzwords in den aktuellen Themen rund um die Entwicklung ist ...",
+          "Items": [ "Was ist Windows 10 IoT Core?", "Was ist .NET Microframework (NETMF)?", "Praktische Arbeit mit NETMF", "... und Verbinden mit einem Netzwerk" ],
+          "Link": "data/mdc2016_iot.pdf",
+          "Speaker": "Martin R.",
+          "Leute": 16,
+          "Firmen": 10 },
+        { "SessionId": "20203",
+          "Caption": "Design/UI/UX-Grundlagen für Entwickler",
+          "Summary": "Auch Software-Entwickler sollten ein gewisses Gespür für die Gestaltung von UIs haben ...",
+          "Items": [ "User Experience", "Gestalttheorie: Nähe, Ausrichtung, Domianz, Hierarchien, Whitespace", "Arbeitsmittel: Empathie, Rollen, Personas, Szenarien, ...", "Fachbücher" ],
+          "Link": "http://www.ux4devs.de/",
+          "Speaker": "Roland W.",
+          "Leute": 16,
+          "Firmen": 10 },
+        { "SessionId": "20204",
+          "Caption": "PRISM 6",
+          "Summary": "PRISM bietet Basis, Orientierungshilfen und Beispiele um umfangreiche, modulare, flexible und leicht zu pflegende WPF-Anwendungen zu bauen ...",
+          "Items": [ "Application Framework", "Prism Bootstrapper", "Prism Regionen", "Prism Module" ],
+          "Link": "https://github.com/JGoschke/Usergroup/tree/master/Prism6",
+          "Speaker": "Jürgen G.",
+          "Leute": 16,
+          "Firmen": 10 }
+     ]
+   },
+   { "TreffenNr": 201,
+     "Session":
+     [  { "SessionId": "20101",
+      "Caption": "Vorbereitungen und Generalprobe für die Oktober <a href=\"devgminidevcon.htm\" target=\"_blank\">Mini-DevCon</a>",
+      "Summary": "Mini-DevCon-Generalprobe-(Vortrag) für Einrichtung der Technik, Speaker Environment, Bestuhlung usw.",
+      "Items": [ "Test des Environments", "Materialliste für die Mini-DevCon", "Besprechung der Kommunikation mit Sponsoren und Werbeplattformen" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 3,
+      "Firmen": 3 }
+     ]
+   },
+   { "TreffenNr": 200,
+     "Session":
+     [  { "SessionId": "20001",
+          "Caption": "Projektplanung Mini-DevCon anlässlich des 200. UG-Treffens",
+          "Summary": "Statusbericht zu unserer geplanten Mini-DevCon; Stand der Bereitschaft von Usergroup-Mitgliedern zur Mitarbeit und zur Teilnahme am 21. Oktober 2016. Gemeinsame Entscheidungsfindung für Durchführung!",
+          "Items": [ "Zusagen der internen Speaker liegen vor", "Externe Speaker haben sich angeboten, einer wird gebucht", "Beamer und Ersatzbeamer sind vorhanden", "Räumlichkeiten im Braunen Hirsch sind gebucht", "Beschluss: Die Mini-DevCon am 21. Oktober 2016 wird durchgeführt." ],
+          "Link": "devgminidevcon.htm",
+          "Speaker": "Jedermann",
+          "Leute": 7,
+          "Firmen": 5 }
+     ]
+   },
+   { "TreffenNr": 199,
+     "Session":
+     [  { "SessionId": "19901",
+          "Caption": "Bericht von einem Kompaktseminar für Datenschutzbeauftragte",
+          "Summary": "Überblick über die Themen der zweitägigen Veranstaltung",
+          "Items": [ "Datenschutz Begriffe", "Pflichten der verantwortlichen Stelle (Unternehmen)", "Betroffenen Rechte", "Technische und Organisatorische Maßnahmen" ],
+          "Link": "",
+          "Speaker": "Michael",
+          "Leute": 5,
+          "Firmen": 3 },
+        { "SessionId": "19902",
+          "Caption": "Projektplanung Mini-DevCon zum 200. UG-Treffen",
+          "Summary": "Statusbericht",
+          "Items": [ "Räumlichkeiten vorbestellt", "Kontakte mit potentiellen Speakern", "Unterstützung der INETA Germany", "Entscheidung für Durchführung Anfang August" ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 5,
+          "Firmen": 3 }
+     ]
+   },
+   { "TreffenNr": 198,
+     "Session":
+     [  { "SessionId": "19801",
+          "Caption": "Projektplanung Mini-DevCon zum 200. UG-Treffen",
+          "Summary": "Berichte von den Sondierungen",
+          "Items": [ "Bericht von den Rückmeldungen", "Potentielle Speakerliste", "Skizzierung Zeitplan Mini-DevCon" ],
+          "Link": "devgminidevcon.htm",
+          "Speaker": "Jedermann",
+          "Leute": 4,
+          "Firmen": 2 }
+     ]
+   },
+   { "TreffenNr": 197,
+     "Session":
+     [  { "SessionId": "19701",
+      "Caption": "Brainstorm zu einer Aktion oder einem Event für unser 200. UG-Treffen",
+      "Summary": "Im August 2016 trifft sich die .NET DevGroup Göttingen/Kassel zum 200. Mal. Ein Ereignis, das eine besondere Gestaltung verdienen würde.",
+      "Items": [ "Projektierung einer Mini-DevCon", "Kriterien möglicher Speaker", "Entscheidung im Juni", "Verteilung von Sondierungsaufgaben" ],
+      "Link": "devgminidevcon.htm",
+      "Speaker": "Jedermann",
+      "Leute": 6,
+      "Firmen": 3 }
+     ]
+   },
+   { "TreffenNr": 196,
+     "Session":
+     [  { "SessionId": "19601",
+          "Caption": "Das MS Windows 10 Lumia 950 Smartphone",
+          "Summary": "Mit dem \"Microsoft Display Dock\", einer Maus, einer Tastatur und einem Display wird aus dem Lumia 950 ein PC.",
+          "Items": [ "Microsoft Continuum-Funktion", "Microsoft Display Dock", "Ultra HDTV (UHD)", "Universal Windows Platform (UWP)" ],
+          "Link": "",
+          "Speaker": "Rudi",
+          "Leute": 5,
+          "Firmen": 3 },
+        { "SessionId": "19602",
+          "Caption": "Bundesdatenschutzgesetz",
+          "Summary": "Einführung in informationelle Selbstbestimmung, Datenschutzschulung und Datenschutzkonzept",
+          "Items": [ "Informationelle Selbstbestimmung", "BDSG – Schutz für personenbezogene Daten", "Grundsätze des Datenschutzrechts", "Praxis", "Betroffenenrechte", "Datenschutzbeauftragter", "Datenschutzgeheimnis u. Verpflichtung" ],
+          "Link": "",
+          "Speaker": "Michael",
+          "Leute": 5,
+          "Firmen": 3 }
+     ]
+   },
+   { "TreffenNr": 195,
+     "Session":
+     [  { "SessionId": "19501",
+          "Caption": "Nachlese von der BASTA! Spring 2016 in Darmstadt",
+          "Summary": "Unterhaltsames Summary der BASTA in zwei Akten. Die BASTA Konferenz für Microsoft- und Web-Technologien umfasst die gesamte Technologieplattform der Microsoft-Welt – und geht weit darüber hinaus.",
+          "Items": [ "AngularJS – Clientseitiges JavaScript-Webframework", "Multiplattform und alles Mobil und Cross-Plattform for free", ".NET Framework vs. .NET Core", "Xamarin", "Cortana Analytics", "Managed Extensibility Framework", "..." ],
+          "Link": "",
+          "Speaker": "Hermann und Johannes",
+          "Leute": 6,
+          "Firmen": 4 }
+     ]
+   },
+   { "TreffenNr": 194,
+     "Session":
+     [  { "SessionId": "19401",
+      "Caption": "Aspektorientierte Programmierung mit Postsharp",
+      "Summary": "Theorie – Was bedeutet aspektorientierte Programmierung? Praxis: Was bringt es mir und wann sollte ich es nutzen?",
+      "Items": [ "Geschichte: Gregor Kiczales und Xerox PARC", "Physische Trennung der Core-Level-Concerns von System-Level-Concerns", "AOP mit Postsharp", "Programm-Logger Beispiel mit Postsharp und Log4Net" ],
+      "Link": "",
+      "Speaker": "Johannes",
+      "Leute": 7,
+      "Firmen": 4 }
+     ]
+   },
+   { "TreffenNr": 193,
+     "Session":
+     [  { "SessionId": "19301",
+          "Caption": "Verwendung von Visual Studio Application Insights",
+          "Summary": "Was ist denn das nun wieder für ein neuer Kram? Brauche ich das? Sollte ich es brauchen? JA",
+          "Items": [ "Aktivierung von \"Visual Studio Application Insights\" in Microsoft Azure", "Sammeln von Telemetrie-Daten zur Überwachung der Nutzung, Leistung und Probleme von Anwendungen", "Apps beobachten, unabhängig davon wo sie laufen", "Telemetry Befehle im Code", "Insights-Statistiken von Demo-Apps" ],
+          "Link": "https://github.com/JGoschke/Usergroup",
+          "Speaker": "Jürgen G.",
+          "Leute": 7,
+          "Firmen": 4 },
+         { "SessionId": "19302",
+          "Caption": "Usergroup Selbstorganisation",
+          "Summary": "Der Donnerstagstermin für das Usergroup-Treffen scheint nicht mehr optimal",
+          "Items": [ "Mögliche Wochentage für das Usergrouptreffen", "Festlegung des \"Dienstags\" in der Sommersaison und des \"Mittwochs\" im Winter" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 7,
+          "Firmen": 4 }
+     ]
+   },
+   { "TreffenNr": 192,
+     "Session":
+     [  { "SessionId": "19201",
+      "Caption": "Merkmalserfassungen mit SQL-Tabellen (Teil 2)",
+      "Summary": "Visualisierung mit XAML in Windows 8 App.",
+      "Items": [ "Wiederholung der SQL-Strukturen", "Darstellung der Daten mit Ableitungen der UserControl-Class", "Grids und dynamische Tabellen in XAML", "DataTemplate- und DataTemplateSelector-Classes", "Demo: Erweitern einer Umfrage einfach durch ergänzende Sätze in den SQL-Tabellen" ],
+      "Link": "",
+      "Speaker": "Joachim",
+      "Leute": 7,
+      "Firmen": 4 }
+     ]
+   },
    { "TreffenNr": 191,
      "Session":
-     [	{ "SessionId": "19101",
-	  "Caption": "... werden noch gesucht",
-	  "Summary": "(Vorschläge werden ständig gesucht ...)",
-	  "Items": [ "Item 1", "Item 2", "Item 3", "Item 4" ],
-	  "Link": "",
-	  "Speaker": "NN",
-	  "Leute": 0,
-	  "Firmen": 0 }
+     [  { "SessionId": "19101",
+      "Caption": "Technical Summit 2015",
+      "Summary": "Bericht vom Microsoft Technical Summit 2015 (vom 17. bis 19. November 2015, Darmstadt).",
+      "Items": [ "Azure - Next Generation Cloud with Azure Stack, Nano Server & Windows Server 2016!", "Datenschutz, Datensicherheit (Deutsche Microsoft Cloud mit T-Systems)", "Windows Embedded - Ablösung von Win CE", "IoT u. Industrie 4.0 - vom Win10IoTCore-System bis zum unabhängingen Standard OPC-UA", "Power BI (Business Intelligence) für Entwickler" ],
+      "Link": "http://www.microsoft.com/germany/technical-summit",
+      "Speaker": "Jürgen G.",
+      "Leute": 5,
+      "Firmen": 4 }
      ]
    },
    { "TreffenNr": 190,
      "Session":
-     [	{ "SessionId": "19001",
-	  "Caption": "Merkmalserfassungen mit SQL-Tabellen",
-	  "Summary": "Praxis-Beispiel einer SQL-Tabellenstruktur für Merkmalserfassungen und -Auswertungen.",
-	  "Items": [ "Item 1", "Item 2", "Item 3", "Item 4" ],
-	  "Link": "",
-	  "Speaker": "Joachim",
-	  "Leute": 0,
-	  "Firmen": 0 }
+     [  { "SessionId": "19001",
+      "Caption": "Merkmalserfassungen mit SQL-Tabellen (Teil 1)",
+      "Summary": "Praxis-Beispiel einer SQL-Tabellenstruktur für Merkmalserfassungen und -Auswertungen.",
+      "Items": [ "\"StoreCheck\", die konkrete Anforderung einer Umfrage", "Generisches Datenmodell für mobile Umfragen", "Definition des \"StoreChecks\" im abstrakten Datenmodel", "Antwort-Tabelle" ],
+      "Link": "",
+      "Speaker": "Joachim",
+      "Leute": 8,
+      "Firmen": 6 }
      ]
    },
    { "TreffenNr": 189,
      "Session":
-     [	{ "SessionId": "18901",
-	  "Caption": "Powershell statt CMD (Teil 2 PowerShell Scripting)",
-	  "Summary": "Fortsetzung unserer Powershell-Exploration: Durch die weiten Script-Felder, auf die Remote-Fernsicht und zur .NET-Verwandtschaft.",
-	  "Items": [ "Zusammenfassung Teil 1", "Interactive Scripting Engine", "Demonstration einer Powershell Remote Session", "Direkte .NET Nutzung in PowerShell", "https://github.com/MichaelPae/PS-Pieces" ],
-	  "Link": "https://github.com/MichaelPae/PS-Pieces",
-	  "Speaker": "Michael",
-	  "Leute": 10,
-	  "Firmen": 8 }
+     [  { "SessionId": "18901",
+      "Caption": "Powershell statt CMD (Teil 2 PowerShell Scripting)",
+      "Summary": "Fortsetzung unserer Powershell-Exploration: Durch die weiten Script-Felder, auf die Remote-Fernsicht und zur .NET-Verwandtschaft.",
+      "Items": [ "Zusammenfassung Teil 1", "Interactive Scripting Engine", "Demonstration einer Powershell Remote Session", "Direkte .NET Nutzung in PowerShell", "https://github.com/MichaelPae/PS-Pieces" ],
+      "Link": "https://github.com/MichaelPae/PS-Pieces",
+      "Speaker": "Michael",
+      "Leute": 10,
+      "Firmen": 8 }
      ]
    },
    { "TreffenNr": 188,
      "Session":
-     [	{ "SessionId": "18801",
-	  "Caption": "Powershell statt CMD (Teil 1 PowerShell Konzepte)",
-	  "Summary": "Die Powershell-Exploration eines NICHT-Admins in die Konsolen-Niederung und an die weiten Script-Felder.",
-	  "Items": [ "PowerShell Schlagworte", "PowerShell Hilfe", "PowerShell für Umsteiger", "PowerShell: \"Alles ist ein Objekt\"", "PowerShell: \"Alles ist ein Laufwerk\"" ],
-	  "Link": "https://github.com/MichaelPae/PS-Pieces",
-	  "Speaker": "Michael",
-	  "Leute": 7,
-	  "Firmen": 5 }
+     [  { "SessionId": "18801",
+      "Caption": "Powershell statt CMD (Teil 1 PowerShell Konzepte)",
+      "Summary": "Die Powershell-Exploration eines NICHT-Admins in die Konsolen-Niederung und an die weiten Script-Felder.",
+      "Items": [ "PowerShell Schlagworte", "PowerShell Hilfe", "PowerShell für Umsteiger", "PowerShell: \"Alles ist ein Objekt\"", "PowerShell: \"Alles ist ein Laufwerk\"" ],
+      "Link": "https://github.com/MichaelPae/PS-Pieces",
+      "Speaker": "Michael",
+      "Leute": 7,
+      "Firmen": 5 }
      ]
    },
   { "TreffenNr": 187,
      "Session":
-     [	{ "SessionId": "18701",
-	  "Caption": "pSake, alles Reiswein oder was??",
-	  "Summary": "Nein, pSake ist ein Tool/Framework, das auf Powershell  basiert und zur einfachen Erzeugung von Build-Scripten dient; ohne große XML-Files wie für MS-Build. Damit werden alle Nebenarbeiten, die sonst vor- und nachher erledigt werden müssen, deutlich erleichtert und volle Flexibilität und die Power von .NET steht zur Verfügung.",
-	  "Items": [ "psake ein Automatisierungs-Tool in Powershell", "psake ist in Tasks strukturiert", "psake-Einsatzgebiete: Build-Prozess, Software Installation, Hintergrundprozess, ...", "https://github.com/psake/psake.git" ],
-	  "Link": "https://github.com/psake/psake.git",
-	  "Speaker": "Hermann",
-	  "Leute": 6,
-	  "Firmen": 4 }
+     [  { "SessionId": "18701",
+      "Caption": "pSake, alles Reiswein oder was??",
+      "Summary": "Nein, pSake ist ein Tool/Framework, das auf Powershell  basiert und zur einfachen Erzeugung von Build-Scripten dient; ohne große XML-Files wie für MS-Build. Damit werden alle Nebenarbeiten, die sonst vor- und nachher erledigt werden müssen, deutlich erleichtert und volle Flexibilität und die Power von .NET steht zur Verfügung.",
+      "Items": [ "psake ein Automatisierungs-Tool in Powershell", "psake ist in Tasks strukturiert", "psake-Einsatzgebiete: Build-Prozess, Software Installation, Hintergrundprozess, ...", "https://github.com/psake/psake.git" ],
+      "Link": "https://github.com/psake/psake.git",
+      "Speaker": "Hermann",
+      "Leute": 6,
+      "Firmen": 4 }
      ]
    },
   { "TreffenNr": 186,
      "Session":
-     [	{ "SessionId": "18601",
-	  "Caption": "Dashboard-Tools von DevExpress mit ASP.Net",
-	  "Summary": "...",
-	  "Items": [ "Überblick über die Optionen", "DevExpress vs. infragistics" ],
-	  "Link": "",
-	  "Speaker": "Johannes",
-	  "Leute": 6,
-	  "Firmen": 5 }
+     [  { "SessionId": "18601",
+      "Caption": "Dashboard-Tools von DevExpress mit ASP.Net",
+      "Summary": "...",
+      "Items": [ "Überblick über die Optionen", "DevExpress vs. infragistics" ],
+      "Link": "",
+      "Speaker": "Johannes",
+      "Leute": 6,
+      "Firmen": 5 }
      ]
    },
    { "TreffenNr": 185,
      "Session":
-     [	{ "SessionId": "18501",
-	  "Caption": "Git - Das etwas andere Versionierungs-System (Teil 2 Praxis)",
-	  "Summary": "Git ist in der Zwischenzeit auch in der Microsoft-Welt angekommen, der TFS bietet es als alternatives Versionssystem an und auch Visual Studio  unterstützt Git (im TFS) native.<br><br>Trotzdem sollten die Besonderheiten und die Philosophie, die hinter Git steckt bekannt sein um dessen Stärken und Eigenheiten optimal nutzen zu können. Neben ausführlichen Grundlagen kommt auch das Thema Git in der Praxis und dessen Nutzung per Kommandozeile und Visual Studio zur Sprache.",
-	  "Items": [ "Zusammenfassung u. Wiederholung von Teil 1", "Übersicht über GIT Front-Ends", "Demo: GIT Command Line", "Demo: GIT in Visual Studio", "Demo: gitweb - Git web interface (web frontend to Git repositories)" ],
-	  "Link": "https://git-scm.com/book/de/v1",
-	  "Speaker": "Bernd",
-	  "Leute": 9,
-	  "Firmen": 7 }
+     [  { "SessionId": "18501",
+      "Caption": "Git - Das etwas andere Versionierungs-System (Teil 2 Praxis)",
+      "Summary": "Git ist in der Zwischenzeit auch in der Microsoft-Welt angekommen, der TFS bietet es als alternatives Versionssystem an und auch Visual Studio  unterstützt Git (im TFS) native.<br><br>Trotzdem sollten die Besonderheiten und die Philosophie, die hinter Git steckt bekannt sein um dessen Stärken und Eigenheiten optimal nutzen zu können. Neben ausführlichen Grundlagen kommt auch das Thema Git in der Praxis und dessen Nutzung per Kommandozeile und Visual Studio zur Sprache.",
+      "Items": [ "Zusammenfassung u. Wiederholung von Teil 1", "Übersicht über GIT Front-Ends", "Demo: GIT Command Line", "Demo: GIT in Visual Studio", "Demo: gitweb - Git web interface (web frontend to Git repositories)" ],
+      "Link": "https://git-scm.com/book/de/v1",
+      "Speaker": "Bernd",
+      "Leute": 9,
+      "Firmen": 7 }
      ]
    },
    { "TreffenNr": 184,
      "Session":
-     [	{ "SessionId": "18401",
-	  "Caption": "Git - Das etwas andere Versionierungs-System (Teil 1 Grundlagen)",
-	  "Summary": "Git ist in der Zwischenzeit auch in der Microsoft-Welt angekommen, der TFS bietet es als alternatives Versionssystem an und auch Visual Studio  unterstützt Git (im TFS) native.<br><br>Trotzdem sollten die Besonderheiten und die Philosophie, die hinter Git steckt bekannt sein um dessen Stärken und Eigenheiten optimal nutzen zu können. Neben ausführlichen Grundlagen kommt auch das Thema Git in der Praxis und dessen Nutzung per Kommandozeile und Visual Studio zur Sprache.",
-	  "Items": [ "Git Besonderheiten im Vergleich zu anderen Versions-Systemen", "Diff- vs. Snapshot-Struktur", "Git Clients", "Branching im \"echten\" Leben" ],
-	  "Link": "https://git-scm.com/book/de/v1",
-	  "Speaker": "Bernd",
-	  "Leute": 8,
-	  "Firmen": 5 }
+     [  { "SessionId": "18401",
+      "Caption": "Git - Das etwas andere Versionierungs-System (Teil 1 Grundlagen)",
+      "Summary": "Git ist in der Zwischenzeit auch in der Microsoft-Welt angekommen, der TFS bietet es als alternatives Versionssystem an und auch Visual Studio  unterstützt Git (im TFS) native.<br><br>Trotzdem sollten die Besonderheiten und die Philosophie, die hinter Git steckt bekannt sein um dessen Stärken und Eigenheiten optimal nutzen zu können. Neben ausführlichen Grundlagen kommt auch das Thema Git in der Praxis und dessen Nutzung per Kommandozeile und Visual Studio zur Sprache.",
+      "Items": [ "Git Besonderheiten im Vergleich zu anderen Versions-Systemen", "Diff- vs. Snapshot-Struktur", "Git Clients", "Branching im \"echten\" Leben" ],
+      "Link": "https://git-scm.com/book/de/v1",
+      "Speaker": "Bernd",
+      "Leute": 8,
+      "Firmen": 5 }
      ]
    },
    { "TreffenNr": 183,
      "Session":
-     [	{ "SessionId": "18301",
-	  "Caption": "Bericht von der BASTA 23. bis 27. Februar 2015",
-	  "Summary": "Aktuelle Themen über die gesamte Technologieplattform der Microsoft-Welt – und weit darüber hinaus.",
-	  "Items": [ "Plattformübergreifend arbeiten mit HTML5, JavaScript u. Co.", "Raus aus der Legacy-Falle mit Micro-Services", "Microsoft goes Open Source", ".NET Compiler Platform (\"Roslyn\")" ],
-	  "Link": "",
-	  "Speaker": "Jürgen G. und Rudi",
-	  "Leute": 8,
-	  "Firmen": 5 }
+     [  { "SessionId": "18301",
+      "Caption": "Bericht von der BASTA 23. bis 27. Februar 2015",
+      "Summary": "Aktuelle Themen über die gesamte Technologieplattform der Microsoft-Welt – und weit darüber hinaus.",
+      "Items": [ "Plattformübergreifend arbeiten mit HTML5, JavaScript u. Co.", "Raus aus der Legacy-Falle mit Micro-Services", "Microsoft goes Open Source", ".NET Compiler Platform (\"Roslyn\")" ],
+      "Link": "",
+      "Speaker": "Jürgen G. und Rudi",
+      "Leute": 8,
+      "Firmen": 5 }
      ]
    },
    { "TreffenNr": 182,
      "Session":
-     [	{ "SessionId": "18201",
-	  "Caption": "Automatisierte Erstellung von personalisierten Artikeln",
-	  "Summary": "Workflow eines konkreten Auftrags von der Bestellung bis zum fertigen Produkt",
-	  "Items": [ "Parameter-Beschaffung für Grafik-Produktionsdateien", "Template-Design und Template-Umformung zur Produktionsdatei", "APIs zur .Net-Remotesteuerung gängiger Bildbearbeitungssoftware", "Code-Beispiele zur automatischen Formatierung individueller Objekte in Grafikfiles" ],
-	  "Link": "",
-	  "Speaker": "Johannes",
-	  "Leute": 7,
-	  "Firmen": 6 }
+     [  { "SessionId": "18201",
+      "Caption": "Automatisierte Erstellung von personalisierten Artikeln",
+      "Summary": "Workflow eines konkreten Auftrags von der Bestellung bis zum fertigen Produkt",
+      "Items": [ "Parameter-Beschaffung für Grafik-Produktionsdateien", "Template-Design und Template-Umformung zur Produktionsdatei", "APIs zur .Net-Remotesteuerung gängiger Bildbearbeitungssoftware", "Code-Beispiele zur automatischen Formatierung individueller Objekte in Grafikfiles" ],
+      "Link": "",
+      "Speaker": "Johannes",
+      "Leute": 7,
+      "Firmen": 6 }
      ]
    },
    { "TreffenNr": 181,
      "Session":
-     [	{ "SessionId": "18101",
+     [  { "SessionId": "18101",
           "Caption": "Vom Prozess zum Werkzeug - Software-Entwicklungsprozesse (Part&nbsp;2)",
           "Summary": "Wie bekomme ich meinen angepassten Entwicklungsprozess auf ein ALM-Werkzeug wie den TFS? Es geht nicht um die vollständige Umsetzung sondern um das Umreißen der Möglichkeiten mit kleinen Demos.",
           "Items": [ "Kandidaten für ALM im Vergleich (Polarion, TFS)", "Fertige Testumgebungen für TFS-Konfiguration (Brian Harry’s blog)",  "Individuelle TFS-Anpassungen an den Projekt Workflow", "Blick in ein aktiv genutztes TFS System mit über 16000 Change Requests" ],
@@ -130,12 +370,12 @@
           "Speaker": "Martin R.",
           "Leute": 9,
           "Firmen": 7 },
-          
+
         { "SessionId": "18102",
           "Caption": "Ausblick auf Microsoft HoloLens",
           "Summary": "\"The era of holographic computing is here.\"",
           "Items": [ "Video: Microsoft HoloLens presentation", "Video: Microsoft HoloLens - Das ist mit der Brille möglich" ],
-	      "Link": "",
+          "Link": "",
           "Speaker": "Martin R.",
           "Leute": 8,
           "Firmen": 6 }
@@ -143,15 +383,15 @@
    },
    { "TreffenNr": 180,
      "Session":
-     [	{ "SessionId": "18001",
-    	  "Caption": "Veröffentlichungsprozess einer Universal App",
+     [  { "SessionId": "18001",
+          "Caption": "Veröffentlichungsprozess einer Universal App",
           "Summary": "Zunächst wird kurz die kleine Taschenrechner-Anwendung vorgestellt (für die, die im August nicht da waren), danach wird gezeigt, wie der Submit Prozess für Windows-Phone und Windows-Store abläuft.",
           "Items": [ "HP 41CV App", "Entwicklerkonto", "Zertifizierungskit für Windows-Apps", "Upload" ],
-     	  "Link": "",
+          "Link": "",
           "Speaker": "Jürgen S.",
           "Leute": 8,
           "Firmen": 5 },
-          
+
         { "SessionId": "18002",
           "Caption": "Vorstellung des 'All in One-PC' DELL XPS 18",
           "Summary": "Intel® Core™ Prozessor der 3. Generation, hohe Datenverarbeitungsleistung, Windows 8.1, großer Full-HD-Touch-Bildschirm.",
@@ -164,7 +404,7 @@
    },
    { "TreffenNr": 179,
      "Session":
-     [	{ "SessionId": "17901",
+     [  { "SessionId": "17901",
           "Caption": "Software-Entwicklungsprozesse (Part&nbsp;1)",
           "Summary": "Merkmale verschiedener Software-Entwicklungsprozesse im Vergleich",
           "Items": [ "V-Modell", "Agile Softwareentwicklung", "Synthese, jeweils das beste aus den Prozessen", "Praxis Beispiel und Demo" ],
@@ -488,14 +728,14 @@
           "Speaker": "Bernd",
           "Leute": 7,
           "Firmen": 4 },
-		{ "SessionId": "15402",
+        { "SessionId": "15402",
           "Caption": "Bericht von Infotag: Was bringt .NET 4.5, Visual Studio 2012 u. Windows 8?",
           "Summary": "...",
           "Items": [],
           "Link": "",
           "Speaker": "Bernd",
           "Leute": 7,
-          "Firmen": 4 }          
+          "Firmen": 4 }
      ]
    },
    { "TreffenNr": 153,
@@ -1019,7 +1259,7 @@
           "Link": "",
           "Speaker": "Joachim",
           "Leute": 7,
-          "Firmen": 4 }          
+          "Firmen": 4 }
      ]
    },
 
@@ -1173,7 +1413,7 @@
           "Link": "",
           "Speaker": "Joachim",
           "Leute": 9,
-          "Firmen": 4 }               
+          "Firmen": 4 }
      ]
    },
 
@@ -1520,7 +1760,7 @@
           "Speaker": "Jürgen G.",
           "Leute": 10,
           "Firmen": 4 },
-		{ "SessionId": "08902",
+        { "SessionId": "08902",
           "Caption": "Kurzbericht aus Karlsruhe vom Visual Studio 2005 Launch - Germany",
           "Summary": "...",
           "Items": [ ],
@@ -1648,7 +1888,7 @@
           "Speaker": "Joachim",
           "Leute": 9,
           "Firmen": 3 },
-		{ "SessionId": "08102",
+        { "SessionId": "08102",
           "Caption": "Wir orientieren uns in Richtung INETA",
           "Summary": "...",
           "Items": [ "Zwei Group-Mitglieder nehmen Kontakt zur INETA bzgl. Registrierung auf", "Namensidee: DevGroup Göttingen-Kassel" ],
@@ -1656,7 +1896,7 @@
           "Speaker": "Joachim",
           "Leute": 9,
           "Firmen": 3 }
-          
+
      ]
    },
 
@@ -2085,7 +2325,7 @@
           "Summary": "...",
           "Items": [ "Voraussetzungen für Telefonanlagen - PC-Kommunikation,", "TAPI-Befehle", "VO-Beispiel-Code zur Nutzung der TAPI-Schnittstelle,", "Demonstration des Programmablaufs im Debug-Modus." ],
           "Link": "",
-          "Speaker": "Stefan",
+          "Speaker": "Stefan L.",
           "Leute": 8,
           "Firmen": 3 }
      ]
@@ -2121,7 +2361,7 @@
           "Link": "",
           "Speaker": "Jürgen G.",
           "Leute": 12,
-          "Firmen": 4 }                    
+          "Firmen": 4 }
      ]
    },
 
@@ -2166,7 +2406,7 @@
           "Summary": "Vorstellung verschiedener Help-Systeme zur Erstellung und Wartung von Online-Hilfen auf HTML-Basis",
           "Items": [ "Empfehlung für FAR helpware" ],
           "Link": "",
-          "Speaker": "Stefan",
+          "Speaker": "Stefan L.",
           "Leute": 10,
           "Firmen": 4 },
         { "SessionId": "04602",
@@ -2174,7 +2414,7 @@
           "Summary": "Zum Datenaustausch in der Usergroup ist in der BEFO-Mailbox ab sofort ein VOCA-GöKs-Bereich eingerichtet.",
           "Items": [  ],
           "Link": "",
-          "Speaker": "Stefan",
+          "Speaker": "Stefan L.",
           "Leute": 10,
           "Firmen": 4 },
         { "SessionId": "04603",
@@ -2335,7 +2575,7 @@
           "Link": "",
           "Speaker": "Rainer",
           "Leute": 8,
-          "Firmen": 4 }          
+          "Firmen": 4 }
      ]
    },
 
@@ -2356,7 +2596,7 @@
           "Link": "",
           "Speaker": "Rainer",
           "Leute": 9,
-          "Firmen": 4 }          
+          "Firmen": 4 }
      ]
    },
 
@@ -2496,312 +2736,456 @@
    { "TreffenNr": 24,
      "Session":
      [  { "SessionId": "02401",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Brainstorming über die Eckdaten unseres VO-Projekts",
+          "Summary": "...",
+          "Items": [ "Das Projekt wird in VO 2.5a entwickelt.", "Die einzelnen Tools werden als nachladbare DLL's implementiert." ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Jedermann",
+          "Leute": 8,
+          "Firmen": 4 },
+        { "SessionId": "02402",
+          "Caption": "In eigener Sache",
+          "Summary": "...",
+          "Items": [ "In Zukunft beginnen die Treffen schon um 19:00 Uhr" ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 8,
+          "Firmen": 4 }
      ]
    },
 
    { "TreffenNr": 23,
      "Session":
      [  { "SessionId": "02301",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Erfahrungsaustausch zum Y2K-Problem",
+          "Summary": "...",
+          "Items": [ "(fiel mangels Problemen sehr kurz aus)" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Jedermann",
+          "Leute": 10,
+          "Firmen": 4 },
+        { "SessionId": "02302",
+          "Caption": "Programm-Idee für ein gemeinsames Programm-Projekt der VOCA-Usergroup",
+          "Summary": "Geplant wird ein richtig geiles Xbase-Tool, wo man schnell mal Datenbanken verknüpfen kann und alles andere, was so wichtig ist!",
+          "Items": [ ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 10,
+          "Firmen": 4 }
      ]
    },
 
    { "TreffenNr": 22,
      "Session":
      [  { "SessionId": "02201",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Inter-Prozess-Kommunikation außerhalb von DDE und COM",
+          "Summary": "...",
+          "Items": [ "API Funktion RegisterWindowMessage()", "API Funktion EnumWindows()", "Globale Atome unter Windows" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Joachim",
+          "Leute": 10,
+          "Firmen": 4 },
+        { "SessionId": "02202",
+          "Caption": "Vorschläge für ein gemeinsames Programm-Projekt der VOCA-Usergroup",
+          "Summary": "...",
+          "Items": [ "Verbesserte Schnittstelle zu Visual-Source-Safe", "Report-Generator", "Business-Graphic", "Hilfe-System, für den User online editierbar", "Generelles Applikations-Grundgerüst", "Tools für die VO IDE", "Standardklassen für mehrsprachige Applikationen" ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 10,
+          "Firmen": 4 }
      ]
    },
 
    { "TreffenNr": 21,
      "Session":
      [  { "SessionId": "02101",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
-          "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Caption": "Shell u. COM Schnittstellen",
+          "Summary": "...",
+          "Items": [ "Einträge in Windows Dokumentenliste", "Einbinden eines VO-Programmes in die Windows Taskbar und SystemTray", "Auswahl eines Ordners", "Dateiverknüpfungen erzeugen" ],
+          "Link": "http://www.fabtoys.net/",
+          "Speaker": "Joachim",
+          "Leute": 10,
+          "Firmen": 4 }
      ]
    },
 
    { "TreffenNr": 20,
      "Session":
      [  { "SessionId": "02001",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Bericht über die TechniCon auf der CA-World",
+          "Summary": "...",
+          "Items": [ "Gründe für die Verspätung von VO 2.5 (mehrere Probleme mit der Master CD, Erweiterungen für den China-Markt)", "CA-eigenen Virenscanner (Freeware für private Nutzung, Nächste Version wird mit VO entwickelt", "System-Debugger (Vest) von Ansgar Trimborn", "Scripte in VO von Rod da Silva" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Jürgen G.",
+          "Leute": 10,
+          "Firmen": 4 },
+        { "SessionId": "02002",
+          "Caption": "Neues zu repoSCRIPT",
+          "Summary": "...",
+          "Items": [ "neue Funktionen und Klassen", "Eingabe von Script-Parameter in der DIE", "Erweiterungen im Debugger (Breakpoints)" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 10,
+          "Firmen": 4 }
      ]
    },
 
    { "TreffenNr": 19,
      "Session":
      [  { "SessionId": "01901",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Das Versionskontroll-System Visual-Source-Safe von Microsoft",
+          "Summary": "...",
+          "Items": [ "Einführung", "Erfahrungsaustausch über die im Einsatz befindlichen Versionskontroll-Mechanismen" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Jens",
+          "Leute": 10,
+          "Firmen": 4 }
      ]
    },
 
    { "TreffenNr": 18,
      "Session":
      [  { "SessionId": "01801",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
+          "Caption": "Arzt-Korrespondenz-System",
+          "Summary": "Kernstück ist eine RTF-Klasse, die aus Daten eines Arzt-Praxis-Systems und Textbausteinen RTF-Dokumente erzeugt, die von Standard-Textprogrammen weiterverarbeitet werden können.",
           "Items": [ "Item1", "Item2", "Item3" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Dirk",
+          "Leute": 10,
+          "Firmen": 4 },
+        { "SessionId": "01802",
+          "Caption": "Sonstiges",
+          "Summary": "...",
+          "Items": [ "ISDN-Toolbox für die Entwicklung von Daten-Transfer-Programmen.", "Citrix WinFrame/MetaFrame (Terminal-Server)" ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 10,
+          "Firmen": 4 }
      ]
    },
 
    { "TreffenNr": 17,
      "Session":
      [  { "SessionId": "01701",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Graphik-Programmierung unter VO 2.0",
+          "Summary": "Einführung in die Graphik-Programmierung unter VO 2.0 am konkreten Beispiel von Stichprobenauswertungen",
+          "Items": [ "Reportgeneratoren unter VO.", "Programme in Mehrsprachen-Versionen erstellen." ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Andreas",
+          "Leute": 10,
+          "Firmen": 4 }
      ]
    },
 
    { "TreffenNr": 16,
      "Session":
      [  { "SessionId": "01601",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "VO bBrowser",
+          "Summary": "Einführung, Vorstellung der Features und Benutzung des bBrowsers",
+          "Items": [ "Geschwindigkeitsvorteil", "flexible Farbbedingungen für Spalten und Zeilen", "automatische Eingabe bei Tastendruck", "Einbindung von beliebigen Controls für die Eingabe", "timergesteuertes Refresh der Browser-Daten bei Netzwerkbetrieb" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Joachim",
+          "Leute": 10,
+          "Firmen": 4 },
+        { "SessionId": "01602",
+          "Caption": "Allgemeine Entwickler-Probleme",
+          "Summary": "...",
+          "Items": [ "Mit Report Pro Reports aus VO-Programmen erstellen", "97er Version von __wait.obj", "Vollversionen auf CD von Report Pro Standard und ClassMate für alle Teilnehmer verteilt." ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 10,
+          "Firmen": 4 }
      ]
    },
 
    { "TreffenNr": 15,
      "Session":
      [  { "SessionId": "01501",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Hoher Besuch",
+          "Summary": "VO-Szene Insider Oskar Schneider, Karl Breunig und Rainer Borchmann machen anlässlich eines CeBIT-Besuchs Station bei unserem Treffen",
+          "Items": [ "Aktuelle VOCA-News", "Übernahme der SDT durch die VOCA" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Jedermann",
+          "Leute": 7,
+          "Firmen": 5 }
      ]
    },
 
    { "TreffenNr": 14,
      "Session":
      [  { "SessionId": "01401",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Remote Services Management (RSM)",
+          "Summary": "Online-Vorstellung einer Software-Fernwartung für Tankstellen",
+          "Items": [ "Multi-Platfform-Fernwartung auf: Windows 32-bit (NT u. 95), Windows 3.1x, DOS und OS/2 Systemen", "alle Protokolle: TCP/IP, NetBIOS, IPX/SPX, APPC-APPN, X25, ISDN-CAPI (1.1, 2.0) and asynchronous PSTN u. ISDN modem communications", "File Transfer für alle Systeme: FAT, NTFS, HPFS, long filenames", "Programming Script Language (PSL) integriert" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Ralph",
+          "Leute": 8,
+          "Firmen": 4 }
      ]
    },
 
    { "TreffenNr": 13,
      "Session":
      [  { "SessionId": "01301",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Touch-Screen Programmierung",
+          "Summary": "Touch-Screen Programmierung für einen Wäge-Kontroll-Arbeitsplatz mit VO 2.0",
+          "Items": [  ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Martin R.",
+          "Leute": 11,
+          "Firmen": 7 },
+        { "SessionId": "01302",
+          "Caption": "Weihnachtsessen ",
+          "Summary": "...",
+          "Items": [ "Suppe", "Gans oder Wildschweinbraten", "Dessert" ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 11,
+          "Firmen": 7 }
      ]
    },
 
    { "TreffenNr": 12,
      "Session":
      [  { "SessionId": "01201",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Bunte Themen-Mischung",
+          "Summary": "...",
+          "Items": [ "Konzept zum Wechsel von NTX- auf CDX-Umgebung in einem umfangreichen Clipper-System; daten- und code-technisch.", "Veränderung der Höhe des Eingabefeldes in einer ComboBox.", "Zukunft der Usergroup. Tenor: Eine bewusstere Themenstellung für die Treffen führt zu mehr Erkenntnisgewinn bei den Teilnehmern.", "Berichte von der DevCon mit Hintergrundinfos zu den aktuellen \"In\"-Themen (COM, DCOM, Multitier u. Threads, Internet) der VO-, Clipper- und Alaska++ Szene und dem Erscheinungstermin von VO 2.5." ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Jedermann",
+          "Leute": 8,
+          "Firmen": 4 }
      ]
    },
 
    { "TreffenNr": 11,
      "Session":
      [  { "SessionId": "01101",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Austausch von Clipper und VO-Knowhow",
+          "Summary": "...",
+          "Items": [  ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Jedermann",
+          "Leute": 3,
+          "Firmen": 2 }
      ]
    },
 
    { "TreffenNr": 10,
      "Session":
      [  { "SessionId": "01001",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Bunte Themen-Mischung",
+          "Summary": "...",
+          "Items": [ "Vorstellung der Version 1.2 des VO-Tools repoSCRIPT,", "Überschreiben von Windows-DLL-Funktionen mit eigenem Code,", "CHR(0) in Charaterfeldern von Xbase -Dateien,", "Programm- und System-Fernwartung mit Remote-Control-Software." ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Jedermann",
+          "Leute": 12,
+          "Firmen": 4 }
      ]
    },
 
    { "TreffenNr": 9,
      "Session":
      [  { "SessionId": "00901",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "UPhO's",
+          "Summary": "Ungeklärte Phänomene und Objekte aus den Clipper-, VO- und Xbase Welten. Treffen der in der Urlaubszeit daheimgebliebenen Mitglieder der Usergroup.",
+          "Items": [ "\"Alias\"-Zugriffe bei dbServer-Klassen, Klammer-Syntax.", "Xbase++ Praxis-Tips." ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Jedermann",
+          "Leute": 6,
+          "Firmen": 3 }
      ]
    },
 
    { "TreffenNr": 8,
      "Session":
      [  { "SessionId": "00801",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "UPhO's, ungeklärte Phänomene und Objekte aus den Clipper-, VO- und Xbase Welten",
+          "Summary": "...",
+          "Items": [ "Novell Connection-Zähler in den Griff bekommen - bei Servern mit kleiner Lizenz in großen Netzwerken. Steuerparameter: SET REPLY TO GET NEAREST SERVER (ON\/OFF) muss auf OFF gestellt sein.", "protected mode, idle mode (CLIPF2-Patch) auf WINDOWS NT 4x Maschinen.", "Index-Problem bei DESCEND() bei gleichzeitigem Zugriff durch VO und Clipper 5.2 Programmen (ungelöst).", "EVENT-DISPATCHING und TIMER in VO." ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Jedermann",
+          "Leute": 10,
+          "Firmen": 4 }
      ]
    },
 
    { "TreffenNr": 7,
      "Session":
      [  { "SessionId": "00701",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Xbase++ Roadshow",
+          "Summary": "Alaska Software hat sich die Produktion und den Vertrieb plattformübergreifender Entwicklungssysteme auf Basis objektorientierter datenbankunabhängiger Xbase-Technologie in 32-bit-Umgebungen zur Aufgabe gemacht.<br /><br />Mit dem Produkt Xbase++ wird Clipper-Entwicklern ein mächtiges Werkzeug an die Hand gegeben, um aus Standard Clipper-Applikationen (Cl 5.2x und darunter) echte 32-bit Windows Applikationen zu erzeugen.<br /><br />Neben der Fähigkeit prozeduralen Clipper-Code ohne wesentliche Eingriffe in Windows 95, Windows NT und OS/2 in konsequente 32-bit Anwendungen umzusetzen, ermöglicht Xbase++ auch echte objektorientierte Programmierung.",
+          "Items": [ "Erstellung der DBU.EXE als 32-bit-Version.", "Hybridmodus: Integration von Windows-Buttons in den automatisch entstandenen Pseudo-Text-Modus.", "Starken Multithreading-Features" ],
+          "Link": "http://www.alaska-software.com/",
+          "Speaker": "Thomas Braun",
+          "Leute": 12,
+          "Firmen": 6 },
+        { "SessionId": "00702",
+          "Caption": "Offene Entwicklerrunde",
+          "Summary": "...",
+          "Items": [ "Resourcenfresser Clipper: Hohe Prozessor-Auslastung von Clipper-Programmen auch in Ruhezuständen.", "Im CompuServe-Clipper-Forum (GO CLIPPER) gibt es dazu ein Patch (CLIP2F.ZIP)." ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Jedermann",
+          "Leute": 12,
+          "Firmen": 6 }
      ]
    },
 
    { "TreffenNr": 6,
      "Session":
      [  { "SessionId": "00601",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Rückblick auf die CA World 1998",
+          "Summary": "Die TechniCon der CA World in New Orleans hatte dieses Jahr 3 Hauptthemen: Internet, Internet, Internet ...",
+          "Items": [ "Detailbericht über einen Vortrag von Ralf Saborowsky zu VO 2.5.", "VO 2.5 ist für das 4. Quartal 1998 angekündigt." ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Jürgen G.",
+          "Leute": 12,
+          "Firmen": 6 },
+        { "SessionId": "00602",
+          "Caption": "Advantage Database Server",
+          "Summary": "ADS erschließt für die Xbase-Welt (z.B. DBF-Dateien) die Vorteile der Client/Server Technologie. An Praxisbeispielen werden die wichtigsten Features des ADS-Systems direkt vorgeführt",
+          "Items": [ "Direkte Code-Änderungen sind nicht erforderlich.", "Der Traffic im Netz wird stark reduziert.", "Unqualifiziertes Ausschalten von Usern oder der Absturz der Arbeitsstation haben keine Auswirkungen auf DBF- oder Indexdateien.", "Datenzugriffe insbesondere Sortierungen und Filter sind wesentlich beschleunigt. Bei DBF-Dateien mit mehr als 50.000 Sätzen, ist dieser Vorteil besonders offensichtlich." ],
+          "Link": "",
+          "Speaker": "Jürgen G.",
+          "Leute": 12,
+          "Firmen": 6 },
+        { "SessionId": "00603",
+          "Caption": "Offene Entwicklerrunde",
+          "Summary": "...",
+          "Items": [ "CA versteckt VO. Viele innerbetriebliche Diskussionen zum Einsatz und zur Beschaffung des Produkts, wären einfacher, wenn man seitens CA das Produkt VO bei CA-Auftritten (z. B. CeBIT, CA-World) und Werbung besser darstellen würde. Z. B. Verweis auf VO bei Vorstellung anderer CA-Produkte, die VO verwenden oder von VO unterstützt werden. Wer VO einsetzt, gilt nicht selten als Exot und hat Legitimationsprobleme, weil das Produkt relativ unbekannt ist.", "COM- und DCOM- Techniken." ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 12,
+          "Firmen": 6 }
      ]
    },
 
    { "TreffenNr": 5,
      "Session":
      [  { "SessionId": "00501",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Vorstellung der VO/Clipper-Projekte der Teilnehmer: Tankstellen-Software",
+          "Summary": "Die Firma Wayne hat seit 1991 eine komplette Tankstellen-Verwaltung in Clipper 5.2 entwickelt und europaweit im Einsatz. Das System wird derzeit als Clipper-System in DOS-Umgebung weitergepflegt und gleichzeitig auf die Betriebssysteme WINDOWS 95, WINDOWS NT und OS2 (geplant) portiert. Dazu wird die Clipper-kompatible 32-Bit Entwicklungsumgebung Xbase++ eingesetzt.",
+          "Items": [ "Gleicher Code (PRG-Files) für DOS- und WIN-Plattform,", "Alle Anwender-spezifischen Einstellungen in den Programm (z. B. Sprache, Menüs, Listen, Reports) sind DATA-DRIVEN" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Ralph",
+          "Leute": 12,
+          "Firmen": 6 },
+        { "SessionId": "00502",
+          "Caption": "Offene Entwicklerrunde",
+          "Summary": "...",
+          "Items": [ "Probleme bei DLL-Generierung mit VO 2.0b.", "Defekte DBF-Dateien, z. B. Dateien die kein APPEND mehr zulassen bzw. die je nach Exclusive-Modus (on\/off) verschiedene Satzzahlen bei reccount() aufweisen." ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 12,
+          "Firmen": 6 }
      ]
    },
 
    { "TreffenNr": 4,
      "Session":
      [  { "SessionId": "00401",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Vorstellung der VO/Clipper-Projekte der Teilnehmer: Füllmengen-Überwachung",
+          "Summary": "Die Firma Sartorius hat für die Qualitätssicherung im Bereich Wägetechnik \/ Industriewaagen das System Sartorius ProControl mit VO 1.0 entwickelt, das Wäge-Ergebnisse vieler Wäge-Terminals überwacht.",
+          "Items": [ "<img border=\"0\" src=\"images/t004_sart-spc.jpg\" alt=\"Sartorius PorControl\" width=\"559\" height=\"443\"><p>Sartorius ProControl II</p>", "Report-Ausgaben mit ReportPro, graphische Statistik-Darstellungen" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Bernd",
+          "Leute": 12,
+          "Firmen": 6 },
+        { "SessionId": "00402",
+          "Caption": "Vorstellung der VO/Clipper-Projekte der Teilnehmer: Waage-Erfassungsterminal",
+          "Summary": "Die Firma JANCO hat einen durch Kundendefinitionen genau vorgegeben Waage-Erfassungsarbeitsplatz realisiert. Eine spezifische Vorgabe war z. B. \"mauslose\" Programmbedienung.",
+          "Items": [ "Absolute Anpassung der GUI-Oberfläche an Kundenvorgaben", "Schnittstelle zu Oracle" ],
+          "Link": "",
+          "Speaker": "Martin R.",
+          "Leute": 12,
+          "Firmen": 6 },
+        { "SessionId": "00403",
+          "Caption": "Offene Entwicklerrunde",
+          "Summary": "...",
+          "Items": [ "VO Repository-Probleme. repoSCRIPT, BETA-Test des Repository-Tools von USERGROUP-Mitglied Joachim.", "Zum Thema \"Was macht VO so langsam?\": Laufzeitvergleiche zum Datenbank-Auslesen unter Clipper und VO. Und die Konsequenz: Eine neue eigene DBSERVER-Klasse (xdbServer)." ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 12,
+          "Firmen": 6 }
      ]
    },
 
    { "TreffenNr": 3,
      "Session":
      [  { "SessionId": "00301",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Vorstellung der VO/Clipper-Projekte der Teilnehmer: Arztpraxen-Software",
+          "Summary": "Das Programm zur Arztpraxen-Verwaltung der Fa. promed auf der VO 2.0b Plattform befindet sich in der Entwicklung und soll eine erfolgreiche DOS-Version ablösen.",
+          "Items": [ "RTF-Texteditor mit Textbaustein-Option speziell für das ärztliche Berichts- und Briefwesen." ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Rainer u. Dirk",
+          "Leute": 12,
+          "Firmen": 6 },
+        { "SessionId": "00302",
+          "Caption": "Offene Entwicklerrunde",
+          "Summary": "...",
+          "Items": [ "Bitmaps als Fensterhintergrund", "Feedback zum BETA-Test von repoSCRIPT", "Hilfe-System und VO, Kontext-Sensitive-Hilfe-Entwicklungssysteme", "EURO-Umstellung" ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 12,
+          "Firmen": 6 }
      ]
    },
 
    { "TreffenNr": 2,
      "Session":
      [  { "SessionId": "00201",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "Vorstellung der VO/Clipper-Projekte der Teilnehmer: Maschinenbelegung für eine Papierfabrik.",
+          "Summary": "Das VO 1.0 Programm der Fa. GBS visualisert graphisch die zeitliche und maschinenbezogene Abwicklung der Produktionsaufträge, zeigt die Produktionsparameter und stellt Produktionsstatistiken zur Verfügung.",
+          "Items": [ "Graphik mit WIN API" ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Jürgen G.",
+          "Leute": 14,
+          "Firmen": 8 },
+        { "SessionId": "00202",
+          "Caption": "Vorstellung der VO/Clipper-Projekte der Teilnehmer: Data-Dictionary für ein Warenwirtschaftssystem",
+          "Summary": "Das VO 2.0a-1 Programm der BEFO GmbH verwaltet alle Feld- und Zugriffs-Beschreibungen für ein Datenbanksystem.",
+          "Items": [ "Komplette eigene GUI-Klassenbibliothek \"victor\"" ],
+          "Link": "",
+          "Speaker": "Michael S.",
+          "Leute": 14,
+          "Firmen": 8 },
+        { "SessionId": "00203",
+          "Caption": "Vorstellung der VO/Clipper-Projekte der Teilnehmer: repoSCRIPT, als Add-On zur VO-IDE",
+          "Summary": "Das VO 2.0a-1 Programm der BEFO GmbH ermöglicht die Automatisierung stupider Abläufe bei VO-Entwicklungen, z.B. Export und Import aus dem Repository.",
+          "Items": [ "Script-Sprache", "Einsatz des Repository-SDK" ],
+          "Link": "",
+          "Speaker": "Joachim",
+          "Leute": 14,
+          "Firmen": 8 }
      ]
    },
 
    { "TreffenNr": 1,
      "Session":
      [  { "SessionId": "00101",
-          "Caption": "DummyCaption",
-          "Summary": "DummySummary",
-          "Items": [ "Item1", "Item2", "Item3" ],
+          "Caption": "VO and Clipper Association (VO and Clipper Association)",
+          "Summary": "Vorstellung der VOCA Usergroups und der VOCA Germany GmbH durch Thorsten Schulz aus Hannover",
+          "Items": [ "Die VOCA, VO and Clipper Association, ist ein weltweiter Verband, der die Wünsche, Sorgen und Nöte der VO- und Clipper-User bündelt und an den VO-Produzenten Computer Associates heranträgt. Dieses Vorgehen wird von CA ausdrücklich gefördert, weil die VO-Entwickler durch die VOCA ein qualitativ hochwertiges Feedback erhalten. Die regionalen Usergroups bilden dabei die Basis der VOCA. Hier können die VO-User kompetente Partner zum Erfahrungsaustausch rund um ihr Handwerkszeug finden.", "Die VOCA Germany GmbH versteht sich als Dienstleister für alle deutschsprachigen VO- und Clipper-User. In erster Linie realisiert sie eine jährliche Entwickler-Konferenz (DevCon) und stellt ab 1998 das Erscheinen einer Zeitschrift sicher; in Nachfolge der von CA eingestellten Xbase TECHNIQUES." ],
+          "Link": "https://de.linkedin.com/pub/thorsten-schulz/9b/aa2/32a",
+          "Speaker": "Thorsten Schulz",
+          "Leute": 12,
+          "Firmen": 6 },
+        { "SessionId": "00102",
+          "Caption": "Sekretariat der VOCA Usergroup Göttingen/Kassel",
+          "Summary": "Organisatorische Essentials für eine funktionierende Usergroup",
+          "Items": [ "Für die organisatorischen Funktionen, die die VOCA Usergroup Göttingen/Kassel braucht, stellten sich für die Startphase vorerst die Mitarbeiter der BEFO GmbH, Lutterberg zur Verfügung. Andere Teilnehmer sollten sich aber dadurch nicht von der Mitarbeit abhalten lassen ;-))" ],
+          "Link": "http://www.befo.com",
+          "Speaker": "Thorsten Schulz",
+          "Leute": 12,
+          "Firmen": 6 },
+        { "SessionId": "00103",
+          "Caption": "Erfahrungsaustausch",
+          "Summary": "Eine kurze Selbstdarstellungsrunde der Teilnehmer eröffnet den Erfahrungsaustausch zur Datenbank-Programmierung",
+          "Items": [ "Datenintegrität/Geschwindigkeit bei NTX, CDX Index-Dateien,", "dbcommit()-Problem: Statt dbcommit() besser \"dbgoto( dbrecno())\" verwenden (flushen der Änderungen klappt besser),", "Bugs in der VO-IDE: mehrere geöffnete Source-Code-Editoren, mehrere Projekte im Repository, inkorruptes Repository nach Löschen mehrerer Module einer App.,", "Migrations-Probleme von Clipper zu VO, fehlende Funktionen der CA III Tools,", "Xbase++ als Alternative zu VO." ],
           "Link": "",
-          "Speaker": "NN",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Speaker": "Jedermann",
+          "Leute": 12,
+          "Firmen": 6 }
      ]
    }
 ]
