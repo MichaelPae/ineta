@@ -9,3 +9,5 @@ scripte/_vti_cnf/ #
 #!index.php       # Tracke die index.php, selbst wenn alle PHP-Dateien ignoriert werden
 #/TODO            # ignoriere die TODO-Datei, nicht den TODO-Ordner
 #docs/*.txt       # ignoriere alle txt-Dateien in docs, aber nicht in docs/unterordner/
+/_vti_cnf/
+/_vti_pvt/
