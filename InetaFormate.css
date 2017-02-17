@@ -1,13 +1,156 @@
-﻿.StandardSchrift {
-	font-family: Arial;
+﻿/* CSS fuer DevGroup GoeKs */
+/* W3C CSS-Validation jjj-mm-tt */
+
+/* Color Referenz 
+no	task						class	color		ini		comment 
+ 1	DevGroup Color 1			ColDg1	#E2007A				
+ 2	DevGroup Color 2			ColDg2	#E2007A				
+*/
+
+/* Stand bis 2016-08-19 */
+
+
+.StandardSchrift {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
 	font-size: small;
 	font-weight: normal;
 	font-style: normal;
 	font-variant: normal;
 	color: #000000;
 }
+
 .style1 {
 	border-style: solid;
 	border-width: 0;
 }
 
+
+/* neu */
+
+body {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size: small;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+    color: black;
+    background-color: white; /* #ffffff */
+	/* background: url(images/papir.jpg) repeat; */
+}
+
+body a:link {
+	color: #0000FF;
+	text-decoration: underline;
+}
+
+body a:visited {
+	color: #0000FF;
+	text-decoration: underline;
+}
+
+body a:active {
+	color: #0000FF;
+	text-decoration: underline;
+}
+
+body a:hover {
+	color: #31ffff;
+	text-decoration: underline;
+}
+
+.captionfontshape {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+}
+
+.megafontshape {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size:36px;
+	font-weight:bold;
+}
+
+.sidenotefont {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size:12px;
+}
+
+.footfont {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size:12px;
+	font-style:italic;
+}
+
+
+.fullwidth {
+	width:100%;
+	border:0px;
+	border-spacing: 0px;
+	padding:0px;
+}
+
+.mailform { 
+    width:100%;    
+	text-align:left;
+ 	border: 0px;
+}
+
+table .emailform {
+	width:85%;
+	border:0px;
+	border-spacing: 0px;
+	padding:0px;
+}
+
+/* all watermarks  #bfbfbf watermark hellgrau */
+::-webkit-input-placeholder {
+    font-style:italic;        
+    color: #bfbfbf; 
+}
+::-moz-placeholder {
+    font-style:italic;        
+    color: #bfbfbf; 
+}
+input:-ms-input-placeholder {
+    font-style:italic;        
+    color: #bfbfbf; 
+}
+
+.whiteonlightblue {
+	color:#FFFFFF;
+	background:#40c1e8; /* #40c1e8, #4072B8 */
+}
+
+.whiteonlightblue a:link {
+	color: #FFFFFF;
+	background:#40c1e8; /* #40c1e8, #4072B8 */
+	text-decoration: underline;
+}
+
+.whiteonlightblue a:visited {
+	color: #FFFFFF;
+	background:#40c1e8; /* #40c1e8, #4072B8 */
+	text-decoration: underline;
+}
+
+.whiteonlightblue a:active {
+	color: #FFFFFF;
+	background:#40c1e8; /* #40c1e8, #4072B8 */
+	text-decoration: underline;
+}
+
+.whiteonlightblue a:hover {
+	color: #31ffff;
+	background:#40c1e8; /* #40c1e8, #4072B8 */
+	text-decoration: underline;
+}
+
+.whiteonred {
+	color:#FFFFFF;
+	background:#FF0000; 
+}
+
+.blackongreen {
+	color:#000000;
+	background:#CCFF99; /* #7fc040 #CCFF99 #cae186 */ 
+}
