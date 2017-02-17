@@ -4,48 +4,91 @@
 // Copyright (c) Michael Paetzold. Alle Rechte vorbehalten. http://www.michael-paetzold.de
 
 /*
+ToDo
+----
+- Page fuer Mini-DevCon
+
+
 Update Schritte zur Inetasite-Aktualisierung
 --------------------------------------------
-1. Editieren
-    - Änderungen durchführen
-    - index.htm touchen (Dummy-Änderung speichern wg. Aktualisierung)
-    - devgnext.htm touchen (Dummy-Änderung speichern wg. Aktualisierung)
+1. Editieren Version 2.0
+    - Aktualisierungen durchführen in
+      - t_meeting.json (für Treffen)
+      - t_session.json (für Sessions) 
+      - t_inetasite.json (für "DefaultTreffenNr" u. "Datenstand")
 2. Test der Site "local"
 3. Site -> Veröffentlichen
     - Die Verzeichnisse: Data, Images, Scripte, Root aktualisieren (Merkmale: Status="Geändert", Remote->Geändert<=Local->Geändert)
     - Insbesondere aktualisieren:
+        - t_inetasite.json
         - t_meeting.json
         - t_session.json
         - t_location.json
 4. Test der Site "remote"
 
+
 Anforderungen- und Update-Protokoll
 -----------------------------------
 Hauptziele der Inetasite-Entwicklung (Stand 24.01.2015)
-1. Einfache Aktualisierung zu den Ineta-Meetings (V 2.0)
-   a. Aktualisierung Meeting-Daten
-   b. Aktualisierung Steuerdaten
-   c. sämtliche Treffen-Contents, die noch in HTML codiert sind nach .JSON uebertragen
 2. Dynamische dem Zeitpunkt angepasste Darstellung der Daten (V 2.x)
    a. MEZ-Datum ermitteln und fuer Darstellung verwenden
    b. Anzeige devgnext.htm in Abhängigkeit von MEZ-Datum
    c. Teilnahme- und Jahres-Statistik auf Daten einrichten
-3. Daten in SQL halten (V 3.0)
+   
+3. Daten in SQL/SQLite halten (V 3.0)
+
 4. Ineta-App (V 4.0)
+
+erledigte Hauptziele
+--------------------
+11.10.2015 So:
+	1. Einfache Aktualisierung (ohne HTML-Edition) zu den Ineta-Meetings (V 2.0)
+       Update der Ineta-Site durch Aktualisierung der Meeting- u. Steuerdaten
+
 
 Update-Protokoll
 ----------------
-Update-Schritte 19.09.2015 Sa
+Update-Schritte 25.01.2016 Mo
+- Dieses Protokoll (AA_UPDProt.js) als Datentabelle anlegen
+- Uhr mit Zeit bis zum nächsten Treffen
+- Statistik mit Chart umsetzen (Brainstorming: Devgroup-Logo in Caption-Zeile, Statistik rechts neben die Themenliste)
+- Daten nach SQLite überführen
 - GitHub beherrschen lernen
 - GitHub MichaelPae aktualisieren
 - Ineta Web-Page als Lokales Git Repository einrichten
 - Chart.js auf www.befo.com testen
-- Statistik mit Chart umsetzen (Brainstorming: Devgroup-Logo in Caption-Zeile, Statistik rechts neben die Themenliste)
 - Chart-Statistik auf "letzte Treffen" einrichten
 - devgimpr.htm Abschnitts-Abstände vergrößern
 - Page-Menü wie bei "Impressum", "Links" auch auf "Bisherige Treffen", "Nächstes Treffen"
-- Treffen Nr. 1-50 in JSON-Data erfassen
-- alle einzelnen Treffenberichte stilllegen
+
+Update-Schritte 22.01.2016 Fr
+erl. Nr 194. als Default-Treffennr. gesetzt, Nr. 193 erfasst, Nr. 195 initialisiert
+erl. neu: cDatum in  mywebbot("ThemenListe")
+erl. neu: mywebbot("TerminDoW")
+erl. neu: function convDate2AlphaDate(Datum), function wochentag(i)
+erl. Upload des aktuellen Standes
+
+Update-Schritte 18.12.2015 Fr
+erl. Nr 193. als Default-Treffennr. gesetzt, Nr. 192 erfasst, Nr. 194 initialisiert
+erl. "Uhr" statt "h"; this.Zeit = convTerminISO2Time(this.TerminISO, "Uhr")
+erl. Upload des aktuellen Standes
+
+Update-Schritte 20.11.2015 Fr
+erl. Nr 192. als Default-Treffennr. gesetzt, Nr. 191 erfasst, Nr. 193 initialisiert
+erl. Upload des aktuellen Standes
+
+Update-Schritte 16.10.2015 Fr
+erl. Nr 191. als Default-Treffennr. gesetzt, Nr. 190 erfasst, Nr. 192 initialisiert
+erl. Upload des aktuellen Standes
+
+Update-Schritte 12.10.2015 Mo
+erl. Upload des aktuellen Standes
+
+Update-Schritte 11.10.2015 So
+erl. Treffen Nr. 1-24 in JSON-Data erfassen
+erl. alle einzelnen Treffenberichte stilllegen
+erl. Hauptziel 1. Einfache Aktualisierung (ohne HTML-Edition) zu den Ineta-Meetings (V 2.0)
+     Update der Ineta-Site durch Aktualisierung der Meeting- u. Steuerdaten
 
 Update-Schritte 19.09.2015 Sa
 erl. Treffen Nr. 25-40 in JSON-Data erfasst
