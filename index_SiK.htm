@@ -11,17 +11,25 @@
 
 <title>DevGroup Göttingen/Kassel Homepage</title>
 <base target="_top">
+<link href="InetaFormate.css" rel="stylesheet" type="text/css">
+<!-- <link rel="shortcut icon" href="http://www.michael-paetzold.de/devgroupgoeks/favicon.ico" type="image/x-icon"> --> <!-- http://www.devgroupgöks.de/favicon.ico -->
+
+<link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+
+<script src="scripte/mywebbot.js" type="text/javascript"></script>
+<script src="scripte/loaddata.js" type="text/javascript"></script>
+<script src="scripte/json2.js" type="text/javascript"></script>
 
 <!--
 <script language="javascript">AC_FL_RunContent = 0;</script>
 <script src="AC_RunActiveContent.js" language="javascript"></script>
 -->
-<script src="scripte/mywebbot.js" type="text/javascript"></script>
-<script src="scripte/loaddata.js" type="text/javascript"></script>
-<script src="scripte/json2.js" type="text/javascript"></script>
 
-<link href="InetaFormate.css" rel="stylesheet" type="text/css">
-
+<script type="text/javascript">
+var oInetaSite = new Inetasite();
+//var nTreffenNr = oInetaSite.nDefaultTreffenNr;
+//oMeeting = mywebbot("Meeting", nTreffenNr, undefined, undefined, "none");
+</script>
 </head>
 
 <body background="images/papier.jpg" bgcolor="#FFFFFF" text="#000000" link="#0000FF" vlink="#2000EE" alink="#00FFFF" class="StandardSchrift">
@@ -40,8 +48,6 @@ document.write("\" align=right width=1 height=1 alt=\"\">");
     <!--webbot bot="Include" u-include="inetakopf.htm" tag="BODY" startspan -->
 
 
-
-
 <table border="0" width="100%" height="85" cellspacing="0" cellpadding="0" background="images/banner_background.gif">
 <tr>
 
@@ -55,16 +61,12 @@ document.write("\" align=right width=1 height=1 alt=\"\">");
 
 	<table border="0" width="100%">
 	  <tr>
-	    <td height="41">
-	    <p align="center"><font size="5"><b><a name="Top">DevGroup</a>
-	    Göttingen/Kassel</b></font>
-	    </td>
+	    <td class="captionfontshape" style="height:41px;text-align:center">
+	    <a name="Top">DevGroup</a> Göttingen/Kassel</td>
 	  </tr>
 
 	  <tr>
-	    <td>
-	    <p align="center"><font size="2">formerly known as VOCA-Usergroup GöKs </font>
-	    </td>
+	    <td class="sidenotefont" style="text-align:center">formerly known as VOCA-Usergroup GöKs</td>
 	  </tr>
 	</table>
 </td>
@@ -94,7 +96,7 @@ document.write("\" align=right width=1 height=1 alt=\"\">");
 </table>
 
 
-<!--webbot bot="Include" endspan i-checksum="14246" -->
+<!--webbot bot="Include" endspan i-checksum="43057" -->
     <hr>
     </td>
   </tr>
@@ -115,12 +117,15 @@ document.write("\" align=right width=1 height=1 alt=\"\">");
     <td width="100%" align="center"> <!-- Zelle title -->
 	  <table border="0" width="100%" cellspacing="0" cellpadding="0">
       <tr>
-        <td><p align="center"><font size="6"><b>Homepage</b></font></td>
+        <td><p align="center"><font size="4"><b>Willkommen bei der .NET DevGroup Göttingen/Kassel</b></font></td>
       </tr>
       <tr>
         <!-- EDIT ---------------------------------- dummy Edit, um aktuelles Datum zu in Timestamp zu erhalten ------------------------------------------->
-        <td><p align="center"><font size="2">Stand: 
-        <!--webbot bot="Timestamp" S-Type="EDITED" S-Format="%d.%m.%Y" startspan -->20.09.2015<!--webbot bot="Timestamp" endspan i-checksum="12597" --> <!-- - JSON: <script type="text/javascript">mywebbot("DataPath")</script> --> </font></td>
+        <td><p align="center"><font size="2">
+        Data: <script>document.write(oInetaSite.cDatenStand)</script>
+        - Version: <script>document.write(oInetaSite.cVersion)</script>
+ 
+         <!-- - JSON: <script type="text/javascript">mywebbot("DataPath")</script> --> </font></td>
       </tr>
       <tr>
         <td><font size="2"><p align="center"></font><br>
@@ -132,14 +137,32 @@ document.write("\" align=right width=1 height=1 alt=\"\">");
       </table>
     </td>
 
-    <td width="120" align="center"> <!-- Dummy Zelle rechts, wg. Ineta-Logo links -->
+
+	<!-- Dummy Zelle rechts, wg. Ineta-Logo links
+    <td width="120" align="center"> 
  		<div align="center">
 		<center>
 		<img border="0" src="images/logo_ineta_v2_placeholder.gif" alt="ineta logo" align="right" width="120" height="76">
 		</center>
 		</div>
     </td>
-      
+	-->
+    <td width="130" align="center"> <!-- Dummy Zelle rechts, wg. Ineta-Logo links -->
+		<!-- Details 'Logo' -->              
+		<table width="130" cellspacing="0" cellpadding="0" style="border-collapse: collapse" bordercolor="#ffffff">
+		<tr>
+		<td align="right">
+		<div align="right">
+		<right>
+		<img border="0" src="images/logo_dotnet_goeks.jpg" alt="ineta DevGroup Göttingen/Kassel" align="right" width="130" height="130">
+		</right>
+		</div>
+		</td>
+		</tr>
+		</table>
+		<!-- Ende Details 'Logo' -->     
+    </td>
+     
     </tr>
     </table>
     </div>
@@ -155,10 +178,9 @@ document.write("\" align=right width=1 height=1 alt=\"\">");
 
 <!-- Werbung ANFANG -->
 <table border="0" width="100%" cellspacing="0" cellpadding="0">
+<tr>
 
-      <tr>
-      <td width="100%" align="center">
-
+<td width="100%" align="center">
 <!-- Zelle Werbe-Elemente ANFANG -->
 
 <!-- ADC10 ANFANG        
@@ -181,36 +203,34 @@ ADC ENDE -->
 
 <!-- Zelle Werbe-Elemente ENDE --> 
 </td>
+
 </tr>
 </table>
 <!-- Werbung ENDE -->
   
-
-
 <!-- echte Zeile -->
+<!--
 <table border="0" cellpadding="0" cellspacing="0" width="100%">
 <tr>
 <td valign="top" width="100%">
 </td>
 </tr>
 </table>
+-->
 
 <!-- echte Zeile -->
 <table border="0" width="100%" cellspacing="0" cellpadding="0">
 
-<tr>
-<td width="100%"><p align="center">
-<font size="4"><strong>Willkommen bei der DevGroup Göttingen/Kassel</strong></font>
-</td>
-</tr>
-      
+<!--      
 <tr>
 <td width="100%">&nbsp;</td>
 </tr>
+-->
 
 <tr>
 <!-- Zeile mit Content-Table -->
 <td width="100%">
+
 <div align="center">
 <center>  
 
@@ -219,12 +239,14 @@ ADC ENDE -->
 <!-- Zeile mit Spalten-Ueberschriften -->
 <tr>
 <td width="180" bgcolor="#FF0000">
-<p align="center"><b><font size="2" color="#FFFFFF">Nächster Termin</font></b></td>
-    
+<p align="center"><b><font size="2" color="#FFFFFF">Nächster Termin</font></b></td> <!-- (Nr. <script type="text/javascript">mywebbot("TreffenNr");</script>) -->
+
 <td align="left"><b><font size="2">&nbsp;&nbsp;&nbsp;Themen unserer letzten Treffen</font></b></td>
 
-<td width="130"  align="right"><p align="center"><b><font size="2">Logo</font></b></td>
+<!--
+<td width="130"  align="right"><p align="left"><b><font size="2">.NET DevGroup</font></b></td>
 </tr>
+-->
 
 <!-- Zeile mit Detail-Informationen -->
 <tr>
@@ -261,35 +283,37 @@ ADC ENDE -->
 	    <font size="2">
 	    <script type="text/javascript">mywebbot("getNumerusThema");</script>:
 	    <script type="text/javascript">mywebbot("listCaptions");</script>    
-	      
-	    <!-- <b><script type="text/javascript">mywebbot("Thema");</script></b>
-	    <br> -->
-	    <br />
+        </font></p>
+
+		<!-- 
+		<p>
+	    <font size="2">
 	    Die DevGroup Göttingen / Kassel (<a href="#Photo">Photo</a>) trifft sich
-	    <strong>regelmäßig am 3. Donnerstag </strong> eines Monats um 19:00&nbsp;h (<a href="devglast.htm#Statistik">Statistik</a>).</font>
+	    regelmäßig am <strong>3.&nbsp;Dienstag </strong> eines Monats um <strong>19:00&nbsp;Uhr</strong>.
+	    </font>
 	    </p>
-	
-		<!-- -->
-	    <p align="center"><font color="#FF0000"><b><span lang="de">ACHTUNG!<br>
-	    Das Treffen im<br>
-	    Januar findet erst am 4. Donnerstag statt!</span></b></font></p>
-		<!-- -->
-	    <!--
-	    <p align="center"><font color="#FF0000"><b><span lang="de">ACHTUNG!<br>
-	    Das Treffen im<br>
-	    Mai '12 findet ausnahmsweise schon am 3. Mai statt!</span></b></font></p>
 	    -->
+	    
+		<!-- ACHTUNG Ausnahme 
+	    <p align="center"><font color="#FF0000"><b><span lang="de">ACHTUNG, 
+	    <font size="2">Ausnahme!<br>
+	    Das Treffen im Februar<br> findet am 
+	    <script type="text/javascript">mywebbot("TerminDoW");</script>
+	    in 
+	    <script type="text/javascript">mywebbot("Ort");</script>
+	    statt!</font></span></b></font></p>
+		-->
 	   
 	    <p><font size="2">
 	    Das <a href="devgnext.htm"><strong>
-	    nächste Treffen findet <!--aber ausnahmsweise erst--> am
-	    <script type="text/javascript">mywebbot("NaechsterTermin");</script>
-	    </strong></a>
+	    nächste Treffen findet am
+	    <script type="text/javascript">mywebbot("TerminDoW");</script>,</strong></a>
 	    in 
 	    <script type="text/javascript">mywebbot("Ort");</script>
 	    statt.
 	    <br>
 	    <br></font></p>
+
 	</td>
 	</tr>
 	</table>
@@ -317,22 +341,33 @@ ADC ENDE -->
 	<!-- Ende Details 'Themen unserer letzten Treffen' -->
 </td>
 
-<td width="130"  align="right"><right>
-	<!-- Details 'Logo' -->              
+<!-- Details 'DevGroup' -->
+<!--              
+<td width="130"  align="left">
 	<table width="130" cellspacing="0" cellpadding="0" style="border-collapse: collapse" bordercolor="#ffffff">
 	<tr>
-	<td align="right">
-	<div align="right">
-	<right>
-	<img border="0" src="images/logo_dotnet_goeks.jpg" alt="ineta DevGroup Göttingen/Kassel" align="right" width="130" height="130">
-	</right>
-	</div>
+	<td align="left">
+<div align="left">
+<font size="3">
+Eine .NET Deve- 
+loper Group oder
+auch .NET User-
+group ist ein Zu-
+sammenschluss
+von Software- 
+entwicklern, die 
+mit der Microsoft 
+Software-Platt- 
+form .NET 
+arbeiten.
+</font>
+</div>
 	</td>
 	</tr>
 	</table>
-	</right>
-	<!-- Ende Details 'Logo' -->              
 </td>
+-->
+<!-- Ende Details 'DevGroup' -->              
 
 </tr>
 </table>
@@ -357,10 +392,10 @@ ADC ENDE -->
 <td valign="top" width="100%">
    <!--webbot bot="Include" U-Include="inetateilnahme.htm" TAG="BODY" startspan -->
 
-<table border="0" width="100%" bgcolor="#4072B8" cellspacing="0" cellpadding="0" style="border-collapse: collapse" bordercolor="#111111">
+<table class="whiteonlightblue" width="100%" cellspacing="0" cellpadding="0" border="0" style="border-collapse: collapse" bordercolor="#111111">
    <tr>
-      <td><p align="center"><font color="#FFFFFF">Die Teilnahme ist <strong>kostenfrei,
-      unverbindlich</strong> und <strong>ohne Voranmeldung</strong> möglich.</font>
+      <td><p align="center">Die Teilnahme ist <strong>kostenfrei,
+      unverbindlich</strong> und <strong>ohne Voranmeldung</strong> möglich.
       </td>
    </tr>
 </table>
@@ -375,17 +410,26 @@ ADC ENDE -->
    </tr>
 </table>
 
-<!--webbot bot="Include" endspan i-checksum="41734" --><p><span lang="de">
+<!--webbot bot="Include" endspan i-checksum="40455" -->
+   <p><span lang="de">
+   Eine .NET Developer Group oder auch .NET Usergroup ist ein Zusammenschluss
+   von Softwareentwicklern, die mit der Microsoft Software-Plattform .NET arbeiten.
+   </span></p>
+   
+   <p><span lang="de">
    Die INETA ist eine unabhängige Non-Profit-Organisation, die alle Gruppen 
    unterstützt, die sich für die .NET-Plattform interessieren. Die INETA wird 
    von Usergroup-Vertretern geführt, die alle Usergroup-Vertreter aus ihrer 
    Mitte dazu gewählt haben. Die INETA wird finanziell von Microsoft und anderen 
-   Sponsoren gefördert.</span></p>
-    <p>Die ineta <b>DevGroup Göttingen/Kassel</b> 
-    ist aus der <i>VOCA-Usergroup Göttingen/Kassel</i> hervorgegangen und 
-	besteht seit dem 4. Dezember 1997.</p>
-    <p>Wir haben eine <strong><a href="devgimpr.htm#Kontakt">Kontaktadresse</a></strong>
-    für <a name="Kontaktadresse">weitere Fragen</a>.</p>
+   Sponsoren gefördert.
+   </span></p>
+   
+   <p>Die ineta <b>DevGroup Göttingen/Kassel</b> 
+   ist aus der <i>VOCA-Usergroup Göttingen/Kassel</i> hervorgegangen und 
+   besteht seit dem 4. Dezember 1997.</p>
+ 
+  <p>Wir haben eine <strong><a href="devgimpr.htm#Kontakt">Kontaktadresse</a></strong>
+   für <a name="Kontaktadresse">weitere Fragen</a>.</p>
 </td>
 </tr>
 </table>
@@ -462,11 +506,11 @@ ADC ENDE -->
 
 <!-- Live Zaehler -->
 <p align="center"><font size="2"><a name="Zugriffsstatistik">Zugriffsstatistik</a></font>
-<!-- Begin Motigo Webstats counter code -->
+<!-- Begin Motigo Webstats counter code 
 <a id="mws834416" href="http://webstats.motigo.com/">
 <img width="80" height="15" border="0" alt="Free counter and web stats" src="http://m1.webstats.motigo.com/n80x15.gif?id=AAy7cAkjGjUqqbhAG5kUXGzA_nng" /></a>
 <script src="http://m1.webstats.motigo.com/c.js?id=834416&amp;lang=DE&amp;i=25" type="text/javascript"></script>
-<!-- End Motigo Webstats counter code -->
+     End Motigo Webstats counter code -->
 </p>
 
 <!-- Kleines Icon 
@@ -490,17 +534,23 @@ ADC ENDE -->
     <td valign="top" width="100%">
     <!--webbot bot="Include" u-include="inetafuss.htm" tag="BODY" startspan -->
 
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+<table class="fullwidth footfont">
   <tr>
-    <td valign="top" width="38%"><a href="devgimpr.htm#Kontakt"><font size="2"><em>eMail 
-    <span lang="de">DevGroup Göttingen/Kassel</span></em></font></a><font size="2">, </font><a href="index.htm" target="_top"><font size="2"><em>Home</em></font></a></td>
-    <td valign="top" width="17%" align="center"><a href="#Top" target="_top"><font size="2"><em>Top</em></font></a></td>
-    <td align="right" valign="top" width="45%"><font size="2"><i>©
-      <a href="devgimpr.htm#Verantwortlichkeit">Michael Pätzold</a> · Stand: </i><em>
-    20.09.15</em></font> </td>
+    <td style="text-align:left;vertical-align:top;width:38%">
+    <a href="devgimpr.htm#Kontakt">eMail 
+    <span lang="de">DevGroup Göttingen/Kassel</span></a> <a href="index.htm" target="_top">Home</a>
+    </td>
+    
+    <td style="text-align:center;vertical-align:top;width:17%"><a href="#Top" target="_top">Top</a></td>
+    
+    <td style="text-align:right;vertical-align:top;width:45%">© <a href="devgimpr.htm#Verantwortlichkeit">Michael Pätzold</a> · Stand: 
+    24.08.16</td>
   </tr>
 </table>
-<!--webbot bot="Include" endspan i-checksum="64012" --></td>
+
+
+<!--webbot bot="Include" endspan i-checksum="41328" --></td>
   </tr>
 </table>
 
