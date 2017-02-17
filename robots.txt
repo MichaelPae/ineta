@@ -1,0 +1,97 @@
+# robots.txt für DevGroupGöKs.de
+
+#
+# Ausgeschlossene Webcrawler
+#
+# Wikipedia: nett aber trotzdem nicht
+User-agent: UbiCrawler
+Disallow: /
+
+User-agent: DOC
+Disallow: /
+
+User-agent: Zao
+Disallow: /
+
+# Wikipedia: in gewisser Hinsicht problematisch, deshalb lieber nicht
+User-agent: sitecheck.internetseer.com
+Disallow: /
+
+User-agent: Zealbot
+Disallow: /
+
+User-agent: MSIECrawler
+Disallow: /
+
+User-agent: SiteSnagger
+Disallow: /
+
+User-agent: WebStripper
+Disallow: /
+
+User-agent: WebCopier
+Disallow: /
+
+User-agent: Fetch
+Disallow: /
+
+User-agent: Offline Explorer
+Disallow: /
+
+User-agent: Teleport
+Disallow: /
+
+User-agent: TeleportPro
+Disallow: /
+
+User-agent: WebZIP
+Disallow: /
+
+User-agent: linko
+Disallow: /
+
+User-agent: HTTrack
+Disallow: /
+
+User-agent: Microsoft.URL.Control
+Disallow: /
+
+User-agent: Xenu
+Disallow: /
+
+User-agent: larbin
+Disallow: /
+
+User-agent: libwww
+Disallow: /
+
+User-agent: ZyBORG
+Disallow: /
+
+User-agent: Download Ninja
+Disallow: /
+
+User-agent: fast
+Disallow: /
+
+User-agent: wget
+Disallow: /
+
+User-agent: grub-client
+Disallow: /
+
+User-agent: k2spider
+Disallow: /
+
+User-agent: NPBot
+Disallow: /
+
+User-agent: WebReaper
+Disallow: /
+
+#
+# aktive Sperren fuer folgende eigene Seiten
+#
+User-agent: *
+Disallow: /z_index.html
+Disallow: /ineta*.htm
