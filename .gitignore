@@ -11,3 +11,5 @@ scripte/_vti_cnf/ #
 #docs/*.txt       # ignoriere alle txt-Dateien in docs, aber nicht in docs/unterordner/
 /_vti_cnf/
 /_vti_pvt/
+*.db
+images/Thumbs.db
