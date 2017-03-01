@@ -49,17 +49,40 @@ erledigte Hauptziele
 Update-Protokoll
 ----------------
 Update-Schritte 25.01.2016 Mo
+- GitHub beherrschen lernen
+- GitHub MichaelPae aktualisieren
+- Ineta Web-Page als Lokales Git Repository einrichten
 - Dieses Protokoll (AA_UPDProt.js) als Datentabelle anlegen
 - Uhr mit Zeit bis zum nächsten Treffen
 - Statistik mit Chart umsetzen (Brainstorming: Devgroup-Logo in Caption-Zeile, Statistik rechts neben die Themenliste)
 - Daten nach SQLite überführen
-- GitHub beherrschen lernen
-- GitHub MichaelPae aktualisieren
-- Ineta Web-Page als Lokales Git Repository einrichten
 - Chart.js auf www.befo.com testen
 - Chart-Statistik auf "letzte Treffen" einrichten
 - devgimpr.htm Abschnitts-Abstände vergrößern
 - Page-Menü wie bei "Impressum", "Links" auch auf "Bisherige Treffen", "Nächstes Treffen"
+
+
+
+Update-Schritte 01.03.2017 Mi
+erl. Umstellung der Seite auf "https"
+erl. single SSL Domain bei STRATO aktivieren
+
+Update-Schritte 17.02.2017 Fr
+erl. Nr. 205 erfasst, Nr 206. als DefaultTreffenNr gesetzt (15.03.2017), Nr. 207 initialisiert
+
+Update-Schritte 07.02.2017 Di
+erl. Nr. 204 erfasst, Nr 205. als DefaultTreffenNr gesetzt (15.02.2017), Nr. 206 initialisiert
+
+Update-Schritte 23.12.2016 Fr
+erl. Nr. 203 erfasst, Nr 204. als DefaultTreffenNr gesetzt (18.01.2017), Nr. 205 initialisiert
+
+Update-Schritte 16.11.2016 Mi
+erl. Nr 203. auf 21.12.2016 gesetzt, Nr. 204 initialisiert
+
+Update-Schritte 22.10.2016 Mi
+erl. Nr. 202 erfasst, Nr 203. als DefaultTreffenNr gesetzt (16.11.2016), Nr. 204 initialisiert
+
+... Mini Devcon (Versionen von Mini-DevCon-Flyer_DevGroupGöKs.pdf auswerten)
 
 Update-Schritte 22.01.2016 Fr
 erl. Nr 194. als Default-Treffennr. gesetzt, Nr. 193 erfasst, Nr. 195 initialisiert
