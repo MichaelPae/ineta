@@ -16,8 +16,8 @@
      "Session":
      [  { "SessionId": "20601",
       "Caption": "Implementieren eines Online TFS mit Verbindung zum GitHub",
-      "Summary": "...",
-      "Items": [ "Item 1", "Item 2", "Item 3", "Item 4" ],
+      "Summary": "Einführung in die Agile Entwicklung mit dem TFS, Nutzung verschiedener TFS Online Instances, definieren von Iterationen und Zuweisung von Tasks, Versionskontrolle, TFS und GIT, Continuous Integration, automatisierte Tests.",
+      "Items": [ "Anmelden und Verwalten verschiedener TFS Online Instances", "Definieren von Iterationen und Zuweisung von Tasks", "TFS als Versionskontrolle", "Kombinieren von TFS und GIT", "Continuous Integration über den TFS", "Automatisierte Tests nach der CI" ],
       "Link": "",
       "Speaker": "Johannes",
       "Leute": 0,
