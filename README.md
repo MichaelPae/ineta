@@ -1,2 +1,0 @@
-# ineta
-DevGroupGoeKs Homepage
