@@ -93,6 +93,30 @@ body a:hover {
 }
 
 
+.mainMenuFont a:link {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+
+.mainMenuFont a:visited {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+
+.mainMenuFont a:active {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+
+.mainMenuFont a:hover {
+	color: #31ffff;
+	text-decoration: underline;
+}
+
+
 /* Content */
 
 .fullwidth {
@@ -110,7 +134,6 @@ body a:hover {
 	padding:0px;
 }
 
-
 .width32 {
 	width:32px;
 	border:0px;
@@ -118,10 +141,23 @@ body a:hover {
 	padding:0px;
 }
 
-
 .noBorder {
 	border-collapse:collapse;
 	/*border-color:#ffffff;*/
+}
+
+.heightStandard {
+	height:24px;
+	border:0px;
+	border-spacing: 0px;
+	padding:0px;
+}
+
+.heightSpace {
+	height:12px;
+	border:0px;
+	border-spacing: 0px;
+	padding:0px;
 }
 
 .img_InetaLogo {
@@ -158,16 +194,23 @@ body a:hover {
 	height:300px;
 	border:0px;
 }
+
+
+.megafontshape {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size:36px;
+	font-weight:bold;
+}
  
 .captionfontshape {
 	font-family: Arial, Helvetica, Verdana, sans-serif;
 	font-size:24px;
 	font-weight:bold;
 }
-
-.megafontshape {
+ 
+.subtitlefont {
 	font-family: Arial, Helvetica, Verdana, sans-serif;
-	font-size:36px;
+	font-size:18px;
 	font-weight:bold;
 }
 
