@@ -1,27 +1,20 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
-<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<!DOCTYPE HTML>
+<html lang="de">
 
 <head>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-<meta content="de" http-equiv="Content-Language">
-<meta name="description" content="Treffen-Report">
-<meta name="keywords" content="ineta, .net, dot, net, devgroupgöks, devgroup, usergroup, göttingen, kassel, software, developer, entwicklung, deutschland, germany, visual, studio, object, objects, foxpro, vo, clipper, ca, xbase, alaska">
-<meta name="author" content="Michael Paetzold">
-<meta name="GENERATOR" content="Microsoft FrontPage 12.0">
-<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Treffen</title>
+<link href="InetaFormate.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="https://www.xn--devgroupgks-zfb.de/favicon.ico" type="image/vnd.microsoft.icon">
+<meta name="description" content="Treffen-Report der Software-Entwickler aus Südniedersachsen u. Nordhessen.">
+<meta name="keywords" content="ineta, .net, dot, net, devgroupgöks, devgroup, usergroup, göttingen, kassel, software, developer, entwicklung, deutschland, germany, visual, studio, object, objects, foxpro, vo, clipper, ca, xbase++, xbase, alaska">
+<meta name="author" content="Michael Pätzold">
 
-<!--[if gte mso 9]><xml>
-<mso:CustomDocumentProperties>
-<mso:Categories msdt:dt="string">Protokoll</mso:Categories>
-</mso:CustomDocumentProperties>
-</xml><![endif]-->
+<base target="_top">
+
 <script src="scripte/mywebbot.js" type="text/javascript"></script>
 <script src="scripte/loaddata.js" type="text/javascript"></script>
 <script src="scripte/json2.js" type="text/javascript"></script>
-
-<link href="InetaFormate.css" rel="stylesheet" type="text/css">
-
-<link rel="shortcut icon" href="http://www.michael-paetzold.de/devgroupgoeks/favicon.ico" type="image/vnd.microsoft.icon">
 
 <script type="text/javascript">
 var oInetaSite = new Inetasite();
@@ -29,19 +22,13 @@ var nTreffenNr = parseInt( extractRightPart(location.search, "=") );
 nTreffenNr = checkVar(nTreffenNr, "number", oInetaSite.nDefaultTreffenNr);
 oMeeting = mywebbot("Meeting", nTreffenNr, undefined, undefined, "none");
 </script>
-
-<title>Treffen</title>
 </head>
+
 
 <body>
 
-<!-- dynamischer Titel -->
-<script type="text/javascript">document.title = nTreffenNr.toString()+". Treffen";</script>
-
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
-  <tr>
-    <td valign="top" width="100%">
-    <!--webbot bot="Include" u-include="inetakopf.htm" tag="BODY" startspan -->
+<!-- Ineta-Seiten-Kopf -->
+<!--webbot bot="Include" u-include="inetakopf.htm" tag="BODY" startspan -->
 
 <div id="homepagebanner" style="position:relative">
 
@@ -93,11 +80,17 @@ oMeeting = mywebbot("Meeting", nTreffenNr, undefined, undefined, "none");
 
 </div>
 
-<!--webbot bot="Include" endspan i-checksum="24642" --><font face="Arial">
-    </font>
+<!--webbot bot="Include" endspan i-checksum="24642" -->
 
-<hr>
+<!-- dynamischer Titel -->
+<script type="text/javascript">document.title = nTreffenNr.toString()+". Treffen";</script>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td valign="top" width="100%">
+
     <p align="center"><font size="6" face="Arial"><b>Treffen vom <script type="text/javascript">mywebbot("Termin", nTreffenNr);</script></b></font></p>
+
 <hr>
 
     <!-- Daten des nTreffenNr. Treffens -->
@@ -141,9 +134,15 @@ oMeeting = mywebbot("Meeting", nTreffenNr, undefined, undefined, "none");
 		<script type="text/javascript">document.write(oMeeting.Usergroup);</script>
     .</font></p>
 
-<hr>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="100%">
+    &nbsp;</td>
+  </tr>
+</table>
 
-    <!--webbot bot="Include" u-include="inetafuss.htm" tag="BODY" startspan -->
+<!--webbot bot="Include" u-include="inetafuss.htm" tag="BODY" startspan -->
 
 <div id="inetafuss" style="position:relative">
 <table class="fullwidth footfont">
@@ -153,25 +152,19 @@ oMeeting = mywebbot("Meeting", nTreffenNr, undefined, undefined, "none");
 
   <tr>
     <td style="text-align:left;vertical-align:top;width:38%">
-    <a href="devgimpr.htm#Kontakt" target="_top">eMail 
+    <a href="devgimpr.htm#Kontakt">eMail 
     <span>DevGroup Göttingen/Kassel</span></a> <a href="index.htm" target="_top">Home</a>
     </td>
     
     <td style="text-align:center;vertical-align:top;width:17%"><a href="#Top" target="_top">Top</a></td>
     
-    <td style="text-align:right;vertical-align:top;width:45%">© <a href="devgimpr.htm#Verantwortlichkeit" target="_top">Michael Pätzold</a> · Stand: 
+    <td style="text-align:right;vertical-align:top;width:45%">© <a href="devgimpr.htm#Verantwortlichkeit">Michael Pätzold</a> · Version <script>document.write(oInetaSite.cVersion)</script> vom 
     19.03.17</td>
   </tr>
 </table>
 </div>
 
-<!--webbot bot="Include" endspan i-checksum="23966" -->
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" width="100%">
-    &nbsp;</td>
-  </tr>
-</table>
+<!--webbot bot="Include" endspan i-checksum="24253" -->
+
 </body>
 </html>
