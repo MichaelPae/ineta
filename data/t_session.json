@@ -15,8 +15,8 @@
    { "TreffenNr": 207,
      "Session":
      [  { "SessionId": "20701",
-          "Caption": "Selbstorganisation der DevGroup als \"GosKs-App Development Team\"",
-          "Summary": "Nach der Einrichtung der kollaborativen Entwicklungsplattform vereinbaren wir unsere Guidelines, einigen wir uns auf unsere User Storys und leiten die Tasks für einen ersten Sprint daraus ab.",
+          "Caption": "Selbstorganisation der DevGroup als \"GoeKs-App Development Team\"",
+          "Summary": "Nach der Einrichtung der kollaborativen Entwicklungsplattform vereinbaren wir unsere \"Guidelines\", einigen wir uns auf unsere \"User Storys\" und leiten die \"Tasks\" für einen ersten \"Sprint\" daraus ab.",
           "Items": [ "Entwicklungs Guideline", "User Storys", "Tasks", "Sprint Planning Meeting" ],
           "Link": "",
           "Speaker": "Jedermann",
