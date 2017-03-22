@@ -1,8 +1,8 @@
 { "T_Session":
 [
-   { "TreffenNr": 207,
+   { "TreffenNr": 208,
      "Session":
-     [  { "SessionId": "20701",
+     [  { "SessionId": "20801",
       "Caption": "GoeKs-App Projekt in VisualStudio anlegen",
       "Summary": "...",
       "Items": [ "Item 1", "Item 2", "Item 3", "Item 4" ],
@@ -12,16 +12,36 @@
       "Firmen": 0 }
      ]
    },
+   { "TreffenNr": 207,
+     "Session":
+     [  { "SessionId": "20701",
+          "Caption": "Selbstorganisation der DevGroup als \"GoeKs-App Development Team\"",
+          "Summary": "Nach der Einrichtung der kollaborativen Entwicklungsplattform vereinbaren wir unsere \"Guidelines\", einigen wir uns auf unsere \"User Storys\" und leiten die \"Tasks\" für einen ersten \"Sprint\" daraus ab.",
+          "Items": [ "Entwicklungs Guideline", "User Storys", "Tasks", "Sprint Planning Meeting" ],
+          "Link": "",
+          "Speaker": "Jedermann",
+          "Leute": 0,
+          "Firmen": 0 },
+        { "SessionId": "20702",
+          "Caption": "Einführung in Xamarin",
+          "Summary": "Ein Erfahrungsbericht aus dem eigenen Einstieg in das Thema.",
+          "Items": [ "Was ist Xamarin?", "Xamarin Platform", "Xamarin Forms" ],
+          "Link": "",
+          "Speaker": "Jürgen S.",
+          "Leute": 0,
+          "Firmen": 0 }
+     ]
+   },
    { "TreffenNr": 206,
      "Session":
      [  { "SessionId": "20601",
-      "Caption": "Implementieren eines Online TFS mit Verbindung zum GitHub",
-      "Summary": "Einführung in die Agile Entwicklung mit dem TFS, Nutzung verschiedener TFS Online Instances, definieren von Iterationen und Zuweisung von Tasks, Versionskontrolle, TFS und GIT, Continuous Integration, automatisierte Tests.",
-      "Items": [ "Anmelden und Verwalten verschiedener TFS Online Instances", "Definieren von Iterationen und Zuweisung von Tasks", "TFS als Versionskontrolle", "Kombinieren von TFS und GIT", "Continuous Integration über den TFS", "Automatisierte Tests nach der CI" ],
-      "Link": "",
+      "Caption": "Implementieren eines Visual Studio Team Services mit Verbindung zum GitHub",
+      "Summary": "Einführung in die Agile Entwicklung mit dem TFS, Nutzung verschiedener Visual Studio Team Services Instances, definieren von Iterationen und Zuweisung von Tasks, Versionskontrolle, TFS und GIT, Continuous Integration, automatisierte Tests.",
+      "Items": [ "Anmelden und Verwalten verschiedener Visual Studio Team Service Instances", "Definieren von Iterationen und Zuweisung von Tasks", "TFS als Versionskontrolle", "Kombinieren von TFS und GIT", "Continuous Integration über den TFS", "Automatisierte Tests nach der CI" ],
+      "Link": "https://www.visualstudio.com/de/team-services/",
       "Speaker": "Johannes",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Leute": 10,
+      "Firmen": 7 }
      ]
    },
    { "TreffenNr": 205,
