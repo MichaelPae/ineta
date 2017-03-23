@@ -7,18 +7,111 @@ no	task						class	color		ini		comment
  2	DevGroup Color 2			ColDg2	#E2007A				
 */
 
-/* Stand bis 2016-08-19 */
+/* Font-Referenz
+"DevGroup ..."		max						FontCaption
+"formerly ..."		min
+"[Home] ..."		Standard fett
+"Willkommen ..."	max
+"Datenstand ..."	Standard fett
+"Programme ..."		min
+"Nächster Term ..."	Standard fett			FontStandardFett
+"<Termin> ..."		Standard Gross fett		
+"Thema ..."			Standard				FontStandard
+"Die Teilnahme"		Standard Gross
+"Fußzeile ..."		Standard
+*/
+
+/* Stand 2017-03-23 */
 
 
-.StandardSchrift {
+.FontStandard {
 	font-family: Arial, Helvetica, Verdana, sans-serif;
-	font-size: small;
+	font-size:12px;		/* MS ie */
+	font-size: 0.8rem;	/* Standard */
 	font-weight: normal;
 	font-style: normal;
 	font-variant: normal;
 	color: #000000;
 }
 
+.FontStandardFett {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size:12px;		/* MS ie */
+	font-size: 0.8rem;	/* Standard fett */
+	font-weight:bold;
+	font-style: normal;
+	font-variant: normal;
+}
+ 
+.FontCaption {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size:24px;		/* MS ie */
+	font-size: 1.6rem;	/* max */
+	font-weight:bold;
+	font-style: normal;
+	font-variant: normal;
+}
+
+.FontSubtitle {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size:15px;		/* MS ie */
+	font-size:1.0rem;	/* Standard Gross fett */
+	font-weight:bold;
+	font-style: normal;
+	font-variant: normal;
+}
+
+.FontStandardPlus {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size:15px;		/* MS ie */
+	font-size:1.0rem;	/* Standard Gross */
+	font-weight:normal;
+	font-style: normal;
+	font-variant: normal;
+}
+
+.FontSideNote {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size:10px;
+	font-size:0.7rem;	/* min */
+}
+
+
+/* Fuss */
+.SideNote {
+	font-style:italic;
+	vertical-align:top;
+}
+
+.FontMainMenu {
+	font-size:12px;		/* MS ie */
+	font-size:0.8rem;	/* size FontStandard */
+	font-weight:bold;
+	color:white;
+}
+
+.FontMainMenu a:link {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.FontMainMenu a:visited {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.FontMainMenu a:active {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.FontMainMenu a:hover {
+	color: #31ffff;
+	text-decoration: underline;
+}
+
+
+/* obsolet */
 .style1 {
 	border-style: solid;
 	border-width: 0;
@@ -29,7 +122,8 @@ no	task						class	color		ini		comment
 
 body {
 	font-family: Arial, Helvetica, Verdana, sans-serif;
-	font-size: small;
+	font-size: 0.8em;	/* Standard */
+
 	font-weight: normal;
 	font-style: normal;
 	font-variant: normal;
@@ -58,6 +152,11 @@ body a:hover {
 	text-decoration: underline;
 }
 
+ul {
+	padding-left:1em;
+}
+
+
 /* Kopf */
 .fullwidth85 {
 	position:relative;
@@ -83,37 +182,6 @@ body a:hover {
 	position:relative;
 	padding:0px 0px 0px 0px;
 	vertical-align:top;
-}
-
-
-.mainMenuFont {
-	font-size:small;
-	font-weight:bold;
-	color:white;
-}
-
-
-.mainMenuFont a:link {
-	color: #FFFFFF;
-	text-decoration: underline;
-}
-
-
-.mainMenuFont a:visited {
-	color: #FFFFFF;
-	text-decoration: underline;
-}
-
-
-.mainMenuFont a:active {
-	color: #FFFFFF;
-	text-decoration: underline;
-}
-
-
-.mainMenuFont a:hover {
-	color: #31ffff;
-	text-decoration: underline;
 }
 
 
@@ -195,37 +263,6 @@ body a:hover {
 	border:0px;
 }
 
-
-.megafontshape {
-	font-family: Arial, Helvetica, Verdana, sans-serif;
-	font-size:36px;
-	font-weight:bold;
-}
- 
-.captionfontshape {
-	font-family: Arial, Helvetica, Verdana, sans-serif;
-	font-size:24px;
-	font-weight:bold;
-}
- 
-.subtitlefont {
-	font-family: Arial, Helvetica, Verdana, sans-serif;
-	font-size:18px;
-	font-weight:bold;
-}
-
-.sidenotefont {
-	font-family: Arial, Helvetica, Verdana, sans-serif;
-	font-size:12px;
-}
-
-.footfont {
-	font-family: Arial, Helvetica, Verdana, sans-serif;
-	font-size:12px;
-	font-style:italic;
-}
-
-
 .mailform { 
     width:100%;    
 	text-align:left;
@@ -253,9 +290,62 @@ input:-ms-input-placeholder {
     color: #bfbfbf; 
 }
 
+.whiteonblue {
+	color:#FFFFFF;
+	background:#4072B8; /* Mini-DevCon: #40c1e8, #4072B8 */ /* 2015: #4072B8 */
+}
+
+.whiteonblue a:link {
+	color: #FFFFFF;
+	background:#4072B8; /* #40c1e8, #4072B8 */
+	text-decoration: underline;
+}
+
+.whiteonblue a:visited {
+	color: #FFFFFF;
+	background:#4072B8; /* #40c1e8, #4072B8 */
+	text-decoration: underline;
+}
+
+.whiteonblue a:active {
+	color: #FFFFFF;
+	background:#4072B8; /* #40c1e8, #4072B8 */
+	text-decoration: underline;
+}
+
+.whiteonblue a:hover {
+	color: #31ffff;
+	background:#4072B8; /* #40c1e8, #4072B8 */
+	text-decoration: underline;
+}
+
+.whiteonred {
+	color:#FFFFFF;
+	background:#FF0000; 
+}
+
+.blackongreen {
+	color:#000000;
+	background:#CCFF99; /* #7fc040 #CCFF99 #cae186 */ 
+}
+
+
+/* Mini-DevCon */
+.megafontshape {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size:36px;
+	font-weight:bold;
+}
+
+.footfont {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size:12px;
+	font-style:italic;
+}
+
 .whiteonlightblue {
 	color:#FFFFFF;
-	background:#40c1e8; /* #40c1e8, #4072B8 */
+	background:#40c1e8; /* Mini-DevCon: #40c1e8, #4072B8 */ /* 2015: #4072B8 */
 }
 
 .whiteonlightblue a:link {
@@ -280,14 +370,4 @@ input:-ms-input-placeholder {
 	color: #31ffff;
 	background:#40c1e8; /* #40c1e8, #4072B8 */
 	text-decoration: underline;
-}
-
-.whiteonred {
-	color:#FFFFFF;
-	background:#FF0000; 
-}
-
-.blackongreen {
-	color:#000000;
-	background:#CCFF99; /* #7fc040 #CCFF99 #cae186 */ 
 }
