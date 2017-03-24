@@ -29,88 +29,73 @@ oMeeting = mywebbot("Meeting", nTreffenNr, undefined, undefined, "none");
 <!-- Ineta-Seiten-Kopf -->
 <!--webbot bot="Include" u-include="inetakopf.htm" tag="BODY" startspan -->
 
-<div id="homepagebanner" style="position:relative;width:100%;height:130px"> <!-- Banner 85 = 41, 32, 12, Menu 24  -->
-
-<table id="Top" class="fullwidth85" style="height:85px">
-<tr>
-<td class="inetaRow" style="width:193px;height:85px">
-	<img src="images/logo_ineta_v1.gif" alt="Ineta" class="inetaImg" style="margin-left:0px; float:left; width:193px; height:66px">
-</td>
-  
-<td class="inetaRow" style="width:100%">
-	<img src="images/banner_middle_left.gif" alt="Ineta" class="inetaImg" style="margin-right:0px; float:right; width:382px; height:41px">
-
-	<table class="fullwidth">
-	  <tr>
-	    <td class="FontCaption" style="height:41px;text-align:center">
-	    DevGroup Göttingen/Kassel</td>
-	  </tr>
-
-	  <tr>
-	    <td class="FontSideNote" style="text-align:center;height:12px">formerly known as VOCA-Usergroup GöKs</td>
-	  </tr>
+<div id="homepagebanner" style="position:relative;margin: 0px; padding: 0px;width:100%;height:94px"> <!-- Banner 85 = 41, 32, 12, Menu 24  -->
+	<table id="Top" class="fullwidth85" style="height:94px">
+	<tr>
+	<td class="inetaRow" style="width:193px;height:94px">
+		<img src="images/logo_ineta_v1.gif" alt="Ineta" class="inetaImg" style="margin-left:0px; float:left; width:193px; height:66px">
+	</td>
+	  
+	<td class="inetaRow" style="width:100%;height:94px">
+		<img src="images/banner_middle_left.gif" alt="Ineta" class="inetaImg" style="margin-right:0px; float:right; width:382px; height:41px">
+	</td>
+	<td class="inetaRow" style="width:101px">
+		<img src="images/banner_middle_right.gif" alt="Ineta" class="inetaImg" style="margin-right:0px; float:right; width:101px; height:41px">
+	</td>
+	    
+	<td class="inetaRow" style="width:92px">
+		<img src="images/banner_right_people.gif" alt="Ineta" class="inetaImg" style="margin-right:0px; float:right; width:92px; height:85px">
+	</td>
+	</tr>
 	</table>
-</td>
+</div> <!-- homepagebanner -->
 
-<td class="inetaRow" style="width:101px">
-	<img src="images/banner_middle_right.gif" alt="Ineta" class="inetaImg" style="margin-right:0px; float:right; width:101px; height:41px">
-</td>
-    
-<td class="inetaRow" style="width:92px">
-	<img src="images/banner_right_people.gif" alt="Ineta" class="inetaImg" style="margin-right:0px; float:right; width:92px; height:85px">
-</td>
-</tr>
-</table>
 
-<table class="fullwidth" style="position:relative;border-collapse:collapse;border-color:#111111;background-color:#E79410">
-  <tr>
-    <td style="height:24px">
-    <div class="FontMainMenu" style="text-align:center;vertical-align:center">
+<div id="DevGroupText"  class="FontCaption fullwidth" style="position:absolute;top:15px;text-align:center">
+DevGroup Göttingen/Kassel
+</div> <!-- DevGroupText -->
+
+
+<div id="formerly"  class="FontSideNote fullwidth" style="position:absolute;top:55px;text-align:center">
+formerly known as VOCA-Usergroup GöKs
+</div> <!-- formerly -->
+
+
+<div id="SpaceMainMenu" class="fullwidth" style="position:relative;height:6px;border-collapse:collapse;border-color:#E79410;background-color:#E79410;text-align:center">
+</div> <!-- SpaceMainMenu -->
+
+
+<div id="MainMenu" class="fullwidth FontMainMenu" style="position:relative;height:24px;border-collapse:collapse;border-color:#E79410;background-color:#E79410;text-align:center">
     [<a href="index.htm" target="_top">Home</a>]&nbsp;
     [<a href="devgnext.htm" target="_top">Nächstes&nbsp;Treffen</a>]&nbsp;
     [<a href="devglast.htm" target="_top">Bisherige&nbsp;Treffen</a>]&nbsp;
     [<a href="devglink.htm" target="_top">Links</a>]&nbsp;
     [<a href="devgimpr.htm" target="_top">Impressum</a>]
-    </div>
-    </td>
-  </tr>
-</table>
+</div> <!-- MainMenu -->
 
+<!--webbot bot="Include" endspan i-checksum="26770" -->
+
+<div id="caption" class="fullwidth FontCaptionPlus" style="text-align:center;height:2em">
+<div style="position:relative;top:0.5em">
+Nächstes Treffen <script type="text/javascript">mywebbot("NaechsterTermin");</script>
 </div>
+</div> <!-- caption -->
 
-<!--webbot bot="Include" endspan i-checksum="58655" --><div align="left">
-<table border="0" width="100%">
-	<tr>
-		<td>
-			<p align="center"><font size="6"><b>Nächstes Treffen <script type="text/javascript">mywebbot("NaechsterTermin");</script></b></font></p>
-		</td>
-	</tr>
-</table>
+
+<div id="PageMenu" class="fullwidth" style="position:relative;height:24px;border-collapse:collapse;background-color:silver">
+<div class="fullwidth FontMainMenu" style="position:relative;top:4px;border-collapse:collapse;text-align:center">
+	[<a href="#Termin">Nächster Termin</a>]&nbsp;
+	[<a href="#WeitereThemen">Weitere Themen</a>]&nbsp;
+	[<a href="#WeitereTermine">Weitere Termine</a>]&nbsp;
+	[<a href="#Equipment">Equipment</a>]
 </div>
+</div> <!-- PageMenu -->
 
-
-<table border="0" width="100%" cellspacing="0" cellpadding="0">
-	<tr>
-	    <td width="100%">
-	    <hr>
-	    </td>
-    </tr>
-
-    <tr>
-        <td width="100%"><p align="center"><small>[<a href="#Termin">Nächster Termin</a>] [<a href="#WeitereThemen">Weitere Themen</a>]  [<a href="#WeitereTermine">Weitere Termine</a>]   [<a href="#Equipment">Equipment</a>]</small></td>
-    </tr>
-
-    <tr>
-      <td width="100%">
-      <hr>
-      </td>
-    </tr>
-</table>
 
 <div id="Termin" class="FontSubtitle" style="text-align:left"><br>Nächster Termin</div>
 
 <ul>
-    <p><big>Am <strong>
+    <p class="FontStandardPlus">Am <strong>
     <script type="text/javascript">mywebbot("TerminDoW");</script>,
     19.00 Uhr</strong>
     findet in
@@ -118,13 +103,13 @@ oMeeting = mywebbot("Meeting", nTreffenNr, undefined, undefined, "none");
     (<script type="text/javascript">mywebbot("AnfahrtLink");</script>) das 
     <script type="text/javascript">mywebbot("TreffenZaehler");</script> der 
 	DevGroup Göttingen/Kassel statt.<br>
-    Alle interessierten  .NET-, Vulcan-, VO-, xBase++, FoxPro -Programmierer sind hierzu herzlich eingeladen.</big></p>
+    Alle interessierten  .NET-, Vulcan-, VO-, xBase++, FoxPro -Programmierer sind hierzu herzlich eingeladen.</p>
     
-    <p><big>
-    <script type="text/javascript">mywebbot("getNumerusThema");</script>
+    <p class="FontStandardPlus"><strong>
+    <script type="text/javascript">mywebbot("getNumerusThema");</script></strong>
     zum <strong><script type="text/javascript">mywebbot("TreffenZaehler");</script></strong>
     am <script type="text/javascript">mywebbot("TerminDoW");</script>:
-    </big></p>
+    </p>
     
     <ul>
     <!-- Automatische Anzeige der kommenden Themen aus "mywebbot" -->
@@ -133,12 +118,11 @@ oMeeting = mywebbot("Meeting", nTreffenNr, undefined, undefined, "none");
       </font> </p>
     <!--     Automatische Anzeige ENDE -->
     </ul>
-</ul>
 
-<!-- Teilnahmebedingung  -->   
-<!--webbot bot="Include" U-Include="inetateilnahme.htm" TAG="BODY" startspan -->
+	<!-- Include Teilnahmebedingung -->
+	<!--webbot bot="Include" U-Include="inetateilnahme.htm" TAG="BODY" startspan -->
 
-<div style="position:relative">
+<div style="position:relative;height:72px">
 <table class="fullwidth noBorder whiteonblue">
    <tr>
       <td class="heightStandard">
@@ -158,48 +142,52 @@ oMeeting = mywebbot("Meeting", nTreffenNr, undefined, undefined, "none");
 </table>
 </div>
 
-<!--webbot bot="Include" endspan i-checksum="44089" --><div id="WeitereTermine" class="FontSubtitle" style="text-align:left"><br>Das übernächste Treffen</div>
+<!--webbot bot="Include" endspan i-checksum="2828" -->
+
+
+	<div class="fullwidth FontStandardPlus" style="text-align:center"><br/><a href="devgimpr.htm#Kontakt">Kontaktadresse und weitere Fragen</a></div>
+</ul>
+
+<div id="WeitereTermine" class="FontSubtitle" style="text-align:left"><br>Das übernächste Treffen</div>
 
 <ul>
-    <p><big>
+    <p class="FontStandardPlus">
     Der voraussichtliche Termin für das übernächste Treffen ist in der Regel der 3. Dienstag (März bis Oktober) bzw. Mittwoch (November bis Februar) des Monats, 19:00 Uhr:
     <!-- Der Termin für das übernächste Treffen ist Freitag, der 21. Oktober 2016, 17:30 Uhr: -->
-    </big></p>
+    </p>
     <ul>
-    <!-- Automatische Anzeige des uebernaechsten Termins aus "mywebbot" -->
-      <p align="left"><font size="3" face="Arial">
-        <script type="text/javascript">mywebbot("UeberNaechsterTermin");</script>
-      </font> </p>
+    	<p id="UeberNaechsterTermin" class="FontStandardPlus">
+    	    <script type="text/javascript">mywebbot("UeberNaechsterTermin");</script>
+    	</p> <!-- UeberNaechsterTermin-->
     </ul>
-    <!-- Automatische Anzeige ENDE -->
 </ul>
 
 <div id="WeitereThemen" class="FontSubtitle" style="text-align:left"><br>Weitere Themen</div>
 
 <ul>
-    <p><big>
+    <p class="FontStandardPlus">
     Weitere Themen für zukünftige Treffen:
-    </big></p>
+    </p>
     <ul>
     <!-- Automatische Anzeige der uebernaechsten Themen aus "mywebbot" -->
-      <p align="left"><font size="3" face="Arial">
+    <p id="SessionAnnouncement" class="FontStandardPlus">
          <script type="text/javascript">mywebbot("SessionAnnouncement", nTreffenNr+1);</script>
-      </font> </p>
-    </ul>
-    <!-- Automatische Anzeige ENDE -->
+    </p> <!-- SessionAnnouncement -->
+    </ul> 
 </ul>
 
 <div id="Equipment" class="FontSubtitle" style="text-align:left"><br>Equipment</div>
 
-<ul><big>
-Den Vortragenden steht ein <b>Videoprojektor</b> (VGA-Beamer, 
-Auflösung 1024x768) und eine <b>Leinwand</b> zur Verfügung. <br><br>
-Zur besseren Koordination bitten wir diejenigen, die einen Beitrag 
-einbringen wollen, dies kurz <a href="devgimpr.htm#Kontakt">anzumelden</a>.
-</big></ul>
+<ul>
+	<p class="FontStandardPlus">
+	Den Vortragenden steht ein <b>Videoprojektor</b> (VGA-Beamer, 
+	Auflösung 1024x768) und eine <b>Leinwand</b> zur Verfügung. <br><br>
+	Zur besseren Koordination bitten wir diejenigen, die einen Beitrag 
+	einbringen wollen, dies kurz <a href="devgimpr.htm#Kontakt">anzumelden</a>.
+	</p>
+</ul>
 
-<p align="center">[<a href="devgimpr.htm#Kontakt">Kontaktadresse und weitere Fragen</a>]</p>
-
+<!-- Include Fuss-Zeile -->
 <!--webbot bot="Include" u-include="inetafuss.htm" tag="BODY" startspan -->
 
 <div id="inetafuss" class="FontSideNote SideNote" style="position:relative">
@@ -217,21 +205,19 @@ einbringen wollen, dies kurz <a href="devgimpr.htm#Kontakt">anzumelden</a>.
     <td style="width:17%;text-align:center"><a href="#Top" target="_top">Top</a></td>
     
     <td style="width:45%;text-align:right">© <a href="devgimpr.htm#Verantwortlichkeit">Michael Pätzold</a> · Version <script>document.write(oInetaSite.cVersion)</script> vom 
-    23.03.17</td>
+    24.03.17</td>
   </tr>
 </table>
 </div>
 
-<!--webbot bot="Include" endspan i-checksum="13679" --><h1><font color="#FFFFFF">l</font></h1>
+<!--webbot bot="Include" endspan i-checksum="13681" -->
 
-<h1><font color="#FFFFFF">l</font></h1>
-
-<h1><font color="#FFFFFF">l</font></h1>
-
-<h1><font color="#FFFFFF">l</font></h1>
-
-<h1><font color="#FFFFFF">l</font></h1>
-
+<h1><span style="color:#FFFFFF">l</span></h1>
+<h1><span style="color:#FFFFFF">l</span></h1>
+<h1><span style="color:#FFFFFF">l</span></h1>
+<h1><span style="color:#FFFFFF">l</span></h1>
+<h1><span style="color:#FFFFFF">l</span></h1>
 <p>&nbsp;</p>
+
 </body>
 </html>
