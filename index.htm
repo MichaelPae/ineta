@@ -29,14 +29,14 @@ var oInetaSite = new Inetasite();
 <!-- Include Ineta-Seiten-Kopf -->
 <!--webbot bot="Include" u-include="inetakopf.htm" tag="BODY" startspan -->
 
-<div id="homepagebanner" style="position:relative;margin: 0px; padding: 0px;width:100%;height:94px"> <!-- Banner 85 = 41, 32, 12, Menu 24  -->
-	<table id="Top" class="fullwidth85" style="height:94px">
+<div id="homepagebanner" style="position:relative;margin:0px; padding:0px;width:100%;height:85px;border-collapse:collapse;border:0px"> <!-- Banner 85 = 41, 32, 12, Menu 24  -->
+	<table id="Top" class="widthfullheight85" style="height:85px">
 	<tr>
-	<td class="inetaRow" style="width:193px;height:94px">
+	<td class="inetaRow" style="width:193px;height:85px">
 		<img src="images/logo_ineta_v1.gif" alt="Ineta" class="inetaImg" style="margin-left:0px; float:left; width:193px; height:66px">
 	</td>
 	  
-	<td class="inetaRow" style="width:100%;height:94px">
+	<td class="inetaRow" style="width:100%;height:85px">
 		<img src="images/banner_middle_left.gif" alt="Ineta" class="inetaImg" style="margin-right:0px; float:right; width:382px; height:41px">
 	</td>
 	<td class="inetaRow" style="width:101px">
@@ -73,9 +73,13 @@ formerly known as VOCA-Usergroup GöKs
     [<a href="devgimpr.htm" target="_top">Impressum</a>]
 </div> <!-- MainMenu -->
 
-<!--webbot bot="Include" endspan i-checksum="26770" -->
+<!--webbot bot="Include" endspan i-checksum="5168" -->
 
-<div id="willkommen" class="fullwidth" style="position:relative;height:130px">
+<div id="SpaceWillkommen" class="fullwidth heightSpace" style="position:relative">
+</div> <!-- SpaceWillkommen -->
+
+
+<div id="willkommen" class="fullwidth" style="height:130px">
 
 <table class="fullwidth" style="height:130px">
 	<tr>
@@ -87,10 +91,10 @@ formerly known as VOCA-Usergroup GöKs
 	
     	<td style="text-align:center;width:32px;height:130px"> <!-- width="32" align="center" Dummy Zelle rechts, wg. Ineta-Logo links -->
 			<!-- Details 'GitHub-Logo' -->              
-			<table class="width32 noBorder">
+			<table class="width36 noBorder">
 				<tr>
 					<td style="text-align:right">
-					<div style="text-align:right">
+					<div style="width:36px;text-align:right">
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					</div>
 					</td>
@@ -99,10 +103,10 @@ formerly known as VOCA-Usergroup GöKs
 			<!-- Ende Details 'GitHub-Logo' -->     
     	</td>
     
-    	<td style="width:100%;height:130px"> <!-- Zelle title  width="100%" align="center" -->
+    	<td class="noBorder" style="width:100%;height:130px;vertical-align:top"> <!-- Zelle title  width="100%" align="center" -->
 		  <table class="fullwidth">
 
-    	  <tr style="height:82px">
+    	  <tr style="height:72px">
     	    <td class="FontCaption" style="text-align:center;vertical-align:middle">Willkommen bei der .NET&nbsp;DevGroup&nbsp;Göttingen/Kassel</td>
     	  </tr>
 
@@ -124,29 +128,27 @@ formerly known as VOCA-Usergroup GöKs
     	  </table>
     	</td>
 
-    	<td style="width:32px;height:130px;text-align:center"> <!-- Dummy Zelle rechts, wg. Ineta-Logo links -->
+    	<td style="width:36px;height:130px;text-align:center"> <!-- Dummy Zelle rechts, wg. Ineta-Logo links -->
 			<!-- Details 'GitHub-Logo' -->              
-			<div class="width32 noBorder" style="margin:0px;padding:0px">
+			<div class="width36 noBorder" style="margin:0px;padding:2px 2px 2px 2px">
 				<a href="https://github.com/DevGroupGoeKs" target="_blank"><img src="images/github-mark-32px.png" alt="github.com/DevGroupGoeKs" class="img_GitHubLogo"></a>
 			</div>
 			<!-- Ende Details 'GitHub-Logo' -->     
     	</td>
 	
-    	<td style="width:130px;height:130px"> <!-- Dummy Zelle rechts, wg. Ineta-Logo links -->
-			<!-- Details 'Logo' -->              
-			<div class="width130 noBorder" style="margin:0px;padding:0px">
-				<img src="images/logo_dotnet_goeks.jpg" alt="ineta DevGroup Göttingen/Kassel"  class="img_DevGroupGoeKsLogo" style="float:right">
-			</div>
-			<!-- Ende Details 'Logo' -->     
-    	</td>
+    	<td id="DevGroupKsLogo" style="width:130px;height:130px"> <!-- Dummy Zelle rechts, wg. Ineta-Logo links -->
+			<div class="width130 noBorder" style="position:relative;top:0px;margin:-1px;padding:0px">
+				<img src="images/logo_dotnet_goeks.jpg" alt="ineta DevGroup Göttingen/Kassel" class="img_DevGroupGoeKsLogo" style="top:0px;float:right">
+			</div>   
+    	</td> <!-- DevGroupKsLogo -->  
 	</tr>
 </table>
 
 </div> <!-- willkommen -->
 
 
-<!-- <div id="SpaceUeberschriften" class="heightSpace" style="position:relative">  
-&nbsp;
+<!--
+<div id="SpaceUeberschriften" class="fullwidth heightSpace" style="position:relative">  
 </div>
 
 <div id="Ueberschriften" class="heightStandard" style="position:relative;width=100%;background:silver;vertical-align:middle">  
@@ -160,7 +162,7 @@ Themen unserer letzten Treffen
 -->
 
 
-<div id="SpaceContent" class="heightSpace" style="position:relative">
+<div id="SpaceContent" class="fullwidth heightSpace" style="position:relative">
 </div> <!-- SpaceContent -->
 
 
@@ -171,14 +173,18 @@ Themen unserer letzten Treffen
 <tr id="SpaltenUeberschriften" class="heightStandard FontStandardFett">
 		<td class="whiteonred" style="width:180px;text-align:center">
 		Nächster Termin</td> <!-- (Nr. <script type="text/javascript">mywebbot("TreffenNr");</script>) -->
-		
-		<td style="padding:0px 0px 0px 20px; background:silver; text-align:left">Themen unserer letzten Treffen</td>
+
+		<td class="noBorder" style="padding:0px 0px 0px 6px">
+			<div class="heightStandard FontStandardFett" style="background:silver; text-align:left; padding:0px 0px 0px 14px">
+			<span style="position:relative;top:4px;color:white">Themen unserer letzten Treffen</span>
+			</div>
+		</td>
+		<!-- <td style="margin:0px; padding:0px 0px 0px 20px; background:silver; text-align:left">Themen unserer letzten Treffen</td> -->
 </tr>
 
 <tr id="SpaceDetails">
 <td  colspan="2">
-<div class="heightSpace" style="position:relative">  
-&nbsp;
+<div id="SpaceDetails" class="fullwidth heightSpace" style="position:relative">  
 </div>
 </td>
 </tr> <!-- SpaceDetails -->
@@ -273,12 +279,11 @@ Themen unserer letzten Treffen
 </div> <!-- contentdynamic -->
 
 
-<div id="SpaceTeilnahme" class="heightSpace" style="position:relative">  
-&nbsp;
+<div id="SpaceTeilnahme" class="fullwidth heightSpace" style="position:relative">  
 </div> <!-- SpaceTeilnahme -->
 
 
-<div id="teilnahmebedingung" style="position:relative">
+<div id="teilnahmebedingung" class="fullwidth" style="position:relative">
 <!-- Include Teilnahmebedingung -->
 <!--webbot bot="Include" U-Include="inetateilnahme.htm" TAG="BODY" startspan -->
 
@@ -401,12 +406,12 @@ Themen unserer letzten Treffen
     <td style="width:17%;text-align:center"><a href="#Top" target="_top">Top</a></td>
     
     <td style="width:45%;text-align:right">© <a href="devgimpr.htm#Verantwortlichkeit">Michael Pätzold</a> · Version <script>document.write(oInetaSite.cVersion)</script> vom 
-    24.03.17</td>
+    25.03.17</td>
   </tr>
 </table>
 </div>
 
-<!--webbot bot="Include" endspan i-checksum="13681" -->
+<!--webbot bot="Include" endspan i-checksum="13683" -->
 
 </body>
 </html>
