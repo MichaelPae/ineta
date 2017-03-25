@@ -27,17 +27,17 @@ oMeeting = mywebbot("Meeting", nTreffenNr, undefined, undefined, "none");
 
 <body>
 
-<!-- Ineta-Seiten-Kopf -->
+<!-- Include Ineta-Seiten-Kopf -->
 <!--webbot bot="Include" u-include="inetakopf.htm" tag="BODY" startspan -->
 
-<div id="homepagebanner" style="position:relative;margin: 0px; padding: 0px;width:100%;height:94px"> <!-- Banner 85 = 41, 32, 12, Menu 24  -->
-	<table id="Top" class="fullwidth85" style="height:94px">
+<div id="homepagebanner" style="position:relative;margin:0px; padding:0px;width:100%;height:85px;border-collapse:collapse;border:0px"> <!-- Banner 85 = 41, 32, 12, Menu 24  -->
+	<table id="Top" class="widthfullheight85" style="height:85px">
 	<tr>
-	<td class="inetaRow" style="width:193px;height:94px">
+	<td class="inetaRow" style="width:193px;height:85px">
 		<img src="images/logo_ineta_v1.gif" alt="Ineta" class="inetaImg" style="margin-left:0px; float:left; width:193px; height:66px">
 	</td>
 	  
-	<td class="inetaRow" style="width:100%;height:94px">
+	<td class="inetaRow" style="width:100%;height:85px">
 		<img src="images/banner_middle_left.gif" alt="Ineta" class="inetaImg" style="margin-right:0px; float:right; width:382px; height:41px">
 	</td>
 	<td class="inetaRow" style="width:101px">
@@ -74,21 +74,27 @@ formerly known as VOCA-Usergroup GöKs
     [<a href="devgimpr.htm" target="_top">Impressum</a>]
 </div> <!-- MainMenu -->
 
-<!--webbot bot="Include" endspan i-checksum="26770" -->
+<!--webbot bot="Include" endspan i-checksum="5168" -->
 
 <!-- dynamischer Titel -->
 <script type="text/javascript">document.title = nTreffenNr.toString()+". Treffen";</script>
 
-<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<div id="caption" class="fullwidth FontCaptionPlus" style="text-align:center;height:2em">
+<div style="position:relative;top:0.5em">
+Treffen vom <script type="text/javascript">mywebbot("Termin", nTreffenNr);</script>
+</div>
+</div> <!-- caption -->
+
+<div id="PageMenu" class="fullwidth" style="position:relative;height:24px;border-collapse:collapse;background-color:silver">
+</div>
+
+
+<table class="fullwidth">
   <tr>
     <td valign="top" width="100%">
 
-    <p align="center"><font size="6" face="Arial"><b>Treffen vom <script type="text/javascript">mywebbot("Termin", nTreffenNr);</script></b></font></p>
-
-<hr>
-
     <!-- Daten des nTreffenNr. Treffens -->
-    <p><font size="3" face="Arial">Am
+    <p><font size="3" face="Arial"><br />Am
        <script type="text/javascript">mywebbot("TerminDoW", nTreffenNr);</script>,
        <!-- <script type="text/javascript">mywebbot("Termin", nTreffenNr);</script> -->
     um
@@ -105,12 +111,12 @@ formerly known as VOCA-Usergroup GöKs
     <!-- <a href="devglast.htm#Statistik" target="_top">normaler Beteiligung</a> 
     <script type="text/javascript">mywebbot("Beteiligung", nTreffenNr);</script> -->
     stattgefunden.</font></p>
-    <p><font face="Arial">Der Treffpunkt war in 
+    <p><font size="3" face="Arial">Der Treffpunkt war in 
        <script type="text/javascript">mywebbot("Treffpunkt", nTreffenNr);</script>
     .</font></p>
 
     <div>
-      <p><font face="Arial">
+      <p><font size="3" face="Arial">
          <script type="text/javascript">mywebbot("getNumerusThema", nTreffenNr);</script>
       des Abends:</font></p>
 
@@ -153,12 +159,12 @@ formerly known as VOCA-Usergroup GöKs
     <td style="width:17%;text-align:center"><a href="#Top" target="_top">Top</a></td>
     
     <td style="width:45%;text-align:right">© <a href="devgimpr.htm#Verantwortlichkeit">Michael Pätzold</a> · Version <script>document.write(oInetaSite.cVersion)</script> vom 
-    24.03.17</td>
+    25.03.17</td>
   </tr>
 </table>
 </div>
 
-<!--webbot bot="Include" endspan i-checksum="13681" -->
+<!--webbot bot="Include" endspan i-checksum="13683" -->
 
 </body>
 </html>
