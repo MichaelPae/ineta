@@ -1,9 +1,9 @@
 { "T_Session":
 [
-   { "TreffenNr": 209,
+   { "TreffenNr": 233,
      "Session":
-     [  { "SessionId": "20901",
-      "Caption": "GoeKs-App Projekt in VisualStudio anlegen",
+     [  { "SessionId": "23301",
+      "Caption": "(wird noch gesucht)",
       "Summary": "...",
       "Items": [ "Item 1", "Item 2", "Item 3", "Item 4" ],
       "Link": "",
@@ -12,24 +12,329 @@
       "Firmen": 0 }
      ]
    },
+   { "TreffenNr": 232,
+     "Session":
+     [  { "SessionId": "23201",
+      "Caption": "MedMan als Windows Template Studio-Projekt",
+      "Summary": "Der Entwicklungsstand von MedMan wird mit dem Erkenntnisstand zu WTS verschmolzen",
+      "Items": [ "Item 1", "Item 2", "Item 3", "Item 4" ],
+      "Link": "",
+      "Speaker": "NN",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
+   { "TreffenNr": 231,
+     "Session":
+     [  { "SessionId": "23101",
+      "Caption": "Vertiefung der Kenntnisse zum WTS (Windows Template Studio)",
+      "Summary": "Techniken für die Aktivierung und den Umgang mit den angebotenen WTS-Templates",
+      "Items": [ "Feature zum bestehenden Projekt hinzufügen", "Prism MVVM", "Page hinzufügen", "Windows Community Toolkit", "StorageFileHelper" ],
+      "Link": "https://github.com/JGoschke/Usergroup",
+      "Speaker": "Jürgen G.",
+      "Leute": 6,
+      "Firmen": 4 }
+     ]
+   },
+   { "TreffenNr": 230,
+     "Session":
+     [  { "SessionId": "23001",
+      "Caption": "Implementierung von WTS Features in MedMan",
+      "Summary": "Implementierung von Standard WTS Features (First-Run, Navigation, Grid ...) und Datenbank-Basisfunktionen Anlegen, Ändern, Löschen",
+      "Items": [ "WTS Feature First-Run", "WTS Feature Einstellungen" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 4,
+      "Firmen": 3 }
+     ]
+   },
+
+   { "TreffenNr": 229,
+     "Session":
+     [  { "SessionId": "22901",
+      "Caption": "MedMan-App Programm-Start",
+      "Summary": "Implementierung eines First-Run-Dialogs",
+      "Items": [ "Test der Windows Template Studio (WTS) Features", "First-Run-, Navigations-, Grid- u. weitere Templates", "Debug-Sessions" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 8,
+      "Firmen": 5 }
+     ]
+   },
+   { "TreffenNr": 228,
+     "Session":
+     [  { "SessionId": "22801",
+      "Caption": "Verhalten der MedMan-Datenbank beim App-Start",
+      "Summary": "Erzeugen der MedMan-Datenbank anhand der DTO-Klassen beim Erststart mit dem Servicepack.OrmLite. Vorstellung des Windows Template Studios am konkreten Beispiel unserer MedMan-App",
+      "Items": [ "Vorstellung des Windows Template Studios (WTS)", "Aktivierung wünschenswerter MedMan-App-Standard-Features aus Windows Template Studio", "Implementierung von Servicepack.OrmLite in VS", "Implementierung der checkDatabase-Funktionalität auf Basis der vorhandenen DTO-Klassen" ],
+      "Link": "",
+      "Speaker": "Rudi",
+      "Leute": 5,
+      "Firmen": 4 }
+     ]
+   },
+   { "TreffenNr": 227,
+     "Session":
+     [  { "SessionId": "22701",
+      "Caption": "Datenmodellierung Ausbaustufe I für MedMan",
+      "Summary": "Fortsetzung und Abschluss des  Datenmodells für MedMan",
+      "Items": [ "vorhandene DTO-Klassen angepasst", "neue DTO-Klassen definiert" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 3,
+      "Firmen": 3 }
+     ]
+   },
+   { "TreffenNr": 226,
+     "Session":
+     [  { "SessionId": "22601",
+      "Caption": "Weihnachtsessen und Bowling",
+      "Summary": "Wir nehmen eine alte Tradition unserer Usergroup wieder auf und setzen beim Dezember-Meeting einen anderen Fokus.",
+      "Items": [ "Klares Süppchen", "Rumpsteak", "Crème brûlée", "Bowling" ],
+      "Link": "http://www.michels-landgasthaus.de/",
+      "Speaker": "Jedermann",
+      "Leute": 10,
+      "Firmen": 7}
+     ]
+   },
+   { "TreffenNr": 225,
+     "Session":
+     [  { "SessionId": "22501",
+      "Caption": "Datenmodell für MedMan",
+      "Summary": "Strukturierung der Tabellen, die \"hinter\" der MedMan-App liegen",
+      "Items": [ "Namenskonvention für Key-Felder", "Diskussion zum Tabellen-Grundgerüst", "Anlage der Grundgerüst-Tabellen" ],
+      "Link": "data/m2018-11-15_MedMan.pdf",
+      "Speaker": "Jedermann",
+      "Leute": 8,
+      "Firmen": 5 }
+     ]
+   },
+   { "TreffenNr": 224,
+     "Session":
+     [  { "SessionId": "22401",
+          "Caption": "ORM-Mapper NPoco",
+          "Summary": "Vertiefung der Kenntnisse zur Verwendung des ORM-Mappers NPoco anhand eines Beispiels.",
+          "Items": [ "NPoco NuGet Package", "NPoco in App einbinden (Connection String)", "NPoco Standard Methoden", "NPoco generierte SQL-Statements", "Multi-User-Strategien" ],
+          "Link": "data/m2018-10-18_MedMan.pdf",
+          "Speaker": "Jürgen G.",
+          "Leute": 6,
+          "Firmen": 4 },
+        { "SessionId": "22402",
+          "Caption": "Photovoltaik-Anlage mit Speicher und Inselbetrieb",
+          "Summary": "Kurzer Bericht zu einer im September 2018 in Betrieb genommenen 5,4 kWp Anlage.",
+          "Items": [ "Funktionsweise", "Installierte Technik", "Wirtschaftlichkeit", "Gesetzliche Regelungen" ],
+          "Link": "",
+          "Speaker": "Michael",
+          "Leute": 6,
+          "Firmen": 4 }
+     ]
+   },
+   { "TreffenNr": 223,
+     "Session":
+     [  { "SessionId": "22301",
+      "Caption": "SQLite in MedMan-UWP einbinden",
+      "Summary": "Implementierung von Datenhandlings-Basisfunktionalitäten in die APP.",
+      "Items": [ "Einbindung von SQLite in die MedMan-App", "Definition einer ersten DTO-Klasse für Medikamente", "Verwendung der SQLite-Datenbank mit dem ORM-Mapper NPoco" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 7,
+      "Firmen": 5 }
+     ]
+   },
+   { "TreffenNr": 222,
+     "Session":
+     [  { "SessionId": "22201",
+      "Caption": "MedMan-II-Projekt Implementierung",
+      "Summary": "Implementierung des MedMan-II-Projekts in der Visual-Studio-Umgebung.",
+      "Items": [ "Visual-Studio Umgebung u. Komponenten", "Anmeldung am VSTS-Projekt", "MedMan-Solution einrichten" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 7,
+      "Firmen": 5 }
+     ]
+   },
+   { "TreffenNr": 221,
+     "Session":
+     [  { "SessionId": "22101",
+      "Caption": "Relaunch der MedMan-Entwicklung",
+      "Summary": "Die bisherigen Hürden der Entwicklungsumgebung haben keine Arbeitsfreude aufkommen lassen. Wir suchen nach einem neuen Ansatz für unsere App-Entwicklung.",
+      "Items": [ "Reduzierung des Zielprojektes auf UWP", "Neues Projekt im VSTS", "Einrichtung des Master-Branches" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 6,
+      "Firmen": 4 }
+     ]
+   },
+   { "TreffenNr": 220,
+     "Session":
+     [  { "SessionId": "22001",
+      "Caption": "Weiterentwicklung der MedMan-App",
+      "Summary": "Definition der nächsten konkreten Entwicklungsschritte",
+      "Items": [ "Zusammenfassung der bisherigen MedMan-App Entwicklungserfahrungen", "Austausch zu aktuellen Projekten der Usergroup Member" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 6,
+      "Firmen": 4 }
+     ]
+   },
+   { "TreffenNr": 219,
+     "Session":
+     [  { "SessionId": "21901",
+      "Caption": "MedMan-Datenstrukturen in SQLITE-Datenbank implementieren",
+      "Summary": "Nach erfolgreicher Implementierung des SQLite-Interfaces sollen Daten-Strukturen und -Inhalte in der MedMan-App geschaffen werden.",
+      "Items": [ "Austausch von Erfahrungen zur Konfiguration der Entwicklungsumgebung", "Testen neuer Builds mit dem Device Simulator" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 6,
+      "Firmen": 3 }
+     ]
+   },
+   { "TreffenNr": 218,
+     "Session":
+     [  { "SessionId": "21801",
+      "Caption": "IT-Themen allgemein und Stimmungsbericht von der BASTA",
+      "Summary": "Verschiedener IT-Themen mit dem Schwerpunkt Wartung komplexer Systeme und einem BASTA-Bericht",
+      "Items": [ "BASTA hat nichts besonderes geboten", "BASTA Themen- und Session-Umfang geringer als früher", "Probleme bei der Wartung komplexer PPS-Systeme", "Speicherproblem im Netzwerk" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 5,
+      "Firmen": 3 }
+     ]
+   },
+   { "TreffenNr": 217,
+     "Session":
+     [  { "SessionId": "21701",
+      "Caption": "SQLITE-Datenbank implementieren",
+      "Summary": "Analyse der Probleme von Workshop-Teilnehmern, die bei der Übernahme der Ergebnisse des letzten Treffens aufgetreten sind.",
+      "Items": [ "Problemschilderung", "Analyse", "Mögliche Aktionen zur Problemlösung" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 5,
+      "Firmen": 4 }
+     ]
+   },
+   { "TreffenNr": 216,
+     "Session":
+     [  { "SessionId": "21601",
+      "Caption": "Das lokale Back-End unserer \"MedMan\"-App",
+      "Summary": "Applikationsdaten in SQLite speichern",
+      "Items": [ "SQLite NuGet in VS installieren", "SQLite Interface in MedMan implementieren", "Datenbank- und Test-Tabelle generieren", "Test-Tabelle in MedMan Oberfläche anzeigen" ],
+      "Link": "https://devgroupgoeks.visualstudio.com/DemoProjekt/_git/MedMan?_a=contents&path=%2F&version=GBmaster",
+      "Speaker": "Jedermann",
+      "Leute": 6,
+      "Firmen": 3 }
+     ]
+   },
+   { "TreffenNr": 215,
+     "Session":
+     [  { "SessionId": "21501",
+      "Caption": "Die  \"MedMan\"-Entwicklungsumgebung im Entwickler-Alltag",
+      "Summary": "Erfahrungsaustausch zum operativen Umgang mit der Entwicklungsumgebung.",
+      "Items": [ "Haken und Ösen der Build-Prozesse im VSTS (User bezogenen Zertifikate) und im lokal VS", "Nach Aktualisierung der Visual Studio Umgebung ist ggf. eine Neuinstallation der Xamarin-Module notwendig", "Build-Warnungen erschließen sich nicht immer; trotz \"Warnungen\" weitermachen.", "Der Android-Simulator hat lange Ladezeiten" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 6,
+      "Firmen": 4 }
+     ]
+   },
+   { "TreffenNr": 214,
+     "Session":
+     [  { "SessionId": "21401",
+      "Caption": "Medikamenten-App Backlog Refinement und erste Iteration starten",
+      "Summary": "Aus dem Programmrahmen für unsere \"Xamarin-Medikamenten-App\" wird ein detaillierteres Backlog entwickelt.",
+      "Items": [ "Detaillierung des Backlogs", "Grundgerüst definieren", "Iteration festlegen", "GIT Repository für \"MedMan\" erzeugen",  "In Dev-Branch verzweigen", "Xamarin Blank App Solution anlegen", "Build Solution", "Test der Solution", "Einchecken" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 7,
+      "Firmen": 5 }
+     ]
+   },
+   { "TreffenNr": 213,
+     "Session":
+     [  { "SessionId": "21302",
+          "Caption": "Definition eines Programmrahmens für eine Medikamenten-App als User Stories",
+          "Summary": "Unsere Xamarin Demo-App wird auf das Thema \"Medikamenten-App\" ausgerichtet",
+          "Items": [ "Medikamente verwalten", "Benutzerdaten verwalten", "Medikamentenreichweite verwalten", "Daten auf allen Rechnern des Users verfügbar", "Daten offline bearbeitbar", "Soll mit IOS, Android, Windows 10 funktionieren", "Alarmierung auf FitBit" ],
+          "Link": "https://devgroupgoeks.visualstudio.com/DemoProjekt/_backlogs?level=Features&showParents=false&_a=backlog",
+          "Speaker": "Jedermann",
+          "Leute": 6,
+          "Firmen": 4 },
+        { "SessionId": "21301",
+          "Caption": "Microsoft Wireless Display Adapter V2",
+          "Summary": "Mit dem Wireless Display Adapter kann jedes \"Anzeigegerät\", das über einen HDMI Anschluss verfügt, zu einem drahtlos erreichbaren Anzeigegerät aufgerüstet werden. Alle Windows-10- und Android-Geräte können diese \"drahtlose Anzeige\" nutzen.",
+          "Items": [ "Vorführung des Adapters an einem Full HD Beamer", "Erfolgreiche Verbindungstests mit Win-10 Notebooks, Windows Phone", "Bildübertragung mit Android Smartphone aus dem Internet von einem privaten NAS zum Beamer" ],
+          "Link": "https://www.microsoft.com/accessories/en-us/products/adapters/wireless-display-adapter-2/p3q-00001",
+          "Speaker": "Jürgen G. und Rudi",
+          "Leute": 6,
+          "Firmen": 4 }
+     ]
+   },
+   { "TreffenNr": 212,
+     "Session":
+     [  { "SessionId": "21201",
+      "Caption": "Build-Prozess im VSTS",
+      "Summary": "Den Problemen, der beim letzten Treffen nicht funktionierenden VSTS-Build-Umgebung, wird auf den Grund gegangen",
+      "Items": [ "Überblick zu Einstellungen im VSTS", "Java-SDK 8 im Task Xamarin.Android auswählen", "Agent Queue \"Hostet VS2017\" in Build Process auswählen" ],
+      "Link": "",
+      "Speaker": "Jürgen G.",
+      "Leute": 6,
+      "Firmen": 4 }
+     ]
+   },
+   { "TreffenNr": 211,
+     "Session":
+     [  { "SessionId": "21101",
+      "Caption": "Lokale und online Builds unserer Xamarin Demo-App",
+      "Summary": "Konfiguration und Anwendung der Build-Einstellungen in der lokalen VS-Umgebung und in der online VSTS-Umgebung.",
+      "Items": [ "Konfiguration und Test der lokalen Build-Umgebung", "Konfiguration und Test der online VSTS-Build-Umgebung", "Fehlersuche in der nicht funktionierenden VSTS-Build-Umgebung" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 6,
+      "Firmen": 4 }
+     ]
+   },
+   { "TreffenNr": 210,
+     "Session":
+     [  { "SessionId": "21001",
+      "Caption": "Überprüfung und Reparatur der Visual Studio Xamarin-Umgebungen der Teilnehmer",
+      "Summary": "Nachdem sich in der Praxis gezeigt hat, dass der Einstieg in eine \"gemeinsame\" und \"gleiche\" Entwicklungsumgebung nicht trivial ist, widmen wir uns den einzelnen Geräten.",
+      "Items": [ "Hürden, die für erfolgreiche Builds von Xamarin Solutions zu nehmen sind", "Build der \"Master Detail\"-Demo für UWP-Desktop, Win-Phone u. <a href=\"data/com.companyname.App6-Signed.apk\" target=\"_blank\">Android</a>", "Deploy der \"Master Detail\"-Demo auf UWP-Desktop, Win-Phone u. Android-Smartphones", "Vergleich der Oberflächen auf den verschiedenen Endgeräten" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 6,
+      "Firmen": 4 }
+     ]
+   },
+   { "TreffenNr": 209,
+     "Session":
+     [  { "SessionId": "20901",
+          "Caption": "Xamarin Demo-App Projekt",
+          "Summary": "Alle Arbeitsschritte zur Xamarin Erweiterung von Visual Studio sowie Anlegen und Arbeiten mit einer Xamarin-Demo-Solution.",
+          "Items": [ "Xamarin Erweiterung", "Xamarin Demo Solution", "Build-Optionen für die verschiedenen Endgeräte", "Hürden im VSTS"],
+          "Link": "https://www.visualstudio.com/de/team-services/",
+          "Speaker": "Johannes",
+          "Leute": 6,
+          "Firmen": 4 }
+     ]
+   },
    { "TreffenNr": 208,
      "Session":
      [  { "SessionId": "20801",
-          "Caption": "Branchen im VSTS ",
-          "Summary": "Praxisbeispiele zum richtigen Branchen und Synchronisieren in unserem VSTS bezogen auf unsere festgelegten Richtlinien.",
-          "Items": [ "Item 1", "Item 2", "Item 3", "Item 4" ],
-          "Link": "",
-          "Speaker": "Jürgen G.",
-          "Leute": 0,
-          "Firmen": 0 },
-        { "SessionId": "20802",
           "Caption": "Einführung in Xamarin",
-          "Summary": "Ein Erfahrungsbericht aus dem eigenen Einstieg in das Thema.",
-          "Items": [ "Was ist Xamarin?", "Xamarin Platform", "Xamarin Forms" ],
-          "Link": "",
+          "Summary": "Aktivieren einer Xamarin-Demo-App in Visual Studio.",
+          "Items": [ "Xamarin Demo-App Projekt", "Demo-Projekt-Optionen und Steuerung in Visual Studio", "Bereitstellung des Demo-Projekts im VSTS"],
+          "Link": "https://www.visualstudio.com/de/xamarin/",
           "Speaker": "Jürgen S.",
-          "Leute": 0,
-          "Firmen": 0 }
+          "Leute": 8,
+          "Firmen": 7 },
+        { "SessionId": "20802",
+          "Caption": "Arbeiten mit dem VSTS ",
+          "Summary": "Praxisbeispiele zum richtigen Branchen und Synchronisieren in unserem VSTS, bezogen auf unsere festgelegten Richtlinien.",
+          "Items": [ "Konfiguration von VSTS-Projekten", "Einrichten eines VSTS Builds", "Abarbeiten von Build-Fehlermeldungen" ],
+          "Link": "https://www.visualstudio.com/de/team-services/",
+          "Speaker": "Jürgen G.",
+          "Leute": 8,
+          "Firmen": 7 }
      ]
    },
    { "TreffenNr": 207,

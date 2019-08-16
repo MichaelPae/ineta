@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+CATEGORIES:VIP
+X-VIPCategory:Misc
+ADR;ENCODING=QUOTED-PRINTABLE:;;Bahnhofstra=DFe 1;Friedland;NDS;37133;Deutschland
+TEL;WORK;VOICE:+49 (05504) 252
+URL;WORK:www.michels-landgasthaus.de
+EMAIL;PREF;INTERNET:Landgasthaus.Michel@gmx.de
+X-NAVADDR:;;;;;;;;;
+GEO:51.42046;9.915658
+X-Flag:
+REV:20181202T195127z
+FN;ENCODING=QUOTED-PRINTABLE:Friedland, Michels Landgasthaus
+UID:AddresBookPersistentProvider3
+END:VCARD

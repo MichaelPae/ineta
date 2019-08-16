@@ -1,9 +1,129 @@
 { "T_Meeting":
 [
+   { "TreffenNr": 233,
+     "SessionCount": 1,
+     "TerminISO": "2019-09-19",
+     "OrtId": "" },
+
+   { "TreffenNr": 232,
+     "SessionCount": 1,
+     "TerminISO": "2019-08-15",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 231,
+     "SessionCount": 1,
+     "TerminISO": "2019-06-20",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 230,
+     "SessionCount": 1,
+     "TerminISO": "2019-05-16",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 229,
+     "SessionCount": 1,
+     "TerminISO": "2019-04-11",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 228,
+     "SessionCount": 1,
+     "TerminISO": "2019-02-21",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 227,
+     "SessionCount": 1,
+     "TerminISO": "2019-01-17",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 226,
+     "SessionCount": 1,
+     "TerminISO": "2018-12-13",
+     "OrtId": "MichelsLandgasthaus" },
+
+   { "TreffenNr": 225,
+     "SessionCount": 1,
+     "TerminISO": "2018-11-15",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 224,
+     "SessionCount": 2,
+     "TerminISO": "2018-10-18",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 223,
+     "SessionCount": 1,
+     "TerminISO": "2018-09-20",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 222,
+     "SessionCount": 1,
+     "TerminISO": "2018-08-16",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 221,
+     "SessionCount": 1,
+     "TerminISO": "2018-07-19",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 220,
+     "SessionCount": 1,
+     "TerminISO": "2018-06-21",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 219,
+     "SessionCount": 1,
+     "TerminISO": "2018-04-17",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 218,
+     "SessionCount": 1,
+     "TerminISO": "2018-03-20",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 217,
+     "SessionCount": 1,
+     "TerminISO": "2018-02-21",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 216,
+     "SessionCount": 1,
+     "TerminISO": "2018-01-17",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 215,
+     "SessionCount": 1,
+     "TerminISO": "2017-12-20",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 214,
+     "SessionCount": 1,
+     "TerminISO": "2017-11-15",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 213,
+     "SessionCount": 2,
+     "TerminISO": "2017-10-18",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 212,
+     "SessionCount": 1,
+     "TerminISO": "2017-09-19",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 211,
+     "SessionCount": 1,
+     "TerminISO": "2017-08-15",
+     "OrtId": "ZumBraunenHirsch" },
+
+   { "TreffenNr": 210,
+     "SessionCount": 1,
+     "TerminISO": "2017-07-18",
+     "OrtId": "ZumBraunenHirsch" },
+
    { "TreffenNr": 209,
      "SessionCount": 1,
      "TerminISO": "2017-06-20",
-     "OrtId": "" },
+     "OrtId": "ZumBraunenHirsch" },
 
    { "TreffenNr": 208,
      "SessionCount": 2,
