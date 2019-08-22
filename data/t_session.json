@@ -29,7 +29,7 @@
      [  { "SessionId": "23201",
       "Caption": "IT-Themen allgemein und Elektromobilität",
       "Summary": "Verschiedene IT-Themen und Informationsaustausch zum Thema Elektromobilität",
-      "Items": [ "Windows Updates", "Visual Studio Update", "Esp8266", "e-tron, Model 3 usw."],
+      "Items": [ "Windows Updates", "Visual Studio Update", "python", "Lua", "Esp8266", "e-tron, Model 3 usw."],
       "Link": "",
       "Speaker": "Jedermann",
       "Leute": 6,
