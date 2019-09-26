@@ -1,8 +1,8 @@
 { "T_Session":
 [
-   { "TreffenNr": 234,
+   { "TreffenNr": 235,
      "Session":
-     [  { "SessionId": "23401",
+     [  { "SessionId": "23501",
       "Caption": "(wird noch gesucht)",
       "Summary": "...",
       "Items": [ "Item 1", "Item 2", "Item 3", "Item 4" ],
@@ -12,16 +12,28 @@
       "Firmen": 0 }
      ]
    },
+   { "TreffenNr": 234,
+     "Session":
+     [  { "SessionId": "23401",
+      "Caption": "MedMan Bedienelemente",
+      "Summary": "Die MedMan Medikamenten-Page erhält Bedienelemente zum Anlegen, Ändern, Löschen",
+      "Items": [ "Item 1", "Item 2", "Item 3", "Item 4" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
    { "TreffenNr": 233,
      "Session":
      [  { "SessionId": "23301",
       "Caption": "MedMan als Windows Template Studio-Projekt",
       "Summary": "Der Entwicklungsstand von MedMan wird mit dem Erkenntnisstand zu WTS verschmolzen",
-      "Items": [ "Item 1", "Item 2", "Item 3", "Item 4" ],
+      "Items": [ "Sichtung der App-Struktur", "Mögliche Code-Stellen zur Erweiterung des generierten Codes", "Bedienelemente", "Bindung der Commands an die Bedienelemente" ],
       "Link": "",
-      "Speaker": "NN",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Speaker": "Jedermann",
+      "Leute": 7,
+      "Firmen": 4 }
      ]
    },
    { "TreffenNr": 232,
