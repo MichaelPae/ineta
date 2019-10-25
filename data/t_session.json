@@ -1,13 +1,25 @@
 { "T_Session":
 [
+   { "TreffenNr": 236,
+     "Session":
+     [  { "SessionId": "23601",
+      "Caption": "Weihnachtsessen und Kegeln",
+      "Summary": "Wir setzen eine alte Tradition unserer Usergroup fort und setzen beim Dezember-Meeting einen anderen Fokus.",
+      "Items": [ "Klares Süppchen", "Rumpsteak", "Crème brûlée", "Kegeln" ],
+      "Link": "http://www.michels-landgasthaus.de/",
+      "Speaker": "Jedermann",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
    { "TreffenNr": 235,
      "Session":
      [  { "SessionId": "23501",
-      "Caption": "(wird noch gesucht)",
-      "Summary": "...",
-      "Items": [ "Item 1", "Item 2", "Item 3", "Item 4" ],
+      "Caption": "Photovoltaik-Anlage mit Speicher",
+      "Summary": "Erfahrungsbericht zum Aufbau einer 40 kWp PV-Anlage",
+      "Items": [ "Photoeffekt und weitere Grundlagen", "Aufbau einer PV-Anlag", "Anlagengrößen 10 KW, 30 KW und Konsequenzen daraus", "Autark sein?", "Meine PV-Anlage: Kosten, zeitlicher Projektablauf", "Rechnet sich das oder muss man sich das schön rechnen?" ],
       "Link": "",
-      "Speaker": "NN",
+      "Speaker": "Jürgen G.",
       "Leute": 0,
       "Firmen": 0 }
      ]
@@ -17,11 +29,11 @@
      [  { "SessionId": "23401",
       "Caption": "MedMan Bedienelemente",
       "Summary": "Die MedMan Medikamenten-Page erhält Bedienelemente zum Anlegen, Ändern, Löschen",
-      "Items": [ "Item 1", "Item 2", "Item 3", "Item 4" ],
+      "Items": [ "Einbinden der Bedienelemente in die Commandbar", "Einbinden der Funktionalität in das ViewModel" ],
       "Link": "",
-      "Speaker": "Jedermann",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Speaker": "Jürgen G.",
+      "Leute": 6,
+      "Firmen": 4 }
      ]
    },
    { "TreffenNr": 233,
