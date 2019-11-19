@@ -1,5 +1,17 @@
 { "T_Session":
 [
+   { "TreffenNr": 237,
+     "Session":
+     [  { "SessionId": "23701",
+      "Caption": "(Thema wird noch gesucht)",
+      "Summary": "...",
+      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
    { "TreffenNr": 236,
      "Session":
      [  { "SessionId": "23601",
@@ -17,11 +29,11 @@
      [  { "SessionId": "23501",
       "Caption": "Photovoltaik-Anlage mit Speicher",
       "Summary": "Erfahrungsbericht zum Aufbau einer 40 kWp PV-Anlage",
-      "Items": [ "Photoeffekt und weitere Grundlagen", "Aufbau einer PV-Anlag", "Anlagengrößen 10 KW, 30 KW und Konsequenzen daraus", "Autark sein?", "Meine PV-Anlage: Kosten, zeitlicher Projektablauf", "Rechnet sich das oder muss man sich das schön rechnen?" ],
+      "Items": [ "Aufbau einer PV-Anlag", "Anlagengrößen 10 KW, 30 KW und Konsequenzen daraus", "Autark sein?", "Meine PV-Anlage: Kosten, zeitlicher Projektablauf", "Rechnet sich das oder muss man sich das schön rechnen?" ],
       "Link": "",
       "Speaker": "Jürgen G.",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Leute": 7,
+      "Firmen": 4 }
      ]
    },
    { "TreffenNr": 234,
