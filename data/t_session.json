@@ -1,13 +1,25 @@
 { "T_Session":
 [
-   { "TreffenNr": 237,
+   { "TreffenNr": 238,
      "Session":
-     [  { "SessionId": "23701",
+     [  { "SessionId": "23801",
       "Caption": "(Thema wird noch gesucht)",
       "Summary": "...",
       "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
       "Link": "",
       "Speaker": "Jedermann",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
+   { "TreffenNr": 237,
+     "Session":
+     [  { "SessionId": "23701",
+      "Caption": "E-Mobilität im Alltag",
+      "Summary": "Praxis-Details zum Betrieb, z. B. Laden zuhause und unterwegs (suchen, nutzen, abrechnen) ...",
+      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Link": "",
+      "Speaker": "Ralf",
       "Leute": 0,
       "Firmen": 0 }
      ]
@@ -20,8 +32,8 @@
       "Items": [ "Klares Süppchen", "Rumpsteak", "Crème brûlée", "Kegeln" ],
       "Link": "http://www.michels-landgasthaus.de/",
       "Speaker": "Jedermann",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Leute": 8,
+      "Firmen": 5 }
      ]
    },
    { "TreffenNr": 235,
