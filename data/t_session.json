@@ -1,10 +1,22 @@
 { "T_Session":
 [
+   { "TreffenNr": 239,
+     "Session":
+     [  { "SessionId": "23901",
+      "Caption": "(Thema wird noch gesucht)",
+      "Summary": "...",
+      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
    { "TreffenNr": 238,
      "Session":
      [  { "SessionId": "23801",
-      "Caption": "(Thema wird noch gesucht)",
-      "Summary": "...",
+      "Caption": "MedMan - Planung weiterer Features",
+      "Summary": "Nach Datenstrukturen und Bedienelemeten überlegen wir, was uns als nächstes wichtig ist.",
       "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
       "Link": "",
       "Speaker": "Jedermann",
@@ -15,13 +27,13 @@
    { "TreffenNr": 237,
      "Session":
      [  { "SessionId": "23701",
-      "Caption": "E-Mobilität in der Praxis",
-      "Summary": "6 Jahre, 150.000 km rein elektrisch unterwegs mit E-Auto und E-Motorrad – Das geht doch gar nicht! Sagt wer?<br />Was bisher geschah?<br />Warum ich mir das antue, äh… gönne?<br />Wie und wo lade ich auf?<br />Woher weiß ich, wo ich unterwegs laden kann?<br />Wie plane ich eine Langstreckenfahrt?<br />Wie bezahle ich eine Ladung an einer öffentlichen Ladesäule?<br />Wie lade ich an meiner PV-Anlage?<br />Was kostet mich ein E-Auto? <br />Welche Förderungen gibt es?<br />Welche rein elektrisch betriebenen PKW gibt es derzeit am Markt?<br />Wo sind deren Stärken und Schwächen?<br />Auf was sollte ich beim Autokauf achten (Batterie kaufen oder leasen, Ladeleistung, ...)?",
-      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
-      "Link": "",
+      "Caption": "ELEKTROMOBILITÄT Hintergrund, Einstieg und Praxis",
+      "Summary": "6 Jahre, 150.000 km rein elektrisch unterwegs mit E-Auto und E-Motorrad – Das geht doch gar nicht! Sagt wer?<br />Was bisher geschah?<br />Warum ich mir das antue, äh… gönne?<br />Wie und wo lade ich auf?<br />Woher weiß ich, wo ich unterwegs laden kann?<br />Wie plane ich eine Langstreckenfahrt?<br />Wie bezahle ich eine Ladung an einer öffentlichen Ladesäule?<br />Wie lade ich an meiner PV-Anlage?<br />Was kostet mich ein E-Auto? <br />Welche Förderungen gibt es?<br />Welche rein elektrisch betriebenen PKW gibt es derzeit am Markt?<br />Wo sind deren Stärken und Schwächen?<br />Auf was sollte ich beim Autokauf achten (Batterie kaufen oder leasen, Ladeleistung, ...)?<br />",
+      "Items": [ "Ladesäulen Typen", "Stromtankstellenverzeichnisse", "Routenplaner z. B. GoingElectric", "Ladestromverträge", "Förderungen" ],
+      "Link": "https://www.bemsy.de/",
       "Speaker": "Ralph",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Leute": 10,
+      "Firmen": 7 }
      ]
    },
    { "TreffenNr": 236,

@@ -1,9 +1,14 @@
 { "T_Meeting":
 [
+   { "TreffenNr": 239,
+     "SessionCount": 1,
+     "TerminISO": "2020-03-19",
+     "OrtId": "" },
+
    { "TreffenNr": 238,
      "SessionCount": 1,
      "TerminISO": "2020-02-20",
-     "OrtId": "" },
+     "OrtId": "ZumBraunenHirsch" },
 
    { "TreffenNr": 237,
      "SessionCount": 1,
