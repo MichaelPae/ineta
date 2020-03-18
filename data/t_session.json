@@ -3,8 +3,8 @@
    { "TreffenNr": 240,
      "Session":
      [  { "SessionId": "24001",
-      "Caption": "(Thema wird noch gesucht)",
-      "Summary": "...",
+      "Caption": "MedMan - Planung weiterer Features",
+      "Summary": "Nach Datenstrukturen und Bedienelemeten überlegen wir, was uns als nächstes wichtig ist.",
       "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
       "Link": "",
       "Speaker": "Jedermann",
@@ -15,11 +15,11 @@
    { "TreffenNr": 239,
      "Session":
      [  { "SessionId": "23901",
-      "Caption": "MedMan - Planung weiterer Features",
-      "Summary": "Nach Datenstrukturen und Bedienelemeten überlegen wir, was uns als nächstes wichtig ist.",
-      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Caption": "Die Apple Watch zur Herzüberwachung",
+      "Summary": "Vorstellung der Apple Watch und ihrer Features zur Herzfrequenz-Messung und Bereitstellung der Messwerte",
+      "Items": [ "Die Apple Watch als erweitertes UI für das iPhone", "Herzfrequenz Messung und die EKG App", "Auswertung der Messwerte mit einer eigenen Windows – WPF Anwendung", "Grundzüge der Apple Watch Programmierung" ],
       "Link": "",
-      "Speaker": "Jedermann",
+      "Speaker": "Jürgen S.",
       "Leute": 0,
       "Firmen": 0 }
      ]
