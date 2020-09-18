@@ -1,10 +1,22 @@
 { "T_Session":
 [
+   { "TreffenNr": 241,
+     "Session":
+     [  { "SessionId": "24101",
+      "Caption": "(Thema wird noch gesucht)",
+      "Summary": "",
+      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
    { "TreffenNr": 240,
      "Session":
      [  { "SessionId": "24001",
-      "Caption": "MedMan - Planung weiterer Features",
-      "Summary": "Nach Datenstrukturen und Bedienelemeten überlegen wir, was uns als nächstes wichtig ist.",
+      "Caption": "Themenplanung",
+      "Summary": "Nach der Corona-Pause listen wir unsere Wunsch-IT-Themen für die nächsten Treffen. <I>Laut angedacht</I> wurde z. B. <I>Aktuelle Unit-Test-Tools</I>, <I>Linux-Admin Basics</I>, <I>Neue Visual Studio Programming Languages</I>, ...",
       "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
       "Link": "",
       "Speaker": "Jedermann",
@@ -20,8 +32,8 @@
       "Items": [ "Die Apple Watch als erweitertes UI für das iPhone", "Herzfrequenz Messung und die EKG App", "Auswertung der Messwerte mit einer eigenen Windows – WPF Anwendung", "Grundzüge der Apple Watch Programmierung" ],
       "Link": "",
       "Speaker": "Jürgen S.",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Leute": 7,
+      "Firmen": 5 }
      ]
    },
    { "TreffenNr": 238,
