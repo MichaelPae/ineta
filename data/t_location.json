@@ -112,6 +112,22 @@
             "AnfahrtLink": "devglocation.htm?OrtId=MichelsLandgasthaus",
             "AnfahrtText": "Das Lokal ist gut von der <em>A38</em> (Abfahrt Friedland) zu erreichen. Der A 38 Ausfahrt Friedland bis zum Kreisverkehr folgen. Den Kreisverkehr Richtung Westen folgen. Nach 300 m rechts auf B 27 abbiegen. Nach 1,3 km im Kreisverkehr die erste Ausfahrt nehmen und auf der B 27 bleiben. Nach 1,0 km im Kreisverkehr die erste Ausfahrt nehmen und auf der B 27 bleiben. Nach 170 m links in die Bahnhofsstr. zum Landgasthaus &quot;Michel&quot; abbiegen."
         },
+      "MicrosoftTeams":
+        {
+            "OrtId": "MicrosoftTeams",
+            "Kurzname": "MS Teams",
+            "Praeposition": "als",
+            "Name": " <b>\"Online Usergroup-Treffen\"</b>",
+            "Ort": "Microsoft Teams",
+            "PLZ": "",
+            "Strasse": "",
+            "Fon": "",
+            "URL": "https://www.microsoft.com/de-de/microsoft-teams/download-app",
+            "VcfTag": "",
+            "ImageTag": "<img border=\"0\" src=\"images/as_msteams.png\" alt=\"Download-Link &quot;Microsoft Teams&quot;\" width=\"550\" height=\"512\">",
+            "AnfahrtLink": "devglocation.htm?OrtId=MicrosoftTeams",
+            "AnfahrtText": "<a target= \"_blank\" href=\"https://www.microsoft.com/de-de/microsoft-teams/download-app\">Microsoft Download</a>"
+        },
       "OsteriaToscana":
         {
             "OrtId": "OsteriaToscana",

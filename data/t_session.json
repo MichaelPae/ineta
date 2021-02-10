@@ -15,11 +15,11 @@
    { "TreffenNr": 240,
      "Session":
      [  { "SessionId": "24001",
-      "Caption": "Themenplanung",
-      "Summary": "Nach der Corona-Pause listen wir unsere Wunsch-IT-Themen für die nächsten Treffen. <I>Laut angedacht</I> wurde z. B. <I>Aktuelle Unit-Test-Tools</I>, <I>Linux-Admin Basics</I>, <I>Neue Visual Studio Programming Languages</I>, ...",
-      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Caption": "Elektroinstallation mit KNX",
+      "Summary": "Der KNX-Standard, ein Bus-System zur Datenübertragung zwischen mehreren Teilnehmern über einen gemeinsamen Übertragungsweg, ist ein quasi offener Standard für die Gebäudeautomation.",
+      "Items": [ "KNX im Vergleich", "Aufbau KNX-Installation", "KNX Komponenten", "Einblick in die Entwicklung mit ETS5", "Einbindung in weitere Systeme" ],
       "Link": "",
-      "Speaker": "Jedermann",
+      "Speaker": "Johannes",
       "Leute": 0,
       "Firmen": 0 }
      ]
