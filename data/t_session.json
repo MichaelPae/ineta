@@ -16,7 +16,7 @@
      "Session":
      [  { "SessionId": "24001",
       "Caption": "Elektroinstallation mit KNX",
-      "Summary": "Der KNX-Standard, ein Bus-System zur Datenübertragung zwischen mehreren Teilnehmern über einen gemeinsamen Übertragungsweg, ist ein quasi offener Standard für die Gebäudeautomation.",
+      "Summary": "Der KNX-Standard, ein Bus-System zur Datenübertragung zwischen mehreren Teilnehmern über einen gemeinsamen Übertragungsweg, ist ein quasi offener Standard für die Gebäudeautomation.<br /> Themendetails: KNX im Vergleich, Aufbau KNX-Installation, KNX Komponenten, Einblick in die Entwicklung mit ETS5, Einbindung in weitere Systeme",
       "Items": [ "KNX im Vergleich", "Aufbau KNX-Installation", "KNX Komponenten", "Einblick in die Entwicklung mit ETS5", "Einbindung in weitere Systeme" ],
       "Link": "",
       "Speaker": "Johannes",
