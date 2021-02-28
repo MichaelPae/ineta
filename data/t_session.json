@@ -1,8 +1,8 @@
 { "T_Session":
 [
-   { "TreffenNr": 241,
+   { "TreffenNr": 242,
      "Session":
-     [  { "SessionId": "24101",
+     [  { "SessionId": "24201",
       "Caption": "(Thema wird noch gesucht)",
       "Summary": "",
       "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
@@ -12,16 +12,28 @@
       "Firmen": 0 }
      ]
    },
+   { "TreffenNr": 241,
+     "Session":
+     [  { "SessionId": "24101",
+      "Caption": "Atlassian JIRA",
+      "Summary": "- Was ist JIRA im Detail?<br />- Lizenzen / Kosten<br />- Review „Agile“ (Software-)Entwicklung<br />- JIRA Einführung<br />- JIRA an einem „echten“ Projekt",
+      "Items": [ "Was ist JIRA?", "Lizenzen / Kosten", "Review „Agile (Software-)Entwicklung", "JIRA Einführung", "JIRA an einem „echten“ Projekt" ],
+      "Link": "",
+      "Speaker": "Bernd",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
    { "TreffenNr": 240,
      "Session":
      [  { "SessionId": "24001",
       "Caption": "Elektroinstallation mit KNX",
-      "Summary": "Der KNX-Standard, ein Bus-System zur Datenübertragung zwischen mehreren Teilnehmern über einen gemeinsamen Übertragungsweg, ist ein quasi offener Standard für die Gebäudeautomation.<br /> Themendetails: KNX im Vergleich, Aufbau KNX-Installation, KNX Komponenten, Einblick in die Entwicklung mit ETS5, Einbindung in weitere Systeme",
+      "Summary": "Der KNX-Standard, ein Bus-System zur Datenübertragung zwischen mehreren Teilnehmern über einen gemeinsamen Übertragungsweg, ist ein quasi offener Standard für die Gebäudeautomation.",
       "Items": [ "KNX im Vergleich", "Aufbau KNX-Installation", "KNX Komponenten", "Einblick in die Entwicklung mit ETS5", "Einbindung in weitere Systeme" ],
       "Link": "",
       "Speaker": "Johannes",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Leute": 11, 
+      "Firmen": 8 }
      ]
    },
    { "TreffenNr": 239,

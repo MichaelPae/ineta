@@ -1,9 +1,14 @@
 { "T_Meeting":
 [
+   { "TreffenNr": 242,
+     "SessionCount": 1,
+     "TerminISO": "2021-04-15",
+     "OrtId": "" },
+
    { "TreffenNr": 241,
      "SessionCount": 1,
      "TerminISO": "2021-03-18",
-     "OrtId": "" },
+     "OrtId": "MicrosoftTeams" },
 
    { "TreffenNr": 240,
      "SessionCount": 1,
