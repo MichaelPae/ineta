@@ -16,7 +16,7 @@
      "Session":
      [  { "SessionId": "24101",
       "Caption": "Atlassian JIRA",
-      "Summary": "- Was ist JIRA im Detail?<br />- Lizenzen / Kosten<br />- Review „Agile“ (Software-)Entwicklung<br />- JIRA Einführung<br />- JIRA an einem „echten“ Projekt",
+      "Summary": "- Was ist JIRA?<br />- Lizenzen / Kosten<br />- Review „Agile“ (Software-)Entwicklung<br />- JIRA Einführung<br />- JIRA an einem „echten“ Projekt",
       "Items": [ "Was ist JIRA?", "Lizenzen / Kosten", "Review „Agile (Software-)Entwicklung", "JIRA Einführung", "JIRA an einem „echten“ Projekt" ],
       "Link": "",
       "Speaker": "Bernd",
