@@ -1,13 +1,25 @@
 { "T_Session":
 [
-   { "TreffenNr": 242,
+   { "TreffenNr": 243,
      "Session":
-     [  { "SessionId": "24201",
+     [  { "SessionId": "24301",
       "Caption": "(Thema wird noch gesucht)",
       "Summary": "",
       "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
       "Link": "",
       "Speaker": "Jedermann",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
+   { "TreffenNr": 242,
+     "Session":
+     [  { "SessionId": "24201",
+      "Caption": "Code Analyse mit TIOBE TICS",
+      "Summary": "- Einleitung<br />- Qualitätsattribute nach ISO 25010<br />- Software Metriken<br />- Zuordnung Software Metriken zu Qualitätsattributen<br />- Messen und bewerten von Metriken<br />- Der TIOBE Qualitäts Indikator (TQI)<br />- Empfohlene TQI Levels<br />- Integration in die DevOps Toolchain<br />- Integration in den Entwicklungs-Workflow<br />- Erfahrungen aus der Praxis",
+      "Items": [ "Einleitung", "Qualitätsattribute nach ISO 25010", "Software Metriken", "Zuordnung Software Metriken zu Qualitätsattributen", "Messen und bewerten von Metriken", "Der TIOBE Qualitäts Indikator (TQI)", "Empfohlene TQI Levels", "Integration in die DevOps Toolchain", "Integration in den Entwicklungs-Workflow", "Erfahrungen aus der Praxis" ],
+      "Link": "",
+      "Speaker": "Ralph",
       "Leute": 0,
       "Firmen": 0 }
      ]
@@ -20,8 +32,8 @@
       "Items": [ "Was ist JIRA?", "Lizenzen / Kosten", "Review „Agile (Software-)Entwicklung", "JIRA Einführung", "JIRA an einem „echten“ Projekt" ],
       "Link": "",
       "Speaker": "Bernd",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Leute": 10,
+      "Firmen": 7 }
      ]
    },
    { "TreffenNr": 240,
