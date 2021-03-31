@@ -28,7 +28,7 @@
      "Session":
      [  { "SessionId": "24101",
       "Caption": "Atlassian JIRA",
-      "Summary": "- Was ist JIRA?<br />- Lizenzen / Kosten<br />- Review „Agile“ (Software-)Entwicklung<br />- JIRA Einführung<br />- JIRA an einem „echten“ Projekt",
+      "Summary": "Jira ist eine Webanwendung zum operativen Projektmanagement zur Problembehandlung und zur Fehlerverwaltung",
       "Items": [ "Was ist JIRA?", "Lizenzen / Kosten", "Review „Agile (Software-)Entwicklung", "JIRA Einführung", "JIRA an einem „echten“ Projekt" ],
       "Link": "",
       "Speaker": "Bernd",
