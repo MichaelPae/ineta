@@ -1,11 +1,23 @@
 { "T_Session":
 [
-   { "TreffenNr": 243,
+   { "TreffenNr": 244,
      "Session":
-     [  { "SessionId": "24301",
+     [  { "SessionId": "24401",
       "Caption": "(Thema wird noch gesucht)",
       "Summary": "",
       "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
+   { "TreffenNr": 243,
+     "Session":
+     [  { "SessionId": "24301",
+      "Caption": "Best of Corona Tools",
+      "Summary": "Software Tools, die uns den Berufsalltag im Home Office leichter machen<br />- Teams Spezialitäten<br />- Virtuelle Webcams<br />- Remotedesktop-App, Verbindungen mit Remotecomputern",
+      "Items": [ "Teams Spezialitäten", "Virtuelle Webcams", "Remotedesktop-App, Verbindungen mit Remotecomputern" ],
       "Link": "",
       "Speaker": "Jedermann",
       "Leute": 0,
@@ -20,8 +32,8 @@
       "Items": [ "Einleitung", "Qualitätsattribute nach ISO 25010", "Software Metriken", "Zuordnung Software Metriken zu Qualitätsattributen", "Messen und bewerten von Metriken", "Der TIOBE Qualitäts Indikator (TQI)", "Empfohlene TQI Levels", "Integration in die DevOps Toolchain", "Integration in den Entwicklungs-Workflow", "Erfahrungen aus der Praxis" ],
       "Link": "",
       "Speaker": "Ralph",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Leute": 10,
+      "Firmen": 7 }
      ]
    },
    { "TreffenNr": 241,
