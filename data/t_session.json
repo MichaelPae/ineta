@@ -1,8 +1,8 @@
 { "T_Session":
 [
-   { "TreffenNr": 244,
+   { "TreffenNr": 245,
      "Session":
-     [  { "SessionId": "24401",
+     [  { "SessionId": "24501",
       "Caption": "(Thema wird noch gesucht)",
       "Summary": "",
       "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
@@ -12,16 +12,28 @@
       "Firmen": 0 }
      ]
    },
+   { "TreffenNr": 244,
+     "Session":
+     [  { "SessionId": "24401",
+      "Caption": "MS Teams Spezialitäten",
+      "Summary": "Kurzpräsentation zu MS Teams Spezialitäten, die uns den Berufsalltag im Home Office leichter machen",
+      "Items": [ "Teams Spezialität 1", "Teams Spezialität 2", "Teams Spezialität 3" ],
+      "Link": "",
+      "Speaker": "Andreas",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
    { "TreffenNr": 243,
      "Session":
      [  { "SessionId": "24301",
       "Caption": "Best of Corona Tools",
-      "Summary": "Software Tools, die uns den Berufsalltag im Home Office leichter machen<br />- Teams Spezialitäten<br />- Virtuelle Webcams<br />- Remotedesktop-App, Verbindungen mit Remotecomputern",
-      "Items": [ "Teams Spezialitäten", "Virtuelle Webcams", "Remotedesktop-App, Verbindungen mit Remotecomputern" ],
+      "Summary": "Software Tools, die uns den Berufsalltag im Home Office leichter machen<br />- Virtuelle Webcams<br />- Remotedesktop-App, Verbindungen mit Remotecomputern<br />- Remote Desktop Services",
+      "Items": [ "Virtuelle Webcams", "Remotedesktop-App, Verbindungen mit Remotecomputern",  "Remote Desktop Services" ],
       "Link": "",
       "Speaker": "Jedermann",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Leute": 8,
+      "Firmen": 5 }
      ]
    },
    { "TreffenNr": 242,
