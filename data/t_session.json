@@ -1,10 +1,22 @@
 { "T_Session":
 [
+   { "TreffenNr": 246,
+     "Session":
+     [  { "SessionId": "24601",
+      "Caption": "(Thema wird noch gesucht)",
+      "Summary": "",
+      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
    { "TreffenNr": 245,
      "Session":
      [  { "SessionId": "24501",
-      "Caption": "(Thema wird noch gesucht)",
-      "Summary": "",
+      "Caption": "Fachsimpeln im Biergarten",
+      "Summary": "Ein Wiedersehen im realen Leben",
       "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
       "Link": "",
       "Speaker": "Jedermann",
@@ -17,11 +29,11 @@
      [  { "SessionId": "24401",
       "Caption": "MS Teams Spezialitäten",
       "Summary": "Kurzpräsentation zu MS Teams Spezialitäten, die uns den Berufsalltag im Home Office leichter machen",
-      "Items": [ "Teams Spezialität 1", "Teams Spezialität 2", "Teams Spezialität 3" ],
+      "Items": [ "Teams Teams", "Teams Dateien", "Teams Dokumente gemeinsam bearbeiten" ],
       "Link": "",
       "Speaker": "Andreas",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Leute": 7,
+      "Firmen": 5 }
      ]
    },
    { "TreffenNr": 243,
