@@ -1,8 +1,8 @@
 { "T_Session":
 [
-   { "TreffenNr": 246,
+   { "TreffenNr": 247,
      "Session":
-     [  { "SessionId": "24601",
+     [  { "SessionId": "24701",
       "Caption": "(Thema wird noch gesucht)",
       "Summary": "",
       "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
@@ -12,16 +12,28 @@
       "Firmen": 0 }
      ]
    },
+   { "TreffenNr": 246,
+     "Session":
+     [  { "SessionId": "24601",
+      "Caption": "Developer Week ’21 Potpourri",
+      "Summary": "Berichte von der diesjährigen unabhängigen Entwicklerkonferenz",
+      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Link": "https://www.developer-week.de/",
+      "Speaker": "Jürgen und Rudi",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
    { "TreffenNr": 245,
      "Session":
      [  { "SessionId": "24501",
       "Caption": "Fachsimpeln im Biergarten",
       "Summary": "Ein Wiedersehen im realen Leben",
-      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Items": [ "Corona", "Home-Office u. -Schooling", "E-Mobilität", "Energiewende" ],
       "Link": "",
       "Speaker": "Jedermann",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Leute": 11,
+      "Firmen": 8 }
      ]
    },
    { "TreffenNr": 244,
