@@ -1,5 +1,17 @@
 { "T_Session":
 [
+   { "TreffenNr": 248,
+     "Session":
+     [  { "SessionId": "24801",
+      "Caption": "(Thema wird noch gesucht)",
+      "Summary": "",
+      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
    { "TreffenNr": 247,
      "Session":
      [  { "SessionId": "24701",
@@ -17,11 +29,11 @@
      [  { "SessionId": "24601",
       "Caption": "Developer Week ’21 Potpourri",
       "Summary": "Berichte von der diesjährigen unabhängigen Entwicklerkonferenz",
-      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Items": [ "Session Machine Learning: ML.NET, ein Model Builder in Visual Studio zum Trainieren und Verwenden von Modellen für maschinelles Lernen", "Session Dispose Pattern: IDisposable und das Dispose Pattern richtig implementieren" ],
       "Link": "https://www.developer-week.de/",
       "Speaker": "Jürgen und Rudi",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Leute": 10,
+      "Firmen": 8 }
      ]
    },
    { "TreffenNr": 245,
