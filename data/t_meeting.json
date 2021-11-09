@@ -1,9 +1,14 @@
 { "T_Meeting":
 [
+   { "TreffenNr": 249,
+     "SessionCount": 1,
+     "TerminISO": "2021-12-16",
+     "OrtId": "MichelsLandgasthaus" },
+
    { "TreffenNr": 248,
      "SessionCount": 1,
      "TerminISO": "2021-11-18",
-     "OrtId": "" },
+     "OrtId": "ZumBraunenHirsch" },
 
    { "TreffenNr": 247,
      "SessionCount": 1,

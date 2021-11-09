@@ -1,13 +1,25 @@
 { "T_Session":
 [
+   { "TreffenNr": 249,
+     "Session":
+     [  { "SessionId": "24901",
+      "Caption": "Weihnachtsessen und Kegeln",
+      "Summary": "Wir setzen eine alte Tradition unserer Usergroup fort und richten beim Dezember-Meeting den Fokus auf andere Themen.",
+      "Items": [ "Klares Süppchen", "Rumpsteak", "Crème brûlée", "Kegeln" ],
+      "Link": "http://www.michels-landgasthaus.de/",
+      "Speaker": "Jedermann",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
    { "TreffenNr": 248,
      "Session":
      [  { "SessionId": "24801",
-      "Caption": "(Thema wird noch gesucht)",
-      "Summary": "",
+      "Caption": "MIDI - Musical Instrument Digital Interface",
+      "Summary": "Warum sich Computer und elektronische Musikinstrumente gut verstehen - Eine komplizierte Beziehung mit Happy-End",
       "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
       "Link": "",
-      "Speaker": "Jedermann",
+      "Speaker": "Martin",
       "Leute": 0,
       "Firmen": 0 }
      ]
@@ -17,11 +29,11 @@
      [  { "SessionId": "24701",
       "Caption": "Chromebooks",
       "Summary": "Ergänzung oder Ersatz für Tablet, Handy und Notebook? - Vorstellung, Fragen und Antworten am 'lebenden' Objekt.",
-      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Items": [ "Notebook- und Tabletcomputer-Hardware", "Chrome OS, Betriebssystem für Webanwendungen", "Programme, die auf Chrome OS laufen" ],
       "Link": "",
       "Speaker": "Bernd",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Leute": 8,
+      "Firmen": 6 }
      ]
    },
    { "TreffenNr": 246,
