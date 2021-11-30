@@ -1,5 +1,10 @@
 { "T_Meeting":
 [
+   { "TreffenNr": 250,
+     "SessionCount": 1,
+     "TerminISO": "2022-01-20",
+     "OrtId": "" },
+
    { "TreffenNr": 249,
      "SessionCount": 1,
      "TerminISO": "2021-12-16",

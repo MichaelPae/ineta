@@ -1,5 +1,17 @@
 { "T_Session":
 [
+   { "TreffenNr": 250,
+     "Session":
+     [  { "SessionId": "25001",
+      "Caption": "(Thema wird noch gesucht)",
+      "Summary": "",
+      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
    { "TreffenNr": 249,
      "Session":
      [  { "SessionId": "24901",
@@ -17,11 +29,11 @@
      [  { "SessionId": "24801",
       "Caption": "MIDI - Musical Instrument Digital Interface",
       "Summary": "Warum sich Computer und elektronische Musikinstrumente gut verstehen - Eine komplizierte Beziehung mit Happy-End",
-      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
-      "Link": "",
+      "Items": [ "MIDI-Standard, Begriffsklärung und Geschichte", "Wie es funktioniert", "Regeln und Beispiele" ],
+      "Link": "data/m2021-11-18_DevGroupMIDI.pdf",
       "Speaker": "Martin R.",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Leute": 9,
+      "Firmen": 5 }
      ]
    },
    { "TreffenNr": 247,
