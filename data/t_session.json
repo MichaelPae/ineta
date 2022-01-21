@@ -1,5 +1,17 @@
 { "T_Session":
 [
+   { "TreffenNr": 251,
+     "Session":
+     [  { "SessionId": "25101",
+      "Caption": "(Thema wird noch gesucht)",
+      "Summary": "",
+      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
    { "TreffenNr": 250,
      "Session":
      [  { "SessionId": "25001",
@@ -17,11 +29,11 @@
      [  { "SessionId": "24901",
       "Caption": "Monday.com – Work OS",
       "Summary": "Wie wir unsere Aufgaben und kleine Projekte damit verwalten.",
-      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4"  ],
-      "Link": "",
+      "Items": [ "Warum Monday und z. Bsp. nicht Teams?", "Flexibler als Andere", "Beispiel-Projekte", "Mit Automation den Projektverwaltungsaufwand reduzieren" ],
+      "Link": "https://monday.com/lang/de",
       "Speaker": "Martin R.",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Leute": 7,
+      "Firmen": 4 }
      ]
    },
    { "TreffenNr": 248,
