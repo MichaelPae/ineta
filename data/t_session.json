@@ -15,11 +15,11 @@
    { "TreffenNr": 250,
      "Session":
      [  { "SessionId": "25001",
-      "Caption": "(Thema wird noch gesucht)",
-      "Summary": "",
+      "Caption": "Aufbau eines Collaboration Servers mit Proxmox und Nextcloud",
+      "Summary": "Teil 1:<br />- Anforderungen Software<br />- Anforderungen Hardware<br />- Hardwareauswahl<br />- Installation Virtualisierungsplattform Proxmox VE<br />- Einführung in Proxmox VE<br />- Installation eines Linux Containers<br />- Installation einer virtuellen Maschine",
       "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
       "Link": "",
-      "Speaker": "Jedermann",
+      "Speaker": "Ralph",
       "Leute": 0,
       "Firmen": 0 }
      ]
