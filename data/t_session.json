@@ -1,8 +1,8 @@
 { "T_Session":
 [
-   { "TreffenNr": 251,
+   { "TreffenNr": 252,
      "Session":
-     [  { "SessionId": "25101",
+     [  { "SessionId": "25201",
       "Caption": "(Thema wird noch gesucht)",
       "Summary": "",
       "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
@@ -12,9 +12,9 @@
       "Firmen": 0 }
      ]
    },
-   { "TreffenNr": 250,
+   { "TreffenNr": 251,
      "Session":
-     [  { "SessionId": "25001",
+     [  { "SessionId": "25101",
       "Caption": "Aufbau eines Collaboration Servers mit Proxmox und Nextcloud",
       "Summary": "Teil 1:<br />- Anforderungen Software<br />- Anforderungen Hardware<br />- Hardwareauswahl<br />- Installation Virtualisierungsplattform Proxmox VE<br />- Einführung in Proxmox VE<br />- Installation eines Linux Containers<br />- Installation einer virtuellen Maschine",
       "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
@@ -22,6 +22,18 @@
       "Speaker": "Ralph",
       "Leute": 0,
       "Firmen": 0 }
+     ]
+   },
+   { "TreffenNr": 250,
+     "Session":
+     [  { "SessionId": "25001",
+      "Caption": "Informelles Wärmepumpen- und Energiewende-Forum",
+      "Summary": "Aufgrund der geringen Teilnehmerzahl haben wir unser \"IT-Thema\" gespart und uns informell über Wärmepumpen und Energiewende ausgetauscht.",
+      "Items": [ "Wärmepumpen Leistungszahl", "Luftwärmepumpe Geräuschimmission", "E-Mobilität", "Lieferketten-Probleme und Energiewende" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 4,
+      "Firmen": 2 }
      ]
    },
    { "TreffenNr": 249,
