@@ -1,5 +1,17 @@
 { "T_Session":
 [
+   { "TreffenNr": 253,
+     "Session":
+     [  { "SessionId": "25301",
+      "Caption": "(Thema wird noch gesucht)",
+      "Summary": "",
+      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
    { "TreffenNr": 252,
      "Session":
      [  { "SessionId": "25201",
@@ -15,13 +27,13 @@
    { "TreffenNr": 251,
      "Session":
      [  { "SessionId": "25101",
-      "Caption": "Aufbau eines Collaboration Servers mit Proxmox und Nextcloud",
-      "Summary": "Teil 1:<br />- Anforderungen Software<br />- Anforderungen Hardware<br />- Hardwareauswahl<br />- Installation Virtualisierungsplattform Proxmox VE<br />- Einführung in Proxmox VE<br />- Installation eines Linux Containers<br />- Installation einer virtuellen Maschine",
-      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
-      "Link": "",
+      "Caption": "Aufbau eines Collaboration Servers mit Proxmox und Nextcloud (Teil 1)",
+      "Summary": "Die starke Zunahme der virtuellen Zusammenarbeit von Personengruppen aller Art weckt den Wunsch nach preiswerten und doch zuverlässigen Plattformen für die Kooperation. Anhand eines Praxis-Beispiels wird die Proxmox-Plattform, die im Verborgenen blüht, vorgestellt.",
+      "Items": [ "Anforderungen Software", "Anforderungen Hardware", "Hardwareauswahl", "Installation Virtualisierungsplattform Proxmox VE", "Einführung in Proxmox VE", "Installation eines Linux Containers", "Installation eines Linux Containers", "Installation einer virtuellen Maschine" ],
+      "Link": "https://www.proxmox.com/de/",
       "Speaker": "Ralph",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Leute": 5,
+      "Firmen": 3 }
      ]
    },
    { "TreffenNr": 250,
