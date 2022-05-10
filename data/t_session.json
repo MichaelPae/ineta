@@ -15,11 +15,11 @@
    { "TreffenNr": 252,
      "Session":
      [  { "SessionId": "25201",
-      "Caption": "(Thema wird noch gesucht)",
-      "Summary": "",
-      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Caption": "Aufbau eines Collaboration Servers mit Proxmox und Nextcloud (Teil 2)",
+      "Summary": "- Installation Nextcloud<br />- Einführung in Nextcloud<br />- Internetanbindung mit spdyn.de und Subdomain von bemsy.de<br />- Installation Nginx Proxy Manager<br />- Einrichtung Nginx Proxy Manager<br />- Backupfunktionalität von Proxmox<br />- Praxistest Nextcloud mit Demo-Zugängen",
+      "Items": [ "Installation Nextcloud", "Einführung in Nextcloud", "Internetanbindung mit spdyn.de und Subdomain von bemsy.de", "Installation Nginx Proxy Manager", "Einrichtung Nginx Proxy Manager", "Backupfunktionalität von Proxmox", "Praxistest Nextcloud mit Demo-Zugängen" ],
       "Link": "",
-      "Speaker": "Jedermann",
+      "Speaker": "Ralph",
       "Leute": 0,
       "Firmen": 0 }
      ]
