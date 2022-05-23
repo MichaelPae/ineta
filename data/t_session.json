@@ -1,5 +1,17 @@
 { "T_Session":
 [
+   { "TreffenNr": 254,
+     "Session":
+     [  { "SessionId": "25401",
+      "Caption": "(Thema wird noch gesucht)",
+      "Summary": "",
+      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
    { "TreffenNr": 253,
      "Session":
      [  { "SessionId": "25301",
@@ -16,12 +28,12 @@
      "Session":
      [  { "SessionId": "25201",
       "Caption": "Aufbau eines Collaboration Servers mit Proxmox und Nextcloud (Teil 2)",
-      "Summary": "- Installation Nextcloud<br />- Einführung in Nextcloud<br />- Internetanbindung mit spdyn.de und Subdomain von bemsy.de<br />- Installation Nginx Proxy Manager<br />- Einrichtung Nginx Proxy Manager<br />- Backupfunktionalität von Proxmox<br />- Praxistest Nextcloud mit Demo-Zugängen",
+      "Summary": "Die starke Zunahme der virtuellen Zusammenarbeit von Personengruppen aller Art weckt den Wunsch nach preiswerten und doch zuverlässigen Plattformen für die Kooperation. Nach dem Teil 1, der in die Virtualisierung mit Proxmox einführte, wurde im Teil 2 Nextcloud, eine freie Software für das Speichern von Daten (z. B. Dateien, Kalender, Kontakte etc.) vorgestellt.",
       "Items": [ "Installation Nextcloud", "Einführung in Nextcloud", "Internetanbindung mit spdyn.de und Subdomain von bemsy.de", "Installation Nginx Proxy Manager", "Einrichtung Nginx Proxy Manager", "Backupfunktionalität von Proxmox", "Praxistest Nextcloud mit Demo-Zugängen" ],
-      "Link": "",
+      "Link": "https://nextcloud.com/",
       "Speaker": "Ralph",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Leute": 6,
+      "Firmen": 6 }
      ]
    },
    { "TreffenNr": 251,
