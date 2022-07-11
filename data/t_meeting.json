@@ -1,10 +1,15 @@
 { "T_Meeting":
 [
 
+   { "TreffenNr": 255,
+     "SessionCount": 1,
+     "TerminISO": "2022-08-18",
+     "OrtId": "" },
+
    { "TreffenNr": 254,
      "SessionCount": 1,
      "TerminISO": "2022-07-21",
-     "OrtId": "" },
+     "OrtId": "ZumBraunenHirsch" },
 
    { "TreffenNr": 253,
      "SessionCount": 1,

@@ -1,10 +1,22 @@
 { "T_Session":
 [
+   { "TreffenNr": 255,
+     "Session":
+     [  { "SessionId": "25501",
+      "Caption": "(Thema wird noch gesucht)",
+      "Summary": "",
+      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
    { "TreffenNr": 254,
      "Session":
      [  { "SessionId": "25401",
-      "Caption": "(Thema wird noch gesucht)",
-      "Summary": "",
+      "Caption": "Usergroup-Meeting",
+      "Summary": "Zwangloses Gespräch über IT und andere Themen",
       "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
       "Link": "",
       "Speaker": "Jedermann",
@@ -15,13 +27,13 @@
    { "TreffenNr": 253,
      "Session":
      [  { "SessionId": "25301",
-      "Caption": "(Thema wird noch gesucht)",
-      "Summary": "",
-      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Caption": "Gedankenaustausch",
+      "Summary": "Gedankenaustausch in sehr kleiner Runde über persönliche Erfahrungen des 1. Halbjahres",
+      "Items": [ "Übergang vom Beruf in den Ruhestand", "Wassersammlung für den Garten", "Regionale Events" ],
       "Link": "",
       "Speaker": "Jedermann",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Leute": 3,
+      "Firmen": 2 }
      ]
    },
    { "TreffenNr": 252,
