@@ -1,5 +1,17 @@
 { "T_Session":
 [
+   { "TreffenNr": 256,
+     "Session":
+     [  { "SessionId": "25601",
+      "Caption": "(Thema wird noch gesucht)",
+      "Summary": "",
+      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
    { "TreffenNr": 255,
      "Session":
      [  { "SessionId": "25501",
@@ -17,11 +29,11 @@
      [  { "SessionId": "25401",
       "Caption": "Usergroup-Meeting",
       "Summary": "Zwangloses Gespräch über IT und andere Themen",
-      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Items": [ "Windows 11 Cloud-Einbindung", "Microsoft HoloLens", "Energieversorgung in Westeuropa" ],
       "Link": "",
       "Speaker": "Jedermann",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Leute": 3,
+      "Firmen": 3 }
      ]
    },
    { "TreffenNr": 253,
