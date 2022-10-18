@@ -1,5 +1,17 @@
 { "T_Session":
 [
+   { "TreffenNr": 257,
+     "Session":
+     [  { "SessionId": "25701",
+      "Caption": "(Thema wird noch gesucht)",
+      "Summary": "",
+      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
    { "TreffenNr": 256,
      "Session":
      [  { "SessionId": "25601",
@@ -17,11 +29,11 @@
      [  { "SessionId": "25501",
       "Caption": "Power Apps: klicken statt programmieren.",
       "Summary": "User, die sich einigermaßen in Excel auskennen, können sich einfach eine App zusammenklicken, die dann im Web, auf Windows, iOS und Android, auch auf dem Handy, läuft.<br />Als Datengrundlage kann vieles dienen. Microsoft hat diverse Konnektoren im Gepäck. Man kann mit einer leeren App beginnen oder sich auf Grundlage der Daten eine App erstellen lassen, die dann angepasst werden kann.",
-      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
-      "Link": "",
+      "Items": [ "Power Apps benötigt Office 365 Account", "Microsoft Power Fx – Die Programmiersprache der Power Platform", "Powere Apps auf Android und iPhone laufen lassen" ],
+      "Link": "https://powerapps.microsoft.com/de-de/",
       "Speaker": "Rudi",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Leute": 9,
+      "Firmen": 8 }
      ]
    },
    { "TreffenNr": 254,
