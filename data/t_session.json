@@ -1,10 +1,22 @@
 { "T_Session":
 [
+   { "TreffenNr": 258,
+     "Session":
+     [  { "SessionId": "25801",
+      "Caption": "(Thema wird noch gesucht)",
+      "Summary": "",
+      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
    { "TreffenNr": 257,
      "Session":
      [  { "SessionId": "25701",
-      "Caption": "(Thema wird noch gesucht)",
-      "Summary": "",
+      "Caption": "Weihnachtsessen und Bowling",
+      "Summary": "Wir setzen eine alte Tradition unserer Usergroup fort und setzen beim Dezember-Meeting einen anderen Fokus.",
       "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
       "Link": "",
       "Speaker": "Jedermann",
@@ -15,13 +27,13 @@
    { "TreffenNr": 256,
      "Session":
      [  { "SessionId": "25601",
-      "Caption": "(Thema wird noch gesucht)",
-      "Summary": "",
-      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Caption": "Gedankenaustausch",
+      "Summary": "Gedankenaustausch über praktische Erfahrungen bei der individuellen Software-Erstellung für Gefahrenbereiche und allgemeine elektrotechnische Probleme bei Balkonkraftwerken",
+      "Items": [ "Beispiele für Software, die in Gefahrenbereichen eingesetzt wird", "Überlegungen zur Code- und Programmstruktur", "Anforderungen an die Hardware", "Probleme bei der Implementierung vor Ort" ],
       "Link": "",
       "Speaker": "Jedermann",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Leute": 6,
+      "Firmen": 5 }
      ]
    },
    { "TreffenNr": 255,
