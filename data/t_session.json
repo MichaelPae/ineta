@@ -1,5 +1,17 @@
 { "T_Session":
 [
+   { "TreffenNr": 259,
+     "Session":
+     [  { "SessionId": "25901",
+      "Caption": "(Thema wird noch gesucht)",
+      "Summary": "",
+      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
    { "TreffenNr": 258,
      "Session":
      [  { "SessionId": "25801",
@@ -15,13 +27,13 @@
    { "TreffenNr": 257,
      "Session":
      [  { "SessionId": "25701",
-      "Caption": "Weihnachtsessen und Bowling",
+      "Caption": "Weihnachtsessen",
       "Summary": "Wir setzen eine alte Tradition unserer Usergroup fort und setzen beim Dezember-Meeting einen anderen Fokus.",
-      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Items": [ "Brühe", "Gänsebraten mit Knödel und Rotkraut", "Eis" ],
       "Link": "",
       "Speaker": "Jedermann",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Leute": 6,
+      "Firmen": 5 }
      ]
    },
    { "TreffenNr": 256,
