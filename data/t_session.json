@@ -1,6 +1,6 @@
 { "T_Session":
 [
-   { "TreffenNr": 259,
+   { "TreffenNr": 260,
      "Session":
      [  { "SessionId": "25901",
       "Caption": "(Thema wird noch gesucht)",
@@ -12,16 +12,28 @@
       "Firmen": 0 }
      ]
    },
+   { "TreffenNr": 259,
+     "Session":
+     [  { "SessionId": "25901",
+      "Caption": "Home-Office im Wohnmobil",
+      "Summary": "Bericht über Gedanken und Umsetzung eines Entwickler-Arbeitsplatzes im Wohnmobil",
+      "Items": [ "Lange Energie-Autarkie ohne externen Strom", "gute Bandbreite und viel Datenvolumen für Internetverbindung", "Arbeitsplatz mit Doppel-Monitor-System" ],
+      "Link": "",
+      "Speaker": "Joachim",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
    { "TreffenNr": 258,
      "Session":
      [  { "SessionId": "25801",
-      "Caption": "(Thema wird noch gesucht)",
-      "Summary": "",
-      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Caption": "Gedankenaustausch",
+      "Summary": "Spontaner Gedankenaustausch über Neuigkeiten im Bereich IT, erneuerbare Energien und Elektromobilität",
+      "Items": [ "Neuigkeiten in der IT- und Software-Branche", "Gesetzesänderungen bei PV-Anlagen 2023", "BEV Preise" ],
       "Link": "",
       "Speaker": "Jedermann",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Leute": 6,
+      "Firmen": 5 }
      ]
    },
    { "TreffenNr": 257,
