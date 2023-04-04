@@ -1,8 +1,20 @@
 { "T_Session":
 [
+   { "TreffenNr": 261,
+     "Session":
+     [  { "SessionId": "26101",
+      "Caption": "(Thema wird noch gesucht)",
+      "Summary": "",
+      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
    { "TreffenNr": 260,
      "Session":
-     [  { "SessionId": "25901",
+     [  { "SessionId": "26001",
       "Caption": "(Thema wird noch gesucht)",
       "Summary": "",
       "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
@@ -17,11 +29,11 @@
      [  { "SessionId": "25901",
       "Caption": "Home-Office im Wohnmobil",
       "Summary": "Bericht über Gedanken zu einem Entwickler-Arbeitsplatz im Wohnmobil und deren Umsetzung",
-      "Items": [ "Lange Energie-Autarkie ohne externen Strom", "gute Bandbreite und viel Datenvolumen für Internetverbindung", "Arbeitsplatz mit Doppel-Monitor-System" ],
+      "Items": [ "Wohnmobil-Spezifika - Raumaufteilung und Infrastruktur", "Lange Energie-Autarkie ohne externen Strom - Solaranlage für Bordbatterie", "Arbeitsplatz mit leichtem Doppel-Monitor-System - z. B. LG Gram mit LG Gram +View", "gute Bandbreite und viel Datenvolumen für's Internet - z. B. Netgear Nighthawk M5 und MagentaMobil mit Pluskarte" ],
       "Link": "",
       "Speaker": "Joachim",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Leute": 9,
+      "Firmen": 8 }
      ]
    },
    { "TreffenNr": 258,
