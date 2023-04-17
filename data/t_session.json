@@ -15,8 +15,8 @@
    { "TreffenNr": 260,
      "Session":
      [  { "SessionId": "26001",
-      "Caption": "(Thema wird noch gesucht)",
-      "Summary": "",
+      "Caption": "Austausch über KI-Tools Erfahrungen",
+      "Summary": "Jeder Teilnehmer kramt einmal seine konkreten Beschäftigungen mit ChatGPT, gpt4all, Prompt Engineering, Midjourney, deepl und anderen KI-Tools hervor ...",
       "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
       "Link": "",
       "Speaker": "Jedermann",
