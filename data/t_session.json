@@ -20,16 +20,16 @@
       "Items": [ "gpt4all, lokale Installation", "You.com, \"The AI Search Engine You Control\"", "Deepl.com, KI-basiertes Übersetzungstool", "Stable Diffusion, lokale Installation einer KI-Software, die aus beliebigen Texteingaben fotorealistische Bilder erzeugt" ],
       "Link": "https://github.com/nomic-ai/gpt4all",
       "Speaker": "Rudi",
-      "Leute": 0,
-      "Firmen": 0 },
+      "Leute": 5,
+      "Firmen": 4 },
    { "SessionId": "26002",
-      "Caption": "Midjourney Bilderzeugung mit KI",
+      "Caption": "Midjourney, Bilderzeugung mit KI",
       "Summary": "Vorstellung der Bilderzeugung mit Midjourney",
-      "Items": [ "Midjourney ist ein KI-Serverdient mit Discord als Frontend", "Bilderzeugung auf Basis natürlichsprachlicher Beschreibungen", "Leistungen eines kostenpflichtigen Midjourney-Accounts", "Midjourney online Demo" ],
+      "Items": [ "Midjourney ist ein KI-Serverdienst mit Discord als Frontend", "Bilderzeugung auf Basis natürlichsprachlicher Beschreibungen", "Leistungen eines kostenpflichtigen Midjourney-Accounts", "Midjourney online Demo" ],
       "Link": "data/m2023-04-20_Midjourney.pdf",
       "Speaker": "Michael",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Leute": 5,
+      "Firmen": 4 }
      ]
    },
    { "TreffenNr": 259,
