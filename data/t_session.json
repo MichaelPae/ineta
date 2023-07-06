@@ -1,8 +1,8 @@
 { "T_Session":
 [
-   { "TreffenNr": 261,
+   { "TreffenNr": 262,
      "Session":
-     [  { "SessionId": "26101",
+     [  { "SessionId": "26201",
       "Caption": "(Thema wird noch gesucht)",
       "Summary": "",
       "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
@@ -10,6 +10,18 @@
       "Speaker": "Jedermann",
       "Leute": 0,
       "Firmen": 0 }
+     ]
+   },
+   { "TreffenNr": 261,
+     "Session":
+     [  { "SessionId": "26101",
+      "Caption": "Fachsimpeln im Biergarten",
+      "Summary": "Hefeweizen und Schnitzel",
+      "Items": [ "Gebäude-Energiegesetz", "Dreiphasenstromanschluss für heimische Wallbox", "..." ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 6,
+      "Firmen": 5 }
      ]
    },
    { "TreffenNr": 260,
