@@ -1,6 +1,6 @@
 { "T_Session":
 [
-   { "TreffenNr": 262,
+   { "TreffenNr": 264,
      "Session":
      [  { "SessionId": "26201",
       "Caption": "(Thema wird noch gesucht)",
@@ -10,6 +10,30 @@
       "Speaker": "Jedermann",
       "Leute": 0,
       "Firmen": 0 }
+     ]
+   },
+   { "TreffenNr": 263,
+     "Session":
+     [  { "SessionId": "26201",
+      "Caption": "Ein Blick auf Python",
+      "Summary": "Basics zur Installation und zum Sprachkonzept",
+      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Link": "",
+      "Speaker": "Rudi",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
+   { "TreffenNr": 262,
+     "Session":
+     [  { "SessionId": "26201",
+      "Caption": "Fachsimpeln im Biergarten",
+      "Summary": "Hefeweizen und Bandnudeln",
+      "Items": [ "Arbeitsmarkt für IT-Fachleute", "PV-Anlagen mit Modulleistungsoptimierern" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 3,
+      "Firmen": 3 }
      ]
    },
    { "TreffenNr": 261,
