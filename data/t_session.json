@@ -1,8 +1,8 @@
 { "T_Session":
 [
-   { "TreffenNr": 264,
+   { "TreffenNr": 265,
      "Session":
-     [  { "SessionId": "26201",
+     [  { "SessionId": "26501",
       "Caption": "(Thema wird noch gesucht)",
       "Summary": "",
       "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
@@ -12,16 +12,36 @@
       "Firmen": 0 }
      ]
    },
-   { "TreffenNr": 263,
+   { "TreffenNr": 264,
      "Session":
-     [  { "SessionId": "26201",
+     [  { "SessionId": "26401",
       "Caption": "Ein Blick auf Python",
-      "Summary": "Basics zur Installation und zum Sprachkonzept",
+      "Summary": "Basics zur Installation und zum Sprachkonzept - Teil 2",
       "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
       "Link": "",
       "Speaker": "Rudi",
       "Leute": 0,
       "Firmen": 0 }
+     ]
+   },
+   { "TreffenNr": 263,
+     "Session":
+     [  { "SessionId": "26301",
+      "Caption": "Selbstorganisation der UserGroup",
+      "Summary": "Die Organisation der Usergroup wird seit 25 Jahren von Joachim geleistet, er möchte das geändert wissen.",
+      "Items": [ "Einstimmiger Dank an Joachim für die 25 Jahre!", "Zu einer direkten Ablösung Joachims ist keiner bereit.", "Die Organisationsverantwortung soll je Treffen wechseln.", "Das Oktober-Treffen organisiert noch Joachim.", "Das Folgetreffen organisiert Michael.", "Für die weiteren Treffen ist auch von den anderen Teilnehmern eine gelegentliche organisatorische Mitwirkungspflicht notwendig." ],
+      "Link": "",
+      "Speaker": "Joachim",
+      "Leute": 9,
+      "Firmen": 9 },
+      { "SessionId": "26302",
+      "Caption": "Ein Blick auf Python",
+      "Summary": "Basics zur Installation und zum Sprachkonzept",
+      "Items": [ "Python Installation", "Import von Libraries", "Variablen in Python", "Blöcke in Python", "Execptions", "Funktionen in Python", "Module in Python" ],
+      "Link": "https://www.python.org/",
+      "Speaker": "Rudi",
+      "Leute": 9,
+      "Firmen": 9 }
      ]
    },
    { "TreffenNr": 262,
@@ -58,7 +78,7 @@
       "Speaker": "Rudi",
       "Leute": 5,
       "Firmen": 4 },
-   { "SessionId": "26002",
+      { "SessionId": "26002",
       "Caption": "Midjourney, Bilderzeugung mit KI",
       "Summary": "Vorstellung der Bilderzeugung mit Midjourney",
       "Items": [ "Midjourney ist ein KI-Serverdienst mit Discord als Frontend", "Bilderzeugung auf Basis natürlichsprachlicher Beschreibungen", "Leistungen eines kostenpflichtigen Midjourney-Accounts", "Midjourney online Demo" ],
