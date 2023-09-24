@@ -15,8 +15,8 @@
    { "TreffenNr": 264,
      "Session":
      [  { "SessionId": "26401",
-      "Caption": "Ein Blick auf Python",
-      "Summary": "Basics zur Installation und zum Sprachkonzept - Teil 2",
+      "Caption": "Ein Blick auf Python - Teil 2",
+      "Summary": "Basics zum Sprachkonzept - Teil 2",
       "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
       "Link": "",
       "Speaker": "Rudi",
