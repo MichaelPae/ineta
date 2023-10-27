@@ -1,10 +1,22 @@
 { "T_Session":
 [
+   { "TreffenNr": 266,
+     "Session":
+     [  { "SessionId": "26601",
+      "Caption": "(Thema wird noch gesucht)",
+      "Summary": "",
+      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
    { "TreffenNr": 265,
      "Session":
      [  { "SessionId": "26501",
-      "Caption": "(Thema wird noch gesucht)",
-      "Summary": "",
+      "Caption": "Weihnachtstreffen (mit Software-Wichteln)",
+      "Summary": "Es wäre prima, wenn jeder Teilnehmer kurz die letzte Software (Programm, App, Web-Site, ...) vorstellt, die ihn begeistert, bereichert, fasziniert oder einfach Spaß gemacht hat!",
       "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
       "Link": "",
       "Speaker": "Jedermann",
@@ -15,31 +27,31 @@
    { "TreffenNr": 264,
      "Session":
      [  { "SessionId": "26401",
-      "Caption": "Ein Blick auf Python - Teil 2",
-      "Summary": "Basics zum Sprachkonzept - Teil 2",
-      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
-      "Link": "",
+      "Caption": "Ein Blick auf Python (Teil 2)",
+      "Summary": "Basics zum Sprachkonzept, zur IDE und Beispiele",
+      "Items": [ "Nachtrag zum Sprachkonzept", "Thonny, Python IDE for beginners", "ChatGPT als Python-Mentor", "Python-Classes", "Beispiel: PV-Anlagen Monitoring mit Modbus" ],
+      "Link": "data/m2023-10-26_SourceZuPython.zip",
       "Speaker": "Rudi",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Leute": 5,
+      "Firmen": 5 }
      ]
    },
    { "TreffenNr": 263,
      "Session":
      [  { "SessionId": "26301",
+      "Caption": "Ein Blick auf Python (Teil 1)",
+      "Summary": "Basics zur Installation und zum Sprachkonzept",
+      "Items": [ "Python Installation", "Import von Libraries", "Variablen in Python", "Blöcke in Python", "Execptions", "Funktionen in Python", "Module in Python" ],
+      "Link": "",
+      "Speaker": "Rudi",
+      "Leute": 9,
+      "Firmen": 9 },     
+     { "SessionId": "26302",
       "Caption": "Selbstorganisation der UserGroup",
       "Summary": "Die Organisation der Usergroup wird seit 25 Jahren von Joachim geleistet, er möchte das geändert wissen.",
       "Items": [ "Einstimmiger Dank an Joachim für die 25 Jahre!", "Zu einer direkten Ablösung Joachims ist keiner bereit.", "Die Organisationsverantwortung soll je Treffen wechseln.", "Das Oktober-Treffen organisiert noch Joachim.", "Das Folgetreffen organisiert Michael.", "Für die weiteren Treffen ist auch von den anderen Teilnehmern eine gelegentliche organisatorische Mitwirkungspflicht notwendig." ],
       "Link": "",
       "Speaker": "Joachim",
-      "Leute": 9,
-      "Firmen": 9 },
-      { "SessionId": "26302",
-      "Caption": "Ein Blick auf Python",
-      "Summary": "Basics zur Installation und zum Sprachkonzept",
-      "Items": [ "Python Installation", "Import von Libraries", "Variablen in Python", "Blöcke in Python", "Execptions", "Funktionen in Python", "Module in Python" ],
-      "Link": "https://www.python.org/",
-      "Speaker": "Rudi",
       "Leute": 9,
       "Firmen": 9 }
      ]
