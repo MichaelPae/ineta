@@ -1,5 +1,17 @@
 { "T_Session":
 [
+   { "TreffenNr": 267,
+     "Session":
+     [  { "SessionId": "26701",
+      "Caption": "(Thema wird noch gesucht)",
+      "Summary": "",
+      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
    { "TreffenNr": 266,
      "Session":
      [  { "SessionId": "26601",
@@ -17,11 +29,11 @@
      [  { "SessionId": "26501",
       "Caption": "Weihnachtstreffen (mit Software-Wichteln)",
       "Summary": "Es wäre prima, wenn jeder Teilnehmer kurz die letzte Software (Programm, App, Web-Site, ...) vorstellt, die ihn begeistert, bereichert, fasziniert oder einfach Spaß gemacht hat!",
-      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Items": [ "Sunny Design: Visuelle Dachplanung mit Berechnung der Verschattung", "C++: Themenstruktur einer Fortbildung" ],
       "Link": "",
-      "Speaker": "Jedermann",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Speaker": "Martin u. Michael",
+      "Leute": 5,
+      "Firmen": 5 }
      ]
    },
    { "TreffenNr": 264,
