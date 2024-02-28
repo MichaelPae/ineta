@@ -1,8 +1,8 @@
 { "T_Inetasite":
    { "Version": "2.5",
-     "Datenstand": "2024-01-17",
+     "Datenstand": "2024-02-28",
      "Test": false,
-     "DefaultTreffenNr": 266,
+     "DefaultTreffenNr": 267,
      "AnzThemenListe": 14,
      "StartDataMigrationsTreffenNr": 1,
      "AnzahlTreffenlisteTest": 3,

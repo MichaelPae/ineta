@@ -1,5 +1,17 @@
 { "T_Session":
 [
+   { "TreffenNr": 268,
+     "Session":
+     [  { "SessionId": "26801",
+      "Caption": "(Thema wird noch gesucht)",
+      "Summary": "",
+      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
    { "TreffenNr": 267,
      "Session":
      [  { "SessionId": "26701",
@@ -15,13 +27,13 @@
    { "TreffenNr": 266,
      "Session":
      [  { "SessionId": "26601",
-      "Caption": "(Thema wird noch gesucht)",
-      "Summary": "",
-      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
-      "Link": "",
-      "Speaker": "Jedermann",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Caption": "Die Benutzeroberfläche QT unter C++",
+      "Summary": "Qt ist ein C++ basiertes Anwendungsframework und GUI-Toolkit zur plattformübergreifenden Entwicklung von Programmen und grafischen Benutzeroberflächen.",
+      "Items": [ "Was ist Qt", "Installation von Qt", "Entwickeln mit Qt", "Vorstellung von Beispielprogrammen- und Code" ],
+      "Link": "https://www.qt.io/",
+      "Speaker": "Martin K.",
+      "Leute": 5,
+      "Firmen": 5 }
      ]
    },
    { "TreffenNr": 265,
