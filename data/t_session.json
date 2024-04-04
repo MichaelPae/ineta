@@ -1,5 +1,17 @@
 { "T_Session":
 [
+   { "TreffenNr": 269,
+     "Session":
+     [  { "SessionId": "26901",
+      "Caption": "(Thema wird noch gesucht)",
+      "Summary": "",
+      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Link": "",
+      "Speaker": "Jedermann",
+      "Leute": 0,
+      "Firmen": 0 }
+     ]
+   },
    { "TreffenNr": 268,
      "Session":
      [  { "SessionId": "26801",
@@ -15,13 +27,13 @@
    { "TreffenNr": 267,
      "Session":
      [  { "SessionId": "26701",
-      "Caption": "(Thema wird noch gesucht)",
-      "Summary": "",
-      "Items": [ "Item 1", "Item 2", "Item 4", "Item 4" ],
+      "Caption": "Mac-Anwendung in C#",
+      "Summary": "Kleiner Einstieg in die App-Enwicklung für macOS mit C#",
+      "Items": [ "Visual Studio in Windows Emulation auf dem Mac", "Visual Studio für Mac", "Apple Spezifika", ["Programm-Beispiel: Dynamische Sternenortberechnung"] ],
       "Link": "",
-      "Speaker": "Jedermann",
-      "Leute": 0,
-      "Firmen": 0 }
+      "Speaker": "Jürgen S.",
+      "Leute": 5,
+      "Firmen": 5 }
      ]
    },
    { "TreffenNr": 266,
@@ -43,7 +55,7 @@
       "Summary": "Es wäre prima, wenn jeder Teilnehmer kurz die letzte Software (Programm, App, Web-Site, ...) vorstellt, die ihn begeistert, bereichert, fasziniert oder einfach Spaß gemacht hat!",
       "Items": [ "Sunny Design: Visuelle Dachplanung mit Berechnung der Verschattung", "C++: Themenstruktur einer Fortbildung" ],
       "Link": "",
-      "Speaker": "Martin u. Michael",
+      "Speaker": "Martin K. u. Michael",
       "Leute": 5,
       "Firmen": 5 }
      ]
